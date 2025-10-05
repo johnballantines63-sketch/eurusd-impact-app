@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.duckdb
+*.duckdb.wal
+.env
+.DS_Store
+*.backup
+*.old
+*.bak
+project_complete.txt
+out.txt
