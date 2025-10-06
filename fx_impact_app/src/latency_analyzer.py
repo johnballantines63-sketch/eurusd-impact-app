@@ -87,14 +87,19 @@ class LatencyAnalyzer:
         """Calcule les statistiques de latence moyennes pour une famille d'événements"""
         self.connect()
         
-        events = self.conn.execute(f"""
+        # Construire conditions OR pour patterns multiples
+        keywords = family_pattern.split('|')
+        conditions = ' OR '.join([f"event_key ILIKE '%{kw.strip()}%'" for kw in keywords])
+        
+        query = f"""
             SELECT ts_utc, event_key, actual, previous
             FROM events
-            WHERE event_key ILIKE '%{family_pattern}%'
+            WHERE ({conditions})
                 AND actual IS NOT NULL
                 AND ts_utc >= CURRENT_DATE - INTERVAL '{lookback_days} days'
             ORDER BY ts_utc DESC
-        """).fetchall()
+        """
+        events = self.conn.execute(query).fetchall()
         
         if len(events) < min_events:
             return {"error": f"Insufficient data: {len(events)} events (minimum {min_events})"}
@@ -142,12 +147,29 @@ class LatencyAnalyzer:
         self.connect()
         
         family_pattern = None
-        families = ['cpi', 'nfp', 'gdp', 'pmi', 'unemployment', 'retail', 
-                   'fomc', 'fed', 'jobless', 'inflation', 'confidence']
+        # Patterns élargis pour mieux détecter les variantes
+        family_patterns = {
+            'cpi': 'cpi|consumer price',
+            'nfp': 'nonfarm|payroll|non farm',
+            'gdp': 'gdp|gross domestic',
+            'pmi': 'pmi|purchasing manager',
+            'unemployment': 'unemployment|jobless rate',
+            'retail': 'retail sales',
+            'fomc': 'fomc|federal open market',
+            'fed': 'fed funds|federal reserve rate',
+            'jobless': 'jobless claims|initial claims',
+            'inflation': 'inflation rate|cpi',
+            'confidence': 'confidence|sentiment'
+        }
+        families = list(family_patterns.keys())
         
-        for fam in families:
-            if fam in event_key.lower():
-                family_pattern = fam
+        for fam, pattern in family_patterns.items():
+            # Chercher dans le pattern élargi
+            for keyword in pattern.split('|'):
+                if keyword in event_key.lower():
+                    family_pattern = pattern
+                    break
+            if family_pattern:
                 break
         
         if not family_pattern:
@@ -178,8 +200,21 @@ class LatencyAnalyzer:
     
     def get_all_families_latency_summary(self, threshold_pips: float = 5.0) -> List[Dict]:
         """Résumé des latences pour toutes les familles d'événements"""
-        families = ['cpi', 'nfp', 'gdp', 'pmi', 'unemployment', 'retail', 
-                   'fomc', 'fed', 'jobless', 'inflation', 'confidence']
+        # Patterns élargis pour mieux détecter les variantes
+        family_patterns = {
+            'cpi': 'cpi|consumer price',
+            'nfp': 'nonfarm|payroll|non farm',
+            'gdp': 'gdp|gross domestic',
+            'pmi': 'pmi|purchasing manager',
+            'unemployment': 'unemployment|jobless rate',
+            'retail': 'retail sales',
+            'fomc': 'fomc|federal open market',
+            'fed': 'fed funds|federal reserve rate',
+            'jobless': 'jobless claims|initial claims',
+            'inflation': 'inflation rate|cpi',
+            'confidence': 'confidence|sentiment'
+        }
+        families = list(family_patterns.keys())
         
         results = []
         for family in families:
