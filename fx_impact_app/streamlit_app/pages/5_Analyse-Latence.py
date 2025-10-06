@@ -18,6 +18,9 @@ except Exception as e:
 
 import streamlit as st
 import pandas as pd
+import importlib
+import latency_analyzer
+importlib.reload(latency_analyzer)
 from latency_analyzer import LatencyAnalyzer
 
 st.set_page_config(page_title="Analyse Latence", page_icon="⏱️", layout="wide")
