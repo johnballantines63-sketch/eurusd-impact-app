@@ -158,13 +158,22 @@ with tab1:
 with tab2:
     st.header("Analyse Détaillée par Famille d'Événements")
     
-    families = {
-    'CPI': 'cpi',
-    'NFP': 'non farm|nonfarm|payroll',  # Pattern multi-mots
-    'GDP': 'gdp',
-    'PMI': 'pmi',
-    # etc...
-}
+    
+# Dictionnaire famille → pattern de recherche
+    family_patterns = {
+        'CPI': 'cpi|consumer price',
+        'NFP': 'non farm|nonfarm|payroll',
+        'GDP': 'gdp|gross domestic',
+        'PMI': 'pmi|purchasing manager',
+        'Unemployment': 'unemployment|jobless rate',
+        'Retail': 'retail sales',
+        'FOMC': 'fomc|federal open market',
+        'Fed': 'fed funds|federal reserve rate',
+        'Jobless': 'jobless claims|initial claims',
+        'Inflation': 'inflation rate',
+        'Confidence': 'confidence|sentiment'
+    }
+    families = list(family_patterns.keys())
     
     selected_family = st.selectbox(
         "Sélectionner une famille d'événements",
@@ -178,7 +187,7 @@ with tab2:
                 # Utiliser le pattern du dictionnaire au lieu du nom simple
                 selected_pattern = family_patterns[selected_family]
                 stats = analyzer.calculate_family_latency_stats(
-                    family_pattern=selected_pattern,,
+                    family_pattern=selected_pattern,
                     threshold_pips=threshold_pips,
                     lookback_days=lookback_days,
                     min_events=5
