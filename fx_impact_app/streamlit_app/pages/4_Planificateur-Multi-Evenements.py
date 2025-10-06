@@ -30,10 +30,10 @@ import re
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from fx_impact_app.src.config import get_db_path
-from fx_impact_app.src.event_families import FAMILY_PATTERNS
-from fx_impact_app.src.forecaster_mvp import ForecastEngine
-from fx_impact_app.src.scoring_engine import ScoringEngine
+from config import get_db_path
+from event_families import FAMILY_PATTERNS
+from forecaster_mvp import ForecastEngine
+from scoring_engine import ScoringEngine
 
 st.set_page_config(page_title="Planificateur Multi-Événements", page_icon="📅", layout="wide")
 
