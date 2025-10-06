@@ -1,3 +1,19 @@
+import sys
+from pathlib import Path
+
+# Ajouter le dossier src au PYTHONPATH
+src_path = Path(__file__).parent.parent.parent / "src"
+if str(src_path) not in sys.path:
+    sys.path.insert(0, str(src_path))
+
+# Télécharger la base de données si nécessaire (une seule fois)
+try:
+    from download_database import download_database
+    download_database()
+except Exception as e:
+    pass  # Déjà téléchargée ou erreur gérée ailleurs
+
+
 """
 Impact Planner - Interface Streamlit avec scoring complet
 Version adaptée aux event_key réels de votre base
