@@ -1,13 +1,83 @@
-__pycache__/
-*.py[cod]
-venv/
-.venv/
+# Secrets - CRITIQUE
+.env
+*.env
+.streamlit/secrets.toml
+
+# Database - sera téléchargée depuis Google Drive
 *.duckdb
 *.duckdb.wal
-.env
+fx_impact_app/data/warehouse.duckdb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Backups et fichiers temporaires
 *.backup
-*.old
+*.backup_*
 *.bak
-project_complete.txt
+*.OLD
+*.old
+*.pyold
+audit_results.json
 out.txt
+project_complete.txt
+
+# Scripts de test et debug
+test_*.py
+*_test_*.py
+audit_*.py
+check_*.py
+clean_*.py
+fix_*.py
+analyze_*.py
+integrate_*.py
+manual_*.py
+rebuild_*.py
+setup_*.py
+auto_*.py
+patch_*.py
+
+# PDF de documentation
+*.pdf
+
+# Scripts de déploiement
+setup_deployment.sh
+git_cleanup_and_commit.sh
+
+# Fichiers cachés/désactivés dans pages
+fx_impact_app/streamlit_app/pages/.*
+fx_impact_app/streamlit_app/pages/*.pyold
+fx_impact_app/streamlit_app/pages/*.OLD
