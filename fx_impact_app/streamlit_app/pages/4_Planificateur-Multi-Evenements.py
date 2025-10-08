@@ -86,8 +86,10 @@ def load_precomputed_stats_from_db():
 
 def predict_impact_fast(family, surprise, precomputed_stats, years_back=3):
     """Version ULTRA-RAPIDE"""
-    if family in precomputed_stats:
-        stats = precomputed_stats[family]
+    # Normaliser le nom de famille (espaces → underscores)
+    family_normalized = family.replace(' ', '_')
+    if family_normalized in precomputed_stats:
+        stats = precomputed_stats[family_normalized]
         mfe = stats['mfe_p80']
         impact_factor = min(2.0, 1.0 + (surprise / 100)) if surprise > 0.5 else 1.0
         impact = mfe * impact_factor
