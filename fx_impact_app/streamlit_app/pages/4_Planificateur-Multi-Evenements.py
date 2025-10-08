@@ -38,6 +38,21 @@ from latency_analyzer import LatencyAnalyzer  # ✅ AJOUT IMPORT
 
 st.set_page_config(page_title="Planificateur Multi-Événements", page_icon="📅", layout="wide")
 
+# ═══════════════════════════════════════════════════════════════
+# MIGRATION DB AUTOMATIQUE
+# ═══════════════════════════════════════════════════════════════
+try:
+    import sys
+    from pathlib import Path
+    migrate_path = Path(__file__).parent.parent.parent.parent
+    if str(migrate_path) not in sys.path:
+        sys.path.insert(0, str(migrate_path))
+    from migrate_db import migrate_database
+    migrate_database()
+except Exception as e:
+    pass  # Ignore erreurs migration (DB peut être read-only sur cloud)
+
+
 st.title("📅 Planificateur Multi-Événements")
 st.markdown("**Prédictions combinées avec Impact, Latence, TTR, Retracement + Classification Empirique**")
 
