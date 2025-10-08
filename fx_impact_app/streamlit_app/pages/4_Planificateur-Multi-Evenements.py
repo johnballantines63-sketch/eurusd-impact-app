@@ -81,6 +81,13 @@ def load_precomputed_stats_from_db():
     """Charge stats pré-calculées depuis DB"""
     try:
         conn = duckdb.connect(get_db_path(), read_only=True)
+        # Vérifier si colonnes latency existent
+        schema = conn.execute("DESCRIBE event_families").fetchall()
+        cols = [col[0] for col in schema]
+        
+        if 'latency_median' not in cols:
+            conn.close()
+            return {}  # Colonnes pas encore créées
         query = """
             SELECT DISTINCT family, latency_median, latency_p20, latency_p80,
                    ttr_median, ttr_p20, ttr_p80, mfe_p80, n_events_latency
