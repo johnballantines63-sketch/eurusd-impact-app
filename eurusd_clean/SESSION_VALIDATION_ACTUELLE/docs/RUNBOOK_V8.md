@@ -219,6 +219,32 @@ python3 stratify_ratios_v8.py
 
 ---
 
+## Notes Git / Tagging
+
+### Tags Annotés (V8)
+
+Le tag `v8-historical-replay-final` est un **tag annoté** (annotated tag).
+
+**Comportement normal** :
+- `git rev-parse v8-historical-replay-final` → SHA de l'objet tag (intermédiaire)
+- `git rev-list -n 1 v8-historical-replay-final` → SHA du commit pointé (réel)
+- `git show v8-historical-replay-final` → Affiche le commit pointé (60883f6)
+
+**Vérification** :
+```bash
+HEAD_SHA=$(git rev-parse HEAD)
+TAG_SHA=$(git rev-list -n 1 v8-historical-replay-final)
+[ "$HEAD_SHA" = "$TAG_SHA" ] && echo "✅ Tag aligné" || echo "❌ Problème"
+```
+
+**Push** :
+```bash
+git push origin main
+git push origin v8-historical-replay-final
+```
+
+---
+
 **Version** : V8 Runbook Final
 **Date** : 2025-01-XX
 **Status** : ✅ **FINALISÉ - V8 READY**
