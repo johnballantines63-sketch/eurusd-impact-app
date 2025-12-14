@@ -1,0 +1,110 @@
+# ============================================
+# V4.0 — FROZEN CONFIGURATION
+# ============================================
+# This file freezes all parameters used for
+# V4 scoring, backtesting, and release audit.
+# No changes allowed after tagging v4.0.
+# ============================================
+
+version: "4.0"
+status: frozen
+date_frozen: "2025-12-14"
+
+# --------------------------------------------
+# DATA SOURCES
+# --------------------------------------------
+database:
+  engine: duckdb
+  path: data/warehouse.duckdb
+
+truth_table:
+  name: daily_pattern_truth_v4
+  start_date: "2022-09-21"
+  end_date: "2025-10-17"
+  n_days: 714
+
+prices_table:
+  name: prices_finnhub_m1
+  timeframe: M1
+  timezone: UTC
+
+events_view:
+  name: events_enriched_v1
+
+# --------------------------------------------
+# SCORING PARAMETERS
+# --------------------------------------------
+scoring:
+  window_years: 3
+  after_minutes: 120
+
+  release_definition:
+    release_id: "country + DATE_TRUNC('minute', ts_utc)"
+    aggregation: "max_per_release"
+
+  reliability:
+    min_n_releases: 20
+    low_weight_formula: "min(1.0, n_releases / min_n)"
+
+  shrinkage:
+    p80:
+      method: empirical_bayes
+      k: 20
+    hit_ratio:
+      method: beta_binomial
+
+# --------------------------------------------
+# DIRECTIONAL MODEL
+# --------------------------------------------
+directional_model:
+  model: additive_logit
+  temperature: 0.6
+  clip_logit: 8
+
+  probability_fix:
+    align_with_impact_sign: true
+
+# --------------------------------------------
+# DECISION RULE
+# --------------------------------------------
+decision:
+  threshold:
+    value: 0.475
+    selection:
+      method: youden_j
+      dataset: train_only
+
+# --------------------------------------------
+# BACKTEST PROTOCOL
+# --------------------------------------------
+backtest:
+  split_date: "2024-01-01"
+  metrics:
+    - accuracy
+    - balanced_accuracy
+    - auc
+    - logloss
+    - brier
+
+  selection_rules:
+    temperature:
+      criterion: logloss
+      dataset: train_only
+    threshold:
+      criterion: youden_j
+      dataset: train_only
+
+# --------------------------------------------
+# RELEASE GUARANTEES
+# --------------------------------------------
+guarantees:
+  no_data_leakage: true
+  no_post_test_tuning: true
+  bundle_duplication_removed: true
+
+# --------------------------------------------
+# TAGGING
+# --------------------------------------------
+git:
+  tag: v4.0
+  allow_patches_after: false
