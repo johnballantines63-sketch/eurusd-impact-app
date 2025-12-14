@@ -1,0 +1,41 @@
+======================================================================
+COMPARAISON MODÈLES ML - SESSION 76
+======================================================================
+
+
+4_FEATURES
+----------------------------------------------------------------------
+Features : score_ajuste, nb_events, surprise_max, coherence_famille
+R² train : 0.210
+R² CV : nan ± nan
+MAE train : 16.2 pips
+MAE CV : 19.5 ± 12.8 pips
+Overfitting R² : +nan
+Overfitting MAE : +3.3 pips
+Score : 1/4
+
+3_FEATURES
+----------------------------------------------------------------------
+Features : score_ajuste, nb_events, surprise_max
+R² train : 0.125
+R² CV : nan ± nan
+MAE train : 16.9 pips
+MAE CV : 19.5 ± 13.8 pips
+Overfitting R² : +nan
+Overfitting MAE : +2.6 pips
+Score : 1/4
+
+2_FEATURES
+----------------------------------------------------------------------
+Features : score_ajuste, surprise_max
+R² train : 0.125
+R² CV : nan ± nan
+MAE train : 16.9 pips
+MAE CV : 18.8 ± 13.3 pips
+Overfitting R² : +nan
+Overfitting MAE : +1.9 pips
+Score : 1/4
+
+======================================================================
+MEILLEUR : 4_features
+======================================================================

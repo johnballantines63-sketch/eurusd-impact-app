@@ -1,0 +1,13 @@
+{
+  "workflow_functions": {
+    "us_only": {
+      "model": "sigmoid",
+      "mae": 26.492948197711424
+    }
+  },
+  "similarity_threshold": 0.7,
+  "amp_bounds": {
+    "min": 0.01,
+    "max": 0.5
+  }
+}

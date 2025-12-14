@@ -1,0 +1,149 @@
+"""
+Module pour créer une timeline séquentielle avec calcul VECTORIEL correct
+"""
+
+from datetime import timedelta
+from typing import List, Dict, Any
+import pandas as pd
+
+
+def sequence_multi_event_timeline(predictions: List[Dict], time_gap_minutes: int = 5) -> List[Dict]:
+    """
+    Crée une timeline séquentielle en GROUPANT les événements simultanés
+    
+    LOGIQUE VECTORIELLE :
+    - Événements < time_gap_minutes d'écart → GROUPÉS → Impact vectoriel combiné
+    - Événements > time_gap_minutes d'écart → SÉPARÉS → Phases distinctes
+    
+    Args:
+        predictions: Liste des prédictions individuelles
+        time_gap_minutes: Écart max pour considérer événements comme simultanés (défaut: 5 min)
+    
+    Returns:
+        Liste de phases, chaque phase = groupe d'événements avec impact combiné
+    """
+    
+    if not predictions:
+        return []
+    
+    # Trier par timestamp
+    sorted_preds = sorted(predictions, key=lambda p: pd.to_datetime(p['event']['ts_utc']))
+    
+    # Grouper les événements par fenêtre temporelle
+    phase_groups = []
+    current_group = {
+        'events': [sorted_preds[0]],
+        'start_time': pd.to_datetime(sorted_preds[0]['event']['ts_utc'])
+    }
+    
+    for pred in sorted_preds[1:]:
+        event_time = pd.to_datetime(pred['event']['ts_utc'])
+        gap = (event_time - current_group['start_time']).total_seconds() / 60
+        
+        if gap <= time_gap_minutes:
+            # Événement dans la même fenêtre → GROUPER
+            current_group['events'].append(pred)
+        else:
+            # Événement espacé → Nouvelle phase
+            phase_groups.append(current_group)
+            current_group = {
+                'events': [pred],
+                'start_time': event_time
+            }
+    
+    # Ajouter le dernier groupe
+    phase_groups.append(current_group)
+    
+    # Créer les phases avec calcul vectoriel
+    phases = []
+    
+    for phase_idx, group in enumerate(phase_groups):
+        events = group['events']
+        start_time = group['start_time']
+        
+        # === CALCUL VECTORIEL ===
+        # Combiner tous les impacts signés (direction incluse)
+        total_impact_pips = sum(
+            pred['predicted_pips'] * pred['direction'] 
+            for pred in events
+        )
+        
+        # Direction du mouvement combiné
+        combined_direction = "UP" if total_impact_pips > 0 else "DOWN"
+        
+        # Latence : minimum des latences (réaction au plus rapide)
+        min_latency = min(pred['latency_median'] for pred in events)
+        
+        # TTR : prendre le maximum (mouvement persiste jusqu'au dernier TTR)
+        max_ttr = max(pred['ttr_median'] for pred in events)
+        
+        # Fin de phase prédite
+        predicted_end = start_time + timedelta(minutes=max_ttr)
+        
+        # === CONSTRUIRE LA PHASE ===
+        phase = {
+            'phase_num': phase_idx + 1,
+            'start_time': str(start_time),
+            'predicted_end': str(predicted_end),
+            'duration_minutes': max_ttr,
+            
+            # Impact vectoriel combiné
+            'impact_pips': total_impact_pips,
+            'direction': combined_direction,
+            
+            # Timing
+            'latency_minutes': min_latency,
+            'ttr_predicted': max_ttr,
+            
+            # Événements constitutifs
+            'events': [
+                {
+                    'family': pred['event']['family'],
+                    'country': pred['event']['country'],
+                    'event_key': pred['event'].get('event_key', ''),
+                    'time': str(pd.to_datetime(pred['event']['ts_utc'])),
+                    'impact_individual': pred['predicted_pips'] * pred['direction'],
+                    'surprise': pred.get('surprise', 0)
+                }
+                for pred in events
+            ],
+            
+            # Métadonnées
+            'num_events': len(events),
+            'is_simultaneous': len(events) > 1,
+            'note': (
+                f"✅ {len(events)} événements simultanés - Impact vectoriel combiné"
+                if len(events) > 1 
+                else f"✅ Événement isolé"
+            )
+        }
+        
+        phases.append(phase)
+    
+    return phases
+
+
+def format_phase_summary(phase: Dict) -> str:
+    """
+    Formate un résumé textuel d'une phase
+    """
+    events_str = ', '.join([e['family'] for e in phase['events']])
+    
+    summary = f"""
+Phase {phase['phase_num']} : {phase['start_time']} ({events_str})
+  Impact combiné : {phase['impact_pips']:+.1f} pips {phase['direction']}
+  Latence prédite : {phase['latency_minutes']:.0f} min
+  TTR prédit : {phase['ttr_predicted']:.0f} min
+  Durée totale : {phase['duration_minutes']:.0f} min
+  {phase['note']}
+"""
+    
+    if phase['num_events'] > 1:
+        summary += "
+  Détails individuels :
+"
+        for evt in phase['events']:
+            summary += f"    - {evt['family']} : {evt['impact_individual']:+.1f} pips (surprise: {evt['surprise']:+.2f})
+"
+    
+    return summary

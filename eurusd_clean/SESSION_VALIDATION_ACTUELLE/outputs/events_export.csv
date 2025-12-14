@@ -1,0 +1,1344 @@
+event_key,event_title,ts_utc,country,actual,estimate,previous,family,empirical_score,date
+continuing jobless claims,,2025-04-10 14:30:00+02:00,US,1850.0,1880.0,1893.0,Jobless Claims,26.84356289399415,2025-04-10
+cpi s.a,,2025-04-10 14:30:00+02:00,US,319.615,320.1,319.775,CPI,44.69221083727704,2025-04-10
+cpi,,2025-04-10 14:30:00+02:00,US,319.799,320.17,319.082,CPI,45.13412286023265,2025-04-10
+cpi s a,CPI s.a,2025-04-10 14:30:00+02:00,US,319.615,320.1,319.775,CPI,42.012728389432944,2025-04-10
+inflation rate,Inflation Rate,2025-04-10 14:30:00+02:00,US,2.4,2.6,2.8,CPI,44.414844512436375,2025-04-10
+initial jobless claims,,2025-04-10 14:30:00+02:00,US,223.0,223.0,219.0,Jobless Claims,26.84356289399415,2025-04-10
+jobless claims 4 week average,Jobless Claims 4-Week Average,2025-04-10 14:30:00+02:00,US,223.0,226.0,223.0,Jobless Claims,26.84356289399415,2025-04-10
+real earnings,Real Earnings,2025-04-10 14:30:00+02:00,US,0.3,,0.3,Real_Earnings,40.7828449344552,2025-04-10
+core inflation rate,Core Inflation Rate,2025-04-10 14:30:00+02:00,US,0.1,0.3,0.2,CPI,44.414844512436375,2025-04-10
+inflation rate_yoy,,2025-04-10 14:30:00+02:00,US,2.4,2.6,2.8,CPI,46.131002713643156,2025-04-10
+jobless claims 4-week average,,2025-04-10 14:30:00+02:00,US,223.0,226.0,223.0,Jobless Claims,25.339023793709526,2025-04-10
+core inflation rate_mom,,2025-04-10 14:30:00+02:00,US,0.1,0.3,0.2,CPI,45.02330127008234,2025-04-10
+core inflation rate_yoy,,2025-04-10 14:30:00+02:00,US,2.8,3.0,3.1,CPI,45.85630258750297,2025-04-10
+inflation rate_mom,,2025-04-10 14:30:00+02:00,US,-0.1,0.1,0.2,CPI,45.70384828422969,2025-04-10
+real earnings_mom,,2025-04-10 14:30:00+02:00,US,0.3,,0.3,Real_Earnings,43.24374225199799,2025-04-10
+fed logan speech,,2025-04-10 15:30:00+02:00,US,,,,,,2025-04-10
+fed schmid speech,,2025-04-10 16:00:00+02:00,US,,,,,,2025-04-10
+fed bowman speech,,2025-04-10 16:00:00+02:00,US,,,,,,2025-04-10
+eia natural gas stocks change,,2025-04-10 16:30:00+02:00,US,57.0,60.0,29.0,,,2025-04-10
+8 week bill auction,8-Week Bill Auction,2025-04-10 17:30:00+02:00,US,4.235,,4.24,Other,24.727665972094,2025-04-10
+8-week bill auction,,2025-04-10 17:30:00+02:00,US,4.235,,4.24,Other,24.727665972094,2025-04-10
+4-week bill auction,,2025-04-10 17:30:00+02:00,US,4.245,,4.24,Other,24.727665972094,2025-04-10
+4 week bill auction,4-Week Bill Auction,2025-04-10 17:30:00+02:00,US,4.245,,4.24,Other,24.727665972094,2025-04-10
+15 year mortgage rate,15-Year Mortgage Rate,2025-04-10 18:00:00+02:00,US,5.82,,5.82,,,2025-04-10
+30 year mortgage rate,30-Year Mortgage Rate,2025-04-10 18:00:00+02:00,US,6.62,,6.64,,,2025-04-10
+15-year mortgage rate,,2025-04-10 18:00:00+02:00,US,5.82,,5.82,,,2025-04-10
+wasde report,,2025-04-10 18:00:00+02:00,US,,,,,,2025-04-10
+30-year mortgage rate,,2025-04-10 18:00:00+02:00,US,6.62,,6.64,,,2025-04-10
+fed goolsbee speech,,2025-04-10 18:00:00+02:00,US,,,,,,2025-04-10
+fed harker speech,,2025-04-10 18:30:00+02:00,US,,,,,,2025-04-10
+30 year bond auction,30-Year Bond Auction,2025-04-10 19:00:00+02:00,US,4.813,,4.623,,,2025-04-10
+30-year bond auction,,2025-04-10 19:00:00+02:00,US,4.813,,4.623,,,2025-04-10
+budget balance,,2025-04-10 20:00:00+02:00,US,-161.0,-115.9,-307.0,Trade Balance,15.270367803799608,2025-04-10
+monthly budget statement,,2025-04-10 20:00:00+02:00,US,-161.0,-236.6,-307.0,Monthly_Budget_Statement,14.212383375335397,2025-04-10
+fed balance sheet,,2025-04-10 22:30:00+02:00,US,6.73,,6.72,,,2025-04-10
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2025-10-29 12:00:00+01:00,US,,,,,,2025-10-29
+mba mortgage applications,MBA Mortgage Applications,2025-10-29 12:00:00+01:00,US,,,,,,2025-10-29
+mba mortgage market index,MBA Mortgage Market Index,2025-10-29 12:00:00+01:00,US,,,,,,2025-10-29
+mba mortgage refinance index,MBA Mortgage Refinance Index,2025-10-29 12:00:00+01:00,US,,,,,,2025-10-29
+mba purchase index,MBA Purchase Index,2025-10-29 12:00:00+01:00,US,,,,,,2025-10-29
+goods trade balance adv,Goods Trade Balance Adv,2025-10-29 13:30:00+01:00,US,,,,Trade Balance,27.648300055389974,2025-10-29
+retail inventories ex autos,Retail Inventories Ex Autos,2025-10-29 13:30:00+01:00,US,,,,Consumer,26.483600012468738,2025-10-29
+wholesale inventories,Wholesale Inventories,2025-10-29 13:30:00+01:00,US,,-0.3,,Other,30.886023743354997,2025-10-29
+pending home sales,Pending Home Sales,2025-10-29 15:00:00+01:00,US,,,,,,2025-10-29
+eia crude oil imports change,EIA Crude Oil Imports Change,2025-10-29 15:30:00+01:00,US,,,,,,2025-10-29
+eia crude oil stocks change,EIA Crude Oil Stocks Change,2025-10-29 15:30:00+01:00,US,,,,,,2025-10-29
+eia cushing crude oil stocks change,EIA Cushing Crude Oil Stocks Change,2025-10-29 15:30:00+01:00,US,,,,,,2025-10-29
+eia distillate fuel production change,EIA Distillate Fuel Production Change,2025-10-29 15:30:00+01:00,US,,,,,,2025-10-29
+eia distillate stocks change,EIA Distillate Stocks Change,2025-10-29 15:30:00+01:00,US,,,,,,2025-10-29
+eia gasoline production change,EIA Gasoline Production Change,2025-10-29 15:30:00+01:00,US,,,,,,2025-10-29
+eia gasoline stocks change,EIA Gasoline Stocks Change,2025-10-29 15:30:00+01:00,US,,,,,,2025-10-29
+eia heating oil stocks change,EIA Heating Oil Stocks Change,2025-10-29 15:30:00+01:00,US,,,,,,2025-10-29
+eia refinery crude runs change,EIA Refinery Crude Runs Change,2025-10-29 15:30:00+01:00,US,,,,,,2025-10-29
+17 week bill auction,17-Week Bill Auction,2025-10-29 16:30:00+01:00,US,,,,,,2025-10-29
+fed interest rate decision,Fed Interest Rate Decision,2025-10-29 19:00:00+01:00,US,,,,Fed Rate,48.517963191030475,2025-10-29
+fed press conference,Fed Press Conference,2025-10-29 19:30:00+01:00,US,,,,,,2025-10-29
+total vehicle sales,,2023-10-06 12:50:00+02:00,US,15.667,,15.334,Consumer,21.47350513016643,2023-10-06
+average hourly earnings,Average Hourly Earnings,2023-10-06 14:30:00+02:00,US,4.2,4.3,4.3,Other,59.90047788837122,2023-10-06
+average weekly hours,,2023-10-06 14:30:00+02:00,US,34.4,34.4,34.4,Other,61.492477137506555,2023-10-06
+government payrolls,,2023-10-06 14:30:00+02:00,US,73.0,,50.0,Employment,61.492477137506555,2023-10-06
+manufacturing payrolls,,2023-10-06 14:30:00+02:00,US,17.0,5.0,11.0,Employment,61.492477137506555,2023-10-06
+non farm payrolls,,2023-10-06 14:30:00+02:00,US,336.0,170.0,227.0,NFP,61.492477137506555,2023-10-06
+nonfarm payrolls private,,2023-10-06 14:30:00+02:00,US,263.0,160.0,177.0,NFP,61.492477137506555,2023-10-06
+participation rate,,2023-10-06 14:30:00+02:00,US,62.8,,62.8,Other,61.492477137506555,2023-10-06
+u 6 unemployment rate,U-6 Unemployment Rate,2023-10-06 14:30:00+02:00,US,7.0,,7.1,Unemployment,67.6438161052937,2023-10-06
+unemployment rate,,2023-10-06 14:30:00+02:00,US,3.8,3.7,3.8,Unemployment,61.492477137506555,2023-10-06
+average hourly earnings_mom,,2023-10-06 14:30:00+02:00,US,0.2,0.3,0.2,Other,60.440466641117986,2023-10-06
+average hourly earnings_yoy,,2023-10-06 14:30:00+02:00,US,4.2,4.3,4.3,Other,61.33895365705695,2023-10-06
+u-6 unemployment rate,,2023-10-06 14:30:00+02:00,US,7.0,,7.1,Unemployment,57.69826407074845,2023-10-06
+used car prices,Used Car Prices,2023-10-06 15:10:00+02:00,US,-3.9,,-7.7,,,2023-10-06
+used car prices_yoy,,2023-10-06 15:10:00+02:00,US,-3.9,,-7.7,,,2023-10-06
+used car prices_mom,,2023-10-06 15:10:00+02:00,US,1.0,,0.2,,,2023-10-06
+fed waller speech,,2023-10-06 18:00:00+02:00,US,,,,,,2023-10-06
+baker hughes oil rig count,,2023-10-06 19:00:00+02:00,US,497.0,,502.0,Baker_Hughes_Rig_Count,11.24287509813271,2023-10-06
+baker hughes total rig count,,2023-10-06 19:00:00+02:00,US,619.0,,623.0,Baker_Hughes_Rig_Count,13.701896447128952,2023-10-06
+consumer credit change,,2023-10-06 21:00:00+02:00,US,-15.63,11.7,10.4,,,2023-10-06
+mba mortgage refinance index,MBA Mortgage Refinance Index,2025-02-12 13:00:00+01:00,US,640.6,,584.3,,,2025-02-12
+opec monthly report,OPEC Monthly Report,2025-02-12 13:00:00+01:00,US,,,,,,2025-02-12
+mba purchase index,MBA Purchase Index,2025-02-12 13:00:00+01:00,US,153.1,,156.7,,,2025-02-12
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2025-02-12 13:00:00+01:00,US,6.95,,6.97,,,2025-02-12
+mba mortgage applications,MBA Mortgage Applications,2025-02-12 13:00:00+01:00,US,2.3,,2.2,,,2025-02-12
+mba mortgage market index,MBA Mortgage Market Index,2025-02-12 13:00:00+01:00,US,230.0,,224.8,,,2025-02-12
+cpi,,2025-02-12 14:30:00+01:00,US,317.67,317.46,315.61,CPI,45.13412286023265,2025-02-12
+cpi s a,CPI s.a,2025-02-12 14:30:00+01:00,US,319.086,318.2,317.603,CPI,42.012728389432944,2025-02-12
+inflation rate,Inflation Rate,2025-02-12 14:30:00+01:00,US,0.5,0.3,0.4,CPI,44.414844512436375,2025-02-12
+real earnings,Real Earnings,2025-02-12 14:30:00+01:00,US,-0.3,,-0.4,Real_Earnings,40.7828449344552,2025-02-12
+core inflation rate,Core Inflation Rate,2025-02-12 14:30:00+01:00,US,0.4,0.3,0.2,CPI,44.414844512436375,2025-02-12
+real earnings_mom,,2025-02-12 14:30:00+01:00,US,-0.3,,-0.4,Real_Earnings,43.24374225199799,2025-02-12
+inflation rate_mom,,2025-02-12 14:30:00+01:00,US,0.5,0.3,0.4,CPI,45.70384828422969,2025-02-12
+cpi s.a,,2025-02-12 14:30:00+01:00,US,319.086,318.2,317.603,CPI,44.69221083727704,2025-02-12
+fed chair powell testimony,,2025-02-12 16:00:00+01:00,US,,,,,,2025-02-12
+imports,,2025-02-12 16:30:00+01:00,US,-0.184,,-0.178,Trade Balance,25.199964392161,2025-02-12
+eia crude oil imports change,,2025-02-12 16:30:00+01:00,US,-0.184,,-0.178,,,2025-02-12
+eia crude oil stocks change,,2025-02-12 16:30:00+01:00,US,4.07,3.0,8.664,,,2025-02-12
+eia cushing crude oil stocks change,,2025-02-12 16:30:00+01:00,US,0.872,,-0.034,,,2025-02-12
+eia distillate fuel production change,,2025-02-12 16:30:00+01:00,US,-0.009,,-0.186,,,2025-02-12
+eia distillate stocks change,,2025-02-12 16:30:00+01:00,US,0.135,-2.0,-5.471,,,2025-02-12
+eia gasoline production change,,2025-02-12 16:30:00+01:00,US,0.18,,-0.027,,,2025-02-12
+eia gasoline stocks change,,2025-02-12 16:30:00+01:00,US,-3.035,1.5,2.233,,,2025-02-12
+eia heating oil stocks change,,2025-02-12 16:30:00+01:00,US,0.159,,0.373,,,2025-02-12
+eia refinery crude runs change,,2025-02-12 16:30:00+01:00,US,0.082,,0.16,,,2025-02-12
+eia weekly refinery utilization rates wow,,2025-02-12 16:30:00+01:00,US,0.5,,1.0,,,2025-02-12
+thomson reuters ipsos pcsi,,2025-02-12 17:00:00+01:00,US,54.43,,54.43,,,2025-02-12
+17 week bill auction,17-Week Bill Auction,2025-02-12 17:30:00+01:00,US,4.23,,4.205,,,2025-02-12
+17-week bill auction,,2025-02-12 17:30:00+01:00,US,4.23,,4.205,,,2025-02-12
+fed bostic speech,,2025-02-12 18:00:00+01:00,US,,,,,,2025-02-12
+10 year note auction,10-Year Note Auction,2025-02-12 19:00:00+01:00,US,4.632,,4.68,,,2025-02-12
+10-year note auction,,2025-02-12 19:00:00+01:00,US,4.632,,4.68,,,2025-02-12
+budget balance,,2025-02-12 20:00:00+01:00,US,-129.0,-88.1,-87.0,Trade Balance,15.270367803799608,2025-02-12
+monthly budget statement,,2025-02-12 20:00:00+01:00,US,-129.0,-88.1,-87.0,Monthly_Budget_Statement,14.212383375335397,2025-02-12
+fed waller speech,,2025-02-12 23:05:00+01:00,US,,,,,,2025-02-12
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2025-01-15 13:00:00+01:00,US,7.09,,6.99,,,2025-01-15
+opec monthly report,OPEC Monthly Report,2025-01-15 13:00:00+01:00,US,,,,,,2025-01-15
+mba purchase index,MBA Purchase Index,2025-01-15 13:00:00+01:00,US,162.0,,127.7,,,2025-01-15
+mba mortgage refinance index,MBA Mortgage Refinance Index,2025-01-15 13:00:00+01:00,US,575.6,,401.1,,,2025-01-15
+mba mortgage market index,MBA Mortgage Market Index,2025-01-15 13:00:00+01:00,US,224.4,,168.4,,,2025-01-15
+mba mortgage applications,MBA Mortgage Applications,2025-01-15 13:00:00+01:00,US,33.3,,-3.7,,,2025-01-15
+core inflation rate,Core Inflation Rate,2025-01-15 14:30:00+01:00,US,3.2,3.3,3.3,CPI,44.414844512436375,2025-01-15
+core inflation rate_yoy,,2025-01-15 14:30:00+01:00,US,3.2,3.3,3.3,CPI,45.85630258750297,2025-01-15
+core inflation rate_mom,,2025-01-15 14:30:00+01:00,US,0.2,0.2,0.3,CPI,45.02330127008234,2025-01-15
+inflation rate_yoy,,2025-01-15 14:30:00+01:00,US,2.9,2.9,2.7,CPI,46.131002713643156,2025-01-15
+inflation rate_mom,,2025-01-15 14:30:00+01:00,US,0.4,0.3,0.3,CPI,45.70384828422969,2025-01-15
+real earnings_mom,,2025-01-15 14:30:00+01:00,US,-0.1,,0.1,Real_Earnings,43.24374225199799,2025-01-15
+cpi s.a,,2025-01-15 14:30:00+01:00,US,317.685,317.4,316.441,CPI,44.69221083727704,2025-01-15
+cpi s a,CPI s.a,2025-01-15 14:30:00+01:00,US,317.685,317.4,316.441,CPI,42.012728389432944,2025-01-15
+real earnings,Real Earnings,2025-01-15 14:30:00+01:00,US,-0.1,,0.1,Real_Earnings,40.7828449344552,2025-01-15
+ny empire state manufacturing index,,2025-01-15 14:30:00+01:00,US,-12.6,3.0,2.1,Manufacturing,35.00725344868514,2025-01-15
+inflation rate,Inflation Rate,2025-01-15 14:30:00+01:00,US,2.9,2.9,2.7,CPI,44.414844512436375,2025-01-15
+cpi,,2025-01-15 14:30:00+01:00,US,315.61,315.61,315.49,CPI,45.13412286023265,2025-01-15
+fed barkin speech,,2025-01-15 15:20:00+01:00,US,,,,Other,33.85118560915781,2025-01-15
+fed kashkari speech,,2025-01-15 16:00:00+01:00,US,,,,,,2025-01-15
+imports,,2025-01-15 16:30:00+01:00,US,-1.304,,0.278,Trade Balance,25.199964392161,2025-01-15
+eia crude oil imports change,,2025-01-15 16:30:00+01:00,US,-1.304,,0.278,,,2025-01-15
+eia crude oil stocks change,,2025-01-15 16:30:00+01:00,US,-1.961,-1.6,-0.959,,,2025-01-15
+eia cushing crude oil stocks change,,2025-01-15 16:30:00+01:00,US,0.765,,-2.502,,,2025-01-15
+eia distillate fuel production change,,2025-01-15 16:30:00+01:00,US,-0.021,,-0.167,,,2025-01-15
+eia distillate stocks change,,2025-01-15 16:30:00+01:00,US,3.077,1.1,6.071,,,2025-01-15
+eia gasoline production change,,2025-01-15 16:30:00+01:00,US,0.397,,-0.081,,,2025-01-15
+eia gasoline stocks change,,2025-01-15 16:30:00+01:00,US,5.852,2.6,6.33,,,2025-01-15
+eia heating oil stocks change,,2025-01-15 16:30:00+01:00,US,0.646,,-0.632,,,2025-01-15
+eia refinery crude runs change,,2025-01-15 16:30:00+01:00,US,-0.255,,0.045,,,2025-01-15
+eia weekly refinery utilization rates wow,,2025-01-15 16:30:00+01:00,US,-1.6,,0.6,,,2025-01-15
+fed williams speech,,2025-01-15 17:00:00+01:00,US,,,,,,2025-01-15
+17 week bill auction,17-Week Bill Auction,2025-01-15 17:30:00+01:00,US,4.21,,4.19,,,2025-01-15
+17-week bill auction,,2025-01-15 17:30:00+01:00,US,4.21,,4.19,,,2025-01-15
+fed goolsbee speech,,2025-01-15 18:00:00+01:00,US,,,,,,2025-01-15
+nopa crush report,,2025-01-15 18:00:00+01:00,US,,,,,,2025-01-15
+beige book,,2025-01-15 20:00:00+01:00,US,,,,,,2025-01-15
+fed beige book,,2025-01-15 20:00:00+01:00,US,,,,,,2025-01-15
+average weekly hours,Average Weekly Hours,2025-02-07 14:30:00+01:00,US,34.1,34.3,34.2,Other,61.492477137506555,2025-02-07
+government payrolls,Government Payrolls,2025-02-07 14:30:00+01:00,US,32.0,25.0,34.0,Employment,61.492477137506555,2025-02-07
+manufacturing payrolls,Manufacturing Payrolls,2025-02-07 14:30:00+01:00,US,3.0,-2.0,-12.0,Employment,61.492477137506555,2025-02-07
+non farm payrolls,Non Farm Payrolls,2025-02-07 14:30:00+01:00,US,143.0,170.0,307.0,NFP,61.492477137506555,2025-02-07
+nonfarm payrolls private,Nonfarm Payrolls Private,2025-02-07 14:30:00+01:00,US,111.0,141.0,273.0,NFP,61.492477137506555,2025-02-07
+participation rate,Participation Rate,2025-02-07 14:30:00+01:00,US,62.6,62.5,62.5,Other,61.492477137506555,2025-02-07
+unemployment rate,Unemployment Rate,2025-02-07 14:30:00+01:00,US,4.0,4.1,4.1,Unemployment,61.492477137506555,2025-02-07
+average hourly earnings,Average Hourly Earnings,2025-02-07 14:30:00+01:00,US,4.1,3.8,4.1,Other,59.90047788837122,2025-02-07
+fed kashkari speech,Fed Kashkari Speech,2025-02-07 14:40:00+01:00,US,,,,,,2025-02-07
+used car prices,Used Car Prices,2025-02-07 15:00:00+01:00,US,0.4,,-0.3,,,2025-02-07
+fed bowman speech,Fed Bowman Speech,2025-02-07 15:25:00+01:00,US,,,,,,2025-02-07
+monetary policy report,Monetary Policy Report,2025-02-07 16:00:00+01:00,US,,,,,,2025-02-07
+michigan current conditions,Michigan Current Conditions,2025-02-07 16:00:00+01:00,US,68.7,73.0,74.0,Michigan_Current_Conditions,24.07920765964181,2025-02-07
+michigan inflation expectations,Michigan Inflation Expectations,2025-02-07 16:00:00+01:00,US,4.3,3.4,3.3,Inflation,23.7495601289988,2025-02-07
+wholesale inventories,Wholesale Inventories,2025-02-07 16:00:00+01:00,US,-0.5,-0.5,-0.1,Other,30.886023743354997,2025-02-07
+michigan 5 year inflation expectations,Michigan 5 Year Inflation Expectations,2025-02-07 16:00:00+01:00,US,3.3,3.3,3.2,Michigan_5Y_Inflation_Expectations,24.07920765964181,2025-02-07
+michigan consumer sentiment,Michigan Consumer Sentiment,2025-02-07 16:00:00+01:00,US,67.8,71.1,71.1,Consumer Confidence,24.07920765964181,2025-02-07
+michigan consumer expectations,Michigan Consumer Expectations,2025-02-07 16:00:00+01:00,US,67.3,70.0,69.3,Michigan_Consumer_Expectations,24.07920765964181,2025-02-07
+inflation expectations,Inflation Expectations,2025-02-07 16:00:00+01:00,US,3.3,3.2,3.2,Inflation,30.075435866325535,2025-02-07
+wholesale sales,Wholesale Sales,2025-02-07 16:00:00+01:00,US,1.0,,0.9,,,2025-02-07
+fed goolsbee speech,Fed Goolsbee Speech,2025-02-07 16:30:00+01:00,US,,,,,,2025-02-07
+atlanta fed gdpnow,,2025-02-07 18:00:00+01:00,US,2.9,2.9,2.9,GDP,9.078303333571974,2025-02-07
+fed kugler speech,,2025-02-07 18:00:00+01:00,US,,,,,,2025-02-07
+baker hughes oil rig count,,2025-02-07 19:00:00+01:00,US,480.0,,479.0,Baker_Hughes_Rig_Count,11.24287509813271,2025-02-07
+boe consumer credit,,2025-02-07 21:00:00+01:00,US,40.85,17.7,-5.37,,,2025-02-07
+consumer credit change,,2025-02-07 21:00:00+01:00,US,40.85,12.35,-5.37,,,2025-02-07
+cftc aluminium speculative net positions,,2025-02-07 21:30:00+01:00,US,3.8,,3.0,,,2025-02-07
+cftc copper speculative net positions,,2025-02-07 21:30:00+01:00,US,15.4,,13.0,,,2025-02-07
+cftc corn speculative net positions,,2025-02-07 21:30:00+01:00,US,462.4,,443.9,,,2025-02-07
+cftc crude oil speculative net positions,,2025-02-07 21:30:00+01:00,US,230.3,,264.1,,,2025-02-07
+cftc gold speculative net positions,,2025-02-07 21:30:00+01:00,US,302.5,,299.4,,,2025-02-07
+cftc nasdaq 100 speculative net positions,,2025-02-07 21:30:00+01:00,US,19.0,,30.7,,,2025-02-07
+cftc natural gas speculative net positions,,2025-02-07 21:30:00+01:00,US,-72.2,,-65.0,,,2025-02-07
+cftc palladium speculative net positions,,2025-02-07 21:30:00+01:00,US,,,,,,2025-02-07
+cftc platinum speculative net positions,,2025-02-07 21:30:00+01:00,US,,,,,,2025-02-07
+cftc s p 500 speculative net positions,CFTC S&P 500 speculative net positions,2025-02-07 21:30:00+01:00,US,-4.8,,-56.2,,,2025-02-07
+cftc silver speculative net positions,,2025-02-07 21:30:00+01:00,US,50.4,,44.4,,,2025-02-07
+cftc soybeans speculative net positions,,2025-02-07 21:30:00+01:00,US,37.2,,31.4,,,2025-02-07
+cftc wheat speculative net positions,,2025-02-07 21:30:00+01:00,US,-67.4,,-91.1,,,2025-02-07
+cftc s&p 500 speculative net positions,,2025-02-07 21:30:00+01:00,US,-4.8,,-56.2,,,2025-02-07
+average hourly earnings,Average Hourly Earnings,2024-09-06 14:30:00+02:00,US,0.4,0.3,0.2,Other,59.90047788837122,2024-09-06
+average weekly hours,,2024-09-06 14:30:00+02:00,US,34.3,34.3,34.2,Other,61.492477137506555,2024-09-06
+government payrolls,,2024-09-06 14:30:00+02:00,US,24.0,8.0,15.0,Employment,61.492477137506555,2024-09-06
+manufacturing payrolls,,2024-09-06 14:30:00+02:00,US,-24.0,,6.0,Employment,61.492477137506555,2024-09-06
+non farm payrolls,,2024-09-06 14:30:00+02:00,US,142.0,160.0,89.0,NFP,61.492477137506555,2024-09-06
+nonfarm payrolls private,,2024-09-06 14:30:00+02:00,US,118.0,139.0,74.0,NFP,61.492477137506555,2024-09-06
+participation rate,,2024-09-06 14:30:00+02:00,US,62.7,62.6,62.7,Other,61.492477137506555,2024-09-06
+u 6 unemployment rate,U-6 Unemployment Rate,2024-09-06 14:30:00+02:00,US,7.9,7.8,7.8,Unemployment,67.6438161052937,2024-09-06
+unemployment rate,,2024-09-06 14:30:00+02:00,US,4.2,4.2,4.3,Unemployment,61.492477137506555,2024-09-06
+average hourly earnings_yoy,,2024-09-06 14:30:00+02:00,US,3.8,3.7,3.6,Other,61.33895365705695,2024-09-06
+average hourly earnings_mom,,2024-09-06 14:30:00+02:00,US,0.4,0.3,0.2,Other,60.440466641117986,2024-09-06
+u-6 unemployment rate,,2024-09-06 14:30:00+02:00,US,7.9,7.8,7.8,Unemployment,57.69826407074845,2024-09-06
+fed williams speech,,2024-09-06 14:45:00+02:00,US,,,,,,2024-09-06
+fed waller speech,,2024-09-06 17:00:00+02:00,US,,,,,,2024-09-06
+baker hughes oil rig count,,2024-09-06 19:00:00+02:00,US,483.0,,483.0,Baker_Hughes_Rig_Count,11.24287509813271,2024-09-06
+baker hughes total rigs count,,2024-09-06 19:00:00+02:00,US,582.0,,583.0,Baker_Hughes_Rig_Count,7.247437370381022,2024-09-06
+all truck sales,All Truck Sales,2025-05-02 14:00:00+02:00,US,14.39,,14.67,Consumer,34.65829662648696,2025-05-02
+average hourly earnings,Average Hourly Earnings,2025-05-02 14:30:00+02:00,US,3.8,3.9,3.8,Other,59.90047788837122,2025-05-02
+average weekly hours,,2025-05-02 14:30:00+02:00,US,34.3,34.2,34.3,Other,61.492477137506555,2025-05-02
+government payrolls,,2025-05-02 14:30:00+02:00,US,10.0,-3.0,15.0,Employment,61.492477137506555,2025-05-02
+manufacturing payrolls,,2025-05-02 14:30:00+02:00,US,-1.0,-5.0,3.0,Employment,61.492477137506555,2025-05-02
+non farm payrolls,,2025-05-02 14:30:00+02:00,US,177.0,130.0,185.0,NFP,61.492477137506555,2025-05-02
+nonfarm payrolls private,,2025-05-02 14:30:00+02:00,US,167.0,124.0,170.0,NFP,61.492477137506555,2025-05-02
+participation rate,,2025-05-02 14:30:00+02:00,US,62.6,62.5,62.5,Other,61.492477137506555,2025-05-02
+u 6 unemployment rate,U-6 Unemployment Rate,2025-05-02 14:30:00+02:00,US,7.8,8.0,7.9,Unemployment,67.6438161052937,2025-05-02
+unemployment rate,,2025-05-02 14:30:00+02:00,US,4.2,4.2,4.2,Unemployment,61.492477137506555,2025-05-02
+u-6 unemployment rate,,2025-05-02 14:30:00+02:00,US,7.8,8.0,7.9,Unemployment,57.69826407074845,2025-05-02
+average hourly earnings_mom,,2025-05-02 14:30:00+02:00,US,0.2,0.3,0.3,Other,60.440466641117986,2025-05-02
+average hourly earnings_yoy,,2025-05-02 14:30:00+02:00,US,3.8,3.9,3.8,Other,61.33895365705695,2025-05-02
+total vehicle sales,,2025-05-02 15:30:00+02:00,US,17.27,15.7,17.83,Consumer,21.47350513016643,2025-05-02
+durable goods orders ex transp_mom,,2025-05-02 16:00:00+02:00,US,,,,Durable Goods,23.80761696036139,2025-05-02
+factory orders ex transportation,,2025-05-02 16:00:00+02:00,US,-0.2,0.2,0.3,Factory Orders,26.55913179216532,2025-05-02
+durable goods orders ex defense,Durable Goods Orders Ex Defense,2025-05-02 16:00:00+02:00,US,10.5,,10.4,Durable Goods,23.879877944240754,2025-05-02
+factory orders,Factory Orders,2025-05-02 16:00:00+02:00,US,4.3,4.5,0.5,Factory Orders,26.55913179216532,2025-05-02
+durable goods orders ex transp,Durable Goods Orders Ex Transp,2025-05-02 16:00:00+02:00,US,,,,Durable Goods,23.879877944240754,2025-05-02
+all car sales,,2025-05-02 16:00:00+02:00,US,2.89,,3.16,Consumer,28.07084641152111,2025-05-02
+factory orders_mom,,2025-05-02 16:00:00+02:00,US,4.3,4.5,0.5,Factory Orders,26.55913179216532,2025-05-02
+durable goods orders ex defense_mom,,2025-05-02 16:00:00+02:00,US,10.5,,10.4,Durable Goods,23.653496162266233,2025-05-02
+baker hughes oil rig count,,2025-05-02 19:00:00+02:00,US,479.0,485.0,483.0,Baker_Hughes_Rig_Count,11.24287509813271,2025-05-02
+cftc aluminium speculative net positions,,2025-05-02 21:30:00+02:00,US,-0.3,,0.7,,,2025-05-02
+cftc copper speculative net positions,,2025-05-02 21:30:00+02:00,US,19.4,,24.8,,,2025-05-02
+cftc corn speculative net positions,,2025-05-02 21:30:00+02:00,US,175.4,,219.8,,,2025-05-02
+cftc crude oil speculative net positions,,2025-05-02 21:30:00+02:00,US,177.2,,171.0,,,2025-05-02
+cftc gold speculative net positions,,2025-05-02 21:30:00+02:00,US,163.3,,175.4,,,2025-05-02
+cftc nasdaq 100 speculative net positions,,2025-05-02 21:30:00+02:00,US,30.9,,37.7,,,2025-05-02
+cftc natural gas speculative net positions,,2025-05-02 21:30:00+02:00,US,-112.4,,-104.1,,,2025-05-02
+cftc s p 500 speculative net positions,CFTC S&P 500 speculative net positions,2025-05-02 21:30:00+02:00,US,-78.7,,-75.9,,,2025-05-02
+cftc silver speculative net positions,,2025-05-02 21:30:00+02:00,US,49.9,,44.7,,,2025-05-02
+cftc soybeans speculative net positions,,2025-05-02 21:30:00+02:00,US,59.5,,55.7,,,2025-05-02
+cftc wheat speculative net positions,,2025-05-02 21:30:00+02:00,US,-116.8,,-94.0,,,2025-05-02
+cftc s&p 500 speculative net positions,,2025-05-02 21:30:00+02:00,US,-78.7,,-75.9,,,2025-05-02
+fed kugler speech,,2025-04-23 00:00:00+02:00,US,,,,,,2025-04-23
+imf meeting,IMF Meeting,2025-04-23 12:00:00+02:00,US,,,,,,2025-04-23
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2025-04-23 13:00:00+02:00,US,6.9,,6.81,,,2025-04-23
+mba mortgage applications,MBA Mortgage Applications,2025-04-23 13:00:00+02:00,US,-12.7,,-8.5,,,2025-04-23
+mba mortgage market index,MBA Mortgage Market Index,2025-04-23 13:00:00+02:00,US,233.5,,267.5,,,2025-04-23
+mba mortgage refinance index,MBA Mortgage Refinance Index,2025-04-23 13:00:00+02:00,US,673.6,,841.9,,,2025-04-23
+mba purchase index,MBA Purchase Index,2025-04-23 13:00:00+02:00,US,153.4,,164.2,,,2025-04-23
+fed goolsbee speech,,2025-04-23 15:00:00+02:00,US,,,,,,2025-04-23
+fed waller speech,,2025-04-23 15:35:00+02:00,US,,,,,,2025-04-23
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2025-04-23 15:45:00+02:00,US,50.7,49.1,50.2,PMI,63.305740150233156,2025-04-23
+s p global services pmi,S&P Global Services PMI,2025-04-23 15:45:00+02:00,US,51.4,52.5,54.4,PMI,30.8479683588807,2025-04-23
+s p global composite pmi,S&P Global Composite PMI,2025-04-23 15:45:00+02:00,US,51.2,51.0,53.5,PMI,31.168134940521725,2025-04-23
+s&p global services pmi,,2025-04-23 15:45:00+02:00,US,51.4,52.5,54.4,PMI,30.82095851027352,2025-04-23
+s&p global manufacturing pmi,,2025-04-23 15:45:00+02:00,US,50.7,49.1,50.2,PMI,63.305740150233135,2025-04-23
+s&p global composite pmi,,2025-04-23 15:45:00+02:00,US,51.2,51.0,53.5,PMI,31.148641931223096,2025-04-23
+new home sales,,2025-04-23 16:00:00+02:00,US,0.724,0.68,0.674,Home Sales,16.70601113074671,2025-04-23
+eia crude oil imports change,,2025-04-23 16:30:00+02:00,US,1.139,,-2.044,,,2025-04-23
+imports,,2025-04-23 16:30:00+02:00,US,1.139,,-2.044,Trade Balance,25.199964392161,2025-04-23
+eia crude oil stocks change,,2025-04-23 16:30:00+02:00,US,0.244,-0.7,0.515,,,2025-04-23
+eia cushing crude oil stocks change,,2025-04-23 16:30:00+02:00,US,-0.086,,-0.654,,,2025-04-23
+eia distillate fuel production change,,2025-04-23 16:30:00+02:00,US,-0.062,,0.03,,,2025-04-23
+eia distillate stocks change,,2025-04-23 16:30:00+02:00,US,-2.353,-0.1,-1.851,,,2025-04-23
+eia gasoline production change,,2025-04-23 16:30:00+02:00,US,0.661,,0.466,,,2025-04-23
+eia gasoline stocks change,,2025-04-23 16:30:00+02:00,US,-4.476,-1.15,-1.958,,,2025-04-23
+eia heating oil stocks change,,2025-04-23 16:30:00+02:00,US,-0.021,,0.019,,,2025-04-23
+eia refinery crude runs change,,2025-04-23 16:30:00+02:00,US,0.325,,-0.063,,,2025-04-23
+eia weekly refinery utilization rates wow,,2025-04-23 16:30:00+02:00,US,1.8,,-0.4,,,2025-04-23
+17 week bill auction,17-Week Bill Auction,2025-04-23 17:30:00+02:00,US,4.21,,4.225,,,2025-04-23
+2 year frn auction,2-Year FRN Auction,2025-04-23 17:30:00+02:00,US,0.16,,0.105,,,2025-04-23
+17-week bill auction,,2025-04-23 17:30:00+02:00,US,4.21,,4.225,,,2025-04-23
+2-year frn auction,,2025-04-23 17:30:00+02:00,US,0.16,,0.105,,,2025-04-23
+5 year note auction,5-Year Note Auction,2025-04-23 19:00:00+02:00,US,3.995,,4.1,,,2025-04-23
+5-year note auction,,2025-04-23 19:00:00+02:00,US,3.995,,4.1,,,2025-04-23
+beige book,,2025-04-23 20:00:00+02:00,US,,,,,,2025-04-23
+fed beige book,,2025-04-23 20:00:00+02:00,US,,,,,,2025-04-23
+total vehicle sales,Total Vehicle Sales,2023-01-06 06:00:00+01:00,US,13.31,,14.14,Consumer,21.47350513016643,2023-01-06
+average hourly earnings,Average Hourly Earnings,2023-01-06 14:30:00+01:00,US,4.6,5.0,4.8,Other,59.90047788837122,2023-01-06
+average weekly hours,,2023-01-06 14:30:00+01:00,US,34.3,34.4,34.4,Other,61.492477137506555,2023-01-06
+government payrolls,,2023-01-06 14:30:00+01:00,US,3.0,,54.0,Employment,61.492477137506555,2023-01-06
+manufacturing payrolls,,2023-01-06 14:30:00+01:00,US,8.0,10.0,8.0,Employment,61.492477137506555,2023-01-06
+non farm payrolls,,2023-01-06 14:30:00+01:00,US,223.0,200.0,256.0,NFP,61.492477137506555,2023-01-06
+nonfarm payrolls private,,2023-01-06 14:30:00+01:00,US,220.0,180.0,202.0,NFP,61.492477137506555,2023-01-06
+unemployment rate,,2023-01-06 14:30:00+01:00,US,3.5,3.7,3.6,Unemployment,61.492477137506555,2023-01-06
+average hourly earnings_yoy,,2023-01-06 14:30:00+01:00,US,4.6,5.0,4.8,Other,61.33895365705695,2023-01-06
+ism non-manufacturing business activity,,2023-01-06 16:00:00+01:00,US,54.7,59.5,64.7,ISM,34.56334238915411,2023-01-06
+ism non manufacturing business activity,ISM Non-Manufacturing Business Activity,2023-01-06 16:00:00+01:00,US,54.7,59.5,64.7,Manufacturing,34.56334238915411,2023-01-06
+ism non manufacturing new orders,ISM Non-Manufacturing New Orders,2023-01-06 16:00:00+01:00,US,45.2,,56.0,Manufacturing,34.56334238915411,2023-01-06
+ism non manufacturing pmi,ISM Non-Manufacturing PMI,2023-01-06 16:00:00+01:00,US,49.6,55.0,56.5,PMI,34.56334238915411,2023-01-06
+ism non manufacturing prices,ISM Non-Manufacturing Prices,2023-01-06 16:00:00+01:00,US,67.6,,70.0,Manufacturing,34.56334238915411,2023-01-06
+ism non-manufacturing new orders,,2023-01-06 16:00:00+01:00,US,45.2,,56.0,ISM,34.56334238915411,2023-01-06
+ism non-manufacturing prices,,2023-01-06 16:00:00+01:00,US,67.6,,70.0,ISM,34.56334238915411,2023-01-06
+ism non-manufacturing pmi,,2023-01-06 16:00:00+01:00,US,49.6,55.0,56.5,ISM,34.56334238915411,2023-01-06
+participation rate,,2023-01-06 19:30:00+01:00,US,62.3,,62.2,Other,61.492477137506555,2023-01-06
+average hourly earnings_mom,,2023-01-06 19:30:00+01:00,US,0.3,0.4,0.4,Other,60.440466641117986,2023-01-06
+average hourly earnings,Average Hourly Earnings,2023-01-06 19:30:00+01:00,US,0.3,0.4,0.4,Other,59.90047788837122,2023-01-06
+factory orders_mom,,2023-01-06 21:00:00+01:00,US,-1.8,-0.8,0.4,Factory Orders,26.55913179216532,2023-01-06
+factory orders,Factory Orders,2023-01-06 21:00:00+01:00,US,-1.8,-0.8,0.4,Factory Orders,26.55913179216532,2023-01-06
+ism non-manufacturing employment,,2023-01-06 21:00:00+01:00,US,49.8,,51.5,ISM,34.56334238915411,2023-01-06
+ism non manufacturing employment,ISM Non-Manufacturing Employment,2023-01-06 21:00:00+01:00,US,49.8,,51.5,Employment,34.56334238915411,2023-01-06
+factory orders ex transportation,,2023-01-06 21:00:00+01:00,US,-0.8,,0.1,Factory Orders,26.55913179216532,2023-01-06
+fed cook speech,,2023-01-06 22:15:00+01:00,US,,,,,,2023-01-06
+fed barkin speech,,2023-01-06 23:15:00+01:00,US,,,,Other,33.85118560915781,2023-01-06
+nfib business optimism index,,2025-08-12 12:00:00+02:00,US,100.3,98.6,98.6,,,2025-08-12
+opec monthly report,,2025-08-12 13:00:00+02:00,US,,,,,,2025-08-12
+core inflation rate,Core Inflation Rate,2025-08-12 14:30:00+02:00,US,0.3,0.3,0.2,CPI,44.414844512436375,2025-08-12
+cpi,,2025-08-12 14:30:00+02:00,US,323.05,323.2,322.56,CPI,45.13412286023265,2025-08-12
+cpi s a,CPI s.a,2025-08-12 14:30:00+02:00,US,322.13,322.1,321.5,CPI,42.012728389432944,2025-08-12
+inflation rate,Inflation Rate,2025-08-12 14:30:00+02:00,US,2.7,2.8,2.7,CPI,44.414844512436375,2025-08-12
+real earnings,Real Earnings,2025-08-12 14:30:00+02:00,US,0.4,,-0.3,Real_Earnings,40.7828449344552,2025-08-12
+core inflation rate_mom,,2025-08-12 14:30:00+02:00,US,0.3,0.3,0.2,CPI,45.02330127008234,2025-08-12
+core inflation rate_yoy,,2025-08-12 14:30:00+02:00,US,3.1,3.0,2.9,CPI,45.85630258750297,2025-08-12
+inflation rate_yoy,,2025-08-12 14:30:00+02:00,US,2.7,2.8,2.7,CPI,46.131002713643156,2025-08-12
+real earnings_mom,,2025-08-12 14:30:00+02:00,US,0.4,,-0.3,Real_Earnings,43.24374225199799,2025-08-12
+inflation rate_mom,,2025-08-12 14:30:00+02:00,US,0.2,0.2,0.3,CPI,45.70384828422969,2025-08-12
+cpi s.a,,2025-08-12 14:30:00+02:00,US,322.13,322.1,321.5,CPI,44.69221083727704,2025-08-12
+redbook,Redbook,2025-08-12 14:55:00+02:00,US,5.7,,6.5,,,2025-08-12
+redbook_yoy,,2025-08-12 14:55:00+02:00,US,5.7,,6.5,,,2025-08-12
+fed barkin speech,,2025-08-12 16:00:00+02:00,US,,,,Other,33.85118560915781,2025-08-12
+fed schmid speech,,2025-08-12 16:30:00+02:00,US,,,,,,2025-08-12
+wasde report,,2025-08-12 18:00:00+02:00,US,,,,,,2025-08-12
+budget balance,,2025-08-12 20:00:00+02:00,US,-291.0,-206.7,27.0,Trade Balance,15.270367803799608,2025-08-12
+monthly budget statement,,2025-08-12 20:00:00+02:00,US,-291.0,-215.0,27.0,Monthly_Budget_Statement,14.212383375335397,2025-08-12
+api crude oil stock change,,2025-08-12 22:30:00+02:00,US,1.5,-0.8,-4.2,,,2025-08-12
+average hourly earnings,Average Hourly Earnings,2023-12-08 14:30:00+01:00,US,4.0,4.0,4.0,Other,59.90047788837122,2023-12-08
+average weekly hours,,2023-12-08 14:30:00+01:00,US,34.4,34.3,34.3,Other,61.492477137506555,2023-12-08
+government payrolls,,2023-12-08 14:30:00+01:00,US,49.0,,65.0,Employment,61.492477137506555,2023-12-08
+manufacturing payrolls,,2023-12-08 14:30:00+01:00,US,28.0,30.0,-35.0,Employment,61.492477137506555,2023-12-08
+non farm payrolls,,2023-12-08 14:30:00+01:00,US,199.0,180.0,150.0,NFP,61.492477137506555,2023-12-08
+nonfarm payrolls private,,2023-12-08 14:30:00+01:00,US,150.0,153.0,85.0,NFP,61.492477137506555,2023-12-08
+participation rate,,2023-12-08 14:30:00+01:00,US,62.8,,62.7,Other,61.492477137506555,2023-12-08
+u 6 unemployment rate,U-6 Unemployment Rate,2023-12-08 14:30:00+01:00,US,7.0,,7.2,Unemployment,67.6438161052937,2023-12-08
+unemployment rate,,2023-12-08 14:30:00+01:00,US,3.7,3.9,3.9,Unemployment,61.492477137506555,2023-12-08
+u-6 unemployment rate,,2023-12-08 14:30:00+01:00,US,7.0,,7.2,Unemployment,57.69826407074845,2023-12-08
+average hourly earnings_yoy,,2023-12-08 14:30:00+01:00,US,4.0,4.0,4.0,Other,61.33895365705695,2023-12-08
+average hourly earnings_mom,,2023-12-08 14:30:00+01:00,US,0.4,0.3,0.2,Other,60.440466641117986,2023-12-08
+michigan 5 year inflation expectations,,2023-12-08 16:00:00+01:00,US,2.8,,3.2,Michigan_5Y_Inflation_Expectations,24.07920765964181,2023-12-08
+michigan consumer expectations,,2023-12-08 16:00:00+01:00,US,66.4,57.0,56.8,Michigan_Consumer_Expectations,24.07920765964181,2023-12-08
+michigan consumer sentiment,,2023-12-08 16:00:00+01:00,US,69.4,62.0,61.3,Consumer Confidence,24.07920765964181,2023-12-08
+michigan current conditions,,2023-12-08 16:00:00+01:00,US,74.0,68.5,68.3,Michigan_Current_Conditions,24.07920765964181,2023-12-08
+michigan inflation expectations,,2023-12-08 16:00:00+01:00,US,3.1,,4.5,Inflation,23.7495601289988,2023-12-08
+wasde report,,2023-12-08 18:00:00+01:00,US,,,,,,2023-12-08
+baker hughes oil rig count,,2023-12-08 19:00:00+01:00,US,503.0,,505.0,Baker_Hughes_Rig_Count,11.24287509813271,2023-12-08
+baker hughes total rig count,,2023-12-08 19:00:00+01:00,US,626.0,,625.0,Baker_Hughes_Rig_Count,13.701896447128952,2023-12-08
+nfib business optimism index,,2025-10-14 12:00:00+02:00,US,98.8,100.5,100.8,,,2025-10-14
+imf meeting,,2025-10-14 12:00:00+02:00,US,,,,,,2025-10-14
+cb employment trends index,,2025-10-14 13:00:00+02:00,US,,,106.41,Employment,21.052145702001955,2025-10-14
+construction spending_mom,,2025-10-14 13:00:00+02:00,US,,-0.1,-0.1,Consumer,100.0,2025-10-14
+wholesale sales_mom,,2025-10-14 13:00:00+02:00,US,,,1.4,,,2025-10-14
+fed bowman speech,,2025-10-14 14:45:00+02:00,US,,,,,,2025-10-14
+redbook,Redbook,2025-10-14 14:55:00+02:00,US,,,,,,2025-10-14
+redbook_yoy,,2025-10-14 14:55:00+02:00,US,5.9,,5.8,,,2025-10-14
+3 month bill auction,3-Month Bill Auction,2025-10-14 17:30:00+02:00,US,,,,,,2025-10-14
+6 month bill auction,6-Month Bill Auction,2025-10-14 17:30:00+02:00,US,,,,,,2025-10-14
+6-month bill auction,,2025-10-14 17:30:00+02:00,US,3.685,,3.695,,,2025-10-14
+3-month bill auction,,2025-10-14 17:30:00+02:00,US,3.845,,3.85,,,2025-10-14
+fed chair powell speech,,2025-10-14 18:20:00+02:00,US,,,,,,2025-10-14
+fed waller speech,,2025-10-14 21:25:00+02:00,US,,,,,,2025-10-14
+fed collins speech,,2025-10-14 21:30:00+02:00,US,,,,,,2025-10-14
+average hourly earnings,,2025-01-10 14:30:00+01:00,US,3.9,4.0,4.0,Other,59.90047788837122,2025-01-10
+average hourly earnings_mom,,2025-01-10 14:30:00+01:00,US,0.3,0.3,0.4,Other,60.440466641117986,2025-01-10
+government payrolls,,2025-01-10 14:30:00+01:00,US,33.0,15.0,30.0,Employment,61.492477137506555,2025-01-10
+manufacturing payrolls,,2025-01-10 14:30:00+01:00,US,-13.0,5.0,25.0,Employment,61.492477137506555,2025-01-10
+non farm payrolls,,2025-01-10 14:30:00+01:00,US,256.0,160.0,212.0,NFP,61.492477137506555,2025-01-10
+nonfarm payrolls private,,2025-01-10 14:30:00+01:00,US,223.0,135.0,182.0,NFP,61.492477137506555,2025-01-10
+participation rate,,2025-01-10 14:30:00+01:00,US,62.5,62.8,62.5,Other,61.492477137506555,2025-01-10
+unemployment rate,,2025-01-10 14:30:00+01:00,US,7.5,4.2,7.7,Unemployment,61.492477137506555,2025-01-10
+average weekly hours,,2025-01-10 14:30:00+01:00,US,34.3,34.3,34.3,Other,61.492477137506555,2025-01-10
+average hourly earnings_yoy,,2025-01-10 14:30:00+01:00,US,3.9,4.0,4.0,Other,61.33895365705695,2025-01-10
+inflation expectations,,2025-01-10 16:00:00+01:00,US,3.3,2.8,2.8,Inflation,30.075435866325535,2025-01-10
+michigan consumer sentiment,,2025-01-10 16:00:00+01:00,US,73.2,73.8,74.0,Consumer Confidence,24.07920765964181,2025-01-10
+michigan current conditions,,2025-01-10 16:00:00+01:00,US,77.9,78.0,75.1,Michigan_Current_Conditions,24.07920765964181,2025-01-10
+michigan inflation expectations,,2025-01-10 16:00:00+01:00,US,3.3,3.0,2.8,Inflation,23.7495601289988,2025-01-10
+michigan consumer expectations,,2025-01-10 16:00:00+01:00,US,70.2,74.0,73.3,Michigan_Consumer_Expectations,24.07920765964181,2025-01-10
+michigan 5 year inflation expectations,,2025-01-10 16:00:00+01:00,US,3.3,3.2,3.0,Michigan_5Y_Inflation_Expectations,24.07920765964181,2025-01-10
+quarterly grain stocks corn,Quarterly Grain Stocks - Corn,2025-01-10 18:00:00+01:00,US,12.074,,1.76,,,2025-01-10
+quarterly grain stocks soy,Quarterly Grain Stocks - Soy,2025-01-10 18:00:00+01:00,US,3.1,,0.342,,,2025-01-10
+quarterly grain stocks wheat,Quarterly Grain Stocks - Wheat,2025-01-10 18:00:00+01:00,US,1.57,,1.98,,,2025-01-10
+wasde report,,2025-01-10 18:00:00+01:00,US,,,,,,2025-01-10
+quarterly grain stocks - wheat,,2025-01-10 18:00:00+01:00,US,1.57,,1.98,,,2025-01-10
+quarterly grain stocks - soy,,2025-01-10 18:00:00+01:00,US,3.1,,0.342,,,2025-01-10
+quarterly grain stocks - corn,,2025-01-10 18:00:00+01:00,US,12.074,,1.76,,,2025-01-10
+baker hughes oil rig count,,2025-01-10 19:00:00+01:00,US,480.0,,482.0,Baker_Hughes_Rig_Count,11.24287509813271,2025-01-10
+cftc aluminium speculative net positions,,2025-01-10 21:30:00+01:00,US,-219.0,,-1359.0,,,2025-01-10
+cftc copper speculative net positions,,2025-01-10 21:30:00+01:00,US,4270.0,,759.0,,,2025-01-10
+cftc gold speculative net positions,,2025-01-10 21:30:00+01:00,US,254911.0,,247279.0,,,2025-01-10
+cftc platinum speculative net positions,,2025-01-10 21:30:00+01:00,US,17847.0,,5656.0,,,2025-01-10
+cftc silver speculative net positions,,2025-01-10 21:30:00+01:00,US,40948.0,,37889.0,,,2025-01-10
+cftc palladium speculative net positions,,2025-01-10 21:30:00+01:00,US,-9114.0,,-8671.0,,,2025-01-10
+fed balance sheet,,2025-01-10 22:30:00+01:00,US,6.85,,6.85,,,2025-01-10
+nfib business optimism index,,2025-05-13 12:00:00+02:00,US,95.8,94.5,97.4,,,2025-05-13
+core inflation rate,Core Inflation Rate,2025-05-13 14:30:00+02:00,US,0.2,0.3,0.1,CPI,44.414844512436375,2025-05-13
+cpi,,2025-05-13 14:30:00+02:00,US,320.795,320.88,319.799,CPI,45.13412286023265,2025-05-13
+cpi s a,CPI s.a,2025-05-13 14:30:00+02:00,US,320.321,320.6,319.615,CPI,42.012728389432944,2025-05-13
+inflation rate,Inflation Rate,2025-05-13 14:30:00+02:00,US,2.3,2.4,2.4,CPI,44.414844512436375,2025-05-13
+real earnings,Real Earnings,2025-05-13 14:30:00+02:00,US,-0.1,,0.6,Real_Earnings,40.7828449344552,2025-05-13
+inflation rate_yoy,,2025-05-13 14:30:00+02:00,US,2.3,2.4,2.4,CPI,46.131002713643156,2025-05-13
+core inflation rate_mom,,2025-05-13 14:30:00+02:00,US,0.2,0.3,0.1,CPI,45.02330127008234,2025-05-13
+core inflation rate_yoy,,2025-05-13 14:30:00+02:00,US,2.8,2.8,2.8,CPI,45.85630258750297,2025-05-13
+cpi s.a,,2025-05-13 14:30:00+02:00,US,320.321,320.6,319.615,CPI,44.69221083727704,2025-05-13
+inflation rate_mom,,2025-05-13 14:30:00+02:00,US,0.2,0.3,-0.1,CPI,45.70384828422969,2025-05-13
+real earnings_mom,,2025-05-13 14:30:00+02:00,US,-0.1,,0.6,Real_Earnings,43.24374225199799,2025-05-13
+redbook,Redbook,2025-05-13 14:55:00+02:00,US,5.8,,6.9,,,2025-05-13
+redbook_yoy,,2025-05-13 14:55:00+02:00,US,5.8,,6.9,,,2025-05-13
+total household debt,,2025-05-13 17:00:00+02:00,US,18.2,,18.04,,,2025-05-13
+52 week bill auction,52-Week Bill Auction,2025-05-13 17:30:00+02:00,US,3.93,,3.82,,,2025-05-13
+52-week bill auction,,2025-05-13 17:30:00+02:00,US,3.93,,3.82,,,2025-05-13
+api crude oil stock change,,2025-05-13 22:30:00+02:00,US,4.287,-2.4,-4.49,,,2025-05-13
+average hourly earnings_yoy,,2023-11-03 13:30:00+01:00,US,4.1,4.0,4.3,Other,61.33895365705695,2023-11-03
+average weekly hours,,2023-11-03 13:30:00+01:00,US,34.3,34.4,34.4,Other,61.492477137506555,2023-11-03
+government payrolls,,2023-11-03 13:30:00+01:00,US,51.0,29.0,51.0,Employment,61.492477137506555,2023-11-03
+manufacturing payrolls,,2023-11-03 13:30:00+01:00,US,-35.0,-10.0,14.0,Employment,61.492477137506555,2023-11-03
+non farm payrolls,,2023-11-03 13:30:00+01:00,US,150.0,180.0,297.0,NFP,61.492477137506555,2023-11-03
+nonfarm payrolls private,,2023-11-03 13:30:00+01:00,US,99.0,158.0,246.0,NFP,61.492477137506555,2023-11-03
+participation rate,,2023-11-03 13:30:00+01:00,US,62.7,,62.8,Other,61.492477137506555,2023-11-03
+u 6 unemployment rate,U-6 Unemployment Rate,2023-11-03 13:30:00+01:00,US,7.2,,7.0,Unemployment,67.6438161052937,2023-11-03
+unemployment rate,,2023-11-03 13:30:00+01:00,US,3.9,3.8,3.8,Unemployment,61.492477137506555,2023-11-03
+average hourly earnings,Average Hourly Earnings,2023-11-03 13:30:00+01:00,US,0.2,0.3,0.3,Other,59.90047788837122,2023-11-03
+u-6 unemployment rate,,2023-11-03 13:30:00+01:00,US,7.2,,7.0,Unemployment,57.69826407074845,2023-11-03
+average hourly earnings_mom,,2023-11-03 13:30:00+01:00,US,0.2,0.3,0.3,Other,60.440466641117986,2023-11-03
+s p global composite pmi,S&P Global Composite PMI,2023-11-03 14:45:00+01:00,US,50.7,,50.2,PMI,31.168134940521725,2023-11-03
+s p global services pmi,S&P Global Services PMI,2023-11-03 14:45:00+01:00,US,50.6,50.9,50.1,PMI,30.8479683588807,2023-11-03
+s&p global services pmi,,2023-11-03 14:45:00+01:00,US,50.6,50.9,50.1,PMI,30.82095851027352,2023-11-03
+s&p global composite pmi,,2023-11-03 14:45:00+01:00,US,50.7,,50.2,PMI,31.148641931223096,2023-11-03
+ism services employment,,2023-11-03 15:00:00+01:00,US,50.2,,53.4,ISM,32.4907400778474,2023-11-03
+ism services prices,,2023-11-03 15:00:00+01:00,US,58.6,,58.9,ISM,32.4907400778474,2023-11-03
+ism services pmi,,2023-11-03 15:00:00+01:00,US,51.8,53.0,53.6,ISM,32.4907400778474,2023-11-03
+ism services new orders,,2023-11-03 15:00:00+01:00,US,55.5,,51.8,ISM,32.4907400778474,2023-11-03
+ism services business activity,,2023-11-03 15:00:00+01:00,US,54.1,,58.8,ISM,32.4907400778474,2023-11-03
+baker hughes total rig count,,2023-11-03 18:00:00+01:00,US,618.0,,625.0,Baker_Hughes_Rig_Count,13.701896447128952,2023-11-03
+baker hughes oil rig count,,2023-11-03 18:00:00+01:00,US,496.0,,504.0,Baker_Hughes_Rig_Count,11.24287509813271,2023-11-03
+fed barr speech,,2023-11-03 20:30:00+01:00,US,,,,,,2023-11-03
+average hourly earnings,Average Hourly Earnings,2023-07-07 14:30:00+02:00,US,4.4,4.2,4.4,Other,59.90047788837122,2023-07-07
+average hourly earnings_yoy,,2023-07-07 14:30:00+02:00,US,4.4,4.2,4.4,Other,61.33895365705695,2023-07-07
+average hourly earnings_mom,,2023-07-07 14:30:00+02:00,US,0.4,0.3,0.4,Other,60.440466641117986,2023-07-07
+average weekly hours,,2023-07-07 18:30:00+02:00,US,34.4,34.3,34.3,Other,61.492477137506555,2023-07-07
+government payrolls,,2023-07-07 18:30:00+02:00,US,60.0,,47.0,Employment,61.492477137506555,2023-07-07
+manufacturing payrolls,,2023-07-07 18:30:00+02:00,US,7.0,,-3.0,Employment,61.492477137506555,2023-07-07
+non farm payrolls,,2023-07-07 18:30:00+02:00,US,209.0,225.0,306.0,NFP,61.492477137506555,2023-07-07
+nonfarm payrolls private,,2023-07-07 18:30:00+02:00,US,149.0,200.0,259.0,NFP,61.492477137506555,2023-07-07
+participation rate,,2023-07-07 18:30:00+02:00,US,62.6,,62.6,Other,61.492477137506555,2023-07-07
+u 6 unemployment rate,U-6 Unemployment Rate,2023-07-07 18:30:00+02:00,US,6.9,,6.7,Unemployment,67.6438161052937,2023-07-07
+unemployment rate,,2023-07-07 18:30:00+02:00,US,3.6,3.6,3.7,Unemployment,61.492477137506555,2023-07-07
+u-6 unemployment rate,,2023-07-07 18:30:00+02:00,US,6.9,,6.7,Unemployment,57.69826407074845,2023-07-07
+eia natural gas stocks change,,2023-07-07 20:30:00+02:00,US,,,,,,2023-07-07
+baker hughes oil rig count,,2023-07-07 23:00:00+02:00,US,540.0,,545.0,Baker_Hughes_Rig_Count,11.24287509813271,2023-07-07
+baker hughes total rig count,,2023-07-07 23:00:00+02:00,US,680.0,,674.0,Baker_Hughes_Rig_Count,13.701896447128952,2023-07-07
+core inflation rate,Core Inflation Rate,2023-01-12 14:30:00+01:00,US,0.3,0.3,0.2,CPI,44.414844512436375,2023-01-12
+cpi,,2023-01-12 14:30:00+01:00,US,296.797,296.701,297.711,CPI,45.13412286023265,2023-01-12
+inflation rate,Inflation Rate,2023-01-12 14:30:00+01:00,US,-0.1,,0.1,CPI,44.414844512436375,2023-01-12
+inflation rate_mom,,2023-01-12 14:30:00+01:00,US,-0.1,,0.1,CPI,45.70384828422969,2023-01-12
+core inflation rate_mom,,2023-01-12 14:30:00+01:00,US,0.3,0.3,0.2,CPI,45.02330127008234,2023-01-12
+inflation rate_yoy,,2023-01-12 14:30:00+01:00,US,6.5,6.5,7.1,CPI,46.131002713643156,2023-01-12
+4 week bill auction,4-Week Bill Auction,2023-01-12 17:30:00+01:00,US,4.37,,4.1,Other,24.727665972094,2023-01-12
+4-week bill auction,,2023-01-12 17:30:00+01:00,US,4.37,,4.1,Other,24.727665972094,2023-01-12
+quarterly grain stocks corn,Quarterly Grain Stocks - Corn,2023-01-12 18:00:00+01:00,US,10.809,11.153,1.377,,,2023-01-12
+wasde report,,2023-01-12 18:00:00+01:00,US,,,,,,2023-01-12
+quarterly grain stocks - corn,,2023-01-12 18:00:00+01:00,US,10.809,11.153,1.377,,,2023-01-12
+continuing jobless claims,,2023-01-12 19:30:00+01:00,US,1634.0,1705.0,1697.0,Jobless Claims,26.84356289399415,2023-01-12
+core inflation rate,Core Inflation Rate,2023-01-12 19:30:00+01:00,US,5.7,5.7,6.0,CPI,44.414844512436375,2023-01-12
+initial jobless claims,,2023-01-12 19:30:00+01:00,US,205.0,215.0,206.0,Jobless Claims,26.84356289399415,2023-01-12
+jobless claims 4 week average,Jobless Claims 4-week Average,2023-01-12 19:30:00+01:00,US,212.5,,214.25,Jobless Claims,26.84356289399415,2023-01-12
+core inflation rate_yoy,,2023-01-12 19:30:00+01:00,US,5.7,5.7,6.0,CPI,45.85630258750297,2023-01-12
+jobless claims 4-week average,,2023-01-12 19:30:00+01:00,US,212.5,,214.25,Jobless Claims,25.339023793709526,2023-01-12
+eia natural gas stocks change,,2023-01-12 21:30:00+01:00,US,,,,,,2023-01-12
+8 week bill auction,8-Week Bill Auction,2023-01-12 22:30:00+01:00,US,4.465,,4.43,Other,24.727665972094,2023-01-12
+8-week bill auction,,2023-01-12 22:30:00+01:00,US,4.465,,4.43,Other,24.727665972094,2023-01-12
+quarterly grain stocks soy,Quarterly Grain Stocks - Soy,2023-01-12 23:00:00+01:00,US,3.022,3.132,0.274,,,2023-01-12
+quarterly grain stocks wheat,Quarterly Grain Stocks - Wheat,2023-01-12 23:00:00+01:00,US,1.28,1.344,1.776,,,2023-01-12
+quarterly grain stocks - soy,,2023-01-12 23:00:00+01:00,US,3.022,3.132,0.274,,,2023-01-12
+quarterly grain stocks - wheat,,2023-01-12 23:00:00+01:00,US,1.28,1.344,1.776,,,2023-01-12
+average hourly earnings,Average Hourly Earnings,2024-01-05 14:30:00+01:00,US,4.1,3.9,4.0,Other,59.90047788837122,2024-01-05
+average weekly hours,,2024-01-05 14:30:00+01:00,US,34.3,34.4,34.4,Other,61.492477137506555,2024-01-05
+government payrolls,,2024-01-05 14:30:00+01:00,US,52.0,,37.0,Employment,61.492477137506555,2024-01-05
+manufacturing payrolls,,2024-01-05 14:30:00+01:00,US,6.0,5.0,26.0,Employment,61.492477137506555,2024-01-05
+non farm payrolls,,2024-01-05 14:30:00+01:00,US,216.0,170.0,173.0,NFP,61.492477137506555,2024-01-05
+nonfarm payrolls private,,2024-01-05 14:30:00+01:00,US,164.0,130.0,136.0,NFP,61.492477137506555,2024-01-05
+participation rate,,2024-01-05 14:30:00+01:00,US,62.5,,62.8,Other,61.492477137506555,2024-01-05
+u 6 unemployment rate,U-6 Unemployment Rate,2024-01-05 14:30:00+01:00,US,7.1,,7.0,Unemployment,67.6438161052937,2024-01-05
+unemployment rate,,2024-01-05 14:30:00+01:00,US,3.7,3.8,3.7,Unemployment,61.492477137506555,2024-01-05
+u-6 unemployment rate,,2024-01-05 14:30:00+01:00,US,7.1,,7.0,Unemployment,57.69826407074845,2024-01-05
+average hourly earnings_mom,,2024-01-05 14:30:00+01:00,US,0.4,0.3,0.4,Other,60.440466641117986,2024-01-05
+average hourly earnings_yoy,,2024-01-05 14:30:00+01:00,US,4.1,3.9,4.0,Other,61.33895365705695,2024-01-05
+factory orders,Factory Orders,2024-01-05 16:00:00+01:00,US,2.6,2.1,-3.4,Factory Orders,26.55913179216532,2024-01-05
+factory orders ex transportation,,2024-01-05 16:00:00+01:00,US,0.1,,-1.3,Factory Orders,26.55913179216532,2024-01-05
+ism services business activity,,2024-01-05 16:00:00+01:00,US,56.6,,55.1,ISM,32.4907400778474,2024-01-05
+ism services employment,,2024-01-05 16:00:00+01:00,US,43.3,,50.7,ISM,32.4907400778474,2024-01-05
+ism services new orders,,2024-01-05 16:00:00+01:00,US,52.8,,55.5,ISM,32.4907400778474,2024-01-05
+ism services pmi,,2024-01-05 16:00:00+01:00,US,50.6,52.6,52.7,ISM,32.4907400778474,2024-01-05
+ism services prices,,2024-01-05 16:00:00+01:00,US,57.4,,58.3,ISM,32.4907400778474,2024-01-05
+factory orders_mom,,2024-01-05 16:00:00+01:00,US,2.6,2.1,-3.4,Factory Orders,26.55913179216532,2024-01-05
+baker hughes oil rig count,,2024-01-05 19:00:00+01:00,US,501.0,,500.0,Baker_Hughes_Rig_Count,11.24287509813271,2024-01-05
+baker hughes total rigs count,,2024-01-05 19:00:00+01:00,US,621.0,,622.0,Baker_Hughes_Rig_Count,7.247437370381022,2024-01-05
+fed barkin speech,,2024-01-05 19:30:00+01:00,US,,,,Other,33.85118560915781,2024-01-05
+average weekly hours,,2025-04-04 14:30:00+02:00,US,34.2,34.2,34.2,Other,61.492477137506555,2025-04-04
+government payrolls,,2025-04-04 14:30:00+02:00,US,19.0,-5.0,1.0,Employment,61.492477137506555,2025-04-04
+manufacturing payrolls,,2025-04-04 14:30:00+02:00,US,1.0,4.0,8.0,Employment,61.492477137506555,2025-04-04
+non farm payrolls,,2025-04-04 14:30:00+02:00,US,228.0,135.0,117.0,NFP,61.492477137506555,2025-04-04
+nonfarm payrolls private,,2025-04-04 14:30:00+02:00,US,209.0,127.0,116.0,NFP,61.492477137506555,2025-04-04
+participation rate,,2025-04-04 14:30:00+02:00,US,62.5,62.4,62.4,Other,61.492477137506555,2025-04-04
+unemployment rate,,2025-04-04 14:30:00+02:00,US,4.2,4.1,4.1,Unemployment,61.492477137506555,2025-04-04
+average hourly earnings,Average Hourly Earnings,2025-04-04 14:30:00+02:00,US,3.8,3.9,4.0,Other,59.90047788837122,2025-04-04
+average hourly earnings_mom,,2025-04-04 14:30:00+02:00,US,0.3,0.3,0.2,Other,60.440466641117986,2025-04-04
+average hourly earnings_yoy,,2025-04-04 14:30:00+02:00,US,3.8,3.9,4.0,Other,61.33895365705695,2025-04-04
+fed chair powell speech,,2025-04-04 17:25:00+02:00,US,,,,,,2025-04-04
+fed barr speech,,2025-04-04 18:00:00+02:00,US,,,,,,2025-04-04
+fed waller speech,,2025-04-04 18:45:00+02:00,US,,,,,,2025-04-04
+baker hughes oil rig count,,2025-04-04 19:00:00+02:00,US,489.0,483.0,484.0,Baker_Hughes_Rig_Count,11.24287509813271,2025-04-04
+cftc aluminium speculative net positions,,2025-04-04 21:30:00+02:00,US,1.3,,1.9,,,2025-04-04
+cftc copper speculative net positions,,2025-04-04 21:30:00+02:00,US,30.0,,25.2,,,2025-04-04
+cftc corn speculative net positions,,2025-04-04 21:30:00+02:00,US,166.9,,200.4,,,2025-04-04
+cftc crude oil speculative net positions,,2025-04-04 21:30:00+02:00,US,167.7,,180.6,,,2025-04-04
+cftc gold speculative net positions,,2025-04-04 21:30:00+02:00,US,238.4,,257.9,,,2025-04-04
+cftc nasdaq 100 speculative net positions,,2025-04-04 21:30:00+02:00,US,15.2,,23.0,,,2025-04-04
+cftc natural gas speculative net positions,,2025-04-04 21:30:00+02:00,US,-122.6,,-131.9,,,2025-04-04
+cftc s p 500 speculative net positions,CFTC S&P 500 speculative net positions,2025-04-04 21:30:00+02:00,US,-19.0,,68.3,,,2025-04-04
+cftc silver speculative net positions,,2025-04-04 21:30:00+02:00,US,57.3,,62.3,,,2025-04-04
+cftc soybeans speculative net positions,,2025-04-04 21:30:00+02:00,US,-3.5,,-14.4,,,2025-04-04
+cftc wheat speculative net positions,,2025-04-04 21:30:00+02:00,US,-102.8,,-82.5,,,2025-04-04
+cftc s&p 500 speculative net positions,,2025-04-04 21:30:00+02:00,US,-19.0,,68.3,,,2025-04-04
+average hourly earnings,Average Hourly Earnings,2023-09-01 14:30:00+02:00,US,4.3,4.4,4.4,Other,59.90047788837122,2023-09-01
+average weekly hours,,2023-09-01 14:30:00+02:00,US,34.4,34.3,34.3,Other,61.492477137506555,2023-09-01
+government payrolls,,2023-09-01 14:30:00+02:00,US,8.0,-2.0,2.0,Employment,61.492477137506555,2023-09-01
+manufacturing payrolls,,2023-09-01 14:30:00+02:00,US,16.0,,-4.0,Employment,61.492477137506555,2023-09-01
+non farm payrolls,,2023-09-01 14:30:00+02:00,US,187.0,170.0,157.0,NFP,61.492477137506555,2023-09-01
+nonfarm payrolls private,,2023-09-01 14:30:00+02:00,US,179.0,150.0,155.0,NFP,61.492477137506555,2023-09-01
+participation rate,,2023-09-01 14:30:00+02:00,US,62.8,62.6,62.6,Other,61.492477137506555,2023-09-01
+u 6 unemployment rate,U-6 Unemployment Rate,2023-09-01 14:30:00+02:00,US,7.1,6.8,6.7,Unemployment,67.6438161052937,2023-09-01
+unemployment rate,,2023-09-01 14:30:00+02:00,US,3.8,3.5,3.5,Unemployment,61.492477137506555,2023-09-01
+average hourly earnings_yoy,,2023-09-01 14:30:00+02:00,US,4.3,4.4,4.4,Other,61.33895365705695,2023-09-01
+average hourly earnings_mom,,2023-09-01 14:30:00+02:00,US,0.2,0.3,0.4,Other,60.440466641117986,2023-09-01
+u-6 unemployment rate,,2023-09-01 14:30:00+02:00,US,7.1,6.8,6.7,Unemployment,57.69826407074845,2023-09-01
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2023-09-01 15:45:00+02:00,US,47.9,47.0,49.0,PMI,63.305740150233156,2023-09-01
+s&p global manufacturing pmi,,2023-09-01 15:45:00+02:00,US,47.9,47.0,49.0,PMI,63.305740150233135,2023-09-01
+construction spending,Construction Spending,2023-09-01 16:00:00+02:00,US,0.7,0.5,0.6,Consumer,100.0,2023-09-01
+ism manufacturing employment,,2023-09-01 16:00:00+02:00,US,48.5,44.2,44.4,ISM,92.51628728932027,2023-09-01
+ism manufacturing new orders,,2023-09-01 16:00:00+02:00,US,46.8,,47.3,ISM,92.51628728932027,2023-09-01
+ism manufacturing pmi,,2023-09-01 16:00:00+02:00,US,47.6,47.0,46.4,ISM,92.51628728932027,2023-09-01
+ism manufacturing prices,,2023-09-01 16:00:00+02:00,US,48.4,43.9,42.6,ISM,92.51628728932027,2023-09-01
+construction spending_mom,,2023-09-01 16:00:00+02:00,US,0.7,0.5,0.6,Consumer,100.0,2023-09-01
+baker hughes oil rig count,,2023-09-01 19:00:00+02:00,US,512.0,,512.0,Baker_Hughes_Rig_Count,11.24287509813271,2023-09-01
+baker hughes total rig count,,2023-09-01 19:00:00+02:00,US,631.0,,632.0,Baker_Hughes_Rig_Count,13.701896447128952,2023-09-01
+opec monthly report,OPEC Monthly Report,2025-03-12 12:00:00+01:00,US,,,,,,2025-03-12
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2025-03-12 12:00:00+01:00,US,6.67,,6.73,,,2025-03-12
+mba mortgage applications,MBA Mortgage Applications,2025-03-12 12:00:00+01:00,US,11.2,,20.4,,,2025-03-12
+mba mortgage market index,MBA Mortgage Market Index,2025-03-12 12:00:00+01:00,US,269.3,,242.2,,,2025-03-12
+mba mortgage refinance index,MBA Mortgage Refinance Index,2025-03-12 12:00:00+01:00,US,911.3,,784.2,,,2025-03-12
+mba purchase index,MBA Purchase Index,2025-03-12 12:00:00+01:00,US,154.6,,144.5,,,2025-03-12
+cpi,CPI,2025-03-12 13:30:00+01:00,US,319.082,319.22,317.67,CPI,45.13412286023265,2025-03-12
+cpi s a,CPI s.a,2025-03-12 13:30:00+01:00,US,319.775,320.0,319.086,CPI,42.012728389432944,2025-03-12
+inflation rate,Inflation Rate,2025-03-12 13:30:00+01:00,US,2.8,2.9,3.0,CPI,44.414844512436375,2025-03-12
+real earnings,Real Earnings,2025-03-12 13:30:00+01:00,US,0.1,,-0.3,Real_Earnings,40.7828449344552,2025-03-12
+core inflation rate,Core Inflation Rate,2025-03-12 13:30:00+01:00,US,3.1,3.2,3.3,CPI,44.414844512436375,2025-03-12
+imports,,2025-03-12 14:30:00+01:00,US,0.503,,-0.054,Trade Balance,25.199964392161,2025-03-12
+eia weekly refinery utilization rates wow,,2025-03-12 14:30:00+01:00,US,0.6,,-0.6,,,2025-03-12
+thomson reuters ipsos pcsi,,2025-03-12 15:00:00+01:00,US,,,54.43,,,2025-03-12
+eia crude oil imports change,,2025-03-12 15:30:00+01:00,US,0.503,,-0.054,,,2025-03-12
+eia crude oil stocks change,,2025-03-12 15:30:00+01:00,US,1.448,2.0,3.614,,,2025-03-12
+eia cushing crude oil stocks change,,2025-03-12 15:30:00+01:00,US,-1.228,,1.124,,,2025-03-12
+eia distillate fuel production change,,2025-03-12 15:30:00+01:00,US,-0.113,,-0.587,,,2025-03-12
+eia distillate stocks change,,2025-03-12 15:30:00+01:00,US,-1.559,-1.3,-1.318,,,2025-03-12
+eia gasoline production change,,2025-03-12 15:30:00+01:00,US,-0.078,,0.464,,,2025-03-12
+eia gasoline stocks change,,2025-03-12 15:30:00+01:00,US,-5.737,-2.0,-1.433,,,2025-03-12
+eia heating oil stocks change,,2025-03-12 15:30:00+01:00,US,-0.183,,-0.067,,,2025-03-12
+eia refinery crude runs change,,2025-03-12 15:30:00+01:00,US,0.321,,-0.346,,,2025-03-12
+thomson reuters ipsos pcsi,,2025-03-12 16:00:00+01:00,US,54.02,,55.34,,,2025-03-12
+17 week bill auction,17-Week Bill Auction,2025-03-12 16:30:00+01:00,US,4.175,,4.18,,,2025-03-12
+17-week bill auction,,2025-03-12 16:30:00+01:00,US,4.175,,4.18,,,2025-03-12
+10 year note auction,10-Year Note Auction,2025-03-12 18:00:00+01:00,US,4.31,,4.632,,,2025-03-12
+10-year note auction,,2025-03-12 18:00:00+01:00,US,4.31,,4.632,,,2025-03-12
+monthly budget statement,,2025-03-12 19:00:00+01:00,US,-307.0,-303.2,-129.0,Monthly_Budget_Statement,14.212383375335397,2025-03-12
+budget balance,,2025-03-12 19:00:00+01:00,US,-307.0,-302.5,-129.0,Trade Balance,15.270367803799608,2025-03-12
+average hourly earnings_yoy,,2025-06-06 14:30:00+02:00,US,3.9,3.7,3.9,Other,61.33895365705695,2025-06-06
+average weekly hours,,2025-06-06 14:30:00+02:00,US,34.3,34.3,34.3,Other,61.492477137506555,2025-06-06
+government payrolls,,2025-06-06 14:30:00+02:00,US,-1.0,-10.0,1.0,Employment,61.492477137506555,2025-06-06
+manufacturing payrolls,,2025-06-06 14:30:00+02:00,US,-8.0,-1.0,5.0,Employment,61.492477137506555,2025-06-06
+non farm payrolls,,2025-06-06 14:30:00+02:00,US,139.0,130.0,147.0,NFP,61.492477137506555,2025-06-06
+nonfarm payrolls private,,2025-06-06 14:30:00+02:00,US,140.0,120.0,146.0,NFP,61.492477137506555,2025-06-06
+participation rate,,2025-06-06 14:30:00+02:00,US,62.4,62.6,62.6,Other,61.492477137506555,2025-06-06
+u 6 unemployment rate,U-6 Unemployment Rate,2025-06-06 14:30:00+02:00,US,7.8,7.8,7.8,Unemployment,67.6438161052937,2025-06-06
+unemployment rate,,2025-06-06 14:30:00+02:00,US,4.2,4.2,4.2,Unemployment,61.492477137506555,2025-06-06
+average hourly earnings,Average Hourly Earnings,2025-06-06 14:30:00+02:00,US,0.4,0.3,0.2,Other,59.90047788837122,2025-06-06
+u-6 unemployment rate,,2025-06-06 14:30:00+02:00,US,7.8,7.8,7.8,Unemployment,57.69826407074845,2025-06-06
+average hourly earnings_mom,,2025-06-06 14:30:00+02:00,US,0.4,0.3,0.2,Other,60.440466641117986,2025-06-06
+used car prices_yoy,,2025-06-06 15:00:00+02:00,US,4.0,,4.9,,,2025-06-06
+used car prices,Used Car Prices,2025-06-06 15:00:00+02:00,US,4.0,,4.9,,,2025-06-06
+used car prices_mom,,2025-06-06 15:00:00+02:00,US,-1.4,,2.7,,,2025-06-06
+fed bowman speech,,2025-06-06 16:00:00+02:00,US,,,,,,2025-06-06
+4-week bill auction,,2025-06-06 17:30:00+02:00,US,,,,Other,24.727665972094,2025-06-06
+4 week bill auction,4-Week Bill Auction,2025-06-06 17:30:00+02:00,US,,,,Other,24.727665972094,2025-06-06
+baker hughes oil rig count,,2025-06-06 19:00:00+02:00,US,442.0,,451.0,Baker_Hughes_Rig_Count,11.24287509813271,2025-06-06
+boe consumer credit,,2025-06-06 21:00:00+02:00,US,17.87,11.3,8.6,,,2025-06-06
+consumer credit change,,2025-06-06 21:00:00+02:00,US,17.87,10.85,8.6,,,2025-06-06
+cftc aluminium speculative net positions,,2025-06-06 21:30:00+02:00,US,0.8,,0.3,,,2025-06-06
+cftc copper speculative net positions,,2025-06-06 21:30:00+02:00,US,24.1,,22.6,,,2025-06-06
+cftc corn speculative net positions,,2025-06-06 21:30:00+02:00,US,-81.1,,-20.3,,,2025-06-06
+cftc crude oil speculative net positions,,2025-06-06 21:30:00+02:00,US,168.0,,186.4,,,2025-06-06
+cftc gold speculative net positions,,2025-06-06 21:30:00+02:00,US,187.9,,174.2,,,2025-06-06
+cftc nasdaq 100 speculative net positions,,2025-06-06 21:30:00+02:00,US,14.7,,17.0,,,2025-06-06
+cftc natural gas speculative net positions,,2025-06-06 21:30:00+02:00,US,-104.9,,-113.9,,,2025-06-06
+cftc s p 500 speculative net positions,CFTC S&P 500 speculative net positions,2025-06-06 21:30:00+02:00,US,-69.4,,-53.0,,,2025-06-06
+cftc silver speculative net positions,,2025-06-06 21:30:00+02:00,US,60.8,,53.0,,,2025-06-06
+cftc soybeans speculative net positions,,2025-06-06 21:30:00+02:00,US,59.9,,72.6,,,2025-06-06
+cftc wheat speculative net positions,,2025-06-06 21:30:00+02:00,US,-97.1,,-98.8,,,2025-06-06
+cftc s&p 500 speculative net positions,,2025-06-06 21:30:00+02:00,US,-69.4,,-53.0,,,2025-06-06
+interest rate projection - longer,,2023-06-15 00:00:00+02:00,US,2.5,,2.5,Interest Rates,64.67768311660907,2023-06-15
+interest rate projection longer,Interest Rate Projection - Longer,2023-06-15 00:00:00+02:00,US,2.5,,2.5,Interest Rates,64.67768311660907,2023-06-15
+interest rate projection - current,,2023-06-15 00:00:00+02:00,US,5.6,,5.1,Interest Rates,64.67768311660907,2023-06-15
+interest rate projection current,Interest Rate Projection - Current,2023-06-15 00:00:00+02:00,US,5.6,,5.1,Interest Rates,64.67768311660907,2023-06-15
+fed press conference,,2023-06-15 00:30:00+02:00,US,,,,,,2023-06-15
+export prices,Export Prices,2023-06-15 14:30:00+02:00,US,-10.1,,-6.0,Trade Balance,27.12952123180804,2023-06-15
+import prices,Import Prices,2023-06-15 14:30:00+02:00,US,-0.6,-0.5,0.3,Trade Balance,27.12952123180804,2023-06-15
+initial jobless claims,Initial Jobless Claims,2023-06-15 14:30:00+02:00,US,262.0,249.0,262.0,Jobless Claims,26.84356289399415,2023-06-15
+ny empire state manufacturing index,,2023-06-15 14:30:00+02:00,US,6.6,-15.1,-31.8,Manufacturing,35.00725344868514,2023-06-15
+philadelphia fed manufacturing index,,2023-06-15 14:30:00+02:00,US,-13.7,-14.0,-10.4,Manufacturing,26.035577298163243,2023-06-15
+philly fed business conditions,,2023-06-15 14:30:00+02:00,US,12.7,-10.9,-10.3,Other,26.035577298163243,2023-06-15
+philly fed capex index,,2023-06-15 14:30:00+02:00,US,9.9,-1.4,2.5,Other,26.035577298163243,2023-06-15
+philly fed employment,,2023-06-15 14:30:00+02:00,US,-0.4,-4.4,-8.6,Employment,26.035577298163243,2023-06-15
+philly fed new orders,Philly Fed New Orders,2023-06-15 14:30:00+02:00,US,-11.0,-15.8,-8.9,Other,26.035577298163243,2023-06-15
+philly fed prices paid,,2023-06-15 14:30:00+02:00,US,10.5,9.5,10.9,Other,26.035577298163243,2023-06-15
+retail sales ex gas autos,Retail Sales Ex Gas/Autos,2023-06-15 14:30:00+02:00,US,0.4,,0.5,Retail Sales,28.542650278268667,2023-06-15
+retail sales_mom,,2023-06-15 14:30:00+02:00,US,0.3,-0.1,0.4,Retail Sales,26.38175661281192,2023-06-15
+retail sales ex gas/autos_mom,,2023-06-15 14:30:00+02:00,US,0.4,,0.5,Retail Sales,21.671326457943184,2023-06-15
+import prices_mom,,2023-06-15 14:30:00+02:00,US,-0.6,-0.5,0.3,Trade Balance,28.822567457072772,2023-06-15
+retail sales_yoy,,2023-06-15 14:30:00+02:00,US,1.6,,1.2,Retail Sales,26.38175661281192,2023-06-15
+import prices_yoy,,2023-06-15 14:30:00+02:00,US,-5.9,,-4.9,Trade Balance,28.822567457072772,2023-06-15
+export prices_yoy,,2023-06-15 14:30:00+02:00,US,-10.1,,-6.0,Trade Balance,28.822567457072772,2023-06-15
+export prices_mom,,2023-06-15 14:30:00+02:00,US,-1.9,,-0.1,Trade Balance,28.822567457072772,2023-06-15
+retail sales,Retail Sales,2023-06-15 14:30:00+02:00,US,1.6,,1.2,Retail Sales,28.542650278268667,2023-06-15
+manufacturing production_yoy,,2023-06-15 15:15:00+02:00,US,-0.3,,-0.8,Manufacturing,19.558478311800545,2023-06-15
+capacity utilization,,2023-06-15 15:15:00+02:00,US,79.6,79.7,79.8,Other,20.23593490359507,2023-06-15
+industrial production_yoy,,2023-06-15 15:15:00+02:00,US,0.2,,0.4,Industrial Production,19.55847831180055,2023-06-15
+industrial production_mom,,2023-06-15 15:15:00+02:00,US,-0.2,0.1,0.5,Industrial Production,19.558478311800545,2023-06-15
+industrial production,Industrial Production,2023-06-15 15:15:00+02:00,US,0.2,,0.4,Industrial Production,20.23593490359507,2023-06-15
+manufacturing production_mom,,2023-06-15 15:15:00+02:00,US,0.1,0.1,0.9,Manufacturing,19.55847831180055,2023-06-15
+manufacturing production,Manufacturing Production,2023-06-15 15:15:00+02:00,US,0.1,0.1,0.9,Manufacturing,20.23593490359507,2023-06-15
+business inventories_mom,,2023-06-15 16:00:00+02:00,US,0.2,0.2,-0.2,,,2023-06-15
+business inventories,Business Inventories,2023-06-15 16:00:00+02:00,US,0.2,0.2,-0.2,,,2023-06-15
+ny fed treasury purchases 10 to 22 5 yrs,NY Fed Treasury Purchases 10 to 22.5 yrs,2023-06-15 16:30:00+02:00,US,,,,,,2023-06-15
+eia natural gas stocks change,,2023-06-15 16:30:00+02:00,US,,,,,,2023-06-15
+ny fed treasury purchases 10 to 22.5 yrs,,2023-06-15 16:30:00+02:00,US,,,,,,2023-06-15
+15-year mortgage rate,,2023-06-15 18:00:00+02:00,US,6.1,,6.07,,,2023-06-15
+30-year mortgage rate,,2023-06-15 18:00:00+02:00,US,6.69,,6.71,,,2023-06-15
+30 year mortgage rate,30-Year Mortgage Rate,2023-06-15 18:00:00+02:00,US,6.69,,6.71,,,2023-06-15
+15 year mortgage rate,15-Year Mortgage Rate,2023-06-15 18:00:00+02:00,US,6.1,,6.07,,,2023-06-15
+jobless claims 4-week average,,2023-06-15 18:30:00+02:00,US,246.75,233.38,237.5,Jobless Claims,25.339023793709526,2023-06-15
+retail sales ex autos_mom,,2023-06-15 18:30:00+02:00,US,0.1,0.1,0.4,Retail Sales,26.38175661281192,2023-06-15
+continuing jobless claims,,2023-06-15 18:30:00+02:00,US,1775.0,1765.0,1755.0,Jobless Claims,26.84356289399415,2023-06-15
+jobless claims 4 week average,Jobless Claims 4-week Average,2023-06-15 18:30:00+02:00,US,246.75,233.38,237.5,Jobless Claims,26.84356289399415,2023-06-15
+retail sales ex autos,Retail Sales Ex Autos,2023-06-15 18:30:00+02:00,US,0.1,0.1,0.4,Retail Sales,28.542650278268667,2023-06-15
+retail inventories ex autos_mom,,2023-06-15 20:00:00+02:00,US,-0.2,-0.1,0.1,Consumer,23.851317490042995,2023-06-15
+retail inventories ex autos,Retail Inventories Ex Autos,2023-06-15 20:00:00+02:00,US,-0.2,-0.1,0.1,Consumer,26.483600012468738,2023-06-15
+8 week bill auction,8-Week Bill Auction,2023-06-15 21:30:00+02:00,US,5.08,,5.12,Other,24.727665972094,2023-06-15
+8-week bill auction,,2023-06-15 21:30:00+02:00,US,5.08,,5.12,Other,24.727665972094,2023-06-15
+4-week bill auction,,2023-06-15 21:30:00+02:00,US,5.01,,5.09,Other,24.727665972094,2023-06-15
+4 week bill auction,4-Week Bill Auction,2023-06-15 21:30:00+02:00,US,5.01,,5.09,Other,24.727665972094,2023-06-15
+foreign bond investment,,2023-06-15 22:00:00+02:00,US,92.2,,90.5,,,2023-06-15
+average hourly earnings,Average Hourly Earnings,2025-08-01 14:30:00+02:00,US,0.3,0.3,0.2,Other,59.90047788837122,2025-08-01
+average weekly hours,Average Weekly Hours,2025-08-01 14:30:00+02:00,US,34.3,34.2,34.2,Other,61.492477137506555,2025-08-01
+government payrolls,Government Payrolls,2025-08-01 14:30:00+02:00,US,-10.0,5.0,11.0,Employment,61.492477137506555,2025-08-01
+manufacturing payrolls,Manufacturing Payrolls,2025-08-01 14:30:00+02:00,US,-11.0,-3.0,-15.0,Employment,61.492477137506555,2025-08-01
+non farm payrolls,Non Farm Payrolls,2025-08-01 14:30:00+02:00,US,73.0,110.0,14.0,NFP,61.492477137506555,2025-08-01
+nonfarm payrolls private,Nonfarm Payrolls Private,2025-08-01 14:30:00+02:00,US,83.0,100.0,3.0,NFP,61.492477137506555,2025-08-01
+participation rate,Participation Rate,2025-08-01 14:30:00+02:00,US,62.2,62.3,62.3,Other,61.492477137506555,2025-08-01
+u 6 unemployment rate,U-6 Unemployment Rate,2025-08-01 14:30:00+02:00,US,7.9,7.8,7.7,Unemployment,67.6438161052937,2025-08-01
+unemployment rate,Unemployment Rate,2025-08-01 14:30:00+02:00,US,4.2,4.2,4.1,Unemployment,61.492477137506555,2025-08-01
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2025-08-01 15:45:00+02:00,US,49.8,49.5,52.9,PMI,63.305740150233156,2025-08-01
+s&p global manufacturing pmi,,2025-08-01 15:45:00+02:00,US,49.8,49.5,52.9,PMI,63.305740150233135,2025-08-01
+michigan current conditions,,2025-08-01 16:00:00+02:00,US,68.0,66.8,64.8,Michigan_Current_Conditions,24.07920765964181,2025-08-01
+ism manufacturing employment,,2025-08-01 16:00:00+02:00,US,43.4,45.3,45.0,ISM,92.51628728932027,2025-08-01
+ism manufacturing new orders,,2025-08-01 16:00:00+02:00,US,47.1,47.2,46.4,ISM,92.51628728932027,2025-08-01
+ism manufacturing pmi,,2025-08-01 16:00:00+02:00,US,48.0,49.5,49.0,ISM,92.51628728932027,2025-08-01
+ism manufacturing prices,,2025-08-01 16:00:00+02:00,US,64.8,70.0,69.7,ISM,92.51628728932027,2025-08-01
+michigan 5 year inflation expectations,,2025-08-01 16:00:00+02:00,US,3.4,3.6,4.0,Michigan_5Y_Inflation_Expectations,24.07920765964181,2025-08-01
+michigan consumer expectations,,2025-08-01 16:00:00+02:00,US,57.7,58.6,58.1,Michigan_Consumer_Expectations,24.07920765964181,2025-08-01
+michigan consumer sentiment,,2025-08-01 16:00:00+02:00,US,61.7,62.0,60.7,Consumer Confidence,24.07920765964181,2025-08-01
+inflation expectations,,2025-08-01 16:00:00+02:00,US,4.5,4.4,5.0,Inflation,30.075435866325535,2025-08-01
+michigan inflation expectations,,2025-08-01 16:00:00+02:00,US,4.5,4.4,5.0,Inflation,23.7495601289988,2025-08-01
+construction spending_mom,,2025-08-01 16:00:00+02:00,US,-0.4,0.1,-0.4,Consumer,100.0,2025-08-01
+construction spending,Construction Spending,2025-08-01 16:00:00+02:00,US,-0.4,0.1,-0.4,Consumer,100.0,2025-08-01
+atlanta fed gdpnow,,2025-08-01 17:55:00+02:00,US,2.1,2.3,2.3,GDP,9.078303333571974,2025-08-01
+baker hughes oil rig count,,2025-08-01 19:00:00+02:00,US,410.0,,415.0,Baker_Hughes_Rig_Count,11.24287509813271,2025-08-01
+fed daly speech,,2025-08-01 21:10:00+02:00,US,,,,,,2025-08-01
+cftc aluminium speculative net positions,,2025-08-01 21:30:00+02:00,US,0.5,,0.5,,,2025-08-01
+cftc copper speculative net positions,,2025-08-01 21:30:00+02:00,US,37.3,,39.8,,,2025-08-01
+cftc corn speculative net positions,,2025-08-01 21:30:00+02:00,US,-133.5,,-133.9,,,2025-08-01
+cftc crude oil speculative net positions,,2025-08-01 21:30:00+02:00,US,156.0,,153.3,,,2025-08-01
+cftc gold speculative net positions,,2025-08-01 21:30:00+02:00,US,223.6,,253.0,,,2025-08-01
+cftc nasdaq 100 speculative net positions,,2025-08-01 21:30:00+02:00,US,35.0,,30.7,,,2025-08-01
+cftc natural gas speculative net positions,,2025-08-01 21:30:00+02:00,US,-85.8,,-77.6,,,2025-08-01
+cftc s p 500 speculative net positions,CFTC S&P 500 speculative net positions,2025-08-01 21:30:00+02:00,US,-163.2,,-168.5,,,2025-08-01
+cftc silver speculative net positions,,2025-08-01 21:30:00+02:00,US,59.4,,60.6,,,2025-08-01
+cftc soybeans speculative net positions,,2025-08-01 21:30:00+02:00,US,-10.8,,36.0,,,2025-08-01
+cftc wheat speculative net positions,,2025-08-01 21:30:00+02:00,US,-69.7,,-53.9,,,2025-08-01
+cftc s&p 500 speculative net positions,,2025-08-01 21:30:00+02:00,US,-163.2,,-168.5,,,2025-08-01
+api crude oil stock change,API Crude Oil Stock Change,2023-07-12 02:30:00+02:00,US,3.026,0.2,-4.382,,,2023-07-12
+mba mortgage applications,,2023-07-12 13:00:00+02:00,US,0.9,,-4.4,,,2023-07-12
+mba mortgage refinance index,,2023-07-12 13:00:00+02:00,US,416.0,,421.3,,,2023-07-12
+inflation rate,Inflation Rate,2023-07-12 14:30:00+02:00,US,0.2,0.3,0.1,CPI,44.414844512436375,2023-07-12
+inflation rate_yoy,,2023-07-12 14:30:00+02:00,US,3.0,3.1,4.0,CPI,46.131002713643156,2023-07-12
+inflation rate_mom,,2023-07-12 14:30:00+02:00,US,0.2,0.3,0.1,CPI,45.70384828422969,2023-07-12
+fed kashkari speech,,2023-07-12 15:45:00+02:00,US,,,,,,2023-07-12
+eia refinery crude runs change,,2023-07-12 16:30:00+02:00,US,0.629,,-0.224,,,2023-07-12
+eia heating oil stocks change,,2023-07-12 16:30:00+02:00,US,0.439,,-0.061,,,2023-07-12
+eia distillate stocks change,,2023-07-12 16:30:00+02:00,US,4.815,-0.262,-1.045,,,2023-07-12
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2023-07-12 17:00:00+02:00,US,7.07,,6.85,,,2023-07-12
+mba mortgage market index,,2023-07-12 17:00:00+02:00,US,208.4,,206.5,,,2023-07-12
+mba purchase index,,2023-07-12 17:00:00+02:00,US,165.3,,162.4,,,2023-07-12
+mba 30-year mortgage rate,,2023-07-12 17:00:00+02:00,US,7.07,,6.85,,,2023-07-12
+17 week bill auction,17-Week Bill Auction,2023-07-12 17:30:00+02:00,US,5.26,,5.25,,,2023-07-12
+17-week bill auction,,2023-07-12 17:30:00+02:00,US,5.26,,5.25,,,2023-07-12
+wasde report,,2023-07-12 18:00:00+02:00,US,,,,,,2023-07-12
+cpi,,2023-07-12 18:30:00+02:00,US,305.109,305.219,304.127,CPI,45.13412286023265,2023-07-12
+core inflation rate_yoy,,2023-07-12 18:30:00+02:00,US,4.8,5.0,5.3,CPI,45.85630258750297,2023-07-12
+core inflation rate_mom,,2023-07-12 18:30:00+02:00,US,0.2,0.3,0.4,CPI,45.02330127008234,2023-07-12
+cpi s.a,,2023-07-12 18:30:00+02:00,US,303.841,303.7,303.294,CPI,44.69221083727704,2023-07-12
+cpi s a,CPI s.a,2023-07-12 18:30:00+02:00,US,303.841,303.7,303.294,CPI,42.012728389432944,2023-07-12
+core inflation rate,Core Inflation Rate,2023-07-12 18:30:00+02:00,US,4.8,5.0,5.3,CPI,44.414844512436375,2023-07-12
+10 year note auction,10-Year Note Auction,2023-07-12 19:00:00+02:00,US,3.857,,3.791,,,2023-07-12
+fed bostic speech,,2023-07-12 19:00:00+02:00,US,,,,,,2023-07-12
+10-year note auction,,2023-07-12 19:00:00+02:00,US,3.857,,3.791,,,2023-07-12
+fed beige book,,2023-07-12 20:00:00+02:00,US,,,,,,2023-07-12
+eia crude oil imports change,,2023-07-12 20:30:00+02:00,US,0.599,,1.895,,,2023-07-12
+eia crude oil stocks change,,2023-07-12 20:30:00+02:00,US,5.946,0.483,-1.508,,,2023-07-12
+eia cushing crude oil stocks change,,2023-07-12 20:30:00+02:00,US,-1.605,,-0.4,,,2023-07-12
+eia distillate fuel production change,,2023-07-12 20:30:00+02:00,US,0.236,,0.141,,,2023-07-12
+eia gasoline production change,,2023-07-12 20:30:00+02:00,US,-0.158,,0.148,,,2023-07-12
+eia gasoline stocks change,,2023-07-12 20:30:00+02:00,US,-0.003,-0.727,-2.55,,,2023-07-12
+mba mortgage market index,,2024-04-10 13:00:00+02:00,US,195.7,,195.6,,,2024-04-10
+mba 30-year mortgage rate,,2024-04-10 13:00:00+02:00,US,7.01,,6.91,,,2024-04-10
+mba purchase index,,2024-04-10 13:00:00+02:00,US,138.7,,145.6,,,2024-04-10
+mba mortgage refinance index,,2024-04-10 13:00:00+02:00,US,498.3,,453.5,,,2024-04-10
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2024-04-10 13:00:00+02:00,US,7.01,,6.91,,,2024-04-10
+mba mortgage applications,,2024-04-10 13:00:00+02:00,US,0.1,,-0.6,,,2024-04-10
+core inflation rate,Core Inflation Rate,2024-04-10 14:30:00+02:00,US,3.8,3.7,3.8,CPI,44.414844512436375,2024-04-10
+cpi,,2024-04-10 14:30:00+02:00,US,312.33,312.098,310.33,CPI,45.13412286023265,2024-04-10
+inflation rate_mom,,2024-04-10 14:30:00+02:00,US,0.4,0.3,0.4,CPI,45.70384828422969,2024-04-10
+cpi s.a,,2024-04-10 14:30:00+02:00,US,312.23,,311.054,CPI,44.69221083727704,2024-04-10
+inflation rate_yoy,,2024-04-10 14:30:00+02:00,US,3.5,3.4,3.2,CPI,46.131002713643156,2024-04-10
+core inflation rate_yoy,,2024-04-10 14:30:00+02:00,US,3.8,3.7,3.8,CPI,45.85630258750297,2024-04-10
+core inflation rate_mom,,2024-04-10 14:30:00+02:00,US,0.4,0.3,0.4,CPI,45.02330127008234,2024-04-10
+cpi s a,CPI s.a,2024-04-10 14:30:00+02:00,US,312.23,,311.054,CPI,42.012728389432944,2024-04-10
+inflation rate,Inflation Rate,2024-04-10 14:30:00+02:00,US,0.4,0.3,0.4,CPI,44.414844512436375,2024-04-10
+fed bowman speech,,2024-04-10 14:45:00+02:00,US,,,,,,2024-04-10
+wholesale inventories,Wholesale Inventories,2024-04-10 16:00:00+02:00,US,0.5,0.5,-0.2,Other,30.886023743354997,2024-04-10
+wholesale inventories_mom,,2024-04-10 16:00:00+02:00,US,0.5,0.5,-0.2,Other,24.85295281301928,2024-04-10
+eia crude oil stocks change,,2024-04-10 16:30:00+02:00,US,5.841,2.366,3.21,,,2024-04-10
+eia crude oil imports change,,2024-04-10 16:30:00+02:00,US,1.13,,0.075,,,2024-04-10
+eia cushing crude oil stocks change,,2024-04-10 16:30:00+02:00,US,-0.17,,-0.377,,,2024-04-10
+eia distillate fuel production change,,2024-04-10 16:30:00+02:00,US,0.033,,-0.208,,,2024-04-10
+eia distillate stocks change,,2024-04-10 16:30:00+02:00,US,1.659,-1.153,-1.268,,,2024-04-10
+eia gasoline production change,,2024-04-10 16:30:00+02:00,US,-0.538,,0.767,,,2024-04-10
+eia gasoline stocks change,,2024-04-10 16:30:00+02:00,US,0.715,-1.32,-4.256,,,2024-04-10
+eia heating oil stocks change,,2024-04-10 16:30:00+02:00,US,0.478,,-0.613,,,2024-04-10
+eia refinery crude runs change,,2024-04-10 16:30:00+02:00,US,-0.115,,-0.035,,,2024-04-10
+17 week bill auction,17-Week Bill Auction,2024-04-10 17:30:00+02:00,US,5.23,,5.2,,,2024-04-10
+17-week bill auction,,2024-04-10 17:30:00+02:00,US,5.23,,5.2,,,2024-04-10
+fed goolsbe speech,,2024-04-10 18:45:00+02:00,US,,,,,,2024-04-10
+10 year note auction,10-Year Note Auction,2024-04-10 19:00:00+02:00,US,4.56,,4.166,,,2024-04-10
+10-year note auction,,2024-04-10 19:00:00+02:00,US,4.56,,4.166,,,2024-04-10
+monthly budget statement,,2024-04-10 20:00:00+02:00,US,-236.0,-197.5,-296.0,Monthly_Budget_Statement,14.212383375335397,2024-04-10
+fomc minutes,,2024-04-10 20:00:00+02:00,US,,,,FOMC,45.77832801413763,2024-04-10
+opec meeting,,2025-02-03 11:00:00+01:00,US,,,,,,2025-02-03
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2025-02-03 15:45:00+01:00,US,51.2,50.1,49.4,PMI,63.305740150233156,2025-02-03
+s&p global manufacturing pmi,,2025-02-03 15:45:00+01:00,US,51.2,50.1,49.4,PMI,63.305740150233135,2025-02-03
+construction spending,Construction Spending,2025-02-03 16:00:00+01:00,US,0.5,0.2,0.2,Consumer,100.0,2025-02-03
+ism manufacturing employment,,2025-02-03 16:00:00+01:00,US,50.3,47.0,45.4,ISM,92.51628728932027,2025-02-03
+ism manufacturing new orders,,2025-02-03 16:00:00+01:00,US,55.1,52.8,52.1,ISM,92.51628728932027,2025-02-03
+ism manufacturing pmi,,2025-02-03 16:00:00+01:00,US,50.9,49.8,49.2,ISM,92.51628728932027,2025-02-03
+ism manufacturing prices,,2025-02-03 16:00:00+01:00,US,54.9,52.6,52.5,ISM,92.51628728932027,2025-02-03
+construction spending_mom,,2025-02-03 16:00:00+01:00,US,0.5,0.2,0.2,Consumer,100.0,2025-02-03
+3 month bill auction,3-Month Bill Auction,2025-02-03 17:30:00+01:00,US,4.22,,4.195,,,2025-02-03
+6 month bill auction,6-Month Bill Auction,2025-02-03 17:30:00+01:00,US,4.155,,4.14,,,2025-02-03
+6-month bill auction,,2025-02-03 17:30:00+01:00,US,4.155,,4.14,,,2025-02-03
+3-month bill auction,,2025-02-03 17:30:00+01:00,US,4.22,,4.195,,,2025-02-03
+atlanta fed gdpnow,,2025-02-03 18:00:00+01:00,US,3.9,2.9,2.9,GDP,9.078303333571974,2025-02-03
+fed bostic speech,,2025-02-03 18:30:00+01:00,US,,,,,,2025-02-03
+loan officer survey,,2025-02-03 20:00:00+01:00,US,,,,,,2025-02-03
+treasury refunding financingimates,,2025-02-03 21:00:00+01:00,US,,,,,,2025-02-03
+average hourly earnings_mom,,2023-02-03 14:30:00+01:00,US,0.3,0.3,0.4,Other,60.440466641117986,2023-02-03
+average hourly earnings,Average Hourly Earnings,2023-02-03 14:30:00+01:00,US,0.3,0.3,0.4,Other,59.90047788837122,2023-02-03
+non farm payrolls,,2023-02-03 14:30:00+01:00,US,517.0,185.0,260.0,NFP,61.492477137506555,2023-02-03
+nonfarm payrolls private,,2023-02-03 14:30:00+01:00,US,443.0,190.0,269.0,NFP,61.492477137506555,2023-02-03
+participation rate,,2023-02-03 14:30:00+01:00,US,62.4,,62.3,Other,61.492477137506555,2023-02-03
+average weekly hours,,2023-02-03 14:30:00+01:00,US,34.7,34.3,34.4,Other,61.492477137506555,2023-02-03
+s p global composite pmi,S&P Global Composite PMI,2023-02-03 15:45:00+01:00,US,46.8,46.6,45.0,PMI,31.168134940521725,2023-02-03
+s&p global composite pmi,,2023-02-03 15:45:00+01:00,US,46.8,46.6,45.0,PMI,31.148641931223096,2023-02-03
+ism non manufacturing employment,ISM Non-Manufacturing Employment,2023-02-03 16:00:00+01:00,US,50.0,,49.4,Employment,34.56334238915411,2023-02-03
+ism non manufacturing pmi,ISM Non-Manufacturing PMI,2023-02-03 16:00:00+01:00,US,55.2,50.4,49.2,PMI,34.56334238915411,2023-02-03
+ism non manufacturing prices,ISM Non-Manufacturing Prices,2023-02-03 16:00:00+01:00,US,67.8,,68.1,Manufacturing,34.56334238915411,2023-02-03
+total vehicle sales,,2023-02-03 16:00:00+01:00,US,15.74,,13.37,Consumer,21.47350513016643,2023-02-03
+ism non manufacturing new orders,ISM Non-Manufacturing New Orders,2023-02-03 16:00:00+01:00,US,60.4,,45.2,Manufacturing,34.56334238915411,2023-02-03
+ism non-manufacturing new orders,,2023-02-03 16:00:00+01:00,US,60.4,,45.2,ISM,34.56334238915411,2023-02-03
+ism non manufacturing business activity,ISM Non-Manufacturing Business Activity,2023-02-03 16:00:00+01:00,US,60.4,54.5,53.5,Manufacturing,34.56334238915411,2023-02-03
+ism non-manufacturing prices,,2023-02-03 16:00:00+01:00,US,67.8,,68.1,ISM,34.56334238915411,2023-02-03
+ism non-manufacturing employment,,2023-02-03 16:00:00+01:00,US,50.0,,49.4,ISM,34.56334238915411,2023-02-03
+ism non-manufacturing pmi,,2023-02-03 16:00:00+01:00,US,55.2,50.4,49.2,ISM,34.56334238915411,2023-02-03
+ism non-manufacturing business activity,,2023-02-03 16:00:00+01:00,US,60.4,54.5,53.5,ISM,34.56334238915411,2023-02-03
+average hourly earnings,Average Hourly Earnings,2023-02-03 19:30:00+01:00,US,4.4,4.3,4.9,Other,59.90047788837122,2023-02-03
+manufacturing payrolls,,2023-02-03 19:30:00+01:00,US,19.0,6.0,12.0,Employment,61.492477137506555,2023-02-03
+unemployment rate,,2023-02-03 19:30:00+01:00,US,3.4,3.6,3.5,Unemployment,61.492477137506555,2023-02-03
+government payrolls,,2023-02-03 19:30:00+01:00,US,74.0,,-9.0,Employment,61.492477137506555,2023-02-03
+average hourly earnings_yoy,,2023-02-03 19:30:00+01:00,US,4.4,4.3,4.9,Other,61.33895365705695,2023-02-03
+s p global services pmi,S&P Global Services PMI,2023-02-03 20:45:00+01:00,US,46.8,46.6,44.7,PMI,30.8479683588807,2023-02-03
+s&p global services pmi,,2023-02-03 20:45:00+01:00,US,46.8,46.6,44.7,PMI,30.82095851027352,2023-02-03
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2024-05-15 13:00:00+02:00,US,7.08,,7.18,,,2024-05-15
+mba purchase index,MBA Purchase Index,2024-05-15 13:00:00+02:00,US,141.7,,144.2,,,2024-05-15
+mba mortgage refinance index,MBA Mortgage Refinance Index,2024-05-15 13:00:00+02:00,US,499.9,,477.5,,,2024-05-15
+mba mortgage market index,MBA Mortgage Market Index,2024-05-15 13:00:00+02:00,US,198.1,,197.1,,,2024-05-15
+mba mortgage applications,MBA Mortgage Applications,2024-05-15 13:00:00+02:00,US,0.5,,2.6,,,2024-05-15
+core inflation rate,Core Inflation Rate,2024-05-15 14:30:00+02:00,US,0.3,0.3,0.4,CPI,44.414844512436375,2024-05-15
+retail sales ex gas autos,Retail Sales Ex Gas/Autos,2024-05-15 14:30:00+02:00,US,-0.1,,0.7,Retail Sales,28.542650278268667,2024-05-15
+retail sales_mom,,2024-05-15 14:30:00+02:00,US,,0.4,0.6,Retail Sales,26.38175661281192,2024-05-15
+retail sales ex autos_mom,,2024-05-15 14:30:00+02:00,US,0.2,0.2,0.9,Retail Sales,26.38175661281192,2024-05-15
+core inflation rate_mom,,2024-05-15 14:30:00+02:00,US,0.3,0.3,0.4,CPI,45.02330127008234,2024-05-15
+core inflation rate_yoy,,2024-05-15 14:30:00+02:00,US,3.6,3.6,3.8,CPI,45.85630258750297,2024-05-15
+retail sales_yoy,,2024-05-15 14:30:00+02:00,US,3.0,,3.8,Retail Sales,26.38175661281192,2024-05-15
+inflation rate_mom,,2024-05-15 14:30:00+02:00,US,0.3,0.4,0.4,CPI,45.70384828422969,2024-05-15
+cpi s.a,,2024-05-15 14:30:00+02:00,US,313.207,,312.23,CPI,44.69221083727704,2024-05-15
+cpi s a,CPI s.a,2024-05-15 14:30:00+02:00,US,313.207,,312.23,CPI,42.012728389432944,2024-05-15
+retail sales,Retail Sales,2024-05-15 14:30:00+02:00,US,3.0,,3.8,Retail Sales,28.542650278268667,2024-05-15
+ny empire state manufacturing index,NY Empire State Manufacturing Index,2024-05-15 14:30:00+02:00,US,-15.6,-10.0,-14.3,Manufacturing,35.00725344868514,2024-05-15
+inflation rate,Inflation Rate,2024-05-15 14:30:00+02:00,US,3.4,3.4,3.5,CPI,44.414844512436375,2024-05-15
+cpi,,2024-05-15 14:30:00+02:00,US,313.55,313.76,312.33,CPI,45.13412286023265,2024-05-15
+retail sales ex autos,Retail Sales Ex Autos,2024-05-15 14:30:00+02:00,US,0.2,0.2,0.9,Retail Sales,28.542650278268667,2024-05-15
+business inventories_mom,,2024-05-15 16:00:00+02:00,US,-0.1,-0.1,0.3,,,2024-05-15
+retail inventories ex autos,Retail Inventories Ex Autos,2024-05-15 16:00:00+02:00,US,-0.2,,0.1,Consumer,26.483600012468738,2024-05-15
+retail inventories ex autos_mom,,2024-05-15 16:00:00+02:00,US,-0.2,,0.1,Consumer,23.851317490042995,2024-05-15
+business inventories,Business Inventories,2024-05-15 16:00:00+02:00,US,-0.1,-0.1,0.3,,,2024-05-15
+nahb housing market index,,2024-05-15 16:00:00+02:00,US,45.0,51.0,51.0,,,2024-05-15
+eia crude oil imports change,,2024-05-15 16:30:00+02:00,US,0.108,,-0.353,,,2024-05-15
+eia cushing crude oil stocks change,,2024-05-15 16:30:00+02:00,US,-0.341,,1.88,,,2024-05-15
+eia distillate fuel production change,,2024-05-15 16:30:00+02:00,US,0.021,,0.275,,,2024-05-15
+eia distillate stocks change,,2024-05-15 16:30:00+02:00,US,-0.045,0.77,0.56,,,2024-05-15
+eia gasoline production change,,2024-05-15 16:30:00+02:00,US,0.203,,0.099,,,2024-05-15
+eia gasoline stocks change,,2024-05-15 16:30:00+02:00,US,-0.235,0.88,0.915,,,2024-05-15
+eia heating oil stocks change,,2024-05-15 16:30:00+02:00,US,-0.68,,0.285,,,2024-05-15
+eia refinery crude runs change,,2024-05-15 16:30:00+02:00,US,0.307,,0.307,,,2024-05-15
+eia crude oil stocks change,,2024-05-15 16:30:00+02:00,US,-2.508,-1.35,-1.362,,,2024-05-15
+17 week bill auction,17-Week Bill Auction,2024-05-15 17:30:00+02:00,US,5.235,,5.24,,,2024-05-15
+17-week bill auction,,2024-05-15 17:30:00+02:00,US,5.235,,5.24,,,2024-05-15
+fed kashkari speech,,2024-05-15 18:00:00+02:00,US,,,,,,2024-05-15
+nopa crush report,,2024-05-15 18:00:00+02:00,US,,,,,,2024-05-15
+fed bowman speech,,2024-05-15 21:20:00+02:00,US,,,,,,2024-05-15
+foreign bond investment,,2024-05-15 22:00:00+02:00,US,42.2,,87.4,,,2024-05-15
+net long term tic flows,Net Long-Term TIC Flows,2024-05-15 22:00:00+02:00,US,100.5,89.3,62.9,,,2024-05-15
+overall net capital flows,,2024-05-15 22:00:00+02:00,US,102.1,,42.0,,,2024-05-15
+net long-term tic flows,,2024-05-15 22:00:00+02:00,US,100.5,89.3,62.9,,,2024-05-15
+current account,,2025-09-23 14:30:00+02:00,US,-251.3,-256.3,-439.8,Current Account,20.700023738559334,2025-09-23
+redbook,Redbook,2025-09-23 14:55:00+02:00,US,,,,,,2025-09-23
+redbook_yoy,,2025-09-23 14:55:00+02:00,US,5.7,,6.3,,,2025-09-23
+fed bowman speech,,2025-09-23 15:00:00+02:00,US,,,,,,2025-09-23
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2025-09-23 15:45:00+02:00,US,,52.0,53.0,PMI,63.305740150233156,2025-09-23
+s p global services pmi,S&P Global Services PMI,2025-09-23 15:45:00+02:00,US,,53.0,54.5,PMI,30.8479683588807,2025-09-23
+s&p global composite pmi,,2025-09-23 15:45:00+02:00,US,53.6,54.6,54.6,PMI,31.148641931223096,2025-09-23
+s&p global services pmi,,2025-09-23 15:45:00+02:00,US,53.9,54.0,54.5,PMI,30.82095851027352,2025-09-23
+s&p global manufacturing pmi,,2025-09-23 15:45:00+02:00,US,52.0,52.0,53.0,PMI,63.305740150233135,2025-09-23
+s p global composite pmi,S&P Global Composite PMI,2025-09-23 15:45:00+02:00,US,,54.6,55.1,PMI,31.168134940521725,2025-09-23
+s&p global composite pmi flash,,2025-09-23 15:45:00+02:00,US,53.6,54.1,,,,2025-09-23
+s&p global services pmi flash,,2025-09-23 15:45:00+02:00,US,53.9,53.0,54.5,,,2025-09-23
+s&p global manufacturing pmi flash,,2025-09-23 15:45:00+02:00,US,52.0,52.0,53.0,,,2025-09-23
+existing home sales,,2025-09-23 16:00:00+02:00,US,,,4.01,Home Sales,19.677570075850348,2025-09-23
+richmond fed manufacturing index,,2025-09-23 16:00:00+02:00,US,-17.0,-5.0,-7.0,Manufacturing,20.88399757339171,2025-09-23
+richmond fed manufacturing shipments index,,2025-09-23 16:00:00+02:00,US,-20.0,-9.0,-5.0,Manufacturing,20.88399757339171,2025-09-23
+richmond fed services revenues index,,2025-09-23 16:00:00+02:00,US,1.0,3.0,4.0,Other,22.95123044865877,2025-09-23
+existing home sales_mom,,2025-09-23 16:00:00+02:00,US,,,2.0,Home Sales,19.677570075850348,2025-09-23
+fed bostic speech,,2025-09-23 16:00:00+02:00,US,,,,,,2025-09-23
+fed chair powell speech,,2025-09-23 18:35:00+02:00,US,,,,,,2025-09-23
+2 year note auction,2-Year Note Auction,2025-09-23 19:00:00+02:00,US,,,3.641,,,2025-09-23
+money supply,,2025-09-23 19:00:00+02:00,US,22.2,,22.12,,,2025-09-23
+m2 money supply_mom,,2025-09-23 19:00:00+02:00,US,22.2,,22.12,,,2025-09-23
+2-year note auction,,2025-09-23 19:00:00+02:00,US,3.561,,3.641,,,2025-09-23
+api crude oil stock change,,2025-09-23 22:30:00+02:00,US,-3.821,,-3.42,,,2025-09-23
+fed jefferson speech,,2023-11-14 11:30:00+01:00,US,,,,,,2023-11-14
+nfib business optimism index,,2023-11-14 12:00:00+01:00,US,90.7,90.5,90.8,,,2023-11-14
+core inflation rate,Core Inflation Rate,2023-11-14 14:30:00+01:00,US,0.2,0.3,0.3,CPI,44.414844512436375,2023-11-14
+cpi,,2023-11-14 14:30:00+01:00,US,307.671,307.857,307.789,CPI,45.13412286023265,2023-11-14
+cpi s a,CPI s.a,2023-11-14 14:30:00+01:00,US,307.619,,307.481,CPI,42.012728389432944,2023-11-14
+inflation rate,Inflation Rate,2023-11-14 14:30:00+01:00,US,3.2,3.3,3.7,CPI,44.414844512436375,2023-11-14
+core inflation rate_yoy,,2023-11-14 14:30:00+01:00,US,4.0,4.1,4.1,CPI,45.85630258750297,2023-11-14
+core inflation rate_mom,,2023-11-14 14:30:00+01:00,US,0.2,0.3,0.3,CPI,45.02330127008234,2023-11-14
+inflation rate_yoy,,2023-11-14 14:30:00+01:00,US,3.2,3.3,3.7,CPI,46.131002713643156,2023-11-14
+inflation rate_mom,,2023-11-14 14:30:00+01:00,US,,0.1,0.4,CPI,45.70384828422969,2023-11-14
+cpi s.a,,2023-11-14 14:30:00+01:00,US,307.619,,307.481,CPI,44.69221083727704,2023-11-14
+redbook,Redbook,2023-11-14 14:55:00+01:00,US,3.0,,3.1,,,2023-11-14
+redbook_yoy,,2023-11-14 14:55:00+01:00,US,3.0,,3.1,,,2023-11-14
+fed barr speech,,2023-11-14 16:00:00+01:00,US,,,,,,2023-11-14
+fed mester speech,,2023-11-14 17:00:00+01:00,US,,,,,,2023-11-14
+fed goolsbee speech,,2023-11-14 18:45:00+01:00,US,,,,,,2023-11-14
+api crude oil stock change,,2023-11-14 22:30:00+01:00,US,1.335,1.4,11.9,,,2023-11-14
+fed musalem speech,,2024-04-05 01:20:00+02:00,US,,,,,,2024-04-05
+fed kugler speech,,2024-04-05 01:30:00+02:00,US,,,,,,2024-04-05
+average hourly earnings,Average Hourly Earnings,2024-04-05 14:30:00+02:00,US,0.3,0.3,0.2,Other,59.90047788837122,2024-04-05
+average weekly hours,,2024-04-05 14:30:00+02:00,US,34.4,34.3,34.3,Other,61.492477137506555,2024-04-05
+government payrolls,,2024-04-05 14:30:00+02:00,US,71.0,,63.0,Employment,61.492477137506555,2024-04-05
+manufacturing payrolls,,2024-04-05 14:30:00+02:00,US,,5.0,-10.0,Employment,61.492477137506555,2024-04-05
+non farm payrolls,,2024-04-05 14:30:00+02:00,US,303.0,200.0,270.0,NFP,61.492477137506555,2024-04-05
+nonfarm payrolls private,,2024-04-05 14:30:00+02:00,US,232.0,160.0,207.0,NFP,61.492477137506555,2024-04-05
+participation rate,,2024-04-05 14:30:00+02:00,US,62.7,,62.5,Other,61.492477137506555,2024-04-05
+u 6 unemployment rate,U-6 Unemployment Rate,2024-04-05 14:30:00+02:00,US,7.3,,7.3,Unemployment,67.6438161052937,2024-04-05
+unemployment rate,,2024-04-05 14:30:00+02:00,US,3.8,3.9,3.9,Unemployment,61.492477137506555,2024-04-05
+u-6 unemployment rate,,2024-04-05 14:30:00+02:00,US,7.3,,7.3,Unemployment,57.69826407074845,2024-04-05
+average hourly earnings_yoy,,2024-04-05 14:30:00+02:00,US,4.1,4.1,4.3,Other,61.33895365705695,2024-04-05
+average hourly earnings_mom,,2024-04-05 14:30:00+02:00,US,0.3,0.3,0.2,Other,60.440466641117986,2024-04-05
+fed collins speech,,2024-04-05 14:30:00+02:00,US,,,,,,2024-04-05
+used car prices,Used Car Prices,2024-04-05 15:00:00+02:00,US,-0.4,,-0.1,,,2024-04-05
+used car prices_mom,,2024-04-05 15:00:00+02:00,US,-0.4,,-0.1,,,2024-04-05
+used car prices_yoy,,2024-04-05 15:00:00+02:00,US,-14.7,,-13.1,,,2024-04-05
+fed barkin speech,,2024-04-05 15:15:00+02:00,US,,,,Other,33.85118560915781,2024-04-05
+fed bowman speech,,2024-04-05 18:15:00+02:00,US,,,,,,2024-04-05
+baker hughes oil rig count,,2024-04-05 19:00:00+02:00,US,508.0,,506.0,Baker_Hughes_Rig_Count,11.24287509813271,2024-04-05
+baker hughes total rigs count,,2024-04-05 19:00:00+02:00,US,620.0,,621.0,Baker_Hughes_Rig_Count,7.247437370381022,2024-04-05
+consumer credit change,,2024-04-05 21:00:00+02:00,US,14.12,15.0,17.68,,,2024-04-05
+fed goolsbee speech,,2025-09-05 01:00:00+02:00,US,,,,,,2025-09-05
+average hourly earnings,Average Hourly Earnings,2025-09-05 14:30:00+02:00,US,3.7,3.7,3.9,Other,59.90047788837122,2025-09-05
+unemployment rate,,2025-09-05 14:30:00+02:00,US,4.3,4.3,4.2,Unemployment,61.492477137506555,2025-09-05
+manufacturing payrolls,,2025-09-05 14:30:00+02:00,US,-12.0,-5.0,-2.0,Employment,61.492477137506555,2025-09-05
+non farm payrolls,,2025-09-05 14:30:00+02:00,US,22.0,75.0,79.0,NFP,61.492477137506555,2025-09-05
+nonfarm payrolls private,,2025-09-05 14:30:00+02:00,US,38.0,75.0,77.0,NFP,61.492477137506555,2025-09-05
+participation rate,,2025-09-05 14:30:00+02:00,US,62.3,62.1,62.2,Other,61.492477137506555,2025-09-05
+u 6 unemployment rate,U-6 Unemployment Rate,2025-09-05 14:30:00+02:00,US,8.1,7.9,7.9,Unemployment,67.6438161052937,2025-09-05
+government payrolls,,2025-09-05 14:30:00+02:00,US,-16.0,,2.0,Employment,61.492477137506555,2025-09-05
+u-6 unemployment rate,,2025-09-05 14:30:00+02:00,US,8.1,7.9,7.9,Unemployment,57.69826407074845,2025-09-05
+average hourly earnings_yoy,,2025-09-05 14:30:00+02:00,US,3.7,3.7,3.9,Other,61.33895365705695,2025-09-05
+average hourly earnings_mom,,2025-09-05 14:30:00+02:00,US,0.3,0.3,0.3,Other,60.440466641117986,2025-09-05
+average weekly hours,,2025-09-05 14:30:00+02:00,US,34.2,34.3,34.2,Other,61.492477137506555,2025-09-05
+baker hughes oil rig count,,2025-09-05 19:00:00+02:00,US,414.0,411.0,412.0,Baker_Hughes_Rig_Count,11.24287509813271,2025-09-05
+cftc aluminium speculative net positions,,2025-09-05 21:30:00+02:00,US,1.1,,1.1,,,2025-09-05
+cftc copper speculative net positions,,2025-09-05 21:30:00+02:00,US,25.7,,26.2,,,2025-09-05
+cftc corn speculative net positions,,2025-09-05 21:30:00+02:00,US,-52.5,,-70.9,,,2025-09-05
+cftc crude oil speculative net positions,,2025-09-05 21:30:00+02:00,US,102.4,,109.5,,,2025-09-05
+cftc gold speculative net positions,,2025-09-05 21:30:00+02:00,US,249.5,,214.3,,,2025-09-05
+cftc nasdaq 100 speculative net positions,,2025-09-05 21:30:00+02:00,US,15.4,,36.1,,,2025-09-05
+cftc s&p 500 speculative net positions,,2025-09-05 21:30:00+02:00,US,-161.1,,-187.8,,,2025-09-05
+cftc s p 500 speculative net positions,CFTC S&P 500 speculative net positions,2025-09-05 21:30:00+02:00,US,-161.1,,-187.8,,,2025-09-05
+cftc silver speculative net positions,,2025-09-05 21:30:00+02:00,US,55.9,,46.5,,,2025-09-05
+cftc soybeans speculative net positions,,2025-09-05 21:30:00+02:00,US,21.4,,18.2,,,2025-09-05
+cftc wheat speculative net positions,,2025-09-05 21:30:00+02:00,US,-71.6,,-78.8,,,2025-09-05
+cftc natural gas speculative net positions,,2025-09-05 21:30:00+02:00,US,-102.8,,-103.9,,,2025-09-05
+mba purchase index,MBA Purchase Index,2025-04-09 13:00:00+02:00,US,172.7,,158.2,,,2025-04-09
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2025-04-09 13:00:00+02:00,US,6.61,,6.7,,,2025-04-09
+mba mortgage applications,MBA Mortgage Applications,2025-04-09 13:00:00+02:00,US,20.0,,-1.6,,,2025-04-09
+mba mortgage market index,MBA Mortgage Market Index,2025-04-09 13:00:00+02:00,US,292.3,,243.6,,,2025-04-09
+mba mortgage refinance index,MBA Mortgage Refinance Index,2025-04-09 13:00:00+02:00,US,961.4,,710.4,,,2025-04-09
+wholesale sales_mom,,2025-04-09 16:00:00+02:00,US,2.4,,-0.9,,,2025-04-09
+wholesale inventories,Wholesale Inventories,2025-04-09 16:00:00+02:00,US,0.3,0.3,0.8,Other,30.886023743354997,2025-04-09
+wholesale sales,Wholesale Sales,2025-04-09 16:00:00+02:00,US,2.4,,-0.9,,,2025-04-09
+wholesale inventories_mom,,2025-04-09 16:00:00+02:00,US,0.3,0.3,0.8,Other,24.85295281301928,2025-04-09
+eia cushing crude oil stocks change,,2025-04-09 16:30:00+02:00,US,0.681,,2.373,,,2025-04-09
+eia crude oil imports change,,2025-04-09 16:30:00+02:00,US,0.36,,0.999,,,2025-04-09
+eia crude oil stocks change,,2025-04-09 16:30:00+02:00,US,2.553,2.2,6.165,,,2025-04-09
+eia distillate fuel production change,,2025-04-09 16:30:00+02:00,US,-0.019,,0.164,,,2025-04-09
+eia distillate stocks change,,2025-04-09 16:30:00+02:00,US,-3.544,0.2,0.264,,,2025-04-09
+eia gasoline production change,,2025-04-09 16:30:00+02:00,US,-0.338,,0.062,,,2025-04-09
+eia gasoline stocks change,,2025-04-09 16:30:00+02:00,US,-1.6,-1.7,-1.551,,,2025-04-09
+eia heating oil stocks change,,2025-04-09 16:30:00+02:00,US,-0.02,,0.209,,,2025-04-09
+eia refinery crude runs change,,2025-04-09 16:30:00+02:00,US,0.069,,-0.192,,,2025-04-09
+eia weekly refinery utilization rates wow,,2025-04-09 16:30:00+02:00,US,0.7,,-1.0,,,2025-04-09
+imports,,2025-04-09 16:30:00+02:00,US,0.36,,0.999,Trade Balance,25.199964392161,2025-04-09
+thomson reuters ipsos pcsi,,2025-04-09 17:00:00+02:00,US,52.8,,54.02,,,2025-04-09
+17 week bill auction,17-Week Bill Auction,2025-04-09 17:30:00+02:00,US,4.25,,4.2,,,2025-04-09
+17-week bill auction,,2025-04-09 17:30:00+02:00,US,4.25,,4.2,,,2025-04-09
+fed barkin speech,,2025-04-09 18:30:00+02:00,US,,,,Other,33.85118560915781,2025-04-09
+10 year note auction,10-Year Note Auction,2025-04-09 19:00:00+02:00,US,4.435,,4.31,,,2025-04-09
+10-year note auction,,2025-04-09 19:00:00+02:00,US,4.435,,4.31,,,2025-04-09
+fomc minutes,,2025-04-09 20:00:00+02:00,US,,,,FOMC,45.77832801413763,2025-04-09
+average hourly earnings,Average Hourly Earnings,2023-08-04 14:30:00+02:00,US,0.4,0.3,0.4,Other,59.90047788837122,2023-08-04
+average weekly hours,,2023-08-04 14:30:00+02:00,US,34.3,34.4,34.4,Other,61.492477137506555,2023-08-04
+government payrolls,,2023-08-04 14:30:00+02:00,US,15.0,,57.0,Employment,61.492477137506555,2023-08-04
+manufacturing payrolls,,2023-08-04 14:30:00+02:00,US,-2.0,5.0,6.0,Employment,61.492477137506555,2023-08-04
+non farm payrolls,,2023-08-04 14:30:00+02:00,US,187.0,200.0,185.0,NFP,61.492477137506555,2023-08-04
+nonfarm payrolls private,,2023-08-04 14:30:00+02:00,US,172.0,179.0,128.0,NFP,61.492477137506555,2023-08-04
+participation rate,,2023-08-04 14:30:00+02:00,US,62.6,,62.6,Other,61.492477137506555,2023-08-04
+u 6 unemployment rate,U-6 Unemployment Rate,2023-08-04 14:30:00+02:00,US,6.7,,6.9,Unemployment,67.6438161052937,2023-08-04
+unemployment rate,,2023-08-04 14:30:00+02:00,US,3.5,3.6,3.6,Unemployment,61.492477137506555,2023-08-04
+average hourly earnings_yoy,,2023-08-04 14:30:00+02:00,US,4.4,4.2,4.4,Other,61.33895365705695,2023-08-04
+average hourly earnings_mom,,2023-08-04 14:30:00+02:00,US,0.4,0.3,0.4,Other,60.440466641117986,2023-08-04
+u-6 unemployment rate,,2023-08-04 14:30:00+02:00,US,6.7,,6.9,Unemployment,57.69826407074845,2023-08-04
+baker hughes oil rig count,,2023-08-04 19:00:00+02:00,US,525.0,,529.0,Baker_Hughes_Rig_Count,11.24287509813271,2023-08-04
+baker hughes total rig count,,2023-08-04 19:00:00+02:00,US,659.0,,664.0,Baker_Hughes_Rig_Count,13.701896447128952,2023-08-04
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2025-06-02 15:45:00+02:00,US,52.0,52.3,50.2,PMI,63.305740150233156,2025-06-02
+s&p global manufacturing pmi,,2025-06-02 15:45:00+02:00,US,52.0,52.3,50.2,PMI,63.305740150233135,2025-06-02
+construction spending,Construction Spending,2025-06-02 16:00:00+02:00,US,-0.4,0.3,-0.8,Consumer,100.0,2025-06-02
+ism manufacturing employment,,2025-06-02 16:00:00+02:00,US,46.8,47.0,46.5,ISM,92.51628728932027,2025-06-02
+ism manufacturing new orders,,2025-06-02 16:00:00+02:00,US,47.6,48.0,47.2,ISM,92.51628728932027,2025-06-02
+ism manufacturing pmi,,2025-06-02 16:00:00+02:00,US,48.5,49.5,48.7,ISM,92.51628728932027,2025-06-02
+ism manufacturing prices,,2025-06-02 16:00:00+02:00,US,69.4,70.2,69.8,ISM,92.51628728932027,2025-06-02
+construction spending_mom,,2025-06-02 16:00:00+02:00,US,-0.4,0.3,-0.8,Consumer,100.0,2025-06-02
+fed logan speech,,2025-06-02 16:15:00+02:00,US,,,,,,2025-06-02
+atlanta fed gdpnow,,2025-06-02 17:30:00+02:00,US,4.6,3.8,3.8,GDP,9.078303333571974,2025-06-02
+3 month bill auction,3-Month Bill Auction,2025-06-02 17:30:00+02:00,US,4.25,,4.255,,,2025-06-02
+6 month bill auction,6-Month Bill Auction,2025-06-02 17:30:00+02:00,US,4.15,,4.16,,,2025-06-02
+3-month bill auction,,2025-06-02 17:30:00+02:00,US,4.25,,4.255,,,2025-06-02
+6-month bill auction,,2025-06-02 17:30:00+02:00,US,4.15,,4.16,,,2025-06-02
+fed goolsbee speech,,2025-06-02 18:45:00+02:00,US,,,,,,2025-06-02
+fed chair powell speech,,2025-06-02 19:00:00+02:00,US,,,,,,2025-06-02
+building permits_mom,,2024-10-24 13:30:00+02:00,US,-3.1,-2.9,4.6,Building Permits,13.493496884140557,2024-10-24
+building permits,,2024-10-24 13:30:00+02:00,US,1.425,1.428,1.47,Building Permits,16.80723913018904,2024-10-24
+jobless claims 4-week average,,2024-10-24 14:30:00+02:00,US,238.5,238.0,236.5,Jobless Claims,25.339023793709526,2024-10-24
+jobless claims 4 week average,Jobless Claims 4-week Average,2024-10-24 14:30:00+02:00,US,238.5,238.0,236.5,Jobless Claims,26.84356289399415,2024-10-24
+initial jobless claims,,2024-10-24 14:30:00+02:00,US,227.0,242.0,242.0,Jobless Claims,26.84356289399415,2024-10-24
+continuing jobless claims,,2024-10-24 14:30:00+02:00,US,1897.0,1880.0,1869.0,Jobless Claims,26.84356289399415,2024-10-24
+chicago fed national activity index,,2024-10-24 14:30:00+02:00,US,-0.28,0.2,-0.01,Other,20.713211827077785,2024-10-24
+s p global composite pmi,S&P Global Composite PMI,2024-10-24 15:45:00+02:00,US,54.3,54.0,54.0,PMI,31.168134940521725,2024-10-24
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2024-10-24 15:45:00+02:00,US,47.8,47.5,47.3,PMI,63.305740150233156,2024-10-24
+s p global services pmi,S&P Global Services PMI,2024-10-24 15:45:00+02:00,US,55.3,55.0,55.2,PMI,30.8479683588807,2024-10-24
+s&p global services pmi,,2024-10-24 15:45:00+02:00,US,55.3,55.0,55.2,PMI,30.82095851027352,2024-10-24
+s&p global manufacturing pmi,,2024-10-24 15:45:00+02:00,US,47.8,47.5,47.3,PMI,63.305740150233135,2024-10-24
+s&p global composite pmi,,2024-10-24 15:45:00+02:00,US,54.3,54.0,54.0,PMI,31.148641931223096,2024-10-24
+fed hammack speech,,2024-10-24 15:45:00+02:00,US,,,,,,2024-10-24
+new home sales,,2024-10-24 16:00:00+02:00,US,0.738,0.72,0.709,Home Sales,16.70601113074671,2024-10-24
+new home sales_mom,,2024-10-24 16:00:00+02:00,US,4.1,-2.2,-2.3,,,2024-10-24
+eia natural gas stocks change,,2024-10-24 16:30:00+02:00,US,80.0,61.0,76.0,,,2024-10-24
+kansas fed manufacturing index,,2024-10-24 17:00:00+02:00,US,,-16.0,-18.0,,,2024-10-24
+kansas fed composite index,,2024-10-24 17:00:00+02:00,US,-4.0,-6.0,-8.0,,,2024-10-24
+4 week bill auction,4-Week Bill Auction,2024-10-24 17:30:00+02:00,US,4.65,,4.7,Other,24.727665972094,2024-10-24
+8-week bill auction,,2024-10-24 17:30:00+02:00,US,4.59,,4.63,Other,24.727665972094,2024-10-24
+4-week bill auction,,2024-10-24 17:30:00+02:00,US,4.65,,4.7,Other,24.727665972094,2024-10-24
+8 week bill auction,8-Week Bill Auction,2024-10-24 17:30:00+02:00,US,4.59,,4.63,Other,24.727665972094,2024-10-24
+15 year mortgage rate,15-Year Mortgage Rate,2024-10-24 18:00:00+02:00,US,5.71,,5.63,,,2024-10-24
+30 year mortgage rate,30-Year Mortgage Rate,2024-10-24 18:00:00+02:00,US,6.54,,6.44,,,2024-10-24
+30-year mortgage rate,,2024-10-24 18:00:00+02:00,US,6.54,,6.44,,,2024-10-24
+15-year mortgage rate,,2024-10-24 18:00:00+02:00,US,5.71,,5.63,,,2024-10-24
+5-year tips auction,,2024-10-24 19:00:00+02:00,US,1.67,,2.05,,,2024-10-24
+5 year tips auction,5-Year TIPS Auction,2024-10-24 19:00:00+02:00,US,1.67,,2.05,,,2024-10-24
+fed balance sheet,,2024-10-24 22:30:00+02:00,US,7.03,,7.04,,,2024-10-24
+challenger job cuts,,2025-05-01 13:30:00+02:00,US,105.441,290.0,275.24,,,2025-05-01
+initial jobless claims,,2025-05-01 14:30:00+02:00,US,241.0,225.0,,Jobless Claims,26.84356289399415,2025-05-01
+jobless claims 4 week average,Jobless Claims 4-Week Average,2025-05-01 14:30:00+02:00,US,226.0,222.0,,Jobless Claims,26.84356289399415,2025-05-01
+jobless claims 4-week average,,2025-05-01 14:30:00+02:00,US,226.0,222.0,,Jobless Claims,25.339023793709526,2025-05-01
+continuing jobless claims,,2025-05-01 14:30:00+02:00,US,1916.0,1844.0,,Jobless Claims,26.84356289399415,2025-05-01
+s&p global manufacturing pmi,,2025-05-01 15:45:00+02:00,US,50.2,50.7,50.2,PMI,63.305740150233135,2025-05-01
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2025-05-01 15:45:00+02:00,US,50.2,50.7,50.2,PMI,63.305740150233156,2025-05-01
+construction spending,Construction Spending,2025-05-01 16:00:00+02:00,US,-0.5,0.3,0.6,Consumer,100.0,2025-05-01
+ism manufacturing employment,,2025-05-01 16:00:00+02:00,US,46.5,44.1,44.7,ISM,92.51628728932027,2025-05-01
+ism manufacturing new orders,,2025-05-01 16:00:00+02:00,US,47.2,44.3,45.2,ISM,92.51628728932027,2025-05-01
+ism manufacturing pmi,,2025-05-01 16:00:00+02:00,US,48.7,47.2,49.0,ISM,92.51628728932027,2025-05-01
+ism manufacturing prices,,2025-05-01 16:00:00+02:00,US,69.8,70.0,69.4,ISM,92.51628728932027,2025-05-01
+construction spending_mom,,2025-05-01 16:00:00+02:00,US,-0.5,0.3,0.6,Consumer,100.0,2025-05-01
+eia natural gas stocks change,,2025-05-01 16:30:00+02:00,US,,,,,,2025-05-01
+8-week bill auction,,2025-05-01 17:30:00+02:00,US,4.22,,4.225,Other,24.727665972094,2025-05-01
+8 week bill auction,8-Week Bill Auction,2025-05-01 17:30:00+02:00,US,4.22,,4.225,Other,24.727665972094,2025-05-01
+4-week bill auction,,2025-05-01 17:30:00+02:00,US,4.24,,4.22,Other,24.727665972094,2025-05-01
+4 week bill auction,4-Week Bill Auction,2025-05-01 17:30:00+02:00,US,4.24,,4.22,Other,24.727665972094,2025-05-01
+atlanta fed gdpnow,,2025-05-01 18:00:00+02:00,US,1.1,2.4,2.4,GDP,9.078303333571974,2025-05-01
+15 year mortgage rate,15-Year Mortgage Rate,2025-05-01 18:00:00+02:00,US,5.92,,5.94,,,2025-05-01
+30 year mortgage rate,30-Year Mortgage Rate,2025-05-01 18:00:00+02:00,US,6.76,,6.81,,,2025-05-01
+15-year mortgage rate,,2025-05-01 18:00:00+02:00,US,5.92,,5.94,,,2025-05-01
+30-year mortgage rate,,2025-05-01 18:00:00+02:00,US,6.76,,6.81,,,2025-05-01
+fed balance sheet,,2025-05-01 22:30:00+02:00,US,6.71,,6.73,,,2025-05-01
+average hourly earnings,,2025-03-07 14:30:00+01:00,US,,,,Other,59.90047788837122,2025-03-07
+average weekly hours,Average Weekly Hours,2025-03-07 14:30:00+01:00,US,34.1,34.2,34.1,Other,61.492477137506555,2025-03-07
+government payrolls,,2025-03-07 14:30:00+01:00,US,11.0,-20.0,44.0,Employment,61.492477137506555,2025-03-07
+manufacturing payrolls,,2025-03-07 14:30:00+01:00,US,10.0,5.0,-5.0,Employment,61.492477137506555,2025-03-07
+non farm payrolls,Non Farm Payrolls,2025-03-07 14:30:00+01:00,US,151.0,160.0,125.0,NFP,61.492477137506555,2025-03-07
+nonfarm payrolls private,,2025-03-07 14:30:00+01:00,US,140.0,142.0,81.0,NFP,61.492477137506555,2025-03-07
+participation rate,,2025-03-07 14:30:00+01:00,US,62.4,62.6,62.6,Other,61.492477137506555,2025-03-07
+unemployment rate,,2025-03-07 14:30:00+01:00,US,4.1,4.0,4.0,Unemployment,61.492477137506555,2025-03-07
+used car prices_mom,,2025-03-07 15:00:00+01:00,US,-0.7,,0.4,,,2025-03-07
+used car prices,Used Car Prices,2025-03-07 15:00:00+01:00,US,0.1,,0.8,,,2025-03-07
+used car prices_yoy,,2025-03-07 15:00:00+01:00,US,0.1,,0.8,,,2025-03-07
+fed bowman speech,,2025-03-07 16:15:00+01:00,US,,,,,,2025-03-07
+fed williams speech,,2025-03-07 16:45:00+01:00,US,,,,,,2025-03-07
+monetary policy report,,2025-03-07 18:00:00+01:00,US,,,,,,2025-03-07
+fed chair powell speech,,2025-03-07 18:30:00+01:00,US,,,,,,2025-03-07
+fed kugler speech,,2025-03-07 19:00:00+01:00,US,,,,,,2025-03-07
+baker hughes oil rig count,,2025-03-07 19:00:00+01:00,US,486.0,,486.0,Baker_Hughes_Rig_Count,11.24287509813271,2025-03-07
+consumer credit change,,2025-03-07 21:00:00+01:00,US,18.08,14.5,37.05,,,2025-03-07
+boe consumer credit,,2025-03-07 22:00:00+01:00,US,18.08,15.6,37.05,,,2025-03-07
+cftc aluminium speculative net positions,,2025-03-07 22:30:00+01:00,US,1.8,,2.5,,,2025-03-07
+cftc copper speculative net positions,,2025-03-07 22:30:00+01:00,US,13.0,,19.0,,,2025-03-07
+cftc corn speculative net positions,,2025-03-07 22:30:00+01:00,US,335.4,,441.2,,,2025-03-07
+cftc crude oil speculative net positions,,2025-03-07 22:30:00+01:00,US,154.8,,171.2,,,2025-03-07
+cftc gold speculative net positions,,2025-03-07 22:30:00+01:00,US,243.3,,261.6,,,2025-03-07
+cftc nasdaq 100 speculative net positions,,2025-03-07 22:30:00+01:00,US,21.8,,25.8,,,2025-03-07
+cftc natural gas speculative net positions,,2025-03-07 22:30:00+01:00,US,-79.1,,-73.8,,,2025-03-07
+cftc s p 500 speculative net positions,CFTC S&P 500 speculative net positions,2025-03-07 22:30:00+01:00,US,32.1,,-32.8,,,2025-03-07
+cftc silver speculative net positions,,2025-03-07 22:30:00+01:00,US,53.3,,52.9,,,2025-03-07
+cftc soybeans speculative net positions,,2025-03-07 22:30:00+01:00,US,-34.3,,-10.6,,,2025-03-07
+cftc wheat speculative net positions,,2025-03-07 22:30:00+01:00,US,-84.8,,-62.1,,,2025-03-07
+cftc s&p 500 speculative net positions,,2025-03-07 22:30:00+01:00,US,32.1,,-32.8,,,2025-03-07
+average hourly earnings_yoy,,2024-05-03 14:30:00+02:00,US,3.9,4.0,4.1,Other,61.33895365705695,2024-05-03
+average weekly hours,,2024-05-03 14:30:00+02:00,US,34.3,34.4,34.4,Other,61.492477137506555,2024-05-03
+government payrolls,,2024-05-03 14:30:00+02:00,US,8.0,,72.0,Employment,61.492477137506555,2024-05-03
+manufacturing payrolls,,2024-05-03 14:30:00+02:00,US,8.0,5.0,-4.0,Employment,61.492477137506555,2024-05-03
+non farm payrolls,,2024-05-03 14:30:00+02:00,US,175.0,243.0,315.0,NFP,61.492477137506555,2024-05-03
+nonfarm payrolls private,,2024-05-03 14:30:00+02:00,US,167.0,190.0,243.0,NFP,61.492477137506555,2024-05-03
+participation rate,,2024-05-03 14:30:00+02:00,US,62.7,62.7,62.7,Other,61.492477137506555,2024-05-03
+u 6 unemployment rate,U-6 Unemployment Rate,2024-05-03 14:30:00+02:00,US,7.4,,7.3,Unemployment,67.6438161052937,2024-05-03
+unemployment rate,,2024-05-03 14:30:00+02:00,US,3.9,3.8,3.8,Unemployment,61.492477137506555,2024-05-03
+average hourly earnings,Average Hourly Earnings,2024-05-03 14:30:00+02:00,US,0.2,0.3,0.3,Other,59.90047788837122,2024-05-03
+u-6 unemployment rate,,2024-05-03 14:30:00+02:00,US,7.4,,7.3,Unemployment,57.69826407074845,2024-05-03
+average hourly earnings_mom,,2024-05-03 14:30:00+02:00,US,0.2,0.3,0.3,Other,60.440466641117986,2024-05-03
+s p global composite pmi,S&P Global Composite PMI,2024-05-03 15:45:00+02:00,US,51.3,50.9,52.1,PMI,31.168134940521725,2024-05-03
+s p global services pmi,S&P Global Services PMI,2024-05-03 15:45:00+02:00,US,51.3,50.9,51.7,PMI,30.8479683588807,2024-05-03
+s&p global services pmi,,2024-05-03 15:45:00+02:00,US,51.3,50.9,51.7,PMI,30.82095851027352,2024-05-03
+s&p global composite pmi,,2024-05-03 15:45:00+02:00,US,51.3,50.9,52.1,PMI,31.148641931223096,2024-05-03
+ism services business activity,,2024-05-03 16:00:00+02:00,US,50.9,,57.4,ISM,32.4907400778474,2024-05-03
+ism services new orders,,2024-05-03 16:00:00+02:00,US,52.2,54.5,54.4,ISM,32.4907400778474,2024-05-03
+ism services pmi,,2024-05-03 16:00:00+02:00,US,49.4,52.0,51.4,ISM,32.4907400778474,2024-05-03
+ism services prices,,2024-05-03 16:00:00+02:00,US,59.2,55.0,53.4,ISM,32.4907400778474,2024-05-03
+ism services employment,,2024-05-03 16:00:00+02:00,US,45.9,49.0,48.5,ISM,32.4907400778474,2024-05-03
+total vehicle sales,,2024-05-03 17:00:00+02:00,US,15.74,,15.5,Consumer,21.47350513016643,2024-05-03
+baker hughes oil rig count,,2024-05-03 19:00:00+02:00,US,499.0,,506.0,Baker_Hughes_Rig_Count,11.24287509813271,2024-05-03
+baker hughes total rigs count,,2024-05-03 19:00:00+02:00,US,605.0,,613.0,Baker_Hughes_Rig_Count,7.247437370381022,2024-05-03
+mba mortgage applications,,2024-08-14 13:00:00+02:00,US,16.8,,6.9,,,2024-08-14
+mba 30-year mortgage rate,,2024-08-14 13:00:00+02:00,US,6.54,,6.55,,,2024-08-14
+mba purchase index,,2024-08-14 13:00:00+02:00,US,137.7,,133.9,,,2024-08-14
+mba mortgage market index,,2024-08-14 13:00:00+02:00,US,251.3,,215.1,,,2024-08-14
+mba mortgage refinance index,,2024-08-14 13:00:00+02:00,US,889.3,,661.4,,,2024-08-14
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2024-08-14 13:00:00+02:00,US,6.54,,6.55,,,2024-08-14
+core inflation rate,Core Inflation Rate,2024-08-14 14:30:00+02:00,US,0.2,0.2,0.1,CPI,44.414844512436375,2024-08-14
+inflation rate,Inflation Rate,2024-08-14 14:30:00+02:00,US,2.9,3.0,3.0,CPI,44.414844512436375,2024-08-14
+core inflation rate_yoy,,2024-08-14 14:30:00+02:00,US,3.2,3.2,3.3,CPI,45.85630258750297,2024-08-14
+core inflation rate_mom,,2024-08-14 14:30:00+02:00,US,0.2,0.2,0.1,CPI,45.02330127008234,2024-08-14
+inflation rate_yoy,,2024-08-14 14:30:00+02:00,US,2.9,3.0,3.0,CPI,46.131002713643156,2024-08-14
+inflation rate_mom,,2024-08-14 14:30:00+02:00,US,0.2,0.2,-0.1,CPI,45.70384828422969,2024-08-14
+cpi s.a,,2024-08-14 14:30:00+02:00,US,313.534,313.2,313.049,CPI,44.69221083727704,2024-08-14
+cpi s a,CPI s.a,2024-08-14 14:30:00+02:00,US,313.534,313.2,313.049,CPI,42.012728389432944,2024-08-14
+cpi,,2024-08-14 14:30:00+02:00,US,314.54,314.77,314.18,CPI,45.13412286023265,2024-08-14
+eia crude oil imports change,,2024-08-14 16:30:00+02:00,US,-0.057,,0.552,,,2024-08-14
+eia crude oil stocks change,,2024-08-14 16:30:00+02:00,US,1.357,-2.0,-3.728,,,2024-08-14
+eia cushing crude oil stocks change,,2024-08-14 16:30:00+02:00,US,-1.665,,0.579,,,2024-08-14
+eia distillate fuel production change,,2024-08-14 16:30:00+02:00,US,-0.267,,0.056,,,2024-08-14
+eia distillate stocks change,,2024-08-14 16:30:00+02:00,US,-1.673,-1.0,0.949,,,2024-08-14
+eia gasoline production change,,2024-08-14 16:30:00+02:00,US,-0.318,,0.032,,,2024-08-14
+eia gasoline stocks change,,2024-08-14 16:30:00+02:00,US,-2.894,-1.4,1.34,,,2024-08-14
+eia heating oil stocks change,,2024-08-14 16:30:00+02:00,US,-0.268,,0.41,,,2024-08-14
+eia refinery crude runs change,,2024-08-14 16:30:00+02:00,US,0.065,,0.252,,,2024-08-14
+17 week bill auction,17-Week Bill Auction,2024-08-14 17:30:00+02:00,US,4.98,,4.99,,,2024-08-14
+17-week bill auction,,2024-08-14 17:30:00+02:00,US,4.98,,4.99,,,2024-08-14
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2025-10-15 13:00:00+02:00,US,,,,,,2025-10-15
+mba purchase index,MBA Purchase Index,2025-10-15 13:00:00+02:00,US,,,,,,2025-10-15
+mba mortgage refinance index,MBA Mortgage Refinance Index,2025-10-15 13:00:00+02:00,US,,,,,,2025-10-15
+mba mortgage market index,MBA Mortgage Market Index,2025-10-15 13:00:00+02:00,US,,,,,,2025-10-15
+mba mortgage applications,MBA Mortgage Applications,2025-10-15 13:00:00+02:00,US,,,,,,2025-10-15
+core inflation rate,Core Inflation Rate,2025-10-15 14:30:00+02:00,US,,3.0,3.1,CPI,44.414844512436375,2025-10-15
+core inflation rate_mom,,2025-10-15 14:30:00+02:00,US,,0.3,0.3,CPI,45.02330127008234,2025-10-15
+core inflation rate_yoy,,2025-10-15 14:30:00+02:00,US,,3.0,3.1,CPI,45.85630258750297,2025-10-15
+cpi s.a,,2025-10-15 14:30:00+02:00,US,,324.7,323.364,CPI,44.69221083727704,2025-10-15
+real earnings_mom,,2025-10-15 14:30:00+02:00,US,,,-0.1,Real_Earnings,43.24374225199799,2025-10-15
+inflation rate_mom,,2025-10-15 14:30:00+02:00,US,,0.3,0.4,CPI,45.70384828422969,2025-10-15
+cpi s a,CPI s.a,2025-10-15 14:30:00+02:00,US,,324.7,323.364,CPI,42.012728389432944,2025-10-15
+inflation rate_yoy,,2025-10-15 14:30:00+02:00,US,,3.0,2.9,CPI,46.131002713643156,2025-10-15
+ny empire state manufacturing index,,2025-10-15 14:30:00+02:00,US,10.7,-1.0,-8.7,Manufacturing,35.00725344868514,2025-10-15
+inflation rate,Inflation Rate,2025-10-15 14:30:00+02:00,US,,0.4,0.4,CPI,44.414844512436375,2025-10-15
+cpi,,2025-10-15 14:30:00+02:00,US,,324.8,323.98,CPI,45.13412286023265,2025-10-15
+17 week bill auction,17-Week Bill Auction,2025-10-15 17:30:00+02:00,US,,,,,,2025-10-15
+17-week bill auction,,2025-10-15 17:30:00+02:00,US,3.81,,3.775,,,2025-10-15
+nopa crush report,,2025-10-15 18:00:00+02:00,US,,,,,,2025-10-15
+fed bostic speech,,2025-10-15 18:10:00+02:00,US,,,,,,2025-10-15
+fed waller speech,,2025-10-15 19:00:00+02:00,US,,,,,,2025-10-15
+fed beige book,,2025-10-15 20:00:00+02:00,US,,,,,,2025-10-15
+beige book,,2025-10-15 20:00:00+02:00,US,,,,,,2025-10-15
+fed schmid speech,,2025-10-15 20:30:00+02:00,US,,,,,,2025-10-15
+api crude oil stock change,,2025-10-15 22:30:00+02:00,US,,0.12,2.78,,,2025-10-15
+inflation rate_mom,,2023-05-10 14:30:00+02:00,US,0.4,0.4,0.1,CPI,45.70384828422969,2023-05-10
+inflation rate,Inflation Rate,2023-05-10 14:30:00+02:00,US,0.4,0.4,0.1,CPI,44.414844512436375,2023-05-10
+eia refinery crude runs change,,2023-05-10 16:30:00+02:00,US,0.01,,-0.098,,,2023-05-10
+eia crude oil imports change,,2023-05-10 16:30:00+02:00,US,1.018,,0.102,,,2023-05-10
+mba mortgage market index,,2023-05-10 17:00:00+02:00,US,227.8,,214.4,,,2023-05-10
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2023-05-10 17:00:00+02:00,US,6.48,,6.5,,,2023-05-10
+mba 30-year mortgage rate,,2023-05-10 17:00:00+02:00,US,6.48,,6.5,,,2023-05-10
+mba purchase index,,2023-05-10 17:00:00+02:00,US,173.7,,165.8,,,2023-05-10
+mba mortgage refinance index,,2023-05-10 17:00:00+02:00,US,507.1,,461.2,,,2023-05-10
+mba mortgage applications,,2023-05-10 17:00:00+02:00,US,6.3,,-1.2,,,2023-05-10
+inflation rate,Inflation Rate,2023-05-10 18:30:00+02:00,US,4.9,5.0,5.0,CPI,44.414844512436375,2023-05-10
+cpi s a,CPI s.a,2023-05-10 18:30:00+02:00,US,302.92,303.3,301.81,CPI,42.012728389432944,2023-05-10
+core inflation rate_mom,,2023-05-10 18:30:00+02:00,US,0.4,0.4,0.4,CPI,45.02330127008234,2023-05-10
+cpi,,2023-05-10 18:30:00+02:00,US,303.363,303.532,301.836,CPI,45.13412286023265,2023-05-10
+core inflation rate,Core Inflation Rate,2023-05-10 18:30:00+02:00,US,0.4,0.4,0.4,CPI,44.414844512436375,2023-05-10
+cpi s.a,,2023-05-10 18:30:00+02:00,US,302.92,303.3,301.81,CPI,44.69221083727704,2023-05-10
+core inflation rate_yoy,,2023-05-10 18:30:00+02:00,US,5.5,5.5,5.6,CPI,45.85630258750297,2023-05-10
+inflation rate_yoy,,2023-05-10 18:30:00+02:00,US,4.9,5.0,5.0,CPI,46.131002713643156,2023-05-10
+eia cushing crude oil stocks change,,2023-05-10 20:30:00+02:00,US,0.397,,0.541,,,2023-05-10
+eia distillate fuel production change,,2023-05-10 20:30:00+02:00,US,0.03,,-0.093,,,2023-05-10
+eia distillate stocks change,,2023-05-10 20:30:00+02:00,US,-4.17,-0.808,-1.191,,,2023-05-10
+eia gasoline production change,,2023-05-10 20:30:00+02:00,US,0.445,,-0.638,,,2023-05-10
+eia gasoline stocks change,,2023-05-10 20:30:00+02:00,US,-3.168,-1.233,1.743,,,2023-05-10
+eia heating oil stocks change,,2023-05-10 20:30:00+02:00,US,-0.417,,0.648,,,2023-05-10
+eia crude oil stocks change,,2023-05-10 20:30:00+02:00,US,2.951,-0.917,-1.28,,,2023-05-10
+17 week bill auction,17-Week Bill Auction,2023-05-10 21:30:00+02:00,US,5.0,,4.98,,,2023-05-10
+17-week bill auction,,2023-05-10 21:30:00+02:00,US,5.0,,4.98,,,2023-05-10
+10 year note auction,10-Year Note Auction,2023-05-10 23:00:00+02:00,US,3.448,,3.455,,,2023-05-10
+10-year note auction,,2023-05-10 23:00:00+02:00,US,3.448,,3.455,,,2023-05-10
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2025-07-30 13:00:00+02:00,US,6.83,,6.84,,,2025-07-30
+mba purchase index,MBA Purchase Index,2025-07-30 13:00:00+02:00,US,155.6,,165.1,,,2025-07-30
+mba mortgage refinance index,MBA Mortgage Refinance Index,2025-07-30 13:00:00+02:00,US,739.3,,747.5,,,2025-07-30
+mba mortgage market index,MBA Mortgage Market Index,2025-07-30 13:00:00+02:00,US,245.7,,255.5,,,2025-07-30
+mba mortgage applications,MBA Mortgage Applications,2025-07-30 13:00:00+02:00,US,-3.8,,0.8,,,2025-07-30
+adp employment change,ADP Employment Change,2025-07-30 14:15:00+02:00,US,104.0,75.0,-23.0,,,2025-07-30
+core pce prices,Core PCE Prices,2025-07-30 14:30:00+02:00,US,2.5,2.3,3.5,PCE,33.282053649144096,2025-07-30
+treasury refunding announcement,,2025-07-30 14:30:00+02:00,US,,,,Other,26.51003613536254,2025-07-30
+gdp growth rate_qoq,,2025-07-30 14:30:00+02:00,US,3.0,2.4,-0.5,GDP,31.59931949463245,2025-07-30
+core pce prices_qoq,,2025-07-30 14:30:00+02:00,US,2.5,2.3,3.5,PCE,30.861610793131643,2025-07-30
+gdp price index,GDP Price Index,2025-07-30 14:30:00+02:00,US,2.0,2.2,3.8,GDP,33.282053649144096,2025-07-30
+real consumer spending,Real Consumer Spending,2025-07-30 14:30:00+02:00,US,1.4,,0.5,Consumer,33.282053649144096,2025-07-30
+pce prices,PCE Prices,2025-07-30 14:30:00+02:00,US,2.1,2.9,3.7,PCE,33.282053649144096,2025-07-30
+gross domestic product,Gross Domestic Product,2025-07-30 14:30:00+02:00,US,3.0,2.5,-0.5,GDP,39.92706987049297,2025-07-30
+gdp sales,GDP Sales,2025-07-30 14:30:00+02:00,US,6.3,1.9,-3.1,GDP,33.282053649144096,2025-07-30
+gdp growth rate,GDP Growth Rate,2025-07-30 14:30:00+02:00,US,3.0,2.4,-0.5,GDP,33.282053649144096,2025-07-30
+pending home sales,Pending Home Sales,2025-07-30 16:00:00+02:00,US,-0.8,0.3,1.8,,,2025-07-30
+pending home sales_mom,,2025-07-30 16:00:00+02:00,US,-0.8,0.3,1.8,,,2025-07-30
+pending home sales_yoy,,2025-07-30 16:00:00+02:00,US,-2.8,1.5,1.1,,,2025-07-30
+eia crude oil stocks change,,2025-07-30 16:30:00+02:00,US,7.698,-2.0,-3.169,,,2025-07-30
+eia crude oil imports change,,2025-07-30 16:30:00+02:00,US,1.317,,-0.74,,,2025-07-30
+eia cushing crude oil stocks change,,2025-07-30 16:30:00+02:00,US,0.69,,0.455,,,2025-07-30
+eia distillate fuel production change,,2025-07-30 16:30:00+02:00,US,0.13,,0.095,,,2025-07-30
+eia distillate stocks change,,2025-07-30 16:30:00+02:00,US,3.635,-0.3,2.931,,,2025-07-30
+eia gasoline production change,,2025-07-30 16:30:00+02:00,US,0.676,,0.282,,,2025-07-30
+eia gasoline stocks change,,2025-07-30 16:30:00+02:00,US,-2.725,-0.5,-1.738,,,2025-07-30
+eia heating oil stocks change,,2025-07-30 16:30:00+02:00,US,0.739,,0.003,,,2025-07-30
+eia refinery crude runs change,,2025-07-30 16:30:00+02:00,US,-0.025,,0.087,,,2025-07-30
+eia weekly refinery utilization rates wow,,2025-07-30 16:30:00+02:00,US,-0.1,,1.6,,,2025-07-30
+imports,,2025-07-30 16:30:00+02:00,US,1.317,,-0.74,Trade Balance,25.199964392161,2025-07-30
+17 week bill auction,17-Week Bill Auction,2025-07-30 17:30:00+02:00,US,4.21,,4.225,,,2025-07-30
+17-week bill auction,,2025-07-30 17:30:00+02:00,US,4.21,,4.225,,,2025-07-30
+fed interest rate decision,,2025-07-30 20:00:00+02:00,US,4.5,4.5,4.5,Fed Rate,48.517963191030475,2025-07-30
+fomc minutes,,2025-07-30 20:00:00+02:00,US,,,,FOMC,45.77832801413763,2025-07-30
+fed press conference,,2025-07-30 20:30:00+02:00,US,,,,,,2025-07-30
+press conference,,2025-07-30 20:30:00+02:00,US,,,,,,2025-07-30
+average hourly earnings,Average Hourly Earnings,2025-11-07 14:30:00+01:00,US,,,,Other,59.90047788837122,2025-11-07
+average weekly hours,Average Weekly Hours,2025-11-07 14:30:00+01:00,US,,,,Other,61.492477137506555,2025-11-07
+government payrolls,Government Payrolls,2025-11-07 14:30:00+01:00,US,,,,Employment,61.492477137506555,2025-11-07
+manufacturing payrolls,Manufacturing Payrolls,2025-11-07 14:30:00+01:00,US,,,,Employment,61.492477137506555,2025-11-07
+non farm payrolls,Non Farm Payrolls,2025-11-07 14:30:00+01:00,US,,,,NFP,61.492477137506555,2025-11-07
+nonfarm payrolls private,Nonfarm Payrolls Private,2025-11-07 14:30:00+01:00,US,,,,NFP,61.492477137506555,2025-11-07
+participation rate,Participation Rate,2025-11-07 14:30:00+01:00,US,,,,Other,61.492477137506555,2025-11-07
+u 6 unemployment rate,U-6 Unemployment Rate,2025-11-07 14:30:00+01:00,US,,,,Unemployment,67.6438161052937,2025-11-07
+unemployment rate,Unemployment Rate,2025-11-07 14:30:00+01:00,US,,,,Unemployment,61.492477137506555,2025-11-07
+michigan 5 year inflation expectations,Michigan 5 Year Inflation Expectations,2025-11-07 16:00:00+01:00,US,,,,Michigan_5Y_Inflation_Expectations,24.07920765964181,2025-11-07
+michigan consumer expectations,Michigan Consumer Expectations,2025-11-07 16:00:00+01:00,US,,,,Michigan_Consumer_Expectations,24.07920765964181,2025-11-07
+michigan consumer sentiment,Michigan Consumer Sentiment,2025-11-07 16:00:00+01:00,US,,,,Consumer Confidence,24.07920765964181,2025-11-07
+michigan current conditions,Michigan Current Conditions,2025-11-07 16:00:00+01:00,US,,,,Michigan_Current_Conditions,24.07920765964181,2025-11-07
+michigan inflation expectations,Michigan Inflation Expectations,2025-11-07 16:00:00+01:00,US,,,,Inflation,23.7495601289988,2025-11-07
+consumer inflation expectation,Consumer Inflation Expectation,2025-11-07 17:00:00+01:00,US,,,,,,2025-11-07
+baker hughes oil rig count,Baker Hughes Oil Rig Count,2025-11-07 19:00:00+01:00,US,,,,Baker_Hughes_Rig_Count,11.24287509813271,2025-11-07
+consumer credit change,Consumer Credit Change,2025-11-07 21:00:00+01:00,US,,-8.0,,,,2025-11-07
+average hourly earnings,Average Hourly Earnings,2023-05-05 14:30:00+02:00,US,0.5,0.3,0.3,Other,59.90047788837122,2023-05-05
+average weekly hours,,2023-05-05 14:30:00+02:00,US,34.4,34.4,34.4,Other,61.492477137506555,2023-05-05
+non farm payrolls,,2023-05-05 14:30:00+02:00,US,253.0,180.0,165.0,NFP,61.492477137506555,2023-05-05
+nonfarm payrolls private,,2023-05-05 14:30:00+02:00,US,230.0,160.0,123.0,NFP,61.492477137506555,2023-05-05
+participation rate,,2023-05-05 14:30:00+02:00,US,62.6,,62.6,Other,61.492477137506555,2023-05-05
+unemployment rate,,2023-05-05 14:30:00+02:00,US,3.4,3.6,3.5,Unemployment,61.492477137506555,2023-05-05
+average hourly earnings_yoy,,2023-05-05 14:30:00+02:00,US,4.4,4.2,4.3,Other,61.33895365705695,2023-05-05
+average hourly earnings_mom,,2023-05-05 14:30:00+02:00,US,0.5,0.3,0.3,Other,60.440466641117986,2023-05-05
+government payrolls,,2023-05-05 18:30:00+02:00,US,23.0,,42.0,Employment,61.492477137506555,2023-05-05
+manufacturing payrolls,,2023-05-05 18:30:00+02:00,US,11.0,-5.0,-8.0,Employment,61.492477137506555,2023-05-05
+baker hughes oil rig count,,2023-05-05 19:00:00+02:00,US,588.0,,591.0,Baker_Hughes_Rig_Count,11.24287509813271,2023-05-05
+baker hughes total rig count,,2023-05-05 19:00:00+02:00,US,748.0,,755.0,Baker_Hughes_Rig_Count,13.701896447128952,2023-05-05
+used car prices,Used Car Prices,2023-05-05 19:30:00+02:00,US,-3.0,,1.5,,,2023-05-05
+used car prices_yoy,,2023-05-05 19:30:00+02:00,US,-4.4,,-2.4,,,2023-05-05
+used car prices_mom,,2023-05-05 19:30:00+02:00,US,-3.0,,1.5,,,2023-05-05
+mba mortgage applications,,2025-01-02 13:00:00+01:00,US,-12.6,,-0.7,,,2025-01-02
+mba 30-year mortgage rate,,2025-01-02 13:00:00+01:00,US,6.97,,6.75,,,2025-01-02
+mba mortgage market index,,2025-01-02 13:00:00+01:00,US,174.9,,224.0,,,2025-01-02
+mba mortgage refinance index,,2025-01-02 13:00:00+01:00,US,395.1,,617.5,,,2025-01-02
+mba purchase index,,2025-01-02 13:00:00+01:00,US,136.7,,157.1,,,2025-01-02
+mba 30 year mortgage rate,MBA 30-Year Mortgage Rate,2025-01-02 13:00:00+01:00,US,6.97,,6.75,,,2025-01-02
+initial jobless claims,,2025-01-02 14:30:00+01:00,US,211.0,222.0,219.0,Jobless Claims,26.84356289399415,2025-01-02
+jobless claims 4 week average,Jobless Claims 4-Week Average,2025-01-02 14:30:00+01:00,US,223.25,,226.75,Jobless Claims,26.84356289399415,2025-01-02
+continuing jobless claims,,2025-01-02 14:30:00+01:00,US,1844.0,1890.0,1910.0,Jobless Claims,26.84356289399415,2025-01-02
+jobless claims 4-week average,,2025-01-02 14:30:00+01:00,US,223.25,,226.75,Jobless Claims,25.339023793709526,2025-01-02
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2025-01-02 15:45:00+01:00,US,49.4,48.3,49.7,PMI,63.305740150233156,2025-01-02
+s&p global manufacturing pmi,,2025-01-02 15:45:00+01:00,US,49.4,48.3,49.7,PMI,63.305740150233135,2025-01-02
+construction spending,Construction Spending,2025-01-02 16:00:00+01:00,US,,0.3,0.5,Consumer,100.0,2025-01-02
+construction spending_mom,,2025-01-02 16:00:00+01:00,US,,0.3,0.5,Consumer,100.0,2025-01-02
+eia crude oil imports change,,2025-01-02 17:00:00+01:00,US,0.323,,0.995,,,2025-01-02
+eia crude oil stocks change,,2025-01-02 17:00:00+01:00,US,-1.178,-2.75,-4.237,,,2025-01-02
+eia cushing crude oil stocks change,,2025-01-02 17:00:00+01:00,US,-0.142,,-0.32,,,2025-01-02
+eia distillate fuel production change,,2025-01-02 17:00:00+01:00,US,0.099,,0.178,,,2025-01-02
+eia distillate stocks change,,2025-01-02 17:00:00+01:00,US,6.406,-0.1,-1.694,,,2025-01-02
+eia gasoline production change,,2025-01-02 17:00:00+01:00,US,-0.959,,0.051,,,2025-01-02
+eia gasoline stocks change,,2025-01-02 17:00:00+01:00,US,7.717,0.7,1.63,,,2025-01-02
+eia heating oil stocks change,,2025-01-02 17:00:00+01:00,US,-0.416,,-0.062,,,2025-01-02
+eia refinery crude runs change,,2025-01-02 17:00:00+01:00,US,0.041,,0.205,,,2025-01-02
+eia weekly refinery utilization rates wow,,2025-01-02 17:00:00+01:00,US,0.2,,0.7,,,2025-01-02
+imports,,2025-01-02 17:00:00+01:00,US,0.323,,0.995,Trade Balance,25.199964392161,2025-01-02
+4 week bill auction,4-Week Bill Auction,2025-01-02 17:30:00+01:00,US,4.265,,4.26,Other,24.727665972094,2025-01-02
+8 week bill auction,8-Week Bill Auction,2025-01-02 17:30:00+01:00,US,4.24,,4.265,Other,24.727665972094,2025-01-02
+8-week bill auction,,2025-01-02 17:30:00+01:00,US,4.24,,4.265,Other,24.727665972094,2025-01-02
+4-week bill auction,,2025-01-02 17:30:00+01:00,US,4.265,,4.26,Other,24.727665972094,2025-01-02
+15 year mortgage rate,15-Year Mortgage Rate,2025-01-02 18:00:00+01:00,US,6.13,,6.0,,,2025-01-02
+30 year mortgage rate,30-Year Mortgage Rate,2025-01-02 18:00:00+01:00,US,6.91,,6.85,,,2025-01-02
+15-year mortgage rate,,2025-01-02 18:00:00+01:00,US,6.13,,6.0,,,2025-01-02
+30-year mortgage rate,,2025-01-02 18:00:00+01:00,US,6.91,,6.85,,,2025-01-02
+17 week bill auction,17-Week Bill Auction,2025-01-02 19:00:00+01:00,US,4.195,,4.23,,,2025-01-02
+17-week bill auction,,2025-01-02 19:00:00+01:00,US,4.195,,4.23,,,2025-01-02
+fed balance sheet,,2025-01-02 23:45:00+01:00,US,6.85,,6.88,,,2025-01-02
+average hourly earnings,Average Hourly Earnings,2024-11-01 12:30:00+01:00,US,4.0,4.0,3.9,Other,59.90047788837122,2024-11-01
+average hourly earnings_mom,,2024-11-01 13:30:00+01:00,US,0.4,0.3,0.3,Other,60.440466641117986,2024-11-01
+average hourly earnings,,2024-11-01 13:30:00+01:00,US,4.0,4.0,3.9,Other,59.90047788837122,2024-11-01
+average weekly hours,,2024-11-01 13:30:00+01:00,US,34.3,34.2,34.3,Other,61.492477137506555,2024-11-01
+government payrolls,,2024-11-01 13:30:00+01:00,US,40.0,20.0,31.0,Employment,61.492477137506555,2024-11-01
+manufacturing payrolls,,2024-11-01 13:30:00+01:00,US,-46.0,-28.0,-6.0,Employment,61.492477137506555,2024-11-01
+non farm payrolls,,2024-11-01 13:30:00+01:00,US,12.0,113.0,223.0,NFP,61.492477137506555,2024-11-01
+nonfarm payrolls private,,2024-11-01 13:30:00+01:00,US,-28.0,90.0,192.0,NFP,61.492477137506555,2024-11-01
+participation rate,,2024-11-01 13:30:00+01:00,US,62.6,62.7,62.7,Other,61.492477137506555,2024-11-01
+unemployment rate,,2024-11-01 13:30:00+01:00,US,7.7,4.1,7.7,Unemployment,61.492477137506555,2024-11-01
+s p global manufacturing pmi,S&P Global Manufacturing PMI,2024-11-01 14:45:00+01:00,US,48.5,47.8,47.3,PMI,63.305740150233156,2024-11-01
+s&p global manufacturing pmi,,2024-11-01 14:45:00+01:00,US,48.5,47.8,47.3,PMI,63.305740150233135,2024-11-01
+construction spending,Construction Spending,2024-11-01 15:00:00+01:00,US,0.1,0.5,0.1,Consumer,100.0,2024-11-01
+ism manufacturing employment,,2024-11-01 15:00:00+01:00,US,44.4,45.0,43.9,ISM,92.51628728932027,2024-11-01
+ism manufacturing new orders,,2024-11-01 15:00:00+01:00,US,47.1,47.0,46.1,ISM,92.51628728932027,2024-11-01
+ism manufacturing pmi,,2024-11-01 15:00:00+01:00,US,46.5,47.6,47.2,ISM,92.51628728932027,2024-11-01
+ism manufacturing prices,,2024-11-01 15:00:00+01:00,US,54.8,48.5,48.3,ISM,92.51628728932027,2024-11-01
+construction spending_mom,,2024-11-01 15:00:00+01:00,US,0.1,0.5,0.1,Consumer,100.0,2024-11-01
+atlanta fed gdpnow,,2024-11-01 17:00:00+01:00,US,2.3,2.7,2.7,GDP,9.078303333571974,2024-11-01
+baker hughes oil rig count,,2024-11-01 17:00:00+01:00,US,585.0,,585.0,Baker_Hughes_Rig_Count,11.24287509813271,2024-11-01
+baker hughes oil rig count,,2024-11-01 18:00:00+01:00,US,479.0,479.0,480.0,Baker_Hughes_Rig_Count,11.24287509813271,2024-11-01
+baker hughes total rig count,,2024-11-01 18:00:00+01:00,US,585.0,,585.0,Baker_Hughes_Rig_Count,13.701896447128952,2024-11-01
+cftc aluminium speculative net positions,,2024-11-01 19:30:00+01:00,US,3.2,,2.6,,,2024-11-01
+cftc copper speculative net positions,,2024-11-01 19:30:00+01:00,US,23.7,,32.5,,,2024-11-01
+cftc corn speculative net positions,,2024-11-01 19:30:00+01:00,US,83.3,,17.8,,,2024-11-01
+cftc crude oil speculative net positions,,2024-11-01 19:30:00+01:00,US,151.9,,173.7,,,2024-11-01
+cftc gold speculative net positions,,2024-11-01 19:30:00+01:00,US,278.7,,296.2,,,2024-11-01
+cftc nasdaq 100 speculative net positions,,2024-11-01 19:30:00+01:00,US,5.1,,2.7,,,2024-11-01
+cftc natural gas speculative net positions,,2024-11-01 19:30:00+01:00,US,-166.2,,-166.2,,,2024-11-01
+cftc s p 500 speculative net positions,CFTC S&P 500 speculative net positions,2024-11-01 19:30:00+01:00,US,62.7,,23.0,,,2024-11-01
+cftc silver speculative net positions,,2024-11-01 19:30:00+01:00,US,60.4,,66.4,,,2024-11-01
+cftc soybeans speculative net positions,,2024-11-01 19:30:00+01:00,US,-92.1,,-78.3,,,2024-11-01
+cftc wheat speculative net positions,,2024-11-01 19:30:00+01:00,US,-22.9,,-17.1,,,2024-11-01
+cftc s&p 500 speculative net positions,,2024-11-01 19:30:00+01:00,US,62.7,,23.0,,,2024-11-01
+opec monthly report,OPEC Monthly Report,2025-07-15 13:00:00+02:00,US,,,,,,2025-07-15
+core inflation rate,Core Inflation Rate,2025-07-15 14:30:00+02:00,US,0.2,0.3,0.1,CPI,44.414844512436375,2025-07-15
+cpi,,2025-07-15 14:30:00+02:00,US,322.56,322.5,321.46,CPI,45.13412286023265,2025-07-15
+cpi s a,CPI s.a,2025-07-15 14:30:00+02:00,US,321.5,321.5,320.58,CPI,42.012728389432944,2025-07-15
+inflation rate,Inflation Rate,2025-07-15 14:30:00+02:00,US,0.3,0.3,0.1,CPI,44.414844512436375,2025-07-15
+ny empire state manufacturing index,,2025-07-15 14:30:00+02:00,US,5.5,-9.0,-16.0,Manufacturing,35.00725344868514,2025-07-15
+real earnings,Real Earnings,2025-07-15 14:30:00+02:00,US,-0.4,,0.3,Real_Earnings,40.7828449344552,2025-07-15
+cpi s.a,,2025-07-15 14:30:00+02:00,US,321.5,321.5,320.58,CPI,44.69221083727704,2025-07-15
+inflation rate_mom,,2025-07-15 14:30:00+02:00,US,0.3,0.3,0.1,CPI,45.70384828422969,2025-07-15
+real earnings_mom,,2025-07-15 14:30:00+02:00,US,-0.4,,0.3,Real_Earnings,43.24374225199799,2025-07-15
+inflation rate_yoy,,2025-07-15 14:30:00+02:00,US,2.7,2.7,2.4,CPI,46.131002713643156,2025-07-15
+core inflation rate_mom,,2025-07-15 14:30:00+02:00,US,0.2,0.3,0.1,CPI,45.02330127008234,2025-07-15
+core inflation rate_yoy,,2025-07-15 14:30:00+02:00,US,2.9,3.0,2.8,CPI,45.85630258750297,2025-07-15
+redbook,Redbook,2025-07-15 14:55:00+02:00,US,5.2,,5.9,,,2025-07-15
+redbook_yoy,,2025-07-15 14:55:00+02:00,US,5.2,,5.9,,,2025-07-15
+fed bowman speech,,2025-07-15 15:15:00+02:00,US,,,,,,2025-07-15
+nopa crush report,,2025-07-15 18:00:00+02:00,US,,,,,,2025-07-15
+fed barr speech,,2025-07-15 18:45:00+02:00,US,,,,,,2025-07-15
+fed barkin speech,,2025-07-15 19:00:00+02:00,US,,,,Other,33.85118560915781,2025-07-15
+fed collins speech,,2025-07-15 20:45:00+02:00,US,,,,,,2025-07-15
+api crude oil stock change,,2025-07-15 22:30:00+02:00,US,19.1,-2.0,7.1,,,2025-07-15

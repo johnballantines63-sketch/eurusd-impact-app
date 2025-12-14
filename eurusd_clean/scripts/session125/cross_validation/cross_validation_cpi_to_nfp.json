@@ -1,0 +1,13 @@
+{
+  "test": "Cross-validation CPI function on NFP events",
+  "cpi_calibration": "amp = 0.040833 + 0.050220\u00d7R\u00b2 + -0.006553\u00d7R\u00b2\u00b2",
+  "nfp_results": [],
+  "metrics": {
+    "n_nfp_clusters": 0,
+    "mae_cpi_function": null,
+    "mae_baseline": null,
+    "improvement_mae_pct": null,
+    "improvement_rmse_pct": null
+  },
+  "generalization": "INSUFFICIENT_DATA"
+}

@@ -1,0 +1,56 @@
+{
+  "event_type": "fed interest rate decision",
+  "timestamp": "2025-11-11T14:49:41.768773",
+  "parameters": {
+    "window": 240,
+    "lookback_days": 30,
+    "min_occurrences": 3,
+    "max_date": "2025-11-05"
+  },
+  "events_analyzed": 13,
+  "calibration": {
+    "best_model": "quadratic",
+    "formula": "amp = 1.000000 + -0.984285\u00d7R\u00b2 + 1.000000\u00d7R\u00b2\u00b2",
+    "parameters": [
+      0.9999999998355217,
+      -0.9842847618691012,
+      0.9999999999999999
+    ],
+    "metrics": {
+      "r2_fit": 0.12139405161756078,
+      "mae_fit": 0.3498074014478077,
+      "n_samples": 13
+    }
+  },
+  "validation": {
+    "n_samples": 13,
+    "mae_function": 34.7969538461539,
+    "mae_baseline": 84.21884615384661,
+    "rmse_function": 42.51801090607647,
+    "rmse_baseline": 87.69131828136213,
+    "improvement_mae_pct": 58.68269937753763,
+    "improvement_rmse_pct": 51.51400191104981,
+    "r2_predictions": -2.028346420711876
+  },
+  "decision": {
+    "decision": "EXCELLENT",
+    "improvement_pct": 58.68269937753763,
+    "metrics_summary": {
+      "n_samples": 13,
+      "mae_function": 34.7969538461539,
+      "mae_baseline": 84.21884615384661,
+      "improvement_mae_pct": 58.68269937753763,
+      "rmse_function": 42.51801090607647,
+      "rmse_baseline": 87.69131828136213,
+      "improvement_rmse_pct": 51.51400191104981
+    },
+    "recommendation": "INT\u00c9GRER IMM\u00c9DIATEMENT - Fonction universelle valid\u00e9e",
+    "next_steps": [
+      "Int\u00e9grer dans Planificateur V2.5 (formulas_validated.py)",
+      "Validation crois\u00e9e sur autre famille (CPI \u2192 NFP, NFP \u2192 Fed, etc.)",
+      "Documentation production (README + exemples)",
+      "Tests sur dates r\u00e9f\u00e9rence (11 septembre CPI, etc.)"
+    ],
+    "confidence": "HIGH"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "date": "2024-08-26",
+  "movement_start_time": "2024-08-26 12:29:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "NEUTRAL",
+  "score": -0.15852877365357346,
+  "has_trigger": true,
+  "n_active": 6,
+  "contributions": [
+    {
+      "event_key": "durable goods orders",
+      "family": "Durable Goods",
+      "actual": 9.9,
+      "estimate": 5.0,
+      "surprise": 4.9,
+      "surprise_z": 1.4208582824132572,
+      "alpha_weight": -0.0747808481600945,
+      "contribution": -0.10625298747415846,
+      "is_trigger": true
+    },
+    {
+      "event_key": "durable goods orders ex defense",
+      "family": "Durable Goods",
+      "actual": 10.4,
+      "estimate": 2.2,
+      "surprise": 8.2,
+      "surprise_z": 1.7103057200381169,
+      "alpha_weight": -0.0747808481600945,
+      "contribution": -0.12789811235751153,
+      "is_trigger": true
+    },
+    {
+      "event_key": "durable goods orders ex transp",
+      "family": "Durable Goods",
+      "actual": -0.2,
+      "estimate": -0.1,
+      "surprise": -0.1,
+      "surprise_z": -0.6582170198614103,
+      "alpha_weight": -0.0491380109682547,
+      "contribution": 0.0323434751414419,
+      "is_trigger": false
+    },
+    {
+      "event_key": "durable goods orders ex transp_mom",
+      "family": "Durable Goods",
+      "actual": -0.2,
+      "estimate": -0.1,
+      "surprise": -0.1,
+      "surprise_z": -0.872766282242329,
+      "alpha_weight": -0.0491380109682547,
+      "contribution": 0.04288599914954644,
+      "is_trigger": true
+    },
+    {
+      "event_key": "durable goods orders_mom",
+      "family": "Durable Goods",
+      "actual": 9.9,
+      "estimate": 5.0,
+      "surprise": 4.9,
+      "surprise_z": 1.2483504668387195,
+      "alpha_weight": -0.0747808481600945,
+      "contribution": -0.09335270671124937,
+      "is_trigger": true
+    },
+    {
+      "event_key": "durable goods orders ex defense_mom",
+      "family": "Durable Goods",
+      "actual": 10.4,
+      "estimate": 2.2,
+      "surprise": 8.2,
+      "surprise_z": 1.8191860094612944,
+      "alpha_weight": -0.0747808481600945,
+      "contribution": -0.1360402727484933,
+      "is_trigger": true
+    }
+  ]
+}

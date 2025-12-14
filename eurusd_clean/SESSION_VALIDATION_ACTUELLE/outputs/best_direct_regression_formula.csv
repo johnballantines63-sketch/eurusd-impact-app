@@ -1,0 +1,2 @@
+method,formula,mae,median_ratio,correlation,coefficient,power
+Formule puissance,impact = 40.4205 * impact_base^0.0733,14.273522054813883,1.042463823560546,0.18511656022531514,40.42046948599432,0.0732816732450076

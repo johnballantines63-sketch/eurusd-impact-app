@@ -1,0 +1,11 @@
+{
+  "mean_prediction": 62.91473684210526,
+  "median_prediction": 49.608,
+  "mae_mean": 23.686956140350877,
+  "mae_median": 19.360421052631578,
+  "gain_mae": -4.326535087719299,
+  "decision": "ADOPTER MÉDIANE",
+  "status": "✅",
+  "reason": "Gain -4.33 pips >= -2.0 pips → Amélioration significative",
+  "threshold": -2.0
+}

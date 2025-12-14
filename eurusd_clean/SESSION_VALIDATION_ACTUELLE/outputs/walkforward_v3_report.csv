@@ -1,0 +1,2 @@
+horizon,train_samples,test_samples,theta_calibrated,k_global,mae_before_calibration,mae_after_calibration,mae_median_after,ratio_median_after,direction_accuracy
+1h,40,10,0.10000000000000187,0.3689786637872664,58.24003697415829,7.985474426693368,8.178938895703421,1.3969229570699362,100.0

@@ -1,0 +1,119 @@
+# 📊 PROJECT STATE - EUR/USD NEWS IMPACT CALCULATOR
+
+**Dernière mise à jour :** 26 octobre 2025 - Session 86  
+**Status :** ⚠️ VALIDATION EN COURS - Timezone validé, formules à ajuster  
+**Version :** v2.6 - Script validation fonctionnel + Double Wave à intégrer  
+**Prochaine étape :** Session 87 - Intégrer Double Wave + Valider 4 dates
+
+---
+
+## 🎯 RÈGLE CRITIQUE DOCUMENTATION
+
+> ⚠️ **RÈGLE ÉTABLIE** : Ce fichier unique est la source de vérité du projet.  
+> Mettre à jour directement ce fichier plutôt que créer des fichiers fragmentés.
+
+---
+
+## 🚀 SESSION 86 - TIMEZONE VALIDÉ + SCRIPT FONCTIONNEL (26 octobre 2025)
+
+### Mission et Résultats
+
+**Objectif :** Corriger timezone + Valider formules S51-55 sur données réelles
+
+**Réalisations ✅ :**
+- ✅ **Timezone définitivement validé** : Event 12:30+02:00 → Prix 12:30+02:00 (même timezone, pas de conversion)
+- ✅ **Checklist timezone appliquée** : 5 étapes cochées, spike 01.08.2025 capturé (1.13918, écart 0.7 pips vs MT5)
+- ✅ **Script validation corrigé** : `validate_predictions_vs_reality.py` v1.1 avec validation automatique timezone
+- ✅ **Test 01.08.2025 effectué** : Données réelles capturées (173.8 pips impact observé)
+
+**Découvertes critiques ⚠️ :**
+- ❌ **Formules sous-estiment** : 67.7 pips prédit vs 173.8 pips réel (écart 61%)
+- ❌ **Timing incorrect** : 16.8 min vs 60 min réel
+- 🔍 **Formules Double Wave Session 64 NON appliquées** : Type détecté mais formule standard utilisée
+- 🔍 **Amplification insuffisante** : Surprise 500% plafonnée à 2.5x (nécessite ~6.4x)
+
+### Règle Timezone Définitive
+
+```
+RÈGLE VALIDÉE SESSION 86 :
+========================
+Table events : ts_utc contient +02:00 (Bern time)
+Table prices_1m : datetime contient +02:00 (Bern time)
+
+→ MÊME TIMEZONE pour les deux tables
+→ PAS de conversion +2h nécessaire
+→ Exemple : Event 12:30+02:00 → Chercher prix 12:30+02:00
+
+CHECKLIST OBLIGATOIRE (5 étapes) :
+1. Inspecter échantillon (LIMIT 3)
+2. Documenter timezone dans code
+3. Query avec +02:00 explicite
+4. Tester cas connu (01.08 : 1.13925)
+5. Valider résultat vs MT5
+```
+
+### Script Validation Corrigé
+
+**Fichier :** `/eurusd_clean/scripts/session84/validate_predictions_vs_reality.py` (v1.1)
+
+**Améliorations Session 86 :**
+- Paramètre renommé : `event_time_utc` → `event_time_bern` (clarté)
+- Validation automatique timezone (teste 01.08.2025)
+- Documentation timezone complète
+- Correction pandas timezone-aware (pytz)
+- Utilise colonnes high/low (précision maximale)
+
+**Backup :** `validate_predictions_vs_reality.py.backup_session86`
+
+### Prochaine Session (87)
+
+**Mission :** Intégrer Double Wave + Valider 4 dates
+
+**Actions prioritaires :**
+1. Ajouter `calculate_double_wave_impact()` dans `formulas_validated.py`
+2. Ajuster amplification pour surprises >100%
+3. Modifier script validation pour utiliser Double Wave si détecté
+4. RE-TESTER 01.08.2025 (améliorer 67.7 → ~170 pips)
+5. Tester 17.09, 05.09, 10.12
+6. Analyse comparative finale
+
+**Fichiers clés :**
+- `/eurusd_clean/docs/SESSION64_RAPPORT_COMPLET.md` (formules Double Wave)
+- `/eurusd_clean/docs/SESSION86_RAPPORT_COMPLET.md` (découvertes)
+- `/eurusd_clean/docs/MESSAGE_SESSION86_SESSION87.md` (plan détaillé)
+
+---
+
+## 🚨 RÈGLES OBLIGATOIRES SESSION (SESSION 64)
+
+### 📚 Fichiers de Référence Impératifs
+
+**AVANT CHAQUE SESSION, l'utilisateur doit référencer :**
+
+1. **`MANDATORY_SESSION_RULES.md`** ⭐⭐⭐
+   - Règles obligatoires non négociables
+   - Checklist démarrage (5 étapes)
+   - Anti-patterns interdits
+   - Pattern de succès validé
+
+2. **`TEMPLATE_MESSAGE_SESSION.md`** ⭐⭐
+   - Templates messages démarrage
+   - Exemples concrets
+   - Variantes selon situation
+
+3. **`QUICK_START_SESSION.md`** ⭐
+   - Aide-mémoire ultra-rapide (2 min)
+   - Copier-coller prêt à l'emploi
+   - TL;DR 3 lignes
+
+### ✅ Checklist Obligatoire Démarrage
+
+**Claude DOIT faire AVANT tout code :**
+
+- [ ] Lire `MANDATORY_SESSION_RULES.md`
+- [ ] Lire `project_state_new.md` (ce fichier)
+- [ ] Lire rapport session précédente
+- [ ] Lire message transition
+- [ ] Résumer compréhension mission
+- [ ] Obtenir confirmation utilisateur GO
+- [ ] Afficher tokens utilisés

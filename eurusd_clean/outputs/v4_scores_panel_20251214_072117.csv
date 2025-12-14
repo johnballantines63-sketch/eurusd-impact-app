@@ -1,0 +1,2 @@
+date_local,kernel_size,kernel_releases,kernel_keys_json,score_0_100,prob_up,prob_down,impact_pred_pips
+2025-09-11,9,1,"[""continuing jobless claims"", ""core inflation rate mom"", ""core inflation rate yoy"", ""cpi"", ""cpi sa"", ""inflation rate mom"", ""inflation rate yoy"", ""initial jobless claims"", ""jobless claims 4week average""]",98.32775919732441,1.0,0.0,32.49237580527052

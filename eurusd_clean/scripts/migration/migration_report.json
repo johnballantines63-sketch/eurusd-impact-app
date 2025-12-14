@@ -1,0 +1,188 @@
+{
+  "summary": {
+    "total_files_analyzed": 148,
+    "files_with_errors": 1,
+    "total_modules_found": 12,
+    "essential_modules": 11,
+    "obsolete_modules": 1
+  },
+  "essential_modules": [
+    {
+      "name": "fx_impact_app.src._shared",
+      "used_by_count": 2,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/10_Calendar_Sim_Backtest.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/6_Top_events.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "fx_impact_app.src.config",
+      "used_by_count": 27,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/audit_suite.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/audit_v2.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/check_and_backfill-window.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/check_and_backfill_window.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/check_price_coverage.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/ingest_eodhd_calendar.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/ingest_prices_csv.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/ingest_prices_eodhd.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/src/db_init.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/src/forecaster_mvp.backup_20251005_153128.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.0_Live-Calendar-Forecast.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.0c_Backfill-Window.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.1_Simultaneous-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.2_Simultaneous-Screener.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.5_Baskets-with-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.6_Calendar-Sim-Baskets-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/99_API_Status.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/10_Calendar_Sim_Backtest.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/6_Top_events.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/7_Simultaneous_events.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/8_Forecaster_MVP_OLD.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/9_Backtest.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/0-Live_Calendar_Forecast.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/10a-Calendar_Sim_Baskets_Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/7a-Simultaneous_Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/7b-Simultaneous_Screener.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/9a-Baskets_with_Presets.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "fx_impact_app.src.db_tuning",
+      "used_by_count": 3,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/audit_suite.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.2_Simultaneous-Screener.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/7b-Simultaneous_Screener.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "fx_impact_app.src.eodhd_client",
+      "used_by_count": 4,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/audit_v2.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/ingest_eodhd_calendar.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.0_Live-Calendar-Forecast.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/99_API_Status.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "fx_impact_app.src.forecaster_mvp",
+      "used_by_count": 10,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/audit_suite.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/scripts/audit_v2.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.3_Forecaster-CLEAN.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.4_Forecaster-with-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/8_Forecaster_MVP_OLD.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/8a_Forecaster_Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/9_Backtest.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/0-Live_Calendar_Forecast.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/8-Forecaster_CLEAN.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/8a-Forecaster_with_Presets.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "fx_impact_app.src.presets",
+      "used_by_count": 5,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/10_Calendar_Sim_Backtest.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/6_Top_events.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/7_Simultaneous_events.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/8_Forecaster_MVP_OLD.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/9_Backtest.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "fx_impact_app.src.regex_presets",
+      "used_by_count": 11,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.1_Simultaneous-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.2_Simultaneous-Screener.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.4_Forecaster-with-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.5_Baskets-with-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.6_Calendar-Sim-Baskets-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_archive/8a_Forecaster_Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/10a-Calendar_Sim_Baskets_Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/7a-Simultaneous_Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/7b-Simultaneous_Screener.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/8a-Forecaster_with_Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/_backup_20250928-123635/9a-Baskets_with_Presets.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "fx_impact_app.streamlit_app._ui",
+      "used_by_count": 8,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.10_Lexique.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.11_Glossary.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.1_Simultaneous-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.2_Simultaneous-Screener.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.3_Forecaster-CLEAN.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.4_Forecaster-with-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.5_Baskets-with-Presets.py",
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.6_Calendar-Sim-Baskets-Presets.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "src.config",
+      "used_by_count": 1,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/3_Analyseur-Surprise.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "src.event_families",
+      "used_by_count": 1,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/3_Analyseur-Surprise.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    },
+    {
+      "name": "src.forecaster_mvp",
+      "used_by_count": 1,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/3_Analyseur-Surprise.py"
+      ],
+      "dependencies": [],
+      "dependency_count": 0
+    }
+  ],
+  "obsolete_modules": [
+    {
+      "name": "fx_impact_app.streamlit_app.ui",
+      "used_by_count": 1,
+      "used_by": [
+        "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/.0_Live-Calendar-Forecast.py"
+      ]
+    }
+  ],
+  "migration_order": [],
+  "errors": [
+    {
+      "file": "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/fx_impact_app/streamlit_app/pages/Backups/4_Planificateur-Multi-Evenements_1.py",
+      "error": "expected an indented block after 'with' statement on line 1346 (4_Planificateur-Multi-Evenements_1.py, line 1346)"
+    }
+  ]
+}

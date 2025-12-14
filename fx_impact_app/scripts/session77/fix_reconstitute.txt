@@ -1,0 +1,10 @@
+    """Reconstruit cluster événements pour 1 mouvement
+    
+    CORRECTION TIMEZONE : Fenêtre ±120 min (gère décalage UTC/UTC+2)
+    """
+    date_str = movement_row['date']
+    time_str = movement_row['time']
+    dt = datetime.strptime(f"{date_str} {time_str}", "%Y-%m-%d %H:%M:%S")
+    # ±120 min au lieu de ±10 min pour gérer décalage timezone
+    start_time = dt - timedelta(minutes=120)
+    end_time = dt + timedelta(minutes=120)

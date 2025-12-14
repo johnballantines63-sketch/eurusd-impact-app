@@ -1,0 +1,110 @@
+{
+  "date": "2024-08-15",
+  "movement_start_time": "2024-08-15 16:27:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "DOWN",
+  "score": -0.12733738404416056,
+  "has_trigger": true,
+  "n_active": 9,
+  "contributions": [
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 227.0,
+      "estimate": 235.0,
+      "surprise": -8.0,
+      "surprise_z": -0.513280076207026,
+      "alpha_weight": -0.0153479181689676,
+      "contribution": 0.007877780607386888,
+      "is_trigger": false
+    },
+    {
+      "event_key": "jobless claims 4 week average",
+      "family": "Jobless Claims",
+      "actual": 236.5,
+      "estimate": 244.0,
+      "surprise": -7.5,
+      "surprise_z": -0.9028121714990444,
+      "alpha_weight": -0.0153479181689676,
+      "contribution": 0.013856287330115276,
+      "is_trigger": true
+    },
+    {
+      "event_key": "retail sales",
+      "family": "Retail Sales",
+      "actual": 2.7,
+      "estimate": 1.8,
+      "surprise": 0.9000000000000001,
+      "surprise_z": 0.8808865523929055,
+      "alpha_weight": -0.1043940237428103,
+      "contribution": -0.09195929166522729,
+      "is_trigger": true
+    },
+    {
+      "event_key": "retail sales ex autos",
+      "family": "Retail Sales",
+      "actual": 0.4,
+      "estimate": 0.1,
+      "surprise": 0.30000000000000004,
+      "surprise_z": 0.5882587917293202,
+      "alpha_weight": -0.1043940237428103,
+      "contribution": -0.06141070227070755,
+      "is_trigger": false
+    },
+    {
+      "event_key": "retail sales ex gas autos",
+      "family": "Retail Sales",
+      "actual": 0.4,
+      "estimate": 0.5,
+      "surprise": -0.09999999999999998,
+      "surprise_z": -0.5505512084097575,
+      "alpha_weight": -0.0100072594037898,
+      "contribution": 0.005509508757626383,
+      "is_trigger": false
+    },
+    {
+      "event_key": "retail sales ex autos_mom",
+      "family": "Retail Sales",
+      "actual": 0.4,
+      "estimate": 0.1,
+      "surprise": 0.30000000000000004,
+      "surprise_z": 0.47508197286796383,
+      "alpha_weight": -0.1043940237428103,
+      "contribution": -0.049595718755359376,
+      "is_trigger": false
+    },
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1864.0,
+      "estimate": 1880.0,
+      "surprise": -16.0,
+      "surprise_z": -0.4929935227059373,
+      "alpha_weight": -0.0153479181689676,
+      "contribution": 0.007566424244321797,
+      "is_trigger": false
+    },
+    {
+      "event_key": "retail sales_mom",
+      "family": "Retail Sales",
+      "actual": 1.0,
+      "estimate": 0.3,
+      "surprise": 0.7,
+      "surprise_z": 1.2340483723472198,
+      "alpha_weight": -0.1043940237428103,
+      "contribution": -0.12882727508259206,
+      "is_trigger": true
+    },
+    {
+      "event_key": "retail sales_yoy",
+      "family": "Retail Sales",
+      "actual": 2.7,
+      "estimate": 1.8,
+      "surprise": 0.9000000000000001,
+      "surprise_z": 0.8145022315408333,
+      "alpha_weight": -0.1043940237428103,
+      "contribution": -0.08502916529804573,
+      "is_trigger": true
+    }
+  ]
+}

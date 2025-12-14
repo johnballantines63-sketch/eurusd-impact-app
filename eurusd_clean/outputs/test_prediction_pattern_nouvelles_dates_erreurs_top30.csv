@@ -1,0 +1,13 @@
+date,error
+2023-04-28,"Parser Error: syntax error at or near "")""
+
+LINE 25:             (EXTRACT(HOUR FROM ts_bern) IN ()
+  "
+2023-06-30,"Parser Error: syntax error at or near "")""
+
+LINE 25:             (EXTRACT(HOUR FROM ts_bern) IN ()
+  "
+2025-08-29,"Parser Error: syntax error at or near "")""
+
+LINE 25:             (EXTRACT(HOUR FROM ts_bern) IN ()
+  "

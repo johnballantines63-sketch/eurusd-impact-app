@@ -1,0 +1,55 @@
+{
+  "date": "2024-02-15",
+  "movement_start_time": "2024-02-15 13:30:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "DOWN",
+  "score": -1.1556501671242536,
+  "has_trigger": true,
+  "n_active": 4,
+  "contributions": [
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1895.0,
+      "estimate": 1880.0,
+      "surprise": 15.0,
+      "surprise_z": 0.5528184666109461,
+      "alpha_weight": -1,
+      "contribution": -0.5528184666109461,
+      "is_trigger": false
+    },
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 212.0,
+      "estimate": 220.0,
+      "surprise": -8.0,
+      "surprise_z": -0.513280076207026,
+      "alpha_weight": -1,
+      "contribution": 0.513280076207026,
+      "is_trigger": false
+    },
+    {
+      "event_key": "retail sales",
+      "family": "Retail Sales",
+      "actual": -0.8,
+      "estimate": -0.1,
+      "surprise": -0.7000000000000001,
+      "surprise_z": -0.4506629183846706,
+      "alpha_weight": 1,
+      "contribution": -0.4506629183846706,
+      "is_trigger": false
+    },
+    {
+      "event_key": "retail sales ex autos",
+      "family": "Retail Sales",
+      "actual": -0.6,
+      "estimate": 0.2,
+      "surprise": -0.8,
+      "surprise_z": -1.8210990254599164,
+      "alpha_weight": 1,
+      "contribution": -1.8210990254599164,
+      "is_trigger": true
+    }
+  ]
+}

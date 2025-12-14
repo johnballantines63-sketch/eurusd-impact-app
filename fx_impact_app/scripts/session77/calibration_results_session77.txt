@@ -1,0 +1,27 @@
+============================================================
+GRID SEARCH CALIBRATION - SESSION 77
+============================================================
+
+CONFIGURATION
+------------------------------------------------------------
+Dataset : dataset_session76_ultra.csv
+Mouvements : 27
+Validation : Leave-One-Out CV
+
+MEILLEURS PARAMÈTRES
+------------------------------------------------------------
+MAE CV : 28.28 pips
+
+intercept_multi  : -18.00
+coef_multi       : 0.300
+intercept_single : -15.00
+coef_single      : 0.300
+
+COMPARAISON AVEC V1
+------------------------------------------------------------
+V1 intercept_multi  : -10.47
+V2 intercept_multi  : -18.00
+
+V1 coef_multi       : 0.477
+V2 coef_multi       : 0.300
+

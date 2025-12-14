@@ -1,0 +1,33 @@
+{
+  "method_planificateur": "calculate_adjusted_empirical_score (Session 55)",
+  "events_analyzed": 11,
+  "events_with_estimate": 9,
+  "aggregation_methods": {
+    "Moyenne tous \u00e9v\u00e9nements": {
+      "score": 48.049386964503036,
+      "n_events": 11,
+      "error_vs_84.2": 36.15061303549697
+    },
+    "Moyenne excluant NaN": {
+      "score": 49.39074104700891,
+      "n_events": 9,
+      "error_vs_84.2": 34.809258952991094
+    },
+    "Somme": {
+      "score": 528.5432566095334,
+      "n_events": 11,
+      "error_vs_84.2": 444.3432566095334
+    },
+    "Maximum": {
+      "score": 86.83731174003641,
+      "n_events": 11,
+      "error_vs_84.2": 2.6373117400364094
+    }
+  },
+  "best_method": "Maximum",
+  "best_score": 86.83731174003641,
+  "impact_predicted": 18.10123763221059,
+  "impact_real": 56.8,
+  "error_impact": 38.698762367789406,
+  "validation": "FAILED"
+}

@@ -1,0 +1,17 @@
+"""
+CORRECTIF TIMEZONE - Ligne 176 de validate_predictions_vs_reality.py
+
+PROBLÈME: event_dt est tz-naive mais prices_df['datetime'] est tz-aware
+SOLUTION: Convertir event_dt en timezone-aware avant le return
+
+REMPLACER ligne 176:
+    return df, event_dt
+
+PAR:
+    # Convertir event_dt en timezone-aware pour compatibilité pandas  
+    import pytz
+    bern_tz = pytz.timezone('Europe/Zurich')
+    event_dt_aware = bern_tz.localize(event_dt)
+    
+    return df, event_dt_aware
+"""

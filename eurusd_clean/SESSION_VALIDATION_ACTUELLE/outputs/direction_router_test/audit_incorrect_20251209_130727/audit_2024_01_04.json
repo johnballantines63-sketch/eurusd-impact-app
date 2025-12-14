@@ -1,0 +1,99 @@
+{
+  "date": "2024-01-04",
+  "movement_start_time": "2024-01-04 15:01:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": "NEUTRAL",
+  "score": 0.8391840408331602,
+  "has_trigger": true,
+  "n_active": 8,
+  "contributions": [
+    {
+      "event_key": "harmonised inflation rate",
+      "family": "CPI",
+      "actual": 0.2,
+      "estimate": 0.3,
+      "surprise": -0.09999999999999998,
+      "surprise_z": -0.31148601066627957,
+      "alpha_weight": 1,
+      "contribution": -0.31148601066627957,
+      "is_trigger": false
+    },
+    {
+      "event_key": "inflation rate",
+      "family": "CPI",
+      "actual": 0.1,
+      "estimate": 0.1,
+      "surprise": 0.0,
+      "surprise_z": 0.056560395877780126,
+      "alpha_weight": 1,
+      "contribution": 0.056560395877780126,
+      "is_trigger": false
+    },
+    {
+      "event_key": "harmonised inflation rate_mom",
+      "family": "CPI",
+      "actual": 0.2,
+      "estimate": 0.3,
+      "surprise": -0.09999999999999998,
+      "surprise_z": -0.047310138361067414,
+      "alpha_weight": 1,
+      "contribution": -0.047310138361067414,
+      "is_trigger": false
+    },
+    {
+      "event_key": "harmonised inflation rate_yoy",
+      "family": "CPI",
+      "actual": 3.8,
+      "estimate": 3.8,
+      "surprise": 0.0,
+      "surprise_z": 0.32225169331774484,
+      "alpha_weight": 1,
+      "contribution": 0.32225169331774484,
+      "is_trigger": false
+    },
+    {
+      "event_key": "inflation rate_mom",
+      "family": "CPI",
+      "actual": 0.1,
+      "estimate": 0.1,
+      "surprise": 0.0,
+      "surprise_z": 0.19987511706556307,
+      "alpha_weight": 1,
+      "contribution": 0.19987511706556307,
+      "is_trigger": false
+    },
+    {
+      "event_key": "inflation rate_yoy",
+      "family": "CPI",
+      "actual": 3.7,
+      "estimate": 3.7,
+      "surprise": 0.0,
+      "surprise_z": 0.2105379802666294,
+      "alpha_weight": 1,
+      "contribution": 0.2105379802666294,
+      "is_trigger": false
+    },
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1855.0,
+      "estimate": 1883.0,
+      "surprise": -28.0,
+      "surprise_z": -0.8978239701834406,
+      "alpha_weight": -1,
+      "contribution": 0.8978239701834406,
+      "is_trigger": true
+    },
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 202.0,
+      "estimate": 216.0,
+      "surprise": -14.0,
+      "surprise_z": -1.0453178960628138,
+      "alpha_weight": -1,
+      "contribution": 1.0453178960628138,
+      "is_trigger": true
+    }
+  ]
+}

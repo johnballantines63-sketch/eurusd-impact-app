@@ -1,0 +1,107 @@
+Bonjour Claude !
+
+Je reprends la Session 11 du Planificateur Multi-Événements.
+
+⚠️ IMPORTANT : Lis ces fichiers dans l'ordre avant de commencer :
+1. WORK_ACCOMPLISHED_SESSION11.txt (5 min) ⭐⭐⭐ - Vue d'ensemble complète
+2. QUICKSTART_SESSION11.md (3 min) ⭐⭐ - Guide actions
+3. TEST_RESULTS_PHASE3.md (2 min) ⭐ - Résultats tests (PROBLÈMES DÉTECTÉS)
+
+📊 Contexte Session 11 :
+✅ Phase 1 : Fonction predict_impact_v9_clean() créée dans forecaster_mvp.py (TERMINÉ)
+✅ Phase 2 : Scripts d'intégration créés (integrate_v9_clean.py) (TERMINÉ)
+⚠️ Phase 3 : Exécution intégration (TESTS NON CONCLUANTS)
+⏳ Phase 4 : Tests Streamlit (À REPRENDRE)
+⏳ Phase 5 : Documentation finale (À FAIRE)
+
+🚨 PROBLÈME IDENTIFIÉ :
+Les tests de la Phase 3 ne sont PAS concluants :
+• Phase 1 & 6 : Directions incorrectes
+• Écarts importants vs graphique MT5
+• Nécessite analyse et corrections
+
+🎯 Objectif immédiat :
+1. Analyser les résultats des tests
+2. Identifier pourquoi les prédictions sont incorrectes
+3. Corriger la formule ou l'implémentation
+4. Re-tester jusqu'à résultats cohérents avec MT5
+
+📚 Formule v9-CLEAN (rappel) :
+• 1 événement : -7.08 + 0.419 × score
+• ≥2 événements : -10.47 + 0.477 × score
+• R² = 0.264, MAE = 6.68 pips
+• Dataset : 2,087 groupes (2024-2025)
+
+💡 Ce qui a été fait précédemment :
+• Fonction v9-CLEAN codée et testée unitairement
+• Script integrate_v9_clean.py créé
+• 14 fichiers de documentation
+• Tests unitaires validés (calculs mathématiques OK)
+• MAIS résultats pratiques non cohérents avec MT5
+
+📋 Fichiers clés créés :
+1. fx_impact_app/src/forecaster_mvp.py (fonction ajoutée)
+2. test_v9_clean_function.py (tests unitaires)
+3. integrate_v9_clean.py (script d'intégration)
+4. WORK_ACCOMPLISHED_SESSION11.txt (récap complet)
+5. QUICKSTART_SESSION11.md (guide rapide)
+6. SESSION11_INTEGRATION_REPORT.md (rapport détaillé)
+7. TEST_RESULTS_PHASE3.md (résultats tests - À LIRE)
+
+🔍 Points à analyser :
+1. Pourquoi Phase 1 & 6 ont mauvaise direction ?
+2. L'implémentation est-elle correcte ?
+3. La formule s'applique-t-elle au bon moment ?
+4. Les scores empiriques sont-ils bien chargés ?
+5. Le calcul num_events est-il correct ?
+6. Y a-t-il un problème de signe/direction ?
+
+📊 Tokens :
+⚠️ Pense à me renseigner RÉGULIÈREMENT sur l'état des tokens utilisés (toutes les 30-45 min ou après chaque tâche importante).
+
+🚀 Prochaines actions :
+1. Lire TEST_RESULTS_PHASE3.md pour comprendre le problème
+2. Analyser les écarts vs MT5
+3. Identifier la cause des erreurs de direction
+4. Proposer corrections
+5. Re-tester
+
+Prêt à corriger ! 🔧
+
+═══════════════════════════════════════════════════════════
+
+📁 ACCÈS AUX FICHIERS :
+
+N'oublie pas Claude, tu as accès aux fichiers via l'outil `filesystem:read_text_file` !
+
+Les fichiers sont dans le répertoire :
+/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/
+
+Utilise l'outil comme ceci :
+
+filesystem:read_text_file 
+path: /Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/WORK_ACCOMPLISHED_SESSION11.txt
+
+filesystem:read_text_file 
+path: /Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/TEST_RESULTS_PHASE3.md
+
+filesystem:read_text_file 
+path: /Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/QUICKSTART_SESSION11.md
+
+═══════════════════════════════════════════════════════════
+
+💬 Note importante :
+Cette session sera une session de DEBUG et CORRECTION, pas simplement d'exécution.
+Les résultats des tests montrent que quelque chose ne fonctionne pas comme prévu.
+Il faut identifier et corriger le problème avant de continuer.
+
+🎯 Critères de succès (révisés) :
+• Comprendre pourquoi Phase 1 & 6 ont mauvaise direction
+• Identifier la cause des écarts vs MT5
+• Corriger l'implémentation ou la formule
+• Re-tester et obtenir résultats cohérents
+• Documenter les corrections apportées
+
+═══════════════════════════════════════════════════════════
+
+Prêt pour le debugging ! 🐛🔧

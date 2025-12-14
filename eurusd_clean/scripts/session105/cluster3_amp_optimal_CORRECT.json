@@ -1,0 +1,109 @@
+{
+  "cluster": "Cluster #3 - CPI + Jobless Claims (jeudis)",
+  "method": "event_key exacts, vraies dates cluster",
+  "baseline_amp": 2.5,
+  "num_dates": 6,
+  "event_keys": [
+    "continuing jobless claims",
+    "core inflation rate",
+    "core inflation rate_mom",
+    "core inflation rate_yoy",
+    "cpi",
+    "cpi s a",
+    "cpi s.a",
+    "inflation rate",
+    "inflation rate_mom",
+    "inflation rate_yoy",
+    "initial jobless claims",
+    "jobless claims 4 week average",
+    "jobless claims 4-week average",
+    "real earnings",
+    "real earnings_mom"
+  ],
+  "statistics": {
+    "amp_optimal_mean": 2.1954302652618556,
+    "amp_optimal_median": 1.0463475205437776,
+    "amp_optimal_std": 2.910258688305654,
+    "baseline_mae": 137.04453784235193
+  },
+  "results": [
+    {
+      "date": "2025-09-11",
+      "num_events": 15,
+      "impact_real": 57.40000000000079,
+      "surprise_max": 33.33333333333335,
+      "score_avg": 39.55196704196125,
+      "impact_baseline": 238.66449433101596,
+      "error_baseline": -181.26449433101516,
+      "amp_baseline": 2.5,
+      "amp_optimal": 0.601260855929318,
+      "delta_amp": -1.898739144070682,
+      "delta_amp_pct": -75.94956576282728
+    },
+    {
+      "date": "2025-04-10",
+      "num_events": 15,
+      "impact_real": 121.79999999999858,
+      "surprise_max": 200.0,
+      "score_avg": 39.55196704196125,
+      "impact_baseline": -37.97529929844339,
+      "error_baseline": 159.77529929844195,
+      "amp_baseline": 2.5,
+      "amp_optimal": 8.018370272462134,
+      "delta_amp": 5.518370272462134,
+      "delta_amp_pct": 220.73481089848536
+    },
+    {
+      "date": "2024-10-10",
+      "num_events": 13,
+      "impact_real": 32.2,
+      "surprise_max": 100.0,
+      "score_avg": 39.173301418689654,
+      "impact_baseline": 202.39290177437314,
+      "error_baseline": -170.19290177437313,
+      "amp_baseline": 2.5,
+      "amp_optimal": 0.39773967482454314,
+      "delta_amp": -2.102260325175457,
+      "delta_amp_pct": -84.09041300701828
+    },
+    {
+      "date": "2024-07-11",
+      "num_events": 13,
+      "impact_real": 48.90000000000061,
+      "surprise_max": 200.0,
+      "score_avg": 39.173301418689654,
+      "impact_baseline": -59.272246163454895,
+      "error_baseline": 108.1722461634555,
+      "amp_baseline": 2.5,
+      "amp_optimal": 2.0625157472675855,
+      "delta_amp": -0.43748425273241454,
+      "delta_amp_pct": -17.49937010929658
+    },
+    {
+      "date": "2024-01-11",
+      "num_events": 12,
+      "impact_real": 58.19999999999936,
+      "surprise_max": 49.999999999999986,
+      "score_avg": 37.32391691749709,
+      "impact_baseline": 149.06938371245366,
+      "error_baseline": -90.8693837124543,
+      "amp_baseline": 2.5,
+      "amp_optimal": 0.9760563591885868,
+      "delta_amp": -1.5239436408114133,
+      "delta_amp_pct": -60.95774563245653
+    },
+    {
+      "date": "2023-10-12",
+      "num_events": 13,
+      "impact_real": 90.4000000000016,
+      "surprise_max": 33.33333333333335,
+      "score_avg": 39.173301418689654,
+      "impact_baseline": 202.39290177437314,
+      "error_baseline": -111.99290177437155,
+      "amp_baseline": 2.5,
+      "amp_optimal": 1.1166386818989684,
+      "delta_amp": -1.3833613181010316,
+      "delta_amp_pct": -55.33445272404126
+    }
+  ]
+}

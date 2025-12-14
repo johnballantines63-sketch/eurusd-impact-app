@@ -1,0 +1,99 @@
+{
+  "date": "2024-08-13",
+  "movement_start_time": "2024-08-13 16:07:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": "NEUTRAL",
+  "score": 0.29347424718527076,
+  "has_trigger": true,
+  "n_active": 8,
+  "contributions": [
+    {
+      "event_key": "core ppi",
+      "family": "PPI",
+      "actual": 2.4,
+      "estimate": 2.7,
+      "surprise": -0.30000000000000027,
+      "surprise_z": -0.8778295281347788,
+      "alpha_weight": 0.0155460648586795,
+      "contribution": -0.013646794779247292,
+      "is_trigger": true
+    },
+    {
+      "event_key": "ppi",
+      "family": "PPI",
+      "actual": 144.673,
+      "estimate": 114.4,
+      "surprise": 30.272999999999996,
+      "surprise_z": 8.041546692398741,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.5871028248572645,
+      "is_trigger": true
+    },
+    {
+      "event_key": "ppi ex food energy and trade",
+      "family": "PPI",
+      "actual": 3.3,
+      "estimate": 3.1,
+      "surprise": 0.19999999999999973,
+      "surprise_z": 1.127258526380505,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.08229967324669181,
+      "is_trigger": true
+    },
+    {
+      "event_key": "core ppi_yoy",
+      "family": "PPI",
+      "actual": 2.4,
+      "estimate": 2.7,
+      "surprise": -0.30000000000000027,
+      "surprise_z": -0.8825805111002527,
+      "alpha_weight": 0.0155460648586795,
+      "contribution": -0.013720653868571032,
+      "is_trigger": true
+    },
+    {
+      "event_key": "ppi ex food, energy and trade_mom",
+      "family": "PPI",
+      "actual": 0.3,
+      "estimate": -0.1,
+      "surprise": 0.4,
+      "surprise_z": 1.6903085094570331,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.12340721738525084,
+      "is_trigger": true
+    },
+    {
+      "event_key": "ppi ex food, energy and trade_yoy",
+      "family": "PPI",
+      "actual": 3.3,
+      "estimate": 3.1,
+      "surprise": 0.19999999999999973,
+      "surprise_z": 0.9011551125709438,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.0657921582082052,
+      "is_trigger": true
+    },
+    {
+      "event_key": "ppi_mom",
+      "family": "PPI",
+      "actual": 0.1,
+      "estimate": 0.2,
+      "surprise": -0.1,
+      "surprise_z": -0.04341561286679003,
+      "alpha_weight": 0.0155460648586795,
+      "contribution": -0.000674941933506438,
+      "is_trigger": false
+    },
+    {
+      "event_key": "ppi_yoy",
+      "family": "PPI",
+      "actual": 2.2,
+      "estimate": 2.3,
+      "surprise": -0.09999999999999964,
+      "surprise_z": -0.031452458692555814,
+      "alpha_weight": 0.0155460648586795,
+      "contribution": -0.0004889619627994105,
+      "is_trigger": false
+    }
+  ]
+}

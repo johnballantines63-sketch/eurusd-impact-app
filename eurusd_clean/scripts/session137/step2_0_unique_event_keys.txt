@@ -1,0 +1,694 @@
+10 year bond auction
+10 year btp auction
+10 year btp short term auction
+10 year bund auction
+10 year bund/€i auction
+10 year index linked oat auction
+10 year ktb auction
+10 year note auction
+10 year ntn f auction
+10 year oat auction
+10 year obligacion auction
+10 year treasury gilt auction
+12 month bill auction
+12 month bot auction
+12 month btf auction
+12 month bubill auction
+12 month letras auction
+15 year btp auction
+15 year bund auction
+15 year index linked obligacion auction
+15 year mortgage rate
+15 year obligacion auction
+15 year treasury gilt auction
+16 year index linked treasury gilt auction
+17 week bill auction
+2 year bond auction
+2 year ktb auction
+2 year ltn auction
+2 year schatz auction
+20 year oat auction
+20 year obligacion auction
+3 month bill auction
+3 month btf auction
+3 month bubill auction
+3 month green atb auction
+3 month letras auction
+3 year bonos auction
+3 year btp auction
+3 year note auction
+3 year oat auction
+3 year treasury gilt auction
+30 year bond auction
+30 year btp auction
+30 year bund auction
+30 year bund/€i auction
+30 year ktb auction
+30 year mortgage rate
+30 year oat auction
+4 month bot auction
+4 week bill auction
+5 year bobl auction
+5 year bond auction
+5 year btp auction
+5 year btp€i auction
+5 year index linked obligacion auction
+5 year ktb auction
+5 year oat auction
+5 year tips auction
+5 year treasury gilt auction
+50 year obligacion auction
+52 week bill auction
+6 month atb auction
+6 month bill auction
+6 month bot auction
+6 month btf auction
+6 month letras auction
+6 month t bill auction
+7 year btp auction
+7 year bund auction
+7 year index linked obligacion auction
+7 year obligacion auction
+8 week bill auction
+9 month bubill auction
+absa manufacturing pmi
+adp employment change
+ai group construction index
+ai group industry index
+ai group manufacturing index
+all car sales
+all truck sales
+anz roy morgan consumer confidence
+api crude oil stock change
+atb auction
+atlanta fed gdpnow
+auto exports_yoy
+auto production_mom
+auto production_yoy
+auto sales_mom
+auto sales_yoy
+autumn statement
+average earnings excl. bonus
+average earnings incl. bonus
+average hourly earnings
+average hourly earnings_mom
+average hourly earnings_yoy
+average hourly wages_yoy
+average weekly earnings
+average weekly earnings_yoy
+average weekly hours
+baden wuerttemberg cpi_mom
+baden wuerttemberg cpi_yoy
+baker hughes oil rig count
+balance of trade
+bank austria manufacturing pmi
+bank lending_mom
+bank lending_yoy
+bank loan growth_yoy
+bavaria cpi_mom
+bavaria cpi_yoy
+bba mortgage rate
+bcb focus market readout
+bcb national monetary council meeting
+blom lebanon pmi
+boc business outlook survey
+boc interest rate decision
+boc kozicki speech
+boc mendes speech
+boc monetary policy report
+boc press conference
+boc senior loan officer survey
+boc summary of deliberations
+boe breeden speech
+boe consumer credit
+boe fpc meeting minutes
+boe gov bailey speech
+boe greene speech
+boe kroszner speech
+boe l mann speech
+boe lombardelli speech
+boe mann speech
+boe member pill speech
+boe pill speech
+boe ramsden speech
+boj gov ueda speech
+boj interest rate decision
+boj monetary policy meeting minutes
+boj press conference
+boj quarterly outlook report
+boj summary of opinions
+bonos auction
+brandenburg cpi_mom
+brandenburg cpi_yoy
+brazilian ipca inflation index sa_mom
+brazilian service sector growth_mom
+brazilian service sector growth_yoy
+btp auction
+btp short term
+budget balance
+building permits
+building permits_mom
+bundesanleihe auction
+bundesbank balz speech
+bundesbank buch speech
+bundesbank mauderer speech
+bundesbank nagel speech
+business climate indicator
+business confidence
+business inventories_mom
+business investment_qoq
+business investment_yoy
+capacity utilization
+car production_mom
+car sales_yoy
+cash remittances
+cash reserve ratio
+cb consumer confidence
+cb employment trends index
+cb leading index_mom
+cbi distributive trades
+cbi industrial trends orders
+cbr press conference
+cement production_yoy
+central bank reserves $
+cftc aluminium speculative net positions
+cftc aud speculative net positions
+cftc brl speculative net positions
+cftc cad speculative net positions
+cftc chf speculative net positions
+cftc copper speculative net positions
+cftc corn speculative net positions
+cftc crude oil speculative net positions
+cftc eur speculative net positions
+cftc gbp speculative net positions
+cftc gold speculative net positions
+cftc jpy speculative net positions
+cftc mxn speculative net positions
+cftc nasdaq 100 speculative net positions
+cftc natural gas speculative net positions
+cftc nzd speculative net positions
+cftc s&p 500 speculative net positions
+cftc silver speculative net positions
+cftc soybeans speculative net positions
+cftc wheat speculative net positions
+challenger job cuts
+chicago fed national activity index
+chicago pmi
+claimant count change
+cnb interest rate decision
+coincident index
+commodity prices_yoy
+composite nz pci
+construction output_mom
+construction output_yoy
+construction pmi
+construction spending_mom
+consumer confidence
+consumer credit change
+consumer inflation expectation
+consumer inflation expectations
+consumer price index cpi
+consumer spending_mom
+continuing jobless claims
+copper production_yoy
+core inflation rate_mom
+core inflation rate_yoy
+core pce price index_mom
+core pce price index_yoy
+core pce prices qoq adv
+core pce prices_qoq
+core ppi_mom
+core ppi_yoy
+corporate profits
+corporate profits_qoq
+corporate sector wages_yoy
+cpi
+cpi median_yoy
+cpi s.a
+cpi trimmed mean_yoy
+cpif_mom
+cpif_yoy
+credit card spending_yoy
+currency reserves
+currency swaps
+current account
+current account s.a
+dallas fed manufacturing index
+dallas fed services index
+dallas fed services revenues index
+davivienda manufacturing pmi
+deposit facility rate
+deposit growth_yoy
+deposit interest rate
+dilf manufacturing pmi
+dnb manufacturing pmi
+durable goods orders ex defense_mom
+durable goods orders ex transp_mom
+durable goods orders_mom
+ecb bank lending survey
+ecb buch speech
+ecb cipollone speech
+ecb consumer expectations survey
+ecb de guindos speech
+ecb economic bulletin
+ecb economic projections
+ecb elderson speech
+ecb enria speech
+ecb fernandez bollo speech
+ecb financial stability review
+ecb general council meeting
+ecb guindos speech
+ecb interest rate decision
+ecb jochnick speech
+ecb lagarde speech
+ecb lane speech
+ecb mccaul speech
+ecb monetary policy meeting accounts
+ecb monetary policy statement and press conference
+ecb montagner speech
+ecb non monetary policy meeting
+ecb panetta speech
+ecb president lagarde speech
+ecb press conference
+ecb schnabel speech
+ecb tuominen speech
+ecofin meeting
+economic activity_yoy
+economic confidence index
+economic sentiment
+economic sentiment index
+economic tendency indicator
+eia crude oil imports change
+eia crude oil stocks change
+eia cushing crude oil stocks change
+eia distillate fuel production change
+eia distillate stocks change
+eia gasoline production change
+eia gasoline stocks change
+eia heating oil stocks change
+eia natural gas stocks change
+eia refinery crude runs change
+eia weekly refinery utilization rates wow
+employed persons
+employment change
+employment change_qoq
+employment cost   benefits_qoq
+employment cost   wages_qoq
+employment cost index_qoq
+employment growth_yoy
+employment level
+european council meeting
+existing home sales
+existing home sales_mom
+export orders_yoy
+export prices_mom
+export prices_yoy
+exports
+exports_mom
+exports_yoy
+external debt
+factory orders ex transportation
+factory orders_mom
+fao food price index
+fdi
+fed balance sheet
+fed barkin speech
+fed barr speech
+fed bostic speech
+fed bowman speech
+fed chair powell speech
+fed chair powell testimony
+fed collins speech
+fed cook speech
+fed cook testimony
+fed daly speech
+fed goolsbee speech
+fed hammack speech
+fed interest rate decision
+fed jefferson testimony
+fed kashkari speech
+fed kugler speech
+fed logan speech
+fed musalem speech
+fed press conference
+fed schmid speech
+fed waller speech
+fed williams speech
+federal tax revenues
+fomc economic projections
+fomc minutes
+food inflation_yoy
+foreign direct investment
+foreign exchange reserves
+foreign securities purchases
+foreign securities purchases by canadians
+full time employment chg
+full year gdp growth
+gdp growth annualized
+gdp growth rate qoq adv
+gdp growth rate yoy adv
+gdp growth rate_qoq
+gdp growth rate_yoy
+gdp implicit price_qoq
+gdp mainland_mom
+gdp price index qoq adv
+gdp price index_qoq
+gdp sales qoq adv
+gdp sales_qoq
+gdp_mom
+gdp_yoy
+global dairy trade price index
+global supply chain pressure index
+globaldairytrade price index
+gnp_qoq
+gnp_yoy
+gold production_yoy
+goods trade balance
+goods trade balance adv
+government budget
+government budget to gdp
+government budget value
+government debt to gdp
+government payrolls
+gross debt to gdp
+gross domestic product_mom
+gross domestic product_qoq
+gross domestic product_yoy
+gross fixed investment_mom
+gross fixed investment_yoy
+gross wage_yoy
+harmonised inflation rate_mom
+harmonised inflation rate_yoy
+hcob composite pmi
+hcob construction pmi
+hcob manufacturing pmi
+hcob services pmi
+hesse cpi_mom
+hesse cpi_yoy
+hicp_mom
+hicp_yoy
+hmrc payrolls change
+house price index
+house price index_mom
+house price index_yoy
+household consumption_mom
+household consumption_yoy
+household lending growth_yoy
+housing starts
+housing starts_mom
+hsbc composite pmi
+hsbc services pmi
+ibc br economic activity
+ibd/tipp economic optimism
+iea oil market report
+ifo business climate
+ifo current conditions
+ifo expectations
+igp 10 inflation index_mom
+igp di inflation_mom
+imacec economic activity_yoy
+imf meeting
+import prices_mom
+import prices_yoy
+imports
+imports_mom
+imports_yoy
+inauguration day
+industrial confidence
+industrial production
+industrial production_mom
+industrial production_yoy
+industrial sales_mom
+industrial sales_yoy
+industrial sentiment
+inflation expectations
+inflation rate_mom
+inflation rate_yoy
+inflation report
+infrastructure output_yoy
+initial jobless claims
+interest rate
+interest rate decision
+interest rate projection   1st yr
+interest rate projection   2nd yr
+interest rate projection   3rd yr
+interest rate projection   current
+interest rate projection   longer
+ipc fipe inflation_mom
+ipca mid month cpi_mom
+ipca mid month cpi_yoy
+irish exchequer returns
+ise economic activity_yoy
+ism manufacturing employment
+ism manufacturing new orders
+ism manufacturing pmi
+ism manufacturing prices
+ism non manufacturing business activity
+ism non manufacturing employment
+ism non manufacturing new orders
+ism non manufacturing pmi
+ism non manufacturing prices
+ism services business activity
+ism services employment
+ism services new orders
+ism services pmi
+ism services prices
+ivey pmi s.a
+jobless claims 4 week average
+jobseekers total
+jolts job openings
+jolts job quits
+judo bank services pmi
+kansas fed composite index
+kansas fed manufacturing index
+kof leading indicators
+labour cost index_qoq
+labour cost index_yoy
+labour productivity_qoq
+leading business cycle indicator_mom
+leading index_mom
+leading indicator_mom
+lending facility rate
+lmi logistics managers index current
+loan growth_yoy
+loans to companies_yoy
+loans to households_yoy
+m1 money supply_yoy
+m2 money supply_yoy
+m3 money supply_yoy
+m4 money supply_mom
+manufacturing confidence
+manufacturing output_mom
+manufacturing payrolls
+manufacturing pmi
+manufacturing production_mom
+manufacturing production_yoy
+manufacturing sales_mom
+marginal lending rate
+mas 12 week bill auction
+mas 4 week bill auction
+mba 30 year mortgage rate
+mba mortgage applications
+mba mortgage market index
+mba mortgage refinance index
+mba purchase index
+michigan 5 year inflation expectations
+michigan consumer expectations
+michigan consumer sentiment
+michigan current conditions
+michigan inflation expectations
+milk auctions
+mining production_mom
+mining production_yoy
+monetary policy meeting minutes
+monetary policy report
+money supply
+monthly budget statement
+mortgage approvals
+mortgage lending
+motorbike sales_yoy
+mpc meeting minutes
+mpc meeting summary
+nahb housing market index
+nbb business confidence
+net lending to individuals_mom
+net payrolls
+new car registrations_mom
+new car registrations_yoy
+new car sales_yoy
+new home sales
+new home sales_mom
+new housing price index_mom
+new housing price index_yoy
+new motor vehicle sales
+new orders_yoy
+new passenger car registrations
+new yuan loans
+nfib business optimism index
+niesr monthly gdp tracker
+nominal budget balance
+non defense goods orders ex air
+non farm payrolls
+nonfarm payrolls private
+nonfarm productivity_qoq
+nopa crush report
+norges bank press conference
+north rhine westphalia cpi_mom
+north rhine westphalia cpi_yoy
+ny empire state manufacturing index
+ny fed treasury purchases 10 to 22.5 yrs
+ny fed treasury purchases tips 1 to 7.5 yrs
+ny fed treasury purchases tips 7.5 to 30 yrs
+oat auction
+obligacion auction
+opec meeting
+opec monthly report
+outstanding loan growth_yoy
+overnight lending rate
+part time employment chg
+participation rate
+pce price index_mom
+pce price index_yoy
+pce prices qoq adv
+pce prices_qoq
+pending home sales_mom
+pending home sales_yoy
+personal income
+personal income_mom
+personal spending_mom
+philadelphia fed manufacturing index
+philly fed business conditions
+philly fed capex index
+philly fed employment
+philly fed new orders
+philly fed prices paid
+pmi
+ppi ex food, energy and trade_mom
+ppi ex food, energy and trade_yoy
+ppi_mom
+ppi_yoy
+press conference
+prime overdraft rate
+prime rate
+private bank lending_yoy
+private consumption_mom
+private investment_mom
+private non farm payrolls_qoq
+private sector credit
+private sector credit_yoy
+private sector loans
+procure.ch manufacturing pmi
+procure.ch services pmi
+producer & import prices_mom
+producer & import prices_yoy
+producer price index
+producer price index_mom
+producer price index_yoy
+public sector net borrowing
+public sector net borrowing ex banks
+quarterly grain stocks   corn
+rba bullock speech
+rba gov bullock speaks
+rbi interest rate decision
+rbnz financial stability report
+rbnz gov orr speech
+rcm/tipp economic optimism index
+real consumer spending
+real consumer spending qoq adv
+real consumer spending_qoq
+real earnings_mom
+real wage growth_yoy
+real wages_yoy
+redbook_yoy
+registered jobless rate
+resi prop prices_mom
+resi prop prices_yoy
+residential property prices_mom
+residential property prices_yoy
+retail inventories ex autos mom adv
+retail inventories ex autos_mom
+retail price index_mom
+retail price index_yoy
+retail sales ex autos_mom
+retail sales ex fuel_mom
+retail sales ex fuel_yoy
+retail sales ex gas/autos_mom
+retail sales_mom
+retail sales_yoy
+reverse repo rate
+richmond fed manufacturing index
+richmond fed manufacturing shipments index
+richmond fed services index
+richmond fed services revenues index
+rics house price balance
+riksbank rate decision
+russian forex intervention
+s&p global composite pmi
+s&p global composite pmi flash
+s&p global construction pmi
+s&p global manufacturing pmi
+s&p global manufacturing pmi flash
+s&p global pmi
+s&p global services pmi
+s&p global services pmi flash
+s&p global/cips composite pmi
+s&p global/cips construction pmi
+s&p global/cips manufacturing pmi
+s&p global/cips services pmi
+s&p global/cips uk services pmi
+s&p/case shiller home price_mom
+s&p/case shiller home price_yoy
+sarb monetary policy review
+sarb quarterly bulletin
+saxony cpi_mom
+saxony cpi_yoy
+senior loan officer survey
+sentix investors sentiment
+services nz psi
+services pmi
+services sentiment
+sipmm manufacturing pmi
+snb interest rate decision
+snb quarterly bulletin
+stanbic bank pmi
+stanbic bank uganda pmi
+stanbic bank zambia pmi
+stanbic ibtc bank nigeria pmi
+standard bank pmi
+summary of the key rate discussion
+tax revenue
+thomson reuters ipsos pcsi
+total credit growth_yoy
+total credit_yoy
+total household debt
+total new vehicle sales
+total social financing
+total vehicle sales
+tourist arrivals_yoy
+trade balance
+treasury cash balance
+treasury refunding announcement
+u 6 unemployment rate
+unemployed persons
+unemployment benefit claims
+unemployment change
+unemployment rate
+unit labour costs_qoq
+used car prices_mom
+used car prices_yoy
+vehicle sales_mom
+vehicle sales_yoy
+wage growth_yoy
+wasde report
+wholesale inventories mom adv
+wholesale inventories_mom
+wholesale prices_mom
+wholesale prices_yoy
+wholesale sales_mom
+wpi food index_yoy
+wpi food_yoy
+wpi fuel_yoy
+wpi inflation_yoy
+wpi manufacturing_yoy
+zew current conditions
+zew economic sentiment index

@@ -1,0 +1,167 @@
+[
+  {
+    "Name": "RICS House Price Balance",
+    "Currency": "GBP",
+    "Date": "2025.09.11 02:01:00",
+    "Actual": -19.0,
+    "Forecast": -12.0,
+    "Previous": -13.0,
+    "Outcome": "Actual < Forecast  Forecast > Previous",
+    "Strength": "Strong Data",
+    "Quality": "Bad Data"
+  },
+  {
+    "Name": "RBNZ Gov Hawkesby Speaks",
+    "Currency": "NZD",
+    "Date": "2025.09.11 02:15:00",
+    "Actual": 0.0,
+    "Forecast": 0.0,
+    "Previous": 0.0,
+    "Outcome": "Actual = Forecast = Previous",
+    "Strength": "Weak Data",
+    "Quality": "Good Data"
+  },
+  {
+    "Name": "BSI Manufacturing Index",
+    "Currency": "JPY",
+    "Date": "2025.09.11 02:50:00",
+    "Actual": 3.8,
+    "Forecast": -3.3,
+    "Previous": -4.8,
+    "Outcome": "Actual > Forecast > Previous",
+    "Strength": "Strong Data",
+    "Quality": "Good Data"
+  },
+  {
+    "Name": "PPI y/y",
+    "Currency": "JPY",
+    "Date": "2025.09.11 02:50:00",
+    "Actual": 2.7,
+    "Forecast": 2.7,
+    "Previous": 2.5,
+    "Outcome": "Actual = Forecast > Previous",
+    "Strength": "Weak Data",
+    "Quality": "Bad Data"
+  },
+  {
+    "Name": "MI Inflation Expectations",
+    "Currency": "AUD",
+    "Date": "2025.09.11 04:00:00",
+    "Actual": 4.7,
+    "Forecast": 0.0,
+    "Previous": 3.9,
+    "Outcome": "Actual > Forecast  Forecast < Previous",
+    "Strength": "Strong Data",
+    "Quality": "Good Data"
+  },
+  {
+    "Name": "Main Refinancing Rate",
+    "Currency": "EUR",
+    "Date": "2025.09.11 15:15:00",
+    "Actual": 2.15,
+    "Forecast": 2.15,
+    "Previous": 2.15,
+    "Outcome": "Actual = Forecast = Previous",
+    "Strength": "Weak Data",
+    "Quality": "Good Data"
+  },
+  {
+    "Name": "Monetary Policy Statement",
+    "Currency": "EUR",
+    "Date": "2025.09.11 15:15:00",
+    "Actual": 0.0,
+    "Forecast": 0.0,
+    "Previous": 0.0,
+    "Outcome": "Actual = Forecast = Previous",
+    "Strength": "Weak Data",
+    "Quality": "Good Data"
+  },
+  {
+    "Name": "Core CPI m/m",
+    "Currency": "USD",
+    "Date": "2025.09.11 15:30:00",
+    "Actual": 0.3,
+    "Forecast": 0.3,
+    "Previous": 0.3,
+    "Outcome": "Actual = Forecast = Previous",
+    "Strength": "Weak Data",
+    "Quality": "Bad Data"
+  },
+  {
+    "Name": "CPI m/m",
+    "Currency": "USD",
+    "Date": "2025.09.11 15:30:00",
+    "Actual": 0.4,
+    "Forecast": 0.3,
+    "Previous": 0.2,
+    "Outcome": "Actual > Forecast > Previous",
+    "Strength": "Strong Data",
+    "Quality": "Bad Data"
+  },
+  {
+    "Name": "CPI y/y",
+    "Currency": "USD",
+    "Date": "2025.09.11 15:30:00",
+    "Actual": 2.9,
+    "Forecast": 2.9,
+    "Previous": 2.7,
+    "Outcome": "Actual = Forecast > Previous",
+    "Strength": "Weak Data",
+    "Quality": "Bad Data"
+  },
+  {
+    "Name": "Unemployment Claims",
+    "Currency": "USD",
+    "Date": "2025.09.11 15:30:00",
+    "Actual": 263.0,
+    "Forecast": 235.0,
+    "Previous": 236.0,
+    "Outcome": "Actual > Forecast  Forecast < Previous",
+    "Strength": "Strong Data",
+    "Quality": "Good Data"
+  },
+  {
+    "Name": "ECB Press Conference",
+    "Currency": "EUR",
+    "Date": "2025.09.11 15:45:00",
+    "Actual": 0.0,
+    "Forecast": 0.0,
+    "Previous": 0.0,
+    "Outcome": "Actual = Forecast = Previous",
+    "Strength": "Weak Data",
+    "Quality": "Good Data"
+  },
+  {
+    "Name": "Natural Gas Storage",
+    "Currency": "USD",
+    "Date": "2025.09.11 17:30:00",
+    "Actual": 71.0,
+    "Forecast": 69.0,
+    "Previous": 55.0,
+    "Outcome": "Actual > Forecast > Previous",
+    "Strength": "Strong Data",
+    "Quality": "Good Data"
+  },
+  {
+    "Name": "30-y Bond Auction",
+    "Currency": "USD",
+    "Date": "2025.09.11 20:01:00",
+    "Actual": 4.65,
+    "Forecast": 0.0,
+    "Previous": 4.81,
+    "Outcome": "Actual > Forecast  Actual < Previous",
+    "Strength": "Strong Data",
+    "Quality": "Bad Data"
+  },
+  {
+    "Name": "Federal Budget Balance",
+    "Currency": "USD",
+    "Date": "2025.09.11 21:00:00",
+    "Actual": -344.8,
+    "Forecast": -305.7,
+    "Previous": -291.1,
+    "Outcome": "Actual < Forecast < Previous",
+    "Strength": "Strong Data",
+    "Quality": "Bad Data"
+  }
+]

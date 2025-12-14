@@ -1,0 +1,100 @@
+flowchart TD
+    Start([Début: Validation DoubleWave Complète]) --> SearchMovements[ÉTAPE 1:<br/>Rechercher mouvements forts<br/>dans prices_bern<br/>Critère: impact > X pips<br/>Période: 3 dernières années]
+    
+    SearchMovements --> ListMovements[Liste mouvements forts trouvés:<br/>date, heure, impact_pips, direction]
+    
+    ListMovements --> SelectMovement[Sélectionner 1 mouvement fort<br/>à analyser]
+    
+    SelectMovement --> IdentifyCluster{ÉTAPE 2:<br/>Identifier cluster events<br/>à cette date/heure?}
+    
+    IdentifyCluster -->|NON: Pas de cluster| SkipMovement[Laisser tomber ce mouvement<br/>Passer au suivant]
+    SkipMovement --> MoreMovements{Autres mouvements<br/>à analyser?}
+    
+    MoreMovements -->|Oui| SelectMovement
+    MoreMovements -->|Non| EndNoData([Fin: Aucun cluster valide trouvé])
+    
+    IdentifyCluster -->|OUI: Cluster trouvé| DefineSignature[Définir signature cluster:<br/>composition events, pays, scores]
+    
+    DefineSignature --> SearchIdentical[ÉTAPE 2.1:<br/>Rechercher clusters identiques<br/>dans DB historique<br/>même signature ±5 min]
+    
+    SearchIdentical --> CountFound{Nombre clusters<br/>identiques trouvés?}
+    
+    CountFound -->|< 3: Trop peu| SkipMovement
+    CountFound -->|>= 3: Suffisant| LoadAllDates[Charger N dates<br/>avec clusters identiques]
+    
+    LoadAllDates --> VerifyPatterns[ÉTAPE 2.2 CRITIQUE:<br/>Pour CHAQUE date:<br/>Charger prix + mesurer pattern<br/>Single Wave? Double Wave?<br/>Timing peak? Direction?]
+    
+    VerifyPatterns --> GroupByPattern[ÉTAPE 2.3:<br/>Regrouper dates<br/>par pattern identique]
+    
+    GroupByPattern --> CheckGroups{Groupes avec<br/>>= 3 dates?}
+    
+    CheckGroups -->|NON: Tous < 3| SkipMovement
+    CheckGroups -->|OUI: Au moins 1 groupe| SelectGroup[Sélectionner groupe<br/>avec pattern identique<br/>N >= 3 dates]
+    
+    SelectGroup --> InitLOOCV[ÉTAPE 3:<br/>Initialiser LOO-CV<br/>i = 1 à N<br/>results = liste vide]
+    
+    InitLOOCV --> LoopCheck{i <= N ?}
+    
+    LoopCheck -->|Non| CalcGlobalMAE[Calculer MAE Global:<br/>moyenne des N MAE_itération]
+    
+    LoopCheck -->|Oui| SelectEtalon[ITÉRATION i:<br/>Date i = étalon de référence]
+    
+    SelectEtalon --> MeasureEtalon[Mesurer étalon i:<br/>1. impact_réel_i depuis prices<br/>2. R²_i tendance 30j avant<br/>3. amp_idéal_i = impact / score × racine n]
+    
+    MeasureEtalon --> InitInnerLoop[Boucle interne:<br/>j = 1 à N<br/>errors_i = liste vide]
+    
+    InitInnerLoop --> InnerLoopCheck{j <= N ?}
+    
+    InnerLoopCheck -->|Non| CalcIterMAE[MAE_itération_i =<br/>moyenne errors_i]
+    CalcIterMAE --> StoreResult[Stocker MAE_i<br/>dans results]
+    StoreResult --> IncrementI[i = i + 1]
+    IncrementI --> LoopCheck
+    
+    InnerLoopCheck -->|Oui| CheckSameCase{j == i ?}
+    
+    CheckSameCase -->|Oui| IncrementJ[j = j + 1]
+    IncrementJ --> InnerLoopCheck
+    
+    CheckSameCase -->|Non| CalcR2J[Calculer R²_j<br/>tendance date j]
+    
+    CalcR2J --> PredictAmp[Prédire amp_j via corrélation:<br/>Formule A: amp_i × R²_i / R²_j<br/>Formule B: amp_i + k × delta R²<br/>Formule C: a + b×R² + c×R²²]
+    
+    PredictAmp --> PredictImpact[Prédire impact_j:<br/>score_j × amp_pred_j × racine n_j]
+    
+    PredictImpact --> MeasureReal[Mesurer impact_réel_j<br/>depuis prices_bern]
+    
+    MeasureReal --> CalcError[erreur_j =<br/>valeur absolue pred - réel]
+    
+    CalcError --> StoreError[Stocker erreur_j<br/>dans errors_i]
+    StoreError --> IncrementJ
+    
+    CalcGlobalMAE --> DetectOutliers[Détecter outliers:<br/>Si MAE_i > 2× moyenne<br/>alors date i suspecte]
+    
+    DetectOutliers --> CompareBaselines[Comparer MAE avec:<br/>1. Amp fixe 0.1201<br/>2. Fonction universelle S125<br/>3. Baseline amp = 2.5]
+    
+    CompareBaselines --> Decision{MAE Global<br/>< 10 pips?}
+    
+    Decision -->|OUI| ValidateCorrelation[✅ EXCELLENT:<br/>Corrélation R² → amp<br/>validée pour ce pattern]
+    
+    Decision -->|NON| AnalyzeFailure[⚠️ À AMÉLIORER:<br/>Analyser pourquoi:<br/>Outliers? Formule? Patterns?]
+    
+    ValidateCorrelation --> Documentation[Documenter:<br/>MAE par itération<br/>Outliers identifiés<br/>Meilleure formule<br/>Pattern validé]
+    
+    AnalyzeFailure --> Documentation
+    
+    Documentation --> MoreGroups{Autres groupes<br/>pattern à valider?}
+    
+    MoreGroups -->|Oui| SelectGroup
+    MoreGroups -->|Non| FinalReport[Rapport final:<br/>Patterns validés<br/>Formules optimales<br/>Recommandations]
+    
+    FinalReport --> End([Fin: Validation complète])
+    
+    style Start fill:#90EE90
+    style End fill:#90EE90
+    style EndNoData fill:#FFB6C1
+    style IdentifyCluster fill:#FFD700
+    style VerifyPatterns fill:#FFA500
+    style CheckGroups fill:#FFD700
+    style Decision fill:#FFD700
+    style ValidateCorrelation fill:#87CEEB
+    style AnalyzeFailure fill:#FFA07A

@@ -1,0 +1,27 @@
+{
+  "session": "105",
+  "step": "3.1.1",
+  "date": "2025-09-11",
+  "timestamp_method": "session_92.5",
+  "event_time_db": "12:30:00",
+  "validation_status": "SUCCESS",
+  "measurements": {
+    "price_start": 1.16874,
+    "price_peak": 1.17442,
+    "time_start": "2025-09-11 12:29:00+02:00",
+    "time_peak": "2025-09-11 14:19:00+02:00",
+    "duration_minutes": 109.0,
+    "direction": "UP",
+    "impact_pips": 56.80000000000129
+  },
+  "expected": {
+    "price_start": 1.16874,
+    "price_peak": 1.17442,
+    "impact_pips": 56.8
+  },
+  "deviations": {
+    "price_start_pips": 0.0,
+    "price_peak_pips": 0.0,
+    "impact_pips": 1.2931877790833823e-12
+  }
+}

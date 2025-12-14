@@ -1,0 +1,240 @@
+{
+  "mae_global": {
+    "mean": 14.708494642490686,
+    "regression": 20.01095960174901,
+    "improvement": -5.302464959258325,
+    "improvement_pct": -36.05035789278041
+  },
+  "results": [
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "0-100",
+      "count": 37,
+      "count_with_features": 37,
+      "mae_mean": 16.17510510510514,
+      "mae_regression": 12.688287014070982,
+      "gain": 3.4868180910341575,
+      "gain_pct": 21.556695108791956
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "300-400",
+      "count": 5,
+      "count_with_features": 5,
+      "mae_mean": 29.79499999999979,
+      "mae_regression": 26.454329177950182,
+      "gain": 3.3406708220496064,
+      "gain_pct": 11.212186011242256
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "300-400",
+      "count": 9,
+      "count_with_features": 9,
+      "mae_mean": 26.660833333334082,
+      "mae_regression": 24.689314608296158,
+      "gain": 1.9715187250379245,
+      "gain_pct": 7.394812834199491
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "200-300",
+      "count": 17,
+      "count_with_features": 17,
+      "mae_mean": 17.297499999999403,
+      "mae_regression": 15.977655716500923,
+      "gain": 1.3198442834984796,
+      "gain_pct": 7.63026034686241
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "300-400",
+      "count": 9,
+      "count_with_features": 9,
+      "mae_mean": 3.6888888888893083,
+      "mae_regression": 3.799186128407692,
+      "gain": -0.11029723951838388,
+      "gain_pct": -2.9899854086305484
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "100-200",
+      "count": 25,
+      "count_with_features": 25,
+      "mae_mean": 16.006400000000095,
+      "mae_regression": 16.279815875380333,
+      "gain": -0.2734158753802376,
+      "gain_pct": -1.7081659547445769
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "100-200",
+      "count": 24,
+      "count_with_features": 24,
+      "mae_mean": 9.388695652173352,
+      "mae_regression": 10.284701601503725,
+      "gain": -0.8960059493303731,
+      "gain_pct": -9.54345504982857
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "100-200",
+      "count": 18,
+      "count_with_features": 18,
+      "mae_mean": 10.79699346405158,
+      "mae_regression": 11.970457994374442,
+      "gain": -1.1734645303228621,
+      "gain_pct": -10.86843790569934
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "500+",
+      "count": 12,
+      "count_with_features": 12,
+      "mae_mean": 10.371818181818554,
+      "mae_regression": 11.736445320937074,
+      "gain": -1.3646271391185198,
+      "gain_pct": -13.157067692438584
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "200-300",
+      "count": 19,
+      "count_with_features": 19,
+      "mae_mean": 23.68859649122842,
+      "mae_regression": 25.222537106873634,
+      "gain": -1.5339406156452142,
+      "gain_pct": -6.475438999576072
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "200-300",
+      "count": 23,
+      "count_with_features": 23,
+      "mae_mean": 6.487075098814699,
+      "mae_regression": 8.128016062919096,
+      "gain": -1.6409409641043977,
+      "gain_pct": -25.29554443425861
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "100-200",
+      "count": 29,
+      "count_with_features": 29,
+      "mae_mean": 14.593965517241061,
+      "mae_regression": 16.30816000638129,
+      "gain": -1.7141944891402279,
+      "gain_pct": -11.745912974202302
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "0-100",
+      "count": 35,
+      "count_with_features": 35,
+      "mae_mean": 12.71222408963577,
+      "mae_regression": 14.454013546690755,
+      "gain": -1.7417894570549848,
+      "gain_pct": -13.701689372161551
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "400-500",
+      "count": 7,
+      "count_with_features": 7,
+      "mae_mean": 17.562857142856974,
+      "mae_regression": 19.95562510268496,
+      "gain": -2.392767959827985,
+      "gain_pct": -13.624024498776684
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "0-100",
+      "count": 19,
+      "count_with_features": 19,
+      "mae_mean": 14.098421052631469,
+      "mae_regression": 17.219018189267523,
+      "gain": -3.1205971366360536,
+      "gain_pct": -22.13437323928976
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "0-100",
+      "count": 23,
+      "count_with_features": 23,
+      "mae_mean": 15.444980237154438,
+      "mae_regression": 19.258699989810886,
+      "gain": -3.813719752656448,
+      "gain_pct": -24.692292862131126
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "500+",
+      "count": 14,
+      "count_with_features": 14,
+      "mae_mean": 16.450329670330195,
+      "mae_regression": 20.54054097628246,
+      "gain": -4.090211305952266,
+      "gain_pct": -24.864008125802908
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "200-300",
+      "count": 19,
+      "count_with_features": 19,
+      "mae_mean": 14.275730994152052,
+      "mae_regression": 18.944382843791278,
+      "gain": -4.668651849639225,
+      "gain_pct": -32.703417089826814
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "500+",
+      "count": 19,
+      "count_with_features": 19,
+      "mae_mean": 18.559707602339945,
+      "mae_regression": 24.53809755523801,
+      "gain": -5.978389952898066,
+      "gain_pct": -32.21166023189035
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "400-500",
+      "count": 3,
+      "count_with_features": 3,
+      "mae_mean": 7.7933333333324315,
+      "mae_regression": 16.13673737364513,
+      "gain": -8.343404040312699,
+      "gain_pct": -107.0582212187382
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "500+",
+      "count": 10,
+      "count_with_features": 10,
+      "mae_mean": 17.432222222222048,
+      "mae_regression": 30.75708442342754,
+      "gain": -13.324862201205491,
+      "gain_pct": -76.43811575680452
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "300-400",
+      "count": 9,
+      "count_with_features": 9,
+      "mae_mean": 17.235833333333154,
+      "mae_regression": 32.65113990296694,
+      "gain": -15.415306569633785,
+      "gain_pct": -89.43754718155361
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "400-500",
+      "count": 6,
+      "count_with_features": 6,
+      "mae_mean": 11.92999999999956,
+      "mae_regression": 227.66998923052168,
+      "gain": -215.73998923052213,
+      "gain_pct": -1808.3821394009228
+    }
+  ]
+}

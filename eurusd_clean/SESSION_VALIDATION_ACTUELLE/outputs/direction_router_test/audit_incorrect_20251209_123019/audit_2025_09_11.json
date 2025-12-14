@@ -1,0 +1,154 @@
+{
+  "date": "2025-09-11",
+  "movement_start_time": "2025-09-11 13:30:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": NaN,
+  "score": 0.08620711911618072,
+  "has_trigger": true,
+  "n_active": 13,
+  "contributions": [
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1939.0,
+      "estimate": 1950.0,
+      "surprise": -11.0,
+      "surprise_z": -0.32431416959031095,
+      "alpha_weight": -0.0153479181689676,
+      "contribution": 0.004977547335908774,
+      "is_trigger": false
+    },
+    {
+      "event_key": "core inflation rate",
+      "family": "CPI",
+      "actual": 0.3,
+      "estimate": 0.3,
+      "surprise": 0.0,
+      "surprise_z": -0.0680133984478135,
+      "alpha_weight": 0.0144118605837791,
+      "contribution": -0.000980199616258906,
+      "is_trigger": false
+    },
+    {
+      "event_key": "cpi",
+      "family": "CPI",
+      "actual": 323.98,
+      "estimate": 323.89,
+      "surprise": 0.09000000000003183,
+      "surprise_z": 0.10915882462890242,
+      "alpha_weight": 0.0011548344513485,
+      "contribution": 0.00012606037135016565,
+      "is_trigger": false
+    },
+    {
+      "event_key": "cpi s a",
+      "family": "CPI",
+      "actual": 323.364,
+      "estimate": 323.0,
+      "surprise": 0.3639999999999759,
+      "surprise_z": 0.9571914984040143,
+      "alpha_weight": 0.0011548344513485,
+      "contribution": 0.0011053977188948485,
+      "is_trigger": true
+    },
+    {
+      "event_key": "inflation rate",
+      "family": "CPI",
+      "actual": 2.9,
+      "estimate": 2.9,
+      "surprise": 0.0,
+      "surprise_z": 0.056560395877780126,
+      "alpha_weight": 0.0011548344513485,
+      "contribution": 6.531789374157017e-05,
+      "is_trigger": false
+    },
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 263.0,
+      "estimate": 235.0,
+      "surprise": 28.0,
+      "surprise_z": 2.6789468429277004,
+      "alpha_weight": 0.050668191263372,
+      "contribution": 0.1357373910218673,
+      "is_trigger": true
+    },
+    {
+      "event_key": "jobless claims 4 week average",
+      "family": "Jobless Claims",
+      "actual": 240.5,
+      "estimate": 232.0,
+      "surprise": 8.5,
+      "surprise_z": 1.6580688192456556,
+      "alpha_weight": 0.050668191263372,
+      "contribution": 0.08401134806137225,
+      "is_trigger": true
+    },
+    {
+      "event_key": "cpi s.a",
+      "family": "CPI",
+      "actual": 323.364,
+      "estimate": 323.0,
+      "surprise": 0.3639999999999759,
+      "surprise_z": 0.9101046731606298,
+      "alpha_weight": 0.0011548344513485,
+      "contribution": 0.001051020230899162,
+      "is_trigger": true
+    },
+    {
+      "event_key": "inflation rate_mom",
+      "family": "CPI",
+      "actual": 0.4,
+      "estimate": 0.3,
+      "surprise": 0.10000000000000003,
+      "surprise_z": 1.0493443645942064,
+      "alpha_weight": 0.0011548344513485,
+      "contribution": 0.0012118190235617908,
+      "is_trigger": true
+    },
+    {
+      "event_key": "core inflation rate_yoy",
+      "family": "CPI",
+      "actual": 3.1,
+      "estimate": 3.1,
+      "surprise": 0.0,
+      "surprise_z": -0.05882352941176415,
+      "alpha_weight": 0.0144118605837791,
+      "contribution": -0.0008477565049281743,
+      "is_trigger": false
+    },
+    {
+      "event_key": "core inflation rate_mom",
+      "family": "CPI",
+      "actual": 0.3,
+      "estimate": 0.3,
+      "surprise": 0.0,
+      "surprise_z": 0.09677419354838702,
+      "alpha_weight": 0.0011548344513485,
+      "contribution": 0.00011175817271114508,
+      "is_trigger": false
+    },
+    {
+      "event_key": "jobless claims 4-week average",
+      "family": "Jobless Claims",
+      "actual": 240.5,
+      "estimate": 232.0,
+      "surprise": 8.5,
+      "surprise_z": 1.6580688192456556,
+      "alpha_weight": 0.050668191263372,
+      "contribution": 0.08401134806137225,
+      "is_trigger": true
+    },
+    {
+      "event_key": "inflation rate_yoy",
+      "family": "CPI",
+      "actual": 2.9,
+      "estimate": 2.9,
+      "surprise": 0.0,
+      "surprise_z": 0.2105379802666294,
+      "alpha_weight": 0.0011548344513485,
+      "contribution": 0.0002431365129292343,
+      "is_trigger": false
+    }
+  ]
+}

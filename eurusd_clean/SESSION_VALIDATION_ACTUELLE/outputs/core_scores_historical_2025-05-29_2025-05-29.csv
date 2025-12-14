@@ -1,0 +1,2 @@
+core_type,country,empirical_score,avg_impact_pips,p80_impact_pips,median_impact_pips,std_impact_pips,min_impact_pips,max_impact_pips,sample_size,pattern_distribution
+JOBLESS_PCE,US,62.57999999999963,89.39999999999948,89.39999999999948,89.39999999999948,0.0,89.39999999999948,89.39999999999948,1,{'UP': 1}

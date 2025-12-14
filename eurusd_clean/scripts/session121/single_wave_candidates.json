@@ -1,0 +1,13 @@
+{
+  "scan_date": "2025-11-08T11:09:40.977254+01:00",
+  "period": {
+    "start": "2024-01-01",
+    "end": "2025-12-31"
+  },
+  "summary": {
+    "total_candidates": 0,
+    "fort_count": 0,
+    "intermediate_count": 0
+  },
+  "candidates": []
+}

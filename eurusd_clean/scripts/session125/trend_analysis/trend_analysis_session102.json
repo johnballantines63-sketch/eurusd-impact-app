@@ -1,0 +1,295 @@
+{
+  "method": "Session 102 (derni\u00e8re inversion)",
+  "results": [
+    {
+      "cluster_time": "2023-03-14 16:30:00+00:00",
+      "impact_measured": 20.500000000001073,
+      "inversion_time": "2023-03-13 18:11:00+01:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "trend_duration_hours": 23.3,
+      "trend_r2": 0.122158925170247,
+      "trend_amplitude_pips": 68.79999999999997,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2023-04-12 16:30:00+00:00",
+      "impact_measured": 4.500000000000615,
+      "inversion_time": "2023-04-10 16:36:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 49.88333333333333,
+      "trend_r2": 0.8496219464962966,
+      "trend_amplitude_pips": 166.29999999999922,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2023-08-10 12:30:00+00:00",
+      "impact_measured": 41.29999999999967,
+      "inversion_time": "2023-08-08 16:11:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 46.3,
+      "trend_r2": 0.7174086534539913,
+      "trend_amplitude_pips": 99.0000000000002,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2023-09-13 12:30:00+00:00",
+      "impact_measured": 30.799999999999716,
+      "inversion_time": "2023-09-12 15:01:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 23.466666666666665,
+      "trend_r2": 0.12427196804967575,
+      "trend_amplitude_pips": 58.30000000000002,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2023-10-12 12:30:00+00:00",
+      "impact_measured": 54.69999999999864,
+      "inversion_time": "2023-10-11 19:47:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 18.7,
+      "trend_r2": 0.2352342631668399,
+      "trend_amplitude_pips": 53.49999999999966,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2023-11-14 13:30:00+00:00",
+      "impact_measured": 96.60000000000002,
+      "inversion_time": "2023-11-13 14:42:00+01:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 23.783333333333335,
+      "trend_r2": 0.5881130297327308,
+      "trend_amplitude_pips": 64.80000000000041,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2023-12-12 13:30:00+00:00",
+      "impact_measured": 34.899999999999935,
+      "inversion_time": "2023-12-11 17:31:00+01:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 20.966666666666665,
+      "trend_r2": 0.8242621221149043,
+      "trend_amplitude_pips": 68.09999999999982,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-02-13 13:30:00+00:00",
+      "impact_measured": 92.40000000000137,
+      "inversion_time": "2024-02-12 16:18:00+01:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 22.183333333333334,
+      "trend_r2": 0.0002125330849493791,
+      "trend_amplitude_pips": 37.0999999999988,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-03-12 12:30:00+00:00",
+      "impact_measured": 31.49999999999986,
+      "inversion_time": "2024-03-08 14:42:00+01:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "trend_duration_hours": 94.78333333333333,
+      "trend_r2": 0.36484680878425,
+      "trend_amplitude_pips": 63.29999999999947,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-04-10 12:30:00+00:00",
+      "impact_measured": 96.00000000000053,
+      "inversion_time": "2024-04-09 15:40:00+02:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "trend_duration_hours": 22.816666666666666,
+      "trend_r2": 0.013445673241582638,
+      "trend_amplitude_pips": 36.89999999999971,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-05-15 12:30:00+00:00",
+      "impact_measured": 39.70000000000029,
+      "inversion_time": "2024-05-14 10:22:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 28.116666666666667,
+      "trend_r2": 0.6627465603031062,
+      "trend_amplitude_pips": 59.499999999999,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-06-12 12:30:00+00:00",
+      "impact_measured": 72.10000000000161,
+      "inversion_time": "2024-06-11 16:50:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 21.65,
+      "trend_r2": 0.5233503630763982,
+      "trend_amplitude_pips": 46.90000000000083,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-07-11 12:30:00+00:00",
+      "impact_measured": 52.49999999999977,
+      "inversion_time": "2024-07-07 23:00:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 87.48333333333333,
+      "trend_r2": 0.026423335942132187,
+      "trend_amplitude_pips": 52.09999999999937,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-08-14 12:30:00+00:00",
+      "impact_measured": 23.400000000000087,
+      "inversion_time": "2024-08-13 11:05:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 27.4,
+      "trend_r2": 0.8209465688222735,
+      "trend_amplitude_pips": 113.30000000000062,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-09-11 12:30:00+00:00",
+      "impact_measured": 44.69999999999974,
+      "inversion_time": "2024-09-10 16:52:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 21.616666666666667,
+      "trend_r2": 0.7153023520810051,
+      "trend_amplitude_pips": 39.29999999999989,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-10-10 12:30:00+00:00",
+      "impact_measured": 23.799999999998267,
+      "inversion_time": "2024-10-08 10:05:00+02:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "trend_duration_hours": 52.4,
+      "trend_r2": 0.9033742748619579,
+      "trend_amplitude_pips": 67.29999999999903,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-11-13 13:30:00+00:00",
+      "impact_measured": 28.099999999999792,
+      "inversion_time": "2024-11-07 16:32:00+01:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "trend_duration_hours": 141.95,
+      "trend_r2": 0.9067197889239658,
+      "trend_amplitude_pips": 230.80000000000211,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2024-12-11 13:30:00+00:00",
+      "impact_measured": 24.599999999999067,
+      "inversion_time": "2024-12-10 16:52:00+01:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 21.616666666666667,
+      "trend_r2": 0.19372015943505316,
+      "trend_amplitude_pips": 51.30000000000079,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-01-15 13:30:00+00:00",
+      "impact_measured": 52.1999999999978,
+      "inversion_time": "2025-01-13 10:27:00+01:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 52.03333333333333,
+      "trend_r2": 0.8878957353244481,
+      "trend_amplitude_pips": 135.60000000000016,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-02-12 13:30:00+00:00",
+      "impact_measured": 49.9000000000005,
+      "inversion_time": "2025-02-11 20:40:00+01:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "trend_duration_hours": 17.816666666666666,
+      "trend_r2": 0.43112541521170905,
+      "trend_amplitude_pips": 30.400000000001537,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-03-12 12:30:00+00:00",
+      "impact_measured": 38.399999999998435,
+      "inversion_time": "2025-03-11 19:23:00+01:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "trend_duration_hours": 18.1,
+      "trend_r2": 0.3139261525017025,
+      "trend_amplitude_pips": 58.59999999999977,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-04-10 12:30:00+00:00",
+      "impact_measured": 32.69999999999884,
+      "inversion_time": "2025-04-09 20:18:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 18.183333333333334,
+      "trend_r2": 0.7842984002009193,
+      "trend_amplitude_pips": 187.49999999999824,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-05-13 12:30:00+00:00",
+      "impact_measured": 35.09999999999902,
+      "inversion_time": "2025-05-12 20:32:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 17.95,
+      "trend_r2": 0.5992668773206592,
+      "trend_amplitude_pips": 56.59999999999998,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-06-11 12:30:00+00:00",
+      "impact_measured": 52.400000000001334,
+      "inversion_time": "2025-06-10 15:08:00+02:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "trend_duration_hours": 23.35,
+      "trend_r2": 0.00017632082968925121,
+      "trend_amplitude_pips": 40.19999999999912,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-07-15 12:30:00+00:00",
+      "impact_measured": 22.899999999999032,
+      "inversion_time": "2025-07-14 08:22:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 30.116666666666667,
+      "trend_r2": 0.007404042097395838,
+      "trend_amplitude_pips": 41.400000000000325,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-08-12 12:30:00+00:00",
+      "impact_measured": 51.000000000001044,
+      "inversion_time": "2025-08-11 17:10:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 21.316666666666666,
+      "trend_r2": 0.04446115131113818,
+      "trend_amplitude_pips": 38.09999999999869,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-09-11 12:30:00+00:00",
+      "impact_measured": 60.100000000000705,
+      "inversion_time": "2025-09-10 17:07:00+02:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "trend_duration_hours": 21.366666666666667,
+      "trend_r2": 0.7611376250023233,
+      "trend_amplitude_pips": 64.09999999999805,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-10-15 12:30:00+00:00",
+      "impact_measured": 11.400000000001409,
+      "inversion_time": "2025-10-14 09:44:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 28.75,
+      "trend_r2": 0.8282752649104952,
+      "trend_amplitude_pips": 100.40000000000049,
+      "selected_window": 720
+    },
+    {
+      "cluster_time": "2025-10-24 12:30:00+00:00",
+      "impact_measured": 7.300000000001194,
+      "inversion_time": "2025-10-23 15:16:00+02:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "trend_duration_hours": 23.216666666666665,
+      "trend_r2": 0.07935403399479012,
+      "trend_amplitude_pips": 42.099999999998246,
+      "selected_window": 720
+    }
+  ]
+}

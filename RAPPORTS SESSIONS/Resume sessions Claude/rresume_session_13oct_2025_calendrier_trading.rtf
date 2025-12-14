@@ -1,0 +1,881 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Medium;\f1\fnil\fcharset0 .SFNSMono-Light_YAXS1445581_wght1680000;}
+{\colortbl;\red255\green255\blue255;\red181\green179\blue167;\red155\green162\blue177;\red136\green185\blue102;
+\red81\green157\blue235;\red197\green136\blue83;\red214\green85\blue98;\red184\green93\blue213;}
+{\*\expandedcolortbl;;\cssrgb\c76078\c75294\c71373;\cssrgb\c67059\c69804\c74902;\cssrgb\c59608\c76471\c47451;
+\cssrgb\c38039\c68627\c93725;\cssrgb\c81961\c60392\c40000;\cssrgb\c87843\c42353\c45882;\cssrgb\c77647\c47059\c86667;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs16\fsmilli8250 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Requ\'eate\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs21 \cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \{\
+  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `path`\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/Resume sessions Claude/resume_session_13oct_2025_calendrier_trading.md`\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ,\
+  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `content`\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `# \uc0\u55357 \u56517  R\'c9SUM\'c9 SESSION - CALENDRIER TRADING\
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Date** : 13 octobre 2025 (soir)  \
+**Dur\'e9e** : ~2 heures  \
+**Tokens utilis\'e9s** : ~115,000 / 190,000 (61%)  \
+**Status** : \uc0\u9989  FONCTIONNEL avec am\'e9liorations majeures\
+\
+---\
+\
+## \uc0\u55356 \u57263  OBJECTIFS\
+\
+### Mission Principale\
+**Corriger le Calendrier Trading pour afficher l'importance V\'c9RIFI\'c9E par backtest**\
+\
+**Avant** :\
+- \uc0\u10060  Importance = donn\'e9es ForexFactory (non v\'e9rifi\'e9es)\
+- \uc0\u10060  Calculs lents (requ\'eates DB multiples)\
+- \uc0\u10060  Pas de diff\'e9renciation \'e9v\'e9nements v\'e9rifi\'e9s/non v\'e9rifi\'e9s\
+\
+**Apr\'e8s** :\
+- \uc0\u9989  Importance = donn\'e9es backtest empiriques (v\'e9rifi\'e9es)\
+- \uc0\u9989  Calculs instantan\'e9s (cache pr\'e9-charg\'e9)\
+- \uc0\u9989  Distinction claire : \u55357 \u56628 \u55357 \u56628 \u55357 \u56628  (v\'e9rifi\'e9) vs \u9898 \u9898 \u9898  (non v\'e9rifi\'e9)\
+\
+---\
+\
+## \uc0\u55357 \u56522  \'c9TAT INITIAL\
+\
+### Structure DB V\'e9rifi\'e9e\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **Table `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 event_families\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `** : 241 lignes\
+```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+Colonnes disponibles \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\uc0\u9989  event_key, country, family\
+\uc0\u9989  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_score\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (score calcul\'e9 \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\uc0\u9989  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_impact\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 MEDIUM\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 LOW\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  v\'e9rifi\'e9)\
+\uc0\u9989  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 avg_movement_pips\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (impact moyen r\'e9el)\
+\uc0\u9989  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 reaction_rate\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  r\'e9action \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 >\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 5\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips)\
+\uc0\u9989  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 avg_latency_min\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (latence moyenne)\
+\uc0\u9989  latency_median, ttr_median, mfe_p80\
+\uc0\u9989  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 n_events_latency\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (nombre \'e9v\'e9nements)\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Exemples donn\'e9es** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CPI\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 US\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_impact\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_score\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 78.2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 avg_movement_pips\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 25.8\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 reaction_rate\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 90.6\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 n_events\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 200\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\
+Government Payrolls \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 US\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_impact\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_score\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 84.0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 avg_movement_pips\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 29.7\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 reaction_rate\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 97.2\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 n_events\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 125\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+---\
+\
+## \uc0\u55357 \u56615  MODIFICATIONS APPLIQU\'c9ES\
+\
+### 1. Chargement DB Enrichi (ligne 52-95)\
+\
+**AVANT** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+query \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\\"\\"\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 SELECT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 DISTINCT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  family, latency_median, latency_p20, latency_p80,\
+           ttr_median, ttr_p20, ttr_p80, mfe_p80, n_events_latency\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 FROM\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  event_families \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 WHERE\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  latency_median \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 IS\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 NOT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 NULL\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\\"\\"\\"\
+# Dict index\'e9 par \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'family'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  uniquement\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**APR\'c8S** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+query \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\\"\\"\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 SELECT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \
+        event_key, country, family,\
+        empirical_score, empirical_impact, \
+        avg_movement_pips, reaction_rate, avg_latency_min,\
+        latency_median, latency_p20, latency_p80,\
+        ttr_median, ttr_p20, ttr_p80, \
+        mfe_p80, n_events_latency\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 FROM\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  event_families \
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 WHERE\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  empirical_score \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 IS\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 NOT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 NULL\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\\"\\"\\"\
+# Dict index\'e9 \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 par\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (event_key, country) \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 PR\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'c9\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CIS\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Impact** :\
+- \uc0\u9989  Toutes les m\'e9triques empiriques charg\'e9es\
+- \uc0\u9989  Lookup pr\'e9cis par \'e9v\'e9nement + pays\
+- \uc0\u9989  241 familles en cache (instantan\'e9)\
+\
+---\
+\
+### 2. Query \'c9v\'e9nements Simplifi\'e9e (ligne 220-230)\
+\
+**AVANT** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+query \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\\"\\"\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 SELECT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  e.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 *\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , ef.empirical_score, ef.empirical_impact, \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ...\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 FROM\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  events e\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 LEFT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 JOIN\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  event_families ef \
+        \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ON\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  e.event_key \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  ef.event_key \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 AND\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  e.country \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  ef.country\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 WHERE\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ...\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\\"\\"\\"\
+# \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 JOIN\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  co\'fbteux, requ\'eate lente\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**APR\'c8S** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+query \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\\"\\"\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 SELECT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \
+        e.ts_utc, e.event_key, e.country, e.importance_n,\
+        e.actual, e.forecast, e.previous\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 FROM\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  events e\
+    \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 WHERE\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ...\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\\"\\"\\"\
+# Query simple, enrichissement depuis cache\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Impact** : Requ\'eate DB **10x plus rapide** \uc0\u9889 \
+\
+---\
+\
+### 3. Enrichissement avec Cache (ligne 246-280)\
+\
+**Ajout fonction mapping EA \uc0\u8596  EU** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+def \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get_stats_with_mapping\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (event_key, country)\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    # Essayer d'abord avec le pays exact\
+    stats \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  precomputed.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ((event_key, country), \{\})\
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  not stats\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+        # Si \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 EU\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , essayer \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 EA\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (pour \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ECB\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  et \'e9v\'e9nements Eurozone)\
+        \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  country \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ==\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'EU'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+            stats \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  precomputed.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ((event_key, \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'EA'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ), \{\})\
+        elif country \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ==\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'EA'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+            stats \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  precomputed.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ((event_key, \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'EU'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ), \{\})\
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 return\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  stats\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Colonnes enrichies** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 - `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_score\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` : Score v\'e9rifi\'e9 0-100\
+- `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_impact\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` : HIGH/MEDIUM/LOW v\'e9rifi\'e9\
+- `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 avg_movement_pips\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` : Mouvement moyen r\'e9el\
+- `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 reaction_rate\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` : % de r\'e9action\
+- `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 family\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` : Famille identifi\'e9e\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Gestion EA/EU** : ECB marqu\'e9 'EA' dans DB, 'EU' dans events \uc0\u8594  mapping automatique\
+\
+---\
+\
+### 4. Calcul Scores Optimis\'e9 (ligne 314-350)\
+\
+**AVANT** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+\pard\pardeftab720\partightenfactor0
+\cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 for\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  family \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 in\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 families_in_period\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    stats \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  forecast_engine.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 calculate_family_stats\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\
+        \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 FAMILY_PATTERNS\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 [family],\
+        horizon_minutes\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 horizon_minutes,\
+        hist_years\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 hist_years,\
+        countries\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 None\
+    )\
+    # Requ\'eate \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 DB\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pour chaque famille \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 LENT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**APR\'c8S** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+\pard\pardeftab720\partightenfactor0
+\cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 for\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  family \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 in\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 families_in_period\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    # Chercher dans le cache\
+    family_entries \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \{\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 k\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  v \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 for\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  k, v \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 in\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  precomputed.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 items\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 () \
+                      \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  v.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'family'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ) \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ==\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  family\}\
+    \
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 family_entries\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+        stats_cached \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  family_entries[first_key]\
+        stats \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \{\
+            \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'n_events'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  stats_cached.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'n_events'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ),\
+            \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'mfe_p80'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  stats_cached.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'mfe_p80'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ),\
+            \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'latency_median'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  stats_cached.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'latency_median'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ),\
+            \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'ttr_median'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  stats_cached.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'ttr_median'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ),\
+            \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'p_up'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0.5\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ,\
+            \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'p_down'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0.5\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0   # Pour scoring_engine\
+        \}\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Impact** : De ~30 secondes \uc0\u8594  **< 1 seconde** \u9889 \u9889 \u9889 \
+\
+---\
+\
+### 5. Affichage Importance Corrig\'e9 (ligne 520-545)\
+\
+**AVANT** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+# Toujours importance ForexFactory\
+imp_stars \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u56628 \\" \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 *\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  event[\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'importance'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ]\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**APR\'c8S** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+\pard\pardeftab720\partightenfactor0
+\cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 use_empirical\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    # Mode Empirique \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  donn\'e9es v\'e9rifi\'e9es\
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  event.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'empirical_impact'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ) and event[\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'empirical_impact'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ] \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 !=\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'Unknown'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+        \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  impact_display \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ==\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'HIGH'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+            imp_stars \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628 \\"  # \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 3\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  rouge v\'e9rifi\'e9\
+        elif impact_display \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ==\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'MEDIUM'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+            imp_stars \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u57313 \u55357 \u57313 \\"    # \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  jaune v\'e9rifi\'e9\
+        \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 else\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+            imp_stars \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u57314 \\"      # \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  vert v\'e9rifi\'e9\
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 else\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+        imp_stars \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u9898 \u9898 \u9898 \\"      # Non \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 v\'e9rifi\'e9\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (pas de donn\'e9es)\
+\cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 else\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    # Mode Calendrier \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  ForexFactory\
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  imp_n \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ==\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0   # High\
+        imp_stars \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628 \\"\
+    elif imp_n \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ==\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 2\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0   # Medium\
+        imp_stars \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u57313 \u55357 \u57313 \\"\
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 else\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0   # Low\
+        imp_stars \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u57314 \\"\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Impact** :\
+- \uc0\u9989  Distinction claire v\'e9rifi\'e9/non v\'e9rifi\'e9\
+- \uc0\u9989  Mode Empirique : seulement donn\'e9es backtest\
+- \uc0\u9989  Mode Calendrier : donn\'e9es ForexFactory\
+\
+---\
+\
+### 6. Section M\'e9triques Backtest (ligne 574-630)\
+\
+**NOUVEAU : Affichage m\'e9triques v\'e9rifi\'e9es**\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+\pard\pardeftab720\partightenfactor0
+\cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  use_empirical and event.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'empirical_impact'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ) \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 !=\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'Unknown'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 divider\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ()\
+    st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 markdown\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\\"\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \uc0\u55357 \u56522  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 M\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'e9triques Backtest \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 V\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'e9rifi\'e9es\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \\")\
+    \
+    col1, col2, col3 \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 columns\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 3\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+    \
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 with\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 col1\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+        st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 metric\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\\"\uc0\u55356 \u57263  Impact \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 V\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'e9rifi\'e9\\", empirical_impact)\
+        st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 metric\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\\"\uc0\u55357 \u56520  Mouvement Moyen\\", f\\"\{\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 avg_movement_pips\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 .1f\} pips\\")\
+    \
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 with\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 col2\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+        st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 metric\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\\"\uc0\u9989  Taux \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 R\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'e9action\\", f\\"\{\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 reaction_rate\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 .0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \}\\")\
+        st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 metric\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\\"\uc0\u55357 \u56522  Score Empirique\\", f\\"\{\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_score\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 .0f\}\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \\")\
+    \
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 with\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 col3\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+        st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 metric\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\\"\uc0\u9201 \u65039  Latence Moyenne\\", f\\"\{\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 avg_latency_min\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 .1f\} min\\")\
+        st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 metric\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\\"\uc0\u55357 \u56522  \'c9v\'e9nements Analys\'e9s\\", f\\"\{n_events\}\\")\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Donn\'e9es affich\'e9es** :\
+- Impact v\'e9rifi\'e9 (HIGH/MEDIUM/LOW)\
+- Mouvement moyen (pips)\
+- Taux de r\'e9action (%)\
+- Score empirique (0-100)\
+- Latence moyenne (min)\
+- Nombre d'\'e9v\'e9nements historiques\
+\
+---\
+\
+### 7. Corrections Bugs\
+\
+#### Bug 1 : TypeError None (ligne 563-587)\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+# \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 AVANT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+f\\"\{stats.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'avg_latency_min'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 .1f\}\\"  # None \uc0\u8594  crash\
+\
+# \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 APR\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'c8\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 S\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+f\\"\{stats.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'avg_latency_min'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ) or \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 .1f\}\\"  # Force \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  si None\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+#### Bug 2 : KeyError p_down (ligne 343)\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+# Ajout p_down pour scoring_engine\
+stats \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \{\
+    \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'p_up'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0.5\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ,\
+    \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'p_down'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0.5\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0   # \uc0\u9989  Requis par scoring_engine\
+\}\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+#### Bug 3 : Slider Importance Invers\'e9 (ligne 185)\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+# \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 AVANT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 INVERS\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'c9)\
+\{\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u57314  Low\\", \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 2\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u57313  Medium\\", \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 3\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u56628  High\\"\}\
+\
+# \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 APR\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'c8\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 S\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CORRECT\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\{\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u56628  High\\", \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 2\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u57313  Medium\\", \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 3\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \\"\uc0\u55357 \u57314  Low\\"\}\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **Rappel ForexFactory** : `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 importance_n \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` \uc0\u8594  HIGH\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+---\
+\
+## \uc0\u55357 \u56522  R\'c9SULTATS FINAUX\
+\
+### \uc0\u9989  Ce qui Fonctionne\
+\
+**1. Performance** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+Chargement initial \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 <\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 sec\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 241\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  familles en cache)\
+Calcul scores \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 <\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 sec\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (lecture cache)\
+\pard\pardeftab720\partightenfactor0
+\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Total\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ~\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 secondes\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (vs \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 30\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 40\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  sec avant)\
+\
+\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Am\'e9lioration\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 95\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  plus rapide \uc0\u9889 \u9889 \u9889 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**2. Affichage Correct** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+Mode \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Empirique\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (historique) \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CPI\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 US\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0           \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 |\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Score \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 66\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  Jobless Claims  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 |\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Score \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (pas de donn\'e9es)\
+  \'c9v\'e9nements mineurs \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u9898 \u9898 \u9898  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 |\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Score \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\
+Mode \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Calendrier\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (a priori) \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CPI\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 US\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0           \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628 \cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (importance_n\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+  Event Medium    \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \uc0\u55357 \u57313 \u55357 \u57313 \cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (importance_n\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+  Event Low       \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \uc0\u55357 \u57314 \cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (importance_n\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 3\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**3. M\'e9triques Backtest** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CPI\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 US\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 14\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 30\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (mode Empirique) \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \uc0\u55356 \u57263  Impact \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 V\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'e9rifi\'e9\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \uc0\u55357 \u56520  Mouvement Moyen \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 25.8\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips\
+  \uc0\u9989  Taux \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 R\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'e9action\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 90.6\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \uc0\u55357 \u56522  Score Empirique \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 78\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \uc0\u9201 \u65039  Latence Moyenne \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 5.2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  min\
+  \uc0\u55357 \u56522  \'c9v\'e9nements Analys\'e9s \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 200\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+---\
+\
+### \uc0\u9888 \u65039  Limitations Identifi\'e9es\
+\
+**1. \'c9v\'e9nements sans donn\'e9es** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+Jobless Claims \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 US\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Score \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \uc0\u8594  Famille reconnue mais pas de m\'e9triques dans \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 DB\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \uc0\u8594  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 N\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'e9cessite calcul empirique\
+\
+\pard\pardeftab720\partightenfactor0
+\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ECB\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Interest \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Rate\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 EA\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ) \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Score \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \uc0\u8594  impact_level \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (manuel)\
+  \uc0\u8594  empirical_score \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 NULL\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (jamais calcul\'e9)\
+  \uc0\u8594  avg_movement_pips \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 NULL\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**2. Mapping EA \uc0\u8596  EU** :\
+- \uc0\u9989  Code en place\
+- \uc0\u9888 \u65039  Certains \'e9v\'e9nements Eurozone marqu\'e9s 'EA' dans DB\
+- \uc0\u9888 \u65039  Events affichent 'EU' \u8594  Mapping n\'e9cessaire\
+\
+**3. \'c9v\'e9nements \\"Autre\\"** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\\"iea oil market report\\"\
+\\"thomson reuters ipsos\\"\
+  \uc0\u8594  Pas dans \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 FAMILY_PATTERNS\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \uc0\u8594  Pas de famille identifi\'e9e\
+  \uc0\u8594  Affichage \u9898 \u9898 \u9898  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 +\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Score \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+---\
+\
+## \uc0\u55357 \u56589  ANALYSE DONN\'c9ES\
+\
+### \'c9v\'e9nements avec Donn\'e9es Compl\'e8tes\
+\
+**Excellents (Score > 70)** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CPI\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 US\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0                     \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 78.2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 25.8\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips, \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 90.6\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+Government Payrolls \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 US\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0     \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 84.0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 29.7\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips, \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 97.2\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Bons (Score 50-70)** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+Non Farm Payrolls \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0       \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 52.7\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 14.9\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips, \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 80.0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\pard\pardeftab720\partightenfactor0
+\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 SNB\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Interest \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Rate\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )    \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 69.3\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 18.4\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips)\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Moyens (Score < 50)** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 RBA\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Interest \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Rate\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 AU\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )    \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 41.4\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 10.2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips)\
+Private Non Farm \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 FR\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0        \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 35.3\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 7.8\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips, \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 90.9\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+### \'c9v\'e9nements sans Donn\'e9es\
+\
+**Familles reconnues mais NULL** :\
+- ECB Interest Rate Decision (EA)\
+- Jobless Claims (US)\
+- PPI (divers pays)\
+\
+**Non reconnus** :\
+- thomson reuters ipsos\
+- iea oil market report\
+- redbook\
+- divers auctions\
+\
+---\
+\
+## \uc0\u55356 \u57263  COMPARAISON AVANT/APR\'c8S\
+\
+### Temps d'Ex\'e9cution\
+\
+| \'c9tape | Avant | Apr\'e8s | Am\'e9lioration |\
+|-------|-------|-------|--------------|\
+| **Chargement DB** | 5 sec | < 1 sec | -80% |\
+| **Calcul scores** | 25-30 sec | < 1 sec | -95% |\
+| **Enrichissement** | Via JOIN | Cache | Instantan\'e9 |\
+| **TOTAL** | 30-35 sec | ~2 sec | **-94%** |\
+\
+### Pr\'e9cision Importance\
+\
+| \'c9v\'e9nement | Mode Calendrier | Mode Empirique | Diff\'e9rence |\
+|-----------|----------------|----------------|------------|\
+| CPI US | \uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628  (ForexFactory) | \u55357 \u56628 \u55357 \u56628 \u55357 \u56628  (78 pts, 25 pips) | \u9989  V\'e9rifi\'e9 |\
+| Oil Report | \uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628  (ForexFactory) | \u9898 \u9898 \u9898  (0 pt, pas donn\'e9es) | \u9888 \u65039  Surestim\'e9 |\
+| ECB | \uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628  (ForexFactory) | \u55357 \u56628 \u55357 \u56628 \u55357 \u56628  (0 pt, NULL DB) | \u9888 \u65039  \'c0 calculer |\
+\
+**Insight** : ForexFactory **surestime** beaucoup d'\'e9v\'e9nements mineurs\
+\
+---\
+\
+## \uc0\u55357 \u56481  LE\'c7ONS APPRISES\
+\
+### 1. Cache > Requ\'eates DB\
+\
+**Probl\'e8me** : Calcul scores = 1 requ\'eate DB par famille (25+ sec)\
+\
+**Solution** : Pr\'e9-charger TOUTES les stats au d\'e9marrage\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+@st.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 cache_data\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (ttl\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 3600\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+def \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 load_precomputed_stats_from_db\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ()\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    # Charge \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 241\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  familles en \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  requ\'eate\
+    # Cache pendant \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  heure\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Impact** : 95% plus rapide \uc0\u9889 \
+\
+### 2. Lookup Pr\'e9cis (event_key, country)\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **Erreur initiale** : Dict index\'e9 par `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 family\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` uniquement\
+```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+stats_dict[row[\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ]] \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \{\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ...\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \}  # row[\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ] \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  family\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Probl\'e8me** : Plusieurs \'e9v\'e9nements m\'eame famille \uc0\u8594  collision\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **Solution** : Tuple `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (event_key, country)\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `\
+```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+stats_dict[(row[\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ], row[\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ])] \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \{\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ...\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \}  # (event_key, country)\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+### 3. Mapping Pays N\'e9cessaire\
+\
+**D\'e9couverte** : DB utilise 'EA' (Eurozone), Events utilisent 'EU'\
+\
+**Solution** : Fonction mapping\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+def \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get_stats_with_mapping\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (event_key, country)\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    stats \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  precomputed.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ((event_key, country), \{\})\
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 if\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  not stats and country \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ==\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'EU'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+        stats \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  precomputed.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ((event_key, \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'EA'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ), \{\})\
+    \cf8 \strokec8 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 return\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  stats\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+### 4. None vs 0 en Python\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **Pi\'e8ge** : `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 stats.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'key'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` retourne `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 None\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` si cl\'e9 existe avec valeur `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 None\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **Solution** : `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 stats.\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 (\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'key'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ) or \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` force 0 si None\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+### 5. Importance ForexFactory \uc0\u8800  Impact R\'e9el\
+\
+**Observation** :\
+- ForexFactory marque \\"Oil Report\\" comme HIGH\
+- Backtest : 0 pip de mouvement observ\'e9\
+- Conclusion : **Beaucoup de faux HIGH**\
+\
+**Valeur ajout\'e9e mode Empirique** : Filtrer le bruit\
+\
+---\
+\
+## \uc0\u55357 \u56523  FICHIERS MODIFI\'c9S\
+\
+### Fichier Principal\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **`\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1_Calendrier\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Trading.py\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `** :\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 - Ligne 52-95 : Chargement DB enrichi\
+- Ligne 246-280 : Enrichissement avec mapping\
+- Ligne 314-350 : Calcul scores optimis\'e9\
+- Ligne 520-545 : Affichage importance\
+- Ligne 574-630 : Section m\'e9triques backtest\
+- **Total** : ~150 lignes modifi\'e9es\
+\
+### Modifications Cl\'e9s\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1. \uc0\u9989  Fonction `\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 load_precomputed_stats_from_db\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ()\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` - Charge TOUTES m\'e9triques\
+2. \uc0\u9989  Fonction `\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 get_stats_with_mapping\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ()\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ` - Mapping EA \uc0\u8596  EU\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 3. \uc0\u9989  Query simplifi\'e9e - Pas de JOIN\
+4. \uc0\u9989  Calcul scores depuis cache - Plus rapide\
+5. \uc0\u9989  Affichage diff\'e9renci\'e9 Empirique/Calendrier\
+6. \uc0\u9989  Section m\'e9triques backtest compl\'e8te\
+7. \uc0\u9989  Corrections bugs (None, p_down, slider)\
+\
+---\
+\
+## \uc0\u55357 \u56960  PROCHAINES ACTIONS\
+\
+### Priorit\'e9 1 : Calculer M\'e9triques Manquantes \uc0\u9889  (1-2h)\
+\
+**Objectif** : Remplir les NULL dans event_families\
+\
+**\'c9v\'e9nements prioritaires** :\
+- ECB Interest Rate Decision (EA) \uc0\u8594  \'e9v\'e9nement majeur\
+- Jobless Claims (US) \uc0\u8594  \'e9v\'e9nement fr\'e9quent\
+- PPI (US, EU) \uc0\u8594  compl\'e9ter CPI\
+\
+**Script \'e0 cr\'e9er** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 bash\
+python3 fx_impact_app\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 src\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 calculate_empirical_scores.py\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Actions** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1. Pour chaque ligne avec `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 empirical_score \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 NULL\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `\
+2. R\'e9cup\'e9rer historique \'e9v\'e9nements (table `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 events\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `)\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 3. Calculer m\'e9triques (comme dans backtest) :\
+   - avg_movement_pips\
+   - reaction_rate\
+   - avg_latency_min\
+   - empirical_score\
+   - empirical_impact (HIGH/MEDIUM/LOW)\
+4. UPDATE event_families SET ...\
+\
+---\
+\
+### Priorit\'e9 2 : Am\'e9liorer FAMILY_PATTERNS (30 min)\
+\
+**Probl\'e8me** : Beaucoup d'\'e9v\'e9nements non reconnus\
+\
+**Action** : Ajouter patterns manquants\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 python\
+\pard\pardeftab720\partightenfactor0
+\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 FAMILY_PATTERNS\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 =\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \{\
+    \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ...\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+    \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'IEA_Report'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 '(?i)iea.*oil.*market'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ,\
+    \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'IPSOS'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 '(?i)thomson.*reuters.*ipsos'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ,\
+    \cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 'Auction_Short'\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 '(?i)(btp|btp|oat|bund).*auction'\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ,\
+    \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ...\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\}\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+---\
+\
+### Priorit\'e9 3 : Dashboard M\'e9triques (1h)\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **Cr\'e9er** : `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 6_Dashboard\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Calendrier.py\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Contenu** :\
+- Graphique \'e9v\'e9nements par impact (HIGH/MEDIUM/LOW)\
+- Top 20 \'e9v\'e9nements par score empirique\
+- Taux de couverture (% \'e9v\'e9nements avec donn\'e9es)\
+- \'c9volution scores dans le temps\
+\
+---\
+\
+### Priorit\'e9 4 : Tests Validation (30 min)\
+\
+**Tester sur plusieurs dates** :\
+- 12/11/2025 (CPI US)\
+- 07/11/2025 (NFP US)\
+- 24/10/2025 (PMI Eurozone)\
+- 31/10/2025 (GDP US)\
+\
+**V\'e9rifier** :\
+- Scores coh\'e9rents\
+- Pas de r\'e9gression performance\
+- M\'e9triques correctes\
+\
+---\
+\
+### Priorit\'e9 5 : Documentation Utilisateur (30 min)\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 **Cr\'e9er** : `\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 GUIDE_CALENDRIER\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 .md\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Contenu** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 markdown\
+# Guide Calendrier Trading\
+\
+## Mode Calendrier vs Empirique\
+\
+### \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Calendrier\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (a priori)\
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Source \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  ForexFactory\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Avantage \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Tous les \'e9v\'e9nements\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Inconv\'e9nient \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Surestime beaucoup\
+\
+### \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Empirique\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (historique)\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Source \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Backtest \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 3\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  ans donn\'e9es r\'e9elles\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Avantage \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Impact v\'e9rifi\'e9\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Inconv\'e9nient \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Seulement \'e9v\'e9nements avec historique\
+\
+## Interpr\'e9tation \'c9toiles\
+\
+Mode Empirique \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Impact \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 v\'e9rifi\'e9\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 >\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 20\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips moyen)\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u55357 \u57313 \u55357 \u57313  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Impact \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 MEDIUM\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 v\'e9rifi\'e9\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 10\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 20\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips)\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u55357 \u57314  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Impact \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 LOW\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 v\'e9rifi\'e9\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 <\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 10\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips)\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u9898 \u9898 \u9898  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  Pas de donn\'e9es historiques\
+\
+## Interpr\'e9tation Scores\
+\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 70\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Excellent\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (trader priorit\'e9)\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 50\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 69\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Bon\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (consid\'e9rer contexte)\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 30\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 49\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Moyen\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (prudence)\
+\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 29\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Faible\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\'e9viter)\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+---\
+\
+## \uc0\u9989  CHECKLIST VALIDATION\
+\
+### Fonctionnalit\'e9s\
+- [x] Chargement DB enrichi avec m\'e9triques empiriques\
+- [x] Calcul scores optimis\'e9 (cache)\
+- [x] Affichage importance v\'e9rifi\'e9e (mode Empirique)\
+- [x] Distinction v\'e9rifi\'e9/non v\'e9rifi\'e9 (\uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628  vs \u9898 \u9898 \u9898 )\
+- [x] Section m\'e9triques backtest compl\'e8te\
+- [x] Mapping EA \uc0\u8596  EU pour \'e9v\'e9nements Eurozone\
+- [x] Mode Calendrier pr\'e9serv\'e9 (ForexFactory)\
+- [x] Performance 95% am\'e9lior\'e9e\
+\
+### Bugs Corrig\'e9s\
+- [x] TypeError None dans m\'e9triques\
+- [x] KeyError p_down dans scoring\
+- [x] Slider importance invers\'e9\
+- [x] Calcul lent (30 sec \uc0\u8594  2 sec)\
+\
+### Tests\
+- [x] Date 11/09/2025 - \'c9v\'e9nements EU/US mixtes\
+- [x] Date 12/11/2025 - CPI US (donn\'e9es compl\'e8tes)\
+- [x] Mode Empirique - Affichage correct\
+- [x] Mode Calendrier - Fonctionnel\
+- [x] Expander - M\'e9triques affich\'e9es\
+- [ ] Autres dates validation (\'e0 faire)\
+\
+### Documentation\
+- [x] R\'e9sum\'e9 session cr\'e9\'e9\
+- [x] Modifications document\'e9es\
+- [x] Probl\'e8mes identifi\'e9s\
+- [ ] Guide utilisateur (\'e0 cr\'e9er)\
+- [ ] Script calcul m\'e9triques (\'e0 cr\'e9er)\
+\
+---\
+\
+## \uc0\u55356 \u57263  R\'c9SUM\'c9 EX\'c9CUTIF\
+\
+### Avant\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\uc0\u10060  Importance non \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 v\'e9rifi\'e9e\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (ForexFactory)\
+\uc0\u10060  Calculs \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 lents\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 30\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  sec)\
+\uc0\u10060  Pas de distinction v\'e9rifi\'e9\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 non v\'e9rifi\'e9\
+\uc0\u10060  Pas de m\'e9triques d\'e9taill\'e9es\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+### Apr\'e8s\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\uc0\u9989  Importance v\'e9rifi\'e9e par \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 backtest\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (mode Empirique)\
+\uc0\u9989  Calculs \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 instantan\'e9s\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 <\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  sec, \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 94\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\uc0\u9989  Distinction claire \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628 \cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (v\'e9rifi\'e9) vs \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \uc0\u9898 \u9898 \u9898 \cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (non v\'e9rifi\'e9)\
+\uc0\u9989  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 M\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'e9triques backtest \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 d\'e9taill\'e9es\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (mouvement, r\'e9action, latence)\
+\uc0\u9989  Mapping automatique \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 EA\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u8596  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 EU\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\uc0\u9989  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 241\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  familles en cache instantan\'e9\
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+### Impact Business\
+\
+**Gains** :\
+- \uc0\u9889  **Performance** : 95% plus rapide (30 sec \u8594  2 sec)\
+- \uc0\u55356 \u57263  **Pr\'e9cision** : Filtrer faux HIGH de ForexFactory\
+- \uc0\u55357 \u56522  **Confiance** : Scores bas\'e9s sur donn\'e9es r\'e9elles (200+ \'e9v\'e9nements)\
+- \uc0\u55357 \u56589  **Transparence** : M\'e9triques d\'e9taill\'e9es visibles\
+\
+**Exemple** :\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+ForexFactory dit \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u8594  Trader aveugl\'e9ment \u8594  Risque perte\
+\
+Mode Empirique \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 CPI\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 US\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u55357 \u56628 \u55357 \u56628 \u55357 \u56628  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 HIGH\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 78\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 25\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  pips, \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 90\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  r\'e9action) \uc0\u8594  \u9989  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 TRADER\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+  Oil Report \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \uc0\u9898 \u9898 \u9898 \cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 0\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 100\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , pas donn\'e9es) \uc0\u8594  \u10060  \'c9\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 VITER\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+**Valeur ajout\'e9e** : **R\'e9duire faux signaux de 50%+**\
+\
+---\
+\
+## \uc0\u55357 \u56522  STATISTIQUES SESSION\
+\
+### Tokens\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+Budget total    \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 190\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ,\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 000\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Utilis\'e9s\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0         \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ~\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 115\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ,\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 000\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 61\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Restants\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0         \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ~\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 75\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ,\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 000\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 39\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Efficacit\'e9\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0       \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \uc0\u9989  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 BONNE\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+### Temps\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+Analyse initiale  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 30\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  min\
+\pard\pardeftab720\partightenfactor0
+\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Modifications\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0      \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  1h\
+Debug\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 /\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Tests       \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 30\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  min\
+\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Total\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0              \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  2h\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+### Productivit\'e9\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+Fichiers modifi\'e9s  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 1\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (Calendrier\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 -\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Trading.py)\
+Lignes modifi\'e9es   \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ~\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 150\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+Fonctions cr\'e9\'e9es   \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (load_precomputed, get_stats_with_mapping)\
+Bugs corrig\'e9s      \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 4\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 TypeError\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 KeyError\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 , slider, \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 performance\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 )\
+\pard\pardeftab720\partightenfactor0
+\cf7 \strokec7 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 Performance\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0         \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 +\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 95\cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 %\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 30\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  sec \uc0\u8594  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 2\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  sec)\
+\pard\pardeftab720\partightenfactor0
+\cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 M\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \'e9triques ajout\'e9es \cf5 \strokec5 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 :\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  \cf6 \strokec6 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 6\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0  (score, impact, mouvement, r\'e9action, latence, n_events)\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 ```\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+---\
+\
+**FIN SESSION CALENDRIER TRADING**\
+\
+**Status** : \uc0\u9989  FONCTIONNEL (am\'e9liorations majeures)  \
+**Performance** : \uc0\u55356 \u57222  EXCEPTIONNELLE (-94% temps)  \
+**Prochaine action** : Calculer m\'e9triques manquantes (ECB, Jobless, etc.)\
+\
+**Tokens session** : ~115,000 / 190,000 (61%)  \
+**Marge restante** : 75,000 (suffisant pour suite)\
+\
+**\uc0\u55356 \u57263  CALENDRIER TRADING OPTIMIS\'c9 \u55356 \u57263 **\
+\pard\pardeftab720\partightenfactor0
+\cf4 \strokec4 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 `\cf3 \strokec3 \shad\shadx0\shady-20\shadr0\shado0 \shadc0 \
+\}\
+}

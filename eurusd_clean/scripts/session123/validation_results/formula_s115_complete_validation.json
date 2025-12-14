@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "patterns_total": 2,
+    "mae_mean": 34.5586,
+    "mae_median": 34.5586,
+    "mae_std": 8.244600000000004,
+    "mae_min": 26.313999999999997,
+    "mae_max": 42.803200000000004,
+    "r_squared": -56099.90058310952,
+    "under_2pips": 0,
+    "under_5pips": 0,
+    "under_10pips": 0,
+    "under_20pips": 0
+  },
+  "reference_case": {
+    "date": "2025-09-11",
+    "real_amplitude": 51.7,
+    "predicted_amplitude": 8.896800000000002,
+    "mae": 42.803200000000004,
+    "mae_pct": 82.79148936170213,
+    "wave1_amp": 33.7,
+    "creux_pips": 8.896800000000002,
+    "wave2_amplified": 0.0,
+    "momentum_factor": 1.0632084993222461,
+    "timing_delta": 34.0,
+    "surprise_boost": 0.0,
+    "extension_factor": 1.5341246290801187,
+    "is_reference": true,
+    "events_count": 0
+  },
+  "results": [
+    {
+      "date": "2025-09-11",
+      "real_amplitude": 51.7,
+      "predicted_amplitude": 8.896800000000002,
+      "mae": 42.803200000000004,
+      "mae_pct": 82.79148936170213,
+      "wave1_amp": 33.7,
+      "creux_pips": 8.896800000000002,
+      "wave2_amplified": 0.0,
+      "momentum_factor": 1.0632084993222461,
+      "timing_delta": 34.0,
+      "surprise_boost": 0.0,
+      "extension_factor": 1.5341246290801187,
+      "is_reference": true,
+      "events_count": 0
+    },
+    {
+      "date": "2024-07-11",
+      "real_amplitude": 51.4,
+      "predicted_amplitude": 25.086000000000002,
+      "mae": 26.313999999999997,
+      "mae_pct": 51.19455252918287,
+      "wave1_amp": 45.2,
+      "creux_pips": 25.086000000000002,
+      "wave2_amplified": 0.0,
+      "momentum_factor": 1.1406731022702472,
+      "timing_delta": 18.0,
+      "surprise_boost": 0.0,
+      "extension_factor": 1.1371681415929202,
+      "is_reference": false,
+      "events_count": 0
+    }
+  ]
+}

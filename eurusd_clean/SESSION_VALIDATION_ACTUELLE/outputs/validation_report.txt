@@ -1,0 +1,70 @@
+================================================================================
+RAPPORT DE VALIDATION - EXPORT EMPIRIQUE EURUSD
+================================================================================
+
+Date génération : 2025-12-08 14:37:30
+
+────────────────────────────────────────────────────────────────────────────────
+1. PRIX (prices.csv)
+────────────────────────────────────────────────────────────────────────────────
+Fichier : /Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/eurusd_clean/SESSION_VALIDATION_ACTUELLE/outputs/prices.csv
+Range temporel : 2022-12-09 14:38:00+00:00 → 2025-12-05 22:59:00+00:00
+Total lignes : 1,113,469
+Colonnes : ts_utc, close
+Fréquence dominante : 1 minutes
+Complétude : 70.79% (1113469/1572981 minutes attendues)
+Prix min : 1.01800
+Prix max : 1.19119
+Prix moyen : 1.09571
+
+────────────────────────────────────────────────────────────────────────────────
+2. ÉVÉNEMENTS (events.csv)
+────────────────────────────────────────────────────────────────────────────────
+Fichier : /Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/eurusd_clean/SESSION_VALIDATION_ACTUELLE/outputs/events.csv
+Range temporel : 2022-12-09 12:45:00+00:00 → 2025-12-05 20:00:00+00:00
+Total lignes : 29,823
+Colonnes : ts_utc, event_key, family, country, actual, estimate, previous, event_title
+Event keys uniques : 954
+
+Top 10 familles :
+   Other: 2469
+   CPI: 1968
+   PMI: 1417
+   Trade Balance: 892
+   Jobless Claims: 625
+   ECB: 558
+   GDP: 476
+   Retail Sales: 434
+   Consumer: 424
+   PPI: 402
+
+Répartition par pays :
+   US: 16019
+   EU: 3367
+   DE: 2675
+   FR: 2516
+   IT: 1787
+   ES: 1691
+   IE: 483
+   PT: 416
+   BE: 282
+   GR: 203
+   AT: 121
+   FI: 93
+   NL: 83
+   EC: 71
+   EA: 16
+
+Champs manquants :
+   actual: 5230 (17.5%)
+   estimate: 18265 (61.2%)
+   previous: 4259 (14.3%)
+
+────────────────────────────────────────────────────────────────────────────────
+3. ALIGNEMENT TEMPOREL
+────────────────────────────────────────────────────────────────────────────────
+Prix range : 2022-12-09 14:38:00+00:00 → 2025-12-05 22:59:00+00:00
+Events range : 2022-12-09 12:45:00+00:00 → 2025-12-05 20:00:00+00:00
+✅ Overlap : 2022-12-09 14:38:00+00:00 → 2025-12-05 20:00:00+00:00
+
+================================================================================

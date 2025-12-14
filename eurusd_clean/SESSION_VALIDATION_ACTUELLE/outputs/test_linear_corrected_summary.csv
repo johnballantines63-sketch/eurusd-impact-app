@@ -1,0 +1,3 @@
+methode,mae,ratio_median,correlation,factor_low,factor_medium,factor_high
+Linéaire sans correction,20.39914185428994,1.3580883931863152,0.3071178308828191,,,
+Linéaire avec correction,18.94533669899015,1.2167648775131064,0.28895913287150315,0.75,0.8,1.0

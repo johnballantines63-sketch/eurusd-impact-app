@@ -1,0 +1,6 @@
+combination,features,mae_train,r2_train,cv_mae,cv_std,n_features
+Actuel (durée),"trend_r2, trend_duration_h, trend_amplitude_pips, impact_base_pips, cluster_events",0.22932097293089831,0.6388041506761254,0.4112408176855748,0.33530793804358666,5
+Chandeliers (count),"trend_r2, trend_candle_count_m1, trend_amplitude_pips, impact_base_pips, cluster_events",0.22932097293089823,0.6388041506761254,0.4083703588115791,0.33401030675564103,5
+Pips/chandelier,"trend_r2, trend_pips_per_candle_m1, trend_amplitude_pips, impact_base_pips, cluster_events",0.23056595747685224,0.6376667317220912,0.41163599015964997,0.31568663920331436,5
+Chandeliers (count + pips/candle),"trend_r2, trend_candle_count_m1, trend_pips_per_candle_m1, trend_amplitude_pips, impact_base_pips, cluster_events",0.22360213362176798,0.6502670593282618,0.41988479546101504,0.33134260935606136,6
+Durée + Chandeliers,"trend_r2, trend_duration_h, trend_candle_count_m1, trend_amplitude_pips, impact_base_pips, cluster_events",0.22590553020158247,0.6425449300946342,0.40658046941280973,0.33768777020659607,6

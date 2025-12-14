@@ -1,0 +1,91 @@
+{
+  "cluster": "Cluster #3 - CPI mensuel",
+  "baseline_amp": 2.5,
+  "num_dates": 6,
+  "statistics": {
+    "amp_optimal_mean": 6.246951558274481,
+    "amp_optimal_median": 7.47015857054201,
+    "amp_optimal_std": 4.339254283161509,
+    "baseline_mae": 86.87645398938496
+  },
+  "results": [
+    {
+      "date": "2025-04-10",
+      "num_events": 11,
+      "impact_real": 121.79999999999858,
+      "surprise_max": 200.0,
+      "score_avg": 44.30998119579334,
+      "impact_baseline": -30.487976452627727,
+      "error_baseline": 152.2879764526263,
+      "amp_baseline": 2.5,
+      "amp_optimal": 9.987543620951623,
+      "delta_amp": 7.487543620951623,
+      "delta_amp_pct": 299.50174483806495
+    },
+    {
+      "date": "2025-05-13",
+      "num_events": 11,
+      "impact_real": 68.29999999999892,
+      "surprise_max": 33.33333333333333,
+      "score_avg": 44.30998119579334,
+      "impact_baseline": 12.731123054137754,
+      "error_baseline": 55.56887694586116,
+      "amp_baseline": 2.5,
+      "amp_optimal": 9.999994871845992,
+      "delta_amp": 7.499994871845992,
+      "delta_amp_pct": 299.9997948738397
+    },
+    {
+      "date": "2025-06-11",
+      "num_events": 11,
+      "impact_real": 60.40000000000045,
+      "surprise_max": 66.66666666666666,
+      "score_avg": 44.30998119579334,
+      "impact_baseline": -30.487976452627727,
+      "error_baseline": 90.88797645262818,
+      "amp_baseline": 2.5,
+      "amp_optimal": 4.9527735201323955,
+      "delta_amp": 2.4527735201323955,
+      "delta_amp_pct": 98.11094080529583
+    },
+    {
+      "date": "2025-07-15",
+      "num_events": 11,
+      "impact_real": 73.39999999999903,
+      "surprise_max": 33.33333333333333,
+      "score_avg": 44.30998119579334,
+      "impact_baseline": 96.7844105817746,
+      "error_baseline": -23.38441058177557,
+      "amp_baseline": 2.5,
+      "amp_optimal": 1.895965199888788,
+      "delta_amp": -0.6040348001112119,
+      "delta_amp_pct": -24.161392004448476
+    },
+    {
+      "date": "2025-08-12",
+      "num_events": 11,
+      "impact_real": 89.39999999999948,
+      "surprise_max": 3.5714285714285587,
+      "score_avg": 44.30998119579334,
+      "impact_baseline": 55.200389675131014,
+      "error_baseline": 34.199610324868466,
+      "amp_baseline": 2.5,
+      "amp_optimal": 9.999994871845992,
+      "delta_amp": 7.499994871845992,
+      "delta_amp_pct": 299.9997948738397
+    },
+    {
+      "date": "2025-09-11",
+      "num_events": 11,
+      "impact_real": 57.40000000000079,
+      "surprise_max": 33.33333333333335,
+      "score_avg": 44.30998119579334,
+      "impact_baseline": 222.32987317855086,
+      "error_baseline": -164.92987317855005,
+      "amp_baseline": 2.5,
+      "amp_optimal": 0.6454372649820935,
+      "delta_amp": -1.8545627350179066,
+      "delta_amp_pct": -74.18250940071627
+    }
+  ]
+}

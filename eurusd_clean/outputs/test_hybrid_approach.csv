@@ -1,0 +1,5 @@
+date,timing_tf,impact_tf,pattern_type,wave1_time,wave2_time,impact_predit,impact_real,error,is_breakout
+2025-09-11,M1,M30,NONE,,,70.98855457764887,,,True
+2025-08-12,M1,M30,NONE,,,63.26443236241007,,,True
+2024-06-12,M1,M30,NONE,,,64.1659633971223,,,False
+2025-01-15,M1,M30,NONE,,,39.6129102995194,,,False

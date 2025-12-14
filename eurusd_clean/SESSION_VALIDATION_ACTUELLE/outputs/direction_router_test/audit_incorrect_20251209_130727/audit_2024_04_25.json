@@ -1,0 +1,121 @@
+{
+  "date": "2024-04-25",
+  "movement_start_time": "2024-04-25 12:30:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "NEUTRAL",
+  "score": -2.7313432483234306,
+  "has_trigger": true,
+  "n_active": 10,
+  "contributions": [
+    {
+      "event_key": "gdp price index_qoq",
+      "family": "GDP",
+      "actual": 3.1,
+      "estimate": 3.0,
+      "surprise": 0.10000000000000009,
+      "surprise_z": 0.5755765314519719,
+      "alpha_weight": 1,
+      "contribution": 0.5755765314519719,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp growth rate",
+      "family": "GDP",
+      "actual": 1.6,
+      "estimate": 2.5,
+      "surprise": -0.8999999999999999,
+      "surprise_z": -3.685738660311418,
+      "alpha_weight": 1,
+      "contribution": -3.685738660311418,
+      "is_trigger": true
+    },
+    {
+      "event_key": "gdp growth rate qoq adv",
+      "family": "GDP",
+      "actual": 1.6,
+      "estimate": 2.5,
+      "surprise": -0.8999999999999999,
+      "surprise_z": -1.5685869807820891,
+      "alpha_weight": 1,
+      "contribution": -1.5685869807820891,
+      "is_trigger": true
+    },
+    {
+      "event_key": "gdp price index",
+      "family": "GDP",
+      "actual": 3.1,
+      "estimate": 3.0,
+      "surprise": 0.10000000000000009,
+      "surprise_z": 0.41208169184606763,
+      "alpha_weight": 1,
+      "contribution": 0.41208169184606763,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp price index qoq adv",
+      "family": "GDP",
+      "actual": 3.1,
+      "estimate": 3.0,
+      "surprise": 0.10000000000000009,
+      "surprise_z": 0.42454505161618467,
+      "alpha_weight": 1,
+      "contribution": 0.42454505161618467,
+      "is_trigger": false
+    },
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 207.0,
+      "estimate": 214.0,
+      "surprise": -7.0,
+      "surprise_z": -0.42460710623106135,
+      "alpha_weight": -1,
+      "contribution": 0.42460710623106135,
+      "is_trigger": false
+    },
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1781.0,
+      "estimate": 1814.0,
+      "surprise": -33.0,
+      "surprise_z": -1.066503323299067,
+      "alpha_weight": -1,
+      "contribution": 1.066503323299067,
+      "is_trigger": true
+    },
+    {
+      "event_key": "gdp sales_qoq",
+      "family": "GDP",
+      "actual": 2.0,
+      "estimate": 3.1,
+      "surprise": -1.1,
+      "surprise_z": -2.5539374598628517,
+      "alpha_weight": 1,
+      "contribution": -2.5539374598628517,
+      "is_trigger": true
+    },
+    {
+      "event_key": "gdp growth rate_qoq",
+      "family": "GDP",
+      "actual": 1.6,
+      "estimate": 2.5,
+      "surprise": -0.8999999999999999,
+      "surprise_z": -2.6721479333735183,
+      "alpha_weight": 1,
+      "contribution": -2.6721479333735183,
+      "is_trigger": true
+    },
+    {
+      "event_key": "gdp sales",
+      "family": "GDP",
+      "actual": 2.0,
+      "estimate": 3.1,
+      "surprise": -1.1,
+      "surprise_z": -1.060168406539394,
+      "alpha_weight": 1,
+      "contribution": -1.060168406539394,
+      "is_trigger": true
+    }
+  ]
+}

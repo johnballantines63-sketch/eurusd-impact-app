@@ -1,0 +1,324 @@
+{
+  "method": "Calibration sur clusters CPI (adapt\u00e9e DB events)",
+  "db_structure": "events + event_families (Session 128)",
+  "models": {
+    "linear": {
+      "formula": "amp = 0.029705 + 0.039445 \u00d7 R\u00b2",
+      "parameters": [
+        0.0297054730886882,
+        0.03944508518615624
+      ],
+      "r2_fit": 0.1214256541137092,
+      "mae": 0.024182904212365092
+    },
+    "quadratic": {
+      "formula": "amp = 0.022572 + 0.094771\u00d7R\u00b2 + -0.062187\u00d7R\u00b2\u00b2",
+      "parameters": [
+        0.022571639940700442,
+        0.09477106299119076,
+        -0.062186724498532964
+      ],
+      "r2_fit": 0.13802246304599897,
+      "mae": 0.023861013450796113
+    },
+    "logarithmic": {
+      "formula": "amp = 0.059502 + 0.010569 \u00d7 log(R\u00b2+0.01)",
+      "parameters": [
+        0.05950191719255987,
+        0.010569023600410104
+      ],
+      "r2_fit": 0.11981308438133764,
+      "mae": 0.023329075657487458
+    }
+  },
+  "best_model": {
+    "name": "quadratic",
+    "formula": "amp = 0.022572 + 0.094771\u00d7R\u00b2 + -0.062187\u00d7R\u00b2\u00b2",
+    "parameters": [
+      0.022571639940700442,
+      0.09477106299119076,
+      -0.062186724498532964
+    ],
+    "r2_fit": 0.13802246304599897,
+    "mae": 0.023861013450796113
+  },
+  "calibration_data": [
+    {
+      "cluster_time": "2023-03-14 16:30:00+00:00",
+      "trend_r2": 0.5351571924450987,
+      "impact_measured": 20.500000000001073,
+      "total_score": 303.2845198728139,
+      "n_events": 7,
+      "amplification_ideal": 0.025547864097840853,
+      "trend_duration_hours": 8.733333333333333
+    },
+    {
+      "cluster_time": "2023-04-12 16:30:00+00:00",
+      "trend_r2": 0.2442157714971541,
+      "impact_measured": 4.500000000000615,
+      "total_score": 300.23904070614725,
+      "n_events": 7,
+      "amplification_ideal": 0.005664953247057623,
+      "trend_duration_hours": 123.86666666666666
+    },
+    {
+      "cluster_time": "2023-08-10 12:30:00+00:00",
+      "trend_r2": 0.534041387708696,
+      "impact_measured": 41.29999999999967,
+      "total_score": 366.2613693199901,
+      "n_events": 9,
+      "amplification_ideal": 0.03758700157820654,
+      "trend_duration_hours": 24.166666666666668
+    },
+    {
+      "cluster_time": "2023-09-13 12:30:00+00:00",
+      "trend_r2": 0.1099348704344961,
+      "impact_measured": 30.799999999999716,
+      "total_score": 282.05518653948076,
+      "n_events": 6,
+      "amplification_ideal": 0.044580096188115335,
+      "trend_duration_hours": 35.28333333333333
+    },
+    {
+      "cluster_time": "2023-10-12 12:30:00+00:00",
+      "trend_r2": 0.2595029913179689,
+      "impact_measured": 54.69999999999864,
+      "total_score": 366.2613693199901,
+      "n_events": 9,
+      "amplification_ideal": 0.04978229991108628,
+      "trend_duration_hours": 23.983333333333334
+    },
+    {
+      "cluster_time": "2023-11-14 13:30:00+00:00",
+      "trend_r2": 0.7697333908435033,
+      "impact_measured": 96.60000000000002,
+      "total_score": 309.7300514043454,
+      "n_events": 7,
+      "amplification_ideal": 0.11788125797656816,
+      "trend_duration_hours": 113.76666666666668
+    },
+    {
+      "cluster_time": "2023-12-12 13:30:00+00:00",
+      "trend_r2": 0.1753043452304212,
+      "impact_measured": 34.899999999999935,
+      "total_score": 297.074133907902,
+      "n_events": 7,
+      "amplification_ideal": 0.04440292372311157,
+      "trend_duration_hours": 162.8
+    },
+    {
+      "cluster_time": "2024-02-13 13:30:00+00:00",
+      "trend_r2": 0.888324924963271,
+      "impact_measured": 92.40000000000136,
+      "total_score": 282.05518653948076,
+      "n_events": 6,
+      "amplification_ideal": 0.1337402885643492,
+      "trend_duration_hours": 4.316666666666666
+    },
+    {
+      "cluster_time": "2024-03-12 12:30:00+00:00",
+      "trend_r2": 0.36484680878425,
+      "impact_measured": 31.49999999999986,
+      "total_score": 282.05518653948076,
+      "n_events": 6,
+      "amplification_ideal": 0.0455932801923909,
+      "trend_duration_hours": 94.78333333333332
+    },
+    {
+      "cluster_time": "2024-04-10 12:30:00+00:00",
+      "trend_r2": 0.5414152427968426,
+      "impact_measured": 96.00000000000053,
+      "total_score": 304.303797650592,
+      "n_events": 7,
+      "amplification_ideal": 0.11923804332717773,
+      "trend_duration_hours": 119.25
+    },
+    {
+      "cluster_time": "2024-05-15 12:30:00+00:00",
+      "trend_r2": 0.8486680232664496,
+      "impact_measured": 39.70000000000029,
+      "total_score": 464.1559087617013,
+      "n_events": 12,
+      "amplification_ideal": 0.024690847680876885,
+      "trend_duration_hours": 117.6
+    },
+    {
+      "cluster_time": "2024-06-12 12:30:00+00:00",
+      "trend_r2": 0.5921861031507168,
+      "impact_measured": 72.10000000000161,
+      "total_score": 282.05518653948076,
+      "n_events": 6,
+      "amplification_ideal": 0.1043579524403642,
+      "trend_duration_hours": 287.51666666666665
+    },
+    {
+      "cluster_time": "2024-07-11 12:30:00+00:00",
+      "trend_r2": 0.0087417385974336,
+      "impact_measured": 52.49999999999977,
+      "total_score": 366.2613693199901,
+      "n_events": 9,
+      "amplification_ideal": 0.04778008675195764,
+      "trend_duration_hours": 142.3
+    },
+    {
+      "cluster_time": "2024-08-14 12:30:00+00:00",
+      "trend_r2": 0.0943735028178555,
+      "impact_measured": 23.400000000000087,
+      "total_score": 282.0551865394808,
+      "n_events": 6,
+      "amplification_ideal": 0.03386929385720494,
+      "trend_duration_hours": 222.28333333333333
+    },
+    {
+      "cluster_time": "2024-09-11 12:30:00+00:00",
+      "trend_r2": 0.6016331798371294,
+      "impact_measured": 44.69999999999974,
+      "total_score": 282.05518653948076,
+      "n_events": 6,
+      "amplification_ideal": 0.0646990357015832,
+      "trend_duration_hours": 119.96666666666668
+    },
+    {
+      "cluster_time": "2024-10-10 12:30:00+00:00",
+      "trend_r2": 0.872017633125867,
+      "impact_measured": 23.799999999998267,
+      "total_score": 366.26136931999,
+      "n_events": 9,
+      "amplification_ideal": 0.02166030599421932,
+      "trend_duration_hours": 243.53333333333333
+    },
+    {
+      "cluster_time": "2024-11-13 13:30:00+00:00",
+      "trend_r2": 0.5414694908389036,
+      "impact_measured": 28.099999999999792,
+      "total_score": 337.0824365394815,
+      "n_events": 8,
+      "amplification_ideal": 0.029473058215856576,
+      "trend_duration_hours": 5.333333333333333
+    },
+    {
+      "cluster_time": "2024-12-11 13:30:00+00:00",
+      "trend_r2": 0.6131786909587497,
+      "impact_measured": 24.599999999999067,
+      "total_score": 282.0551865394808,
+      "n_events": 6,
+      "amplification_ideal": 0.035606180721675505,
+      "trend_duration_hours": 111.5
+    },
+    {
+      "cluster_time": "2025-01-15 13:30:00+00:00",
+      "trend_r2": 0.8878957353244481,
+      "impact_measured": 52.1999999999978,
+      "total_score": 448.01177697328734,
+      "n_events": 12,
+      "amplification_ideal": 0.03363492390233991,
+      "trend_duration_hours": 52.03333333333333
+    },
+    {
+      "cluster_time": "2025-02-12 13:30:00+00:00",
+      "trend_r2": 0.431125415211709,
+      "impact_measured": 49.9000000000005,
+      "total_score": 321.43618653948124,
+      "n_events": 7,
+      "amplification_ideal": 0.05867549452414888,
+      "trend_duration_hours": 17.816666666666666
+    },
+    {
+      "cluster_time": "2025-03-12 12:30:00+00:00",
+      "trend_r2": 0.3139261525017025,
+      "impact_measured": 38.399999999998435,
+      "total_score": 321.43618653948124,
+      "n_events": 7,
+      "amplification_ideal": 0.045153085966477005,
+      "trend_duration_hours": 18.1
+    },
+    {
+      "cluster_time": "2025-04-10 12:30:00+00:00",
+      "trend_r2": 0.7842984002009193,
+      "impact_measured": 32.69999999999884,
+      "total_score": 427.8909804311018,
+      "n_events": 11,
+      "amplification_ideal": 0.023041899499164756,
+      "trend_duration_hours": 18.183333333333337
+    },
+    {
+      "cluster_time": "2025-05-13 12:30:00+00:00",
+      "trend_r2": 0.7162583792269916,
+      "impact_measured": 35.09999999999902,
+      "total_score": 321.43618653948124,
+      "n_events": 7,
+      "amplification_ideal": 0.041272742641233415,
+      "trend_duration_hours": 108.36666666666666
+    },
+    {
+      "cluster_time": "2025-06-11 12:30:00+00:00",
+      "trend_r2": 0.0953404814652966,
+      "impact_measured": 52.400000000001334,
+      "total_score": 343.6847976505925,
+      "n_events": 8,
+      "amplification_ideal": 0.05390461781763968,
+      "trend_duration_hours": 29.266666666666666
+    },
+    {
+      "cluster_time": "2025-07-15 12:30:00+00:00",
+      "trend_r2": 0.0074040420973958,
+      "impact_measured": 22.899999999999032,
+      "total_score": 559.4422858920799,
+      "n_events": 17,
+      "amplification_ideal": 0.00992786200362982,
+      "trend_duration_hours": 30.116666666666667
+    },
+    {
+      "cluster_time": "2025-08-12 12:30:00+00:00",
+      "trend_r2": 0.6129720712163909,
+      "impact_measured": 51.00000000000104,
+      "total_score": 343.6847976505925,
+      "n_events": 8,
+      "amplification_ideal": 0.05246441810495438,
+      "trend_duration_hours": 93.13333333333334
+    },
+    {
+      "cluster_time": "2025-09-11 12:30:00+00:00",
+      "trend_r2": 0.1858687503572403,
+      "impact_measured": 60.100000000000705,
+      "total_score": 405.64236931999056,
+      "n_events": 10,
+      "amplification_ideal": 0.046852326519717866,
+      "trend_duration_hours": 339.98333333333335
+    },
+    {
+      "cluster_time": "2025-10-15 12:30:00+00:00",
+      "trend_r2": 0.0780768462154187,
+      "impact_measured": 11.400000000001407,
+      "total_score": 448.0117769732874,
+      "n_events": 12,
+      "amplification_ideal": 0.007345558093615677,
+      "trend_duration_hours": 111.56666666666666
+    },
+    {
+      "cluster_time": "2025-10-24 12:30:00+00:00",
+      "trend_r2": 0.0844750754691542,
+      "impact_measured": 7.300000000001194,
+      "total_score": 338.3595631628572,
+      "n_events": 8,
+      "amplification_ideal": 0.007627801996212762,
+      "trend_duration_hours": 41.983333333333334
+    }
+  ],
+  "statistics": {
+    "n_samples": 29,
+    "r2_range": [
+      0.0074040420973958,
+      0.888324924963271
+    ],
+    "amp_range": [
+      0.005664953247057623,
+      0.1337402885643492
+    ],
+    "correlation_r2_impact": 0.37313750547891184
+  },
+  "validation": {
+    "impact_r2": -0.492175377410462,
+    "impact_mae": 23.56896946001872
+  }
+}

@@ -1,0 +1,2 @@
+core_type,country,empirical_score,avg_impact_pips,p80_impact_pips,median_impact_pips,std_impact_pips,min_impact_pips,max_impact_pips,sample_size,pattern_distribution
+CPI,EU,43.68000000000016,62.40000000000023,62.40000000000023,62.40000000000023,0.0,62.40000000000023,62.40000000000023,1,{'UP': 1}

@@ -7,7 +7,7 @@ from fx_impact_app.src.config import get_db_path
 from fx_impact_app.src.eodhd_client import (
     fetch_calendar_json as eod_fetch,
     calendar_to_events_df as eod_norm,
-    upsert_events as eod_upsert,
+    upsert_events_df as eod_upsert,
 )
 
 def d(s: str) -> str:
@@ -36,7 +36,7 @@ def main():
         return
 
     db = get_db_path()
-    n = eod_upsert(df, db_path=db)
+    n = eod_upsert(df, db)
     print(f"Upserted rows into events: {n} (DB={db})")
 
 if __name__ == "__main__":

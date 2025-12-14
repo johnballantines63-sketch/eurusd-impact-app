@@ -1,0 +1,59 @@
+start_time,amplitude_pips,direction,num_events,total_score,events_summary
+2024-01-05T13:20:00.000000,67.60000000000099,bullish,12,689.5503640510527,"average_hourly_earnings, non_farm_payrolls, average_weekly_hours"
+2024-01-11T13:40:00.000000,42.29999999999956,bullish,5,237.5207747747742,"inflation_rate, cpi, inflation_rate"
+2024-01-25T13:05:00.000000,41.59999999999941,bearish,3,145.22200000000004,"ecb_interest_rate_decision, deposit_facility_rate, marginal_lending_rate"
+2024-01-25T13:35:00.000000,46.99999999999926,bearish,3,117.1125050505047,"core_pce_prices, real_consumer_spending, ecb_press_conference"
+2024-02-02T13:28:00.000000,93.19999999999995,bearish,10,609.0978932908204,"manufacturing_payrolls, nonfarm_payrolls_private, non_farm_payrolls"
+2024-02-13T13:22:00.000000,99.0000000000002,bearish,6,282.05518653948076,"inflation_rate, cpi, inflation_rate"
+2024-03-07T13:54:00.000000,40.89999999999927,bullish,1,36.081999999999546,ecb_press_conference
+2024-03-08T13:29:00.000000,63.10000000000038,bullish,12,689.5503640510528,"manufacturing_payrolls, average_hourly_earnings, average_hourly_wages"
+2024-03-12T12:38:00.000000,39.70000000000029,bearish,6,282.05518653948076,"inflation_rate, inflation_rate, cpi"
+2024-03-20T18:00:00.000000,52.90000000000017,bullish,7,367.84831837607027,"interest_rate_projection___longer, fed_interest_rate_decision, fomc_economic_projections"
+2024-03-20T18:30:00.000000,51.79999999999963,bullish,1,43.213999999999885,fed_press_conference
+2024-05-01T17:57:00.000000,61.70000000000009,bullish,1,51.74600000000022,fed_interest_rate_decision
+2024-05-01T18:27:00.000000,51.900000000000276,bullish,1,43.213999999999885,fed_press_conference
+2024-05-03T12:29:00.000000,61.299999999999685,bullish,10,609.0978932908203,"government_payrolls, unemployment_rate, manufacturing_payrolls"
+2024-06-06T12:10:00.000000,37.39999999999854,bullish,3,145.22200000000004,"deposit_facility_rate, marginal_lending_rate, ecb_interest_rate_decision"
+2024-06-07T12:30:00.000000,81.99999999999986,bearish,12,689.550364051053,"average_weekly_hours, employment_change, government_payrolls"
+2024-07-05T12:26:00.000000,41.29999999999967,bullish,12,689.5503640510528,"u_6_unemployment_rate, average_hourly_wages, unemployment_rate"
+2024-07-11T12:28:00.000000,54.09999999999915,bullish,6,282.05518653948076,"cpi_s.a, core_inflation_rate, core_inflation_rate"
+2024-08-02T12:39:00.000000,51.800000000001845,bullish,10,609.0978932908204,"average_hourly_earnings, average_hourly_earnings, unemployment_rate"
+2024-09-06T12:33:00.000000,59.00000000000016,bearish,12,689.5503640510528,"average_weekly_hours, participation_rate, unemployment_rate"
+2024-09-11T12:22:00.000000,45.399999999999885,bearish,6,282.05518653948076,"inflation_rate, core_inflation_rate, core_inflation_rate"
+2024-09-18T17:56:00.000000,65.29999999999924,bullish,7,367.8483183760702,"interest_rate_projection___1st_yr, interest_rate_projection___longer, interest_rate_projection___cur"
+2024-09-18T18:26:00.000000,69.09999999999971,bearish,1,43.213999999999885,fed_press_conference
+2024-10-04T12:23:00.000000,75.30000000000037,bearish,10,609.0978932908203,"average_hourly_earnings, nonfarm_payrolls_private, average_weekly_hours"
+2024-10-17T12:18:00.000000,55.29999999999813,bearish,3,145.22200000000004,"ecb_interest_rate_decision, deposit_facility_rate, marginal_lending_rate"
+2024-10-17T12:48:00.000000,38.19999999999935,bearish,1,36.081999999999546,ecb_press_conference
+2024-11-07T19:00:00.000000,36.90000000000193,bearish,1,51.74600000000022,fed_interest_rate_decision
+2024-11-07T19:30:00.000000,42.50000000000087,bullish,2,89.60511111111063,"press_conference, fed_press_conference"
+2024-11-13T13:33:00.000000,38.79999999999883,bearish,6,282.05518653948076,"core_inflation_rate, core_inflation_rate, cpi"
+2025-01-10T13:27:00.000000,96.30000000000027,bearish,13,746.4005899661898,"unemployment_rate, average_weekly_hours, average_hourly_earnings"
+2025-01-30T13:22:00.000000,65.3999999999999,bullish,9,378.87617171717153,"interest_rate_decision, deposit_facility_rate, deposit_facility_rate"
+2025-01-30T13:52:00.000000,48.50000000000021,bearish,1,36.081999999999546,ecb_press_conference
+2025-02-07T13:30:00.000000,63.59999999999921,bearish,13,746.4005899661898,"unemployment_rate, unemployment_rate, average_hourly_wages"
+2025-02-12T13:38:00.000000,36.40000000000087,bullish,6,282.05518653948076,"cpi, core_inflation_rate, core_inflation_rate"
+2025-02-27T13:27:00.000000,70.6999999999991,bearish,3,121.75494949494953,"real_consumer_spending, real_consumer_spending, core_pce_prices"
+2025-03-19T17:59:00.000000,46.400000000001995,bullish,6,313.65009615384776,"interest_rate_projection___current, fed_interest_rate_decision, fomc_economic_projections"
+2025-04-04T12:24:00.000000,82.19999999999894,bearish,11,625.5899292684444,"participation_rate, average_hourly_earnings, government_payrolls"
+2025-04-10T12:39:00.000000,40.599999999999525,bearish,6,282.0551865394808,"cpi, cpi_s.a, core_inflation_rate"
+2025-05-02T12:21:00.000000,40.19999999999912,bearish,10,609.0978932908204,"average_hourly_earnings, manufacturing_payrolls, u_6_unemployment_rate"
+2025-05-07T17:58:00.000000,45.29999999999923,bearish,1,51.74600000000022,fed_interest_rate_decision
+2025-05-07T18:28:00.000000,58.400000000000674,bearish,2,89.60511111111063,"press_conference, fed_press_conference"
+2025-05-13T12:32:00.000000,39.80000000000095,bullish,6,282.05518653948076,"inflation_rate, core_inflation_rate, core_inflation_rate"
+2025-05-29T12:30:00.000000,68.50000000000023,bullish,3,121.75494949494953,"core_pce_prices, real_consumer_spending, real_consumer_spending"
+2025-06-06T12:29:00.000000,60.100000000000705,bearish,12,689.5503640510528,"employment_change, average_hourly_wages, average_weekly_hours"
+2025-06-18T17:59:00.000000,55.70000000000075,bearish,6,313.65009615384776,"interest_rate_projection___2nd_yr, fomc_economic_projections, fed_interest_rate_decision"
+2025-06-18T18:29:00.000000,56.49999999999933,bearish,2,89.60511111111063,"fed_press_conference, press_conference"
+2025-07-03T12:22:00.000000,72.39999999999912,bearish,10,609.0978932908203,"manufacturing_payrolls, average_weekly_hours, average_hourly_earnings"
+2025-07-24T12:52:00.000000,42.90000000000127,bullish,1,36.081999999999546,ecb_press_conference
+2025-07-30T12:37:00.000000,35.70000000000073,bearish,3,121.75494949494953,"real_consumer_spending, real_consumer_spending, core_pce_prices"
+2025-07-30T18:07:00.000000,87.30000000000126,bearish,1,51.74600000000022,fed_interest_rate_decision
+2025-07-30T18:37:00.000000,80.00000000000007,bearish,2,89.60511111111063,"fed_press_conference, press_conference"
+2025-08-01T12:38:00.000000,78.00000000000028,bullish,10,609.0978932908204,"average_hourly_earnings, participation_rate, nonfarm_payrolls_private"
+2025-08-12T12:37:00.000000,38.50000000000131,bearish,6,282.05518653948076,"inflation_rate, core_inflation_rate, core_inflation_rate"
+2025-09-11T12:18:00.000000,77.5999999999999,bullish,6,257.121222222222,"interest_rate_decision, deposit_facility_rate, ecb_monetary_policy_statement_and_press_conference"
+2025-09-11T12:48:00.000000,46.60000000000109,bullish,1,36.081999999999546,ecb_press_conference
+2025-09-17T18:05:00.000000,99.59999999999968,bearish,7,367.8483183760702,"fomc_economic_projections, interest_rate_projection___2nd_yr, interest_rate_projection___3rd_yr"
+2025-09-17T18:35:00.000000,59.699999999998084,bearish,2,89.60511111111063,"press_conference, fed_press_conference"
+2025-09-25T12:30:00.000000,48.30000000000112,bearish,3,121.75494949494953,"real_consumer_spending, real_consumer_spending, core_pce_prices"

@@ -1,0 +1,5 @@
+timeframe,n_cas,wave1_error_mean,pullback_error_mean,wave2_error_mean,avg_timing_error_mean
+M1,15,1.0,0.0,0.0,0.3333333333333333
+M15,15,1.0,0.0,0.0,0.3333333333333333
+M30,12,1.25,0.0,0.0,0.4166666666666667
+M5,15,1.0,0.0,0.0,0.3333333333333333

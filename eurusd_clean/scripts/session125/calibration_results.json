@@ -1,0 +1,25 @@
+{
+  "formule": {
+    "slope": 1.0736418658448623,
+    "intercept": 1.8859433043203433,
+    "r2_regression": 0.07774536480009346,
+    "p_value": 0.27847650884735353,
+    "std_err": 0.9547770670616443
+  },
+  "validation_17dates": {
+    "mae_amp": 0.8016251434354088,
+    "rmse_amp": 1.0752103692595258
+  },
+  "cas_11septembre": {
+    "r2_inversion": 0.6376423334826076,
+    "amp_optimal": 2.5373717473398947,
+    "amp_predicted": 2.570542808982282,
+    "error_amp": 0.03317106164238748,
+    "impact_real": 57.10000000000104,
+    "impact_baseline": 56.25901763993152,
+    "impact_optimal": 57.1000167570636,
+    "impact_dynamic": 57.84648529389333,
+    "mae_baseline": 0.8409823600695177,
+    "mae_optimal": 1.6757062560657232e-05,
+    "mae_dynamic": 0.7464852938922917,
+    "objectif_atteint": 

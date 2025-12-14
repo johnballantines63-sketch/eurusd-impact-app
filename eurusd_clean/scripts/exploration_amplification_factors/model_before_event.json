@@ -1,0 +1,16 @@
+{
+  "factors": [
+    "num_events",
+    "mean_empirical_score",
+    "r2_trend"
+  ],
+  "coefficients": [
+    -0.18001551269256055,
+    -0.07184956012542373,
+    0.31269913671981125
+  ],
+  "intercept": 5.655760192549919,
+  "r2": 0.5141937475425147,
+  "mae": 0.7657333505297764,
+  "formula": "amp = 5.6558 + -0.1800\u00d7num_events + -0.0718\u00d7mean_empirical_score + 0.3127\u00d7r2_trend"
+}

@@ -1,0 +1,260 @@
+{
+  "calibration": {
+    "best_model": {
+      "name": "quadratic",
+      "formula": "amp = 0.230706 + -1.042640×R² + 1.642821×R²²",
+      "parameters": [
+        0.23070627907369304,
+        -1.042640349952437,
+        1.6428207095128
+      ],
+      "function": "<function calibrate_amplification_function.<locals>.quadratic at 0x103c6d300>"
+    },
+    "metrics": {
+      "r2_fit": 0.7222632110185861,
+      "mae": 0.04625106597641179,
+      "n_samples": 6
+    },
+    "all_models": {
+      "linear": {
+        "func": "<function calibrate_amplification_function.<locals>.linear at 0x103c6d260>",
+        "params": "[0.1175255 0.2731819]",
+        "r2_fit": 0.36389050058361716,
+        "mae": 0.07540275495261971,
+        "formula": "amp = 0.117526 + 0.273182×R²"
+      },
+      "quadratic": {
+        "func": "<function calibrate_amplification_function.<locals>.quadratic at 0x103c6d300>",
+        "params": "[ 0.23070628 -1.04264035  1.64282071]",
+        "r2_fit": 0.7222632110185861,
+        "mae": 0.04625106597641179,
+        "formula": "amp = 0.230706 + -1.042640×R² + 1.642821×R²²"
+      },
+      "logarithmic": {
+        "func": "<function calibrate_amplification_function.<locals>.logarithmic at 0x103c6ce00>",
+        "params": "[0.28310689 0.05427423]",
+        "r2_fit": 0.17411451426189406,
+        "mae": 0.09340482635988567,
+        "formula": "amp = 0.283107 + 0.054274×log(R²+0.01)"
+      }
+    }
+  },
+  "validation": {
+    "predictions": [
+      {
+        "date": "2024-01-11",
+        "impact_measured": 57.000000000000384,
+        "impact_pred_function": 77.86603223844304,
+        "impact_pred_baseline": 1242.7293595680142,
+        "error_function": 20.866032238442656,
+        "error_baseline": 1185.7293595680137,
+        "r2_trend": 0.08149991602947415,
+        "amp_from_function": 0.1566431814757923
+      },
+      {
+        "date": "2024-02-13",
+        "impact_measured": 92.60000000000046,
+        "impact_pred_function": 93.58421069818336,
+        "impact_pred_baseline": 592.7077119169644,
+        "error_function": 0.984210698182892,
+        "error_baseline": 500.1077119169639,
+        "r2_trend": 0.7651533148816735,
+        "amp_from_function": 0.3947317067779863
+      },
+      {
+        "date": "2024-06-12",
+        "impact_measured": 70.00000000000117,
+        "impact_pred_function": 41.88772992808129,
+        "impact_pred_baseline": 592.7077119169644,
+        "error_function": 28.112270071919873,
+        "error_baseline": 522.7077119169633,
+        "r2_trend": 0.05692257667004719,
+        "amp_from_function": 0.17667953818504376
+      },
+      {
+        "date": "2025-05-13",
+        "impact_measured": 34.000000000000696,
+        "impact_pred_function": 26.63843170375733,
+        "impact_pred_baseline": 912.0969182110753,
+        "error_function": 7.361568296243366,
+        "error_baseline": 878.0969182110746,
+        "r2_trend": 0.38597091398004313,
+        "amp_from_function": 0.07301425750896115
+      },
+      {
+        "date": "2025-08-12",
+        "impact_measured": 50.499999999999986,
+        "impact_pred_function": 54.83447748398679,
+        "impact_pred_baseline": 912.0969182110753,
+        "error_function": 4.334477483986802,
+        "error_baseline": 861.5969182110753,
+        "r2_trend": 0.08983626718656579,
+        "amp_from_function": 0.15029783674616345
+      },
+      {
+        "date": "2025-09-11",
+        "impact_measured": 51.70000000000119,
+        "impact_pred_function": 108.79420128933037,
+        "impact_pred_baseline": 1767.7292231934898,
+        "error_function": 57.094201289329185,
+        "error_baseline": 1716.0292231934886,
+        "r2_trend": 0.0851175496376888,
+        "amp_from_function": 0.1538615188654124
+      }
+    ],
+    "metrics": {
+      "mae_function": 19.79212667968413,
+      "mae_baseline": 944.0446405029298,
+      "rmse_function": 27.566247188595785,
+      "rmse_baseline": 1031.782028971762,
+      "improvement_pct": 97.90347555289969,
+      "r2_predictions": -1.2751890778142219,
+      "n_predictions": 6
+    }
+  },
+  "clusters_data": [
+    {
+      "date": "2024-01-11",
+      "cluster_time": "2024-01-11T14:30:00+01:00",
+      "r2_trend": 0.08149991602947415,
+      "impact_measured": 57.000000000000384,
+      "total_score": 157.19421165589154,
+      "n_events": 10,
+      "amp_ideal": 0.11466696179893542,
+      "impact_result": {
+        "impact_pips": 57.000000000000384,
+        "direction": -1,
+        "ttr_minutes": 37.0,
+        "start_price": 1.09887,
+        "peak_price": 1.09317
+      },
+      "r2_result": {
+        "r2": 0.08149991602947415,
+        "duration_hours": 720,
+        "reversal_type": "SIMPLE_LINEAR",
+        "reversal_time": "2023-12-12 14:30:00+01:00",
+        "amplitude_pips": 172.7999999999996
+      }
+    },
+    {
+      "date": "2024-02-13",
+      "cluster_time": "2024-02-13T14:30:00+01:00",
+      "r2_trend": 0.7651533148816735,
+      "impact_measured": 92.60000000000046,
+      "total_score": 89.60898319328012,
+      "n_events": 7,
+      "amp_ideal": 0.3905803743488886,
+      "impact_result": {
+        "impact_pips": 92.60000000000046,
+        "direction": -1,
+        "ttr_minutes": 34.0,
+        "start_price": 1.07934,
+        "peak_price": 1.07008
+      },
+      "r2_result": {
+        "r2": 0.7651533148816735,
+        "duration_hours": 720,
+        "reversal_type": "SIMPLE_LINEAR",
+        "reversal_time": "2024-01-14 23:00:00+01:00",
+        "amplitude_pips": 155.89999999999992
+      }
+    },
+    {
+      "date": "2024-06-12",
+      "cluster_time": "2024-06-12T14:30:00+02:00",
+      "r2_trend": 0.05692257667004719,
+      "impact_measured": 70.00000000000117,
+      "total_score": 89.60898319328012,
+      "n_events": 7,
+      "amp_ideal": 0.2952551425963555,
+      "impact_result": {
+        "impact_pips": 70.00000000000117,
+        "direction": 1,
+        "ttr_minutes": 60.0,
+        "start_price": 1.0767,
+        "peak_price": 1.0837
+      },
+      "r2_result": {
+        "r2": 0.05692257667004719,
+        "duration_hours": 720,
+        "reversal_type": "SIMPLE_LINEAR",
+        "reversal_time": "2024-05-13 14:30:00+02:00",
+        "amplitude_pips": 30.000000000001137
+      }
+    },
+    {
+      "date": "2025-05-13",
+      "cluster_time": "2025-05-13T14:30:00+02:00",
+      "r2_trend": 0.38597091398004313,
+      "impact_measured": 34.000000000000696,
+      "total_score": 128.9899831932806,
+      "n_events": 8,
+      "amp_ideal": 0.09319185089092828,
+      "impact_result": {
+        "impact_pips": 34.000000000000696,
+        "direction": 1,
+        "ttr_minutes": 58.0,
+        "start_price": 1.11143,
+        "peak_price": 1.11483
+      },
+      "r2_result": {
+        "r2": 0.38597091398004313,
+        "duration_hours": 720,
+        "reversal_type": "SIMPLE_LINEAR",
+        "reversal_time": "2025-04-13 23:04:00+02:00",
+        "amplitude_pips": 207.90000000000086
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "cluster_time": "2025-08-12T14:30:00+02:00",
+      "r2_trend": 0.08983626718656579,
+      "impact_measured": 50.499999999999986,
+      "total_score": 128.9899831932806,
+      "n_events": 8,
+      "amp_ideal": 0.13841730794093474,
+      "impact_result": {
+        "impact_pips": 50.499999999999986,
+        "direction": 1,
+        "ttr_minutes": 14.0,
+        "start_price": 1.16057,
+        "peak_price": 1.16562
+      },
+      "r2_result": {
+        "r2": 0.08983626718656579,
+        "duration_hours": 720,
+        "reversal_type": "SIMPLE_LINEAR",
+        "reversal_time": "2025-07-13 23:02:00+02:00",
+        "amplitude_pips": 66.50000000000045
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "cluster_time": "2025-09-11T14:30:00+02:00",
+      "r2_trend": 0.0851175496376888,
+      "impact_measured": 51.70000000000119,
+      "total_score": 213.1961659737899,
+      "n_events": 11,
+      "amp_ideal": 0.07311640171140378,
+      "impact_result": {
+        "impact_pips": 51.70000000000119,
+        "direction": 1,
+        "ttr_minutes": 39.0,
+        "start_price": 1.16874,
+        "peak_price": 1.17391
+      },
+      "r2_result": {
+        "r2": 0.0851175496376888,
+        "duration_hours": 720,
+        "reversal_type": "SIMPLE_LINEAR",
+        "reversal_time": "2025-08-12 14:30:00+02:00",
+        "amplitude_pips": 59.99999999999783
+      }
+    }
+  ],
+  "parameters": {
+    "lookback_days": 30,
+    "window_minutes": 240,
+    "min_amplitude_pips": 30
+  }
+}

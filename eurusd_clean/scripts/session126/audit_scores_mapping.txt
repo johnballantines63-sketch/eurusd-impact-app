@@ -1,0 +1,1646 @@
+================================================================================
+AUDIT COMPLET : MAPPING SCORES CSV ↔ TABLE EVENTS
+================================================================================
+
+Date : 2025-11-11 14:25:14
+Scores analysés : 272 (country='usd')
+
+STATISTIQUES GLOBALES :
+  ✅ FOUND_EXACT    : 179 ( 65.8%)
+  ⚠️  FOUND_VARIANTS :  46 ( 16.9%)
+  🔍 FOUND_SIMILAR   :  23 (  8.5%)
+  ❌ NOT_FOUND      :  24 (  8.8%)
+
+================================================================================
+CATÉGORIE 1 : MAPPING PARFAIT (✅ FOUND_EXACT)
+================================================================================
+
+179 scores avec mapping parfait :
+
+  event_name: 'eia_cushing_crude_oil_stocks_change'
+    → event_key: 'eia cushing crude oil stocks change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 19.34
+
+  event_name: 'eia_crude_oil_imports_change'
+    → event_key: 'eia crude oil imports change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 18.98
+
+  event_name: 'eia_heating_oil_stocks_change'
+    → event_key: 'eia heating oil stocks change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 19.27
+
+  event_name: 'eia_natural_gas_stocks_change'
+    → event_key: 'eia natural gas stocks change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 18.81
+
+  event_name: 'eia_distillate_fuel_production_change'
+    → event_key: 'eia distillate fuel production change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 18.65
+
+  event_name: 'eia_gasoline_production_change'
+    → event_key: 'eia gasoline production change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 18.37
+
+  event_name: 'eia_gasoline_stocks_change'
+    → event_key: 'eia gasoline stocks change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 19.43
+
+  event_name: 'eia_crude_oil_stocks_change'
+    → event_key: 'eia crude oil stocks change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 18.77
+
+  event_name: 'eia_refinery_crude_runs_change'
+    → event_key: 'eia refinery crude runs change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 18.92
+
+  event_name: 'eia_distillate_stocks_change'
+    → event_key: 'eia distillate stocks change'
+    → importance: MED (2)
+    → count: 106 événements
+    → score: 19.10
+
+  event_name: 'baker_hughes_oil_rig_count'
+    → event_key: 'baker hughes oil rig count'
+    → importance: MED (2)
+    → count: 105 événements
+    → score: 12.04
+
+  event_name: 'continuing_jobless_claims'
+    → event_key: 'continuing jobless claims'
+    → importance: MED (2)
+    → count: 104 événements
+    → score: 27.76
+
+  event_name: 'initial_jobless_claims'
+    → event_key: 'initial jobless claims'
+    → importance: MED (2)
+    → count: 103 événements
+    → score: 28.53
+
+  event_name: 'mba_mortgage_applications'
+    → event_key: 'mba mortgage applications'
+    → importance: MED (2)
+    → count: 97 événements
+    → score: 13.36
+
+  event_name: 'mba_purchase_index'
+    → event_key: 'mba purchase index'
+    → importance: MED (2)
+    → count: 95 événements
+    → score: 13.26
+
+  event_name: 'mba_mortgage_refinance_index'
+    → event_key: 'mba mortgage refinance index'
+    → importance: MED (2)
+    → count: 94 événements
+    → score: 13.14
+
+  event_name: 'mba_mortgage_market_index'
+    → event_key: 'mba mortgage market index'
+    → importance: MED (2)
+    → count: 92 événements
+    → score: 13.18
+
+  event_name: 'api_crude_oil_stock_change'
+    → event_key: 'api crude oil stock change'
+    → importance: MED (2)
+    → count: 82 événements
+    → score: 7.53
+
+  event_name: 'fed_bostic_speech'
+    → event_key: 'fed bostic speech'
+    → importance: MED (2)
+    → count: 56 événements
+    → score: 14.07
+
+  event_name: 'baker_hughes_total_rig_count'
+    → event_key: 'baker hughes total rig count'
+    → importance: MED (2)
+    → count: 54 événements
+    → score: 12.33
+
+  event_name: 'michigan_inflation_expectations'
+    → event_key: 'michigan inflation expectations'
+    → importance: MED (2)
+    → count: 47 événements
+    → score: 24.55
+
+  event_name: 's&p_global_services_pmi'
+    → event_key: 's&p global services pmi'
+    → importance: MED (2)
+    → count: 47 événements
+    → score: 27.78
+
+  event_name: 'michigan_current_conditions'
+    → event_key: 'michigan current conditions'
+    → importance: MED (2)
+    → count: 47 événements
+    → score: 24.72
+
+  event_name: 'michigan_5_year_inflation_expectations'
+    → event_key: 'michigan 5 year inflation expectations'
+    → importance: MED (2)
+    → count: 47 événements
+    → score: 24.30
+
+  event_name: 's&p_global_composite_pmi'
+    → event_key: 's&p global composite pmi'
+    → importance: MED (2)
+    → count: 47 événements
+    → score: 28.58
+
+  event_name: 'michigan_consumer_expectations'
+    → event_key: 'michigan consumer expectations'
+    → importance: MED (2)
+    → count: 47 événements
+    → score: 24.62
+
+  event_name: 'michigan_consumer_sentiment'
+    → event_key: 'michigan consumer sentiment'
+    → importance: MED (2)
+    → count: 47 événements
+    → score: 23.83
+
+  event_name: 's&p_global_manufacturing_pmi'
+    → event_key: 's&p global manufacturing pmi'
+    → importance: MED (2)
+    → count: 47 événements
+    → score: 28.31
+
+  event_name: 'baker_hughes_total_rigs_count'
+    → event_key: 'baker hughes total rigs count'
+    → importance: MED (2)
+    → count: 43 événements
+    → score: 7.85
+
+  event_name: 'fed_williams_speech'
+    → event_key: 'fed williams speech'
+    → importance: MED (2)
+    → count: 40 événements
+    → score: 19.53
+
+  event_name: 'fed_bowman_speech'
+    → event_key: 'fed bowman speech'
+    → importance: MED (2)
+    → count: 39 événements
+    → score: 19.33
+
+  event_name: 'fed_barr_speech'
+    → event_key: 'fed barr speech'
+    → importance: MED (2)
+    → count: 34 événements
+    → score: 14.21
+
+  event_name: 'fed_waller_speech'
+    → event_key: 'fed waller speech'
+    → importance: MED (2)
+    → count: 32 événements
+    → score: 16.32
+
+  event_name: 'fed_barkin_speech'
+    → event_key: 'fed barkin speech'
+    → importance: MED (2)
+    → count: 31 événements
+    → score: 16.60
+
+  event_name: 'fed_balance_sheet'
+    → event_key: 'fed balance sheet'
+    → importance: MED (2)
+    → count: 27 événements
+    → score: 7.40
+
+  event_name: 'fed_goolsbee_speech'
+    → event_key: 'fed goolsbee speech'
+    → importance: MED (2)
+    → count: 27 événements
+    → score: 19.75
+
+  event_name: 'fed_cook_speech'
+    → event_key: 'fed cook speech'
+    → importance: MED (2)
+    → count: 26 événements
+    → score: 12.42
+
+  event_name: 'monthly_budget_statement'
+    → event_key: 'monthly budget statement'
+    → importance: MED (2)
+    → count: 26 événements
+    → score: 12.57
+
+  event_name: 'fed_daly_speech'
+    → event_key: 'fed daly speech'
+    → importance: MED (2)
+    → count: 25 événements
+    → score: 10.81
+
+  event_name: 'unemployment_rate'
+    → event_key: 'unemployment rate'
+    → importance: HIGH (3)
+    → count: 25 événements
+    → score: 60.18
+
+  event_name: 'chicago_fed_national_activity_index'
+    → event_key: 'chicago fed national activity index'
+    → importance: MED (2)
+    → count: 25 événements
+    → score: 19.66
+
+  event_name: 'total_vehicle_sales'
+    → event_key: 'total vehicle sales'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 18.29
+
+  event_name: 'factory_orders_ex_transportation'
+    → event_key: 'factory orders ex transportation'
+    → importance: LOW (1)
+    → count: 24 événements
+    → score: 25.35
+
+  event_name: 'ism_manufacturing_new_orders'
+    → event_key: 'ism manufacturing new orders'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 28.05
+
+  event_name: 'non_defense_goods_orders_ex_air'
+    → event_key: 'non defense goods orders ex air'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 26.38
+
+  event_name: 'dallas_fed_services_revenues_index'
+    → event_key: 'dallas fed services revenues index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 21.13
+
+  event_name: 'kansas_fed_composite_index'
+    → event_key: 'kansas fed composite index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 16.61
+
+  event_name: 'ism_manufacturing_employment'
+    → event_key: 'ism manufacturing employment'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 28.11
+
+  event_name: 'ism_manufacturing_pmi'
+    → event_key: 'ism manufacturing pmi'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 28.11
+
+  event_name: 'nonfarm_payrolls_private'
+    → event_key: 'nonfarm payrolls private'
+    → importance: HIGH (3)
+    → count: 24 événements
+    → score: 61.30
+
+  event_name: 'richmond_fed_manufacturing_index'
+    → event_key: 'richmond fed manufacturing index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 20.61
+
+  event_name: 'jolts_job_quits'
+    → event_key: 'jolts job quits'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 25.54
+
+  event_name: 'cpi'
+    → event_key: 'cpi'
+    → importance: HIGH (3)
+    → count: 24 événements
+    → score: 45.48
+
+  event_name: 'average_weekly_hours'
+    → event_key: 'average weekly hours'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 61.30
+
+  event_name: 'jolts_job_openings'
+    → event_key: 'jolts job openings'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 26.22
+
+  event_name: 'dallas_fed_manufacturing_index'
+    → event_key: 'dallas fed manufacturing index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 18.31
+
+  event_name: 'kansas_fed_manufacturing_index'
+    → event_key: 'kansas fed manufacturing index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 16.72
+
+  event_name: 'manufacturing_payrolls'
+    → event_key: 'manufacturing payrolls'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 59.48
+
+  event_name: 'richmond_fed_manufacturing_shipments_index'
+    → event_key: 'richmond fed manufacturing shipments index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 20.61
+
+  event_name: 'capacity_utilization'
+    → event_key: 'capacity utilization'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 21.15
+
+  event_name: 'non_farm_payrolls'
+    → event_key: 'non farm payrolls'
+    → importance: HIGH (3)
+    → count: 24 événements
+    → score: 61.61
+
+  event_name: 'dallas_fed_services_index'
+    → event_key: 'dallas fed services index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 21.63
+
+  event_name: 'ism_manufacturing_prices'
+    → event_key: 'ism manufacturing prices'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 27.99
+
+  event_name: 'nfib_business_optimism_index'
+    → event_key: 'nfib business optimism index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 14.56
+
+  event_name: 'chicago_pmi'
+    → event_key: 'chicago pmi'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 22.94
+
+  event_name: 'government_payrolls'
+    → event_key: 'government payrolls'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 59.17
+
+  event_name: 'participation_rate'
+    → event_key: 'participation rate'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 60.83
+
+  event_name: 'nahb_housing_market_index'
+    → event_key: 'nahb housing market index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 21.41
+
+  event_name: 'philadelphia_fed_manufacturing_index'
+    → event_key: 'philadelphia fed manufacturing index'
+    → importance: MED (2)
+    → count: 24 événements
+    → score: 26.54
+
+  event_name: 'balance_of_trade'
+    → event_key: 'balance of trade'
+    → importance: MED (2)
+    → count: 23 événements
+    → score: 21.52
+
+  event_name: 'cb_consumer_confidence'
+    → event_key: 'cb consumer confidence'
+    → importance: MED (2)
+    → count: 23 événements
+    → score: 20.71
+
+  event_name: 'fed_chair_powell_speech'
+    → event_key: 'fed chair powell speech'
+    → importance: MED (2)
+    → count: 23 événements
+    → score: 29.36
+
+  event_name: 'challenger_job_cuts'
+    → event_key: 'challenger job cuts'
+    → importance: MED (2)
+    → count: 23 événements
+    → score: 22.24
+
+  event_name: 'adp_employment_change'
+    → event_key: 'adp employment change'
+    → importance: MED (2)
+    → count: 23 événements
+    → score: 26.46
+
+  event_name: 'ny_empire_state_manufacturing_index'
+    → event_key: 'ny empire state manufacturing index'
+    → importance: MED (2)
+    → count: 23 événements
+    → score: 26.57
+
+  event_name: 'philly_fed_prices_paid'
+    → event_key: 'philly fed prices paid'
+    → importance: MED (2)
+    → count: 23 événements
+    → score: 26.54
+
+  event_name: 'wasde_report'
+    → event_key: 'wasde report'
+    → importance: MED (2)
+    → count: 23 événements
+    → score: 11.29
+
+  event_name: 'fed_harker_speech'
+    → event_key: 'fed harker speech'
+    → importance: MED (2)
+    → count: 22 événements
+    → score: 13.91
+
+  event_name: 'cpi_s.a'
+    → event_key: 'cpi s.a'
+    → importance: HIGH (3)
+    → count: 22 événements
+    → score: 44.53
+
+  event_name: 'consumer_inflation_expectations'
+    → event_key: 'consumer inflation expectations'
+    → importance: MED (2)
+    → count: 22 événements
+    → score: 11.25
+
+  event_name: 'imports'
+    → event_key: 'imports'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 22.40
+
+  event_name: 'fed_logan_speech'
+    → event_key: 'fed logan speech'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 14.73
+
+  event_name: 'fed_kashkari_speech'
+    → event_key: 'fed kashkari speech'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 15.65
+
+  event_name: 'philly_fed_capex_index'
+    → event_key: 'philly fed capex index'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 25.28
+
+  event_name: 'philly_fed_business_conditions'
+    → event_key: 'philly fed business conditions'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 25.10
+
+  event_name: 'consumer_credit_change'
+    → event_key: 'consumer credit change'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 10.48
+
+  event_name: 'philly_fed_employment'
+    → event_key: 'philly fed employment'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 25.59
+
+  event_name: 'philly_fed_new_orders'
+    → event_key: 'philly fed new orders'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 26.67
+
+  event_name: 'goods_trade_balance_adv'
+    → event_key: 'goods trade balance adv'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 26.30
+
+  event_name: 'fed_mester_speech'
+    → event_key: 'fed mester speech'
+    → importance: MED (2)
+    → count: 21 événements
+    → score: 12.86
+
+  event_name: 'overall_net_capital_flows'
+    → event_key: 'overall net capital flows'
+    → importance: MED (2)
+    → count: 20 événements
+    → score: 7.82
+
+  event_name: 'foreign_bond_investment'
+    → event_key: 'foreign bond investment'
+    → importance: MED (2)
+    → count: 20 événements
+    → score: 8.45
+
+  event_name: 'ism_services_employment'
+    → event_key: 'ism services employment'
+    → importance: MED (2)
+    → count: 20 événements
+    → score: 32.77
+
+  event_name: 'ism_services_prices'
+    → event_key: 'ism services prices'
+    → importance: MED (2)
+    → count: 20 événements
+    → score: 34.57
+
+  event_name: 'ism_services_pmi'
+    → event_key: 'ism services pmi'
+    → importance: MED (2)
+    → count: 20 événements
+    → score: 32.77
+
+  event_name: 'ism_services_new_orders'
+    → event_key: 'ism services new orders'
+    → importance: MED (2)
+    → count: 20 événements
+    → score: 34.18
+
+  event_name: 'ism_services_business_activity'
+    → event_key: 'ism services business activity'
+    → importance: MED (2)
+    → count: 20 événements
+    → score: 34.18
+
+  event_name: 'richmond_fed_services_index'
+    → event_key: 'richmond fed services index'
+    → importance: MED (2)
+    → count: 20 événements
+    → score: 19.77
+
+  event_name: 'retail_inventories_ex_autos_mom_adv'
+    → event_key: 'retail inventories ex autos mom adv'
+    → importance: MED (2)
+    → count: 19 événements
+    → score: 29.64
+
+  event_name: 'wholesale_inventories_mom_adv'
+    → event_key: 'wholesale inventories mom adv'
+    → importance: MED (2)
+    → count: 19 événements
+    → score: 29.87
+
+  event_name: 'fomc_minutes'
+    → event_key: 'fomc minutes'
+    → importance: HIGH (3)
+    → count: 18 événements
+    → score: 25.77
+
+  event_name: 'fed_collins_speech'
+    → event_key: 'fed collins speech'
+    → importance: MED (2)
+    → count: 17 événements
+    → score: 20.14
+
+  event_name: 'fed_press_conference'
+    → event_key: 'fed press conference'
+    → importance: MED (2)
+    → count: 17 événements
+    → score: 43.21
+
+  event_name: 'fed_interest_rate_decision'
+    → event_key: 'fed interest rate decision'
+    → importance: HIGH (3)
+    → count: 17 événements
+    → score: 51.75
+
+  event_name: 'lmi_logistics_managers_index_current'
+    → event_key: 'lmi logistics managers index current'
+    → importance: MED (2)
+    → count: 17 événements
+    → score: 18.40
+
+  event_name: 'exports'
+    → event_key: 'exports'
+    → importance: MED (2)
+    → count: 16 événements
+    → score: 21.99
+
+  event_name: 'goods_trade_balance'
+    → event_key: 'goods trade balance'
+    → importance: MED (2)
+    → count: 16 événements
+    → score: 31.73
+
+  event_name: 'fed_jefferson_speech'
+    → event_key: 'fed jefferson speech'
+    → importance: MED (2)
+    → count: 16 événements
+    → score: 12.29
+
+  event_name: 'fed_beige_book'
+    → event_key: 'fed beige book'
+    → importance: MED (2)
+    → count: 15 événements
+    → score: 11.87
+
+  event_name: 'nopa_crush_report'
+    → event_key: 'nopa crush report'
+    → importance: MED (2)
+    → count: 14 événements
+    → score: 13.70
+
+  event_name: 'ibd/tipp_economic_optimism'
+    → event_key: 'ibd/tipp economic optimism'
+    → importance: MED (2)
+    → count: 13 événements
+    → score: 19.73
+
+  event_name: 'rcm/tipp_economic_optimism_index'
+    → event_key: 'rcm/tipp economic optimism index'
+    → importance: MED (2)
+    → count: 13 événements
+    → score: 21.35
+
+  event_name: 'fed_kugler_speech'
+    → event_key: 'fed kugler speech'
+    → importance: MED (2)
+    → count: 11 événements
+    → score: 20.61
+
+  event_name: 'fed_bullard_speech'
+    → event_key: 'fed bullard speech'
+    → importance: MED (2)
+    → count: 11 événements
+    → score: 13.71
+
+  event_name: 'lmi_logistics_managers_index'
+    → event_key: 'lmi logistics managers index'
+    → importance: MED (2)
+    → count: 10 événements
+    → score: 13.53
+
+  event_name: 'money_supply'
+    → event_key: 'money supply'
+    → importance: MED (2)
+    → count: 9 événements
+    → score: 10.41
+
+  event_name: 'fomc_economic_projections'
+    → event_key: 'fomc economic projections'
+    → importance: HIGH (3)
+    → count: 8 événements
+    → score: 52.21
+
+  event_name: 'treasury_refunding_announcement'
+    → event_key: 'treasury refunding announcement'
+    → importance: MED (2)
+    → count: 8 événements
+    → score: 30.01
+
+  event_name: 'fed_chair_powell_testimony'
+    → event_key: 'fed chair powell testimony'
+    → importance: MED (2)
+    → count: 8 événements
+    → score: 22.86
+
+  event_name: 'total_household_debt'
+    → event_key: 'total household debt'
+    → importance: MED (2)
+    → count: 8 événements
+    → score: 14.65
+
+  event_name: 'atlanta_fed_gdpnow'
+    → event_key: 'atlanta fed gdpnow'
+    → importance: HIGH (3)
+    → count: 7 événements
+    → score: 18.56
+
+  event_name: 'fed_musalem_speech'
+    → event_key: 'fed musalem speech'
+    → importance: MED (2)
+    → count: 7 événements
+    → score: 16.98
+
+  event_name: 'current_account'
+    → event_key: 'current account'
+    → importance: LOW (1)
+    → count: 7 événements
+    → score: 19.81
+
+  event_name: 'pce_prices_qoq_adv'
+    → event_key: 'pce prices qoq adv'
+    → importance: MED (2)
+    → count: 7 événements
+    → score: 26.63
+
+  event_name: 'real_consumer_spending_qoq_adv'
+    → event_key: 'real consumer spending qoq adv'
+    → importance: MED (2)
+    → count: 7 événements
+    → score: 26.63
+
+  event_name: 'core_pce_prices_qoq_adv'
+    → event_key: 'core pce prices qoq adv'
+    → importance: MED (2)
+    → count: 7 événements
+    → score: 26.63
+
+  event_name: 'gdp_growth_rate_qoq_adv'
+    → event_key: 'gdp growth rate qoq adv'
+    → importance: HIGH (3)
+    → count: 7 événements
+    → score: 26.63
+
+  event_name: 'gdp_sales_qoq_adv'
+    → event_key: 'gdp sales qoq adv'
+    → importance: HIGH (3)
+    → count: 7 événements
+    → score: 26.63
+
+  event_name: 'gdp_price_index_qoq_adv'
+    → event_key: 'gdp price index qoq adv'
+    → importance: HIGH (3)
+    → count: 7 événements
+    → score: 26.63
+
+  event_name: 'central_bank_balance_sheet'
+    → event_key: 'central bank balance sheet'
+    → importance: MED (2)
+    → count: 7 événements
+    → score: 3.06
+
+  event_name: 'loan_officer_survey'
+    → event_key: 'loan officer survey'
+    → importance: MED (2)
+    → count: 6 événements
+    → score: 12.55
+
+  event_name: 'richmond_fed_services_revenues_index'
+    → event_key: 'richmond fed services revenues index'
+    → importance: MED (2)
+    → count: 5 événements
+    → score: 19.06
+
+  event_name: 'cftc_aluminium_speculative_net_positions'
+    → event_key: 'cftc aluminium speculative net positions'
+    → importance: MED (2)
+    → count: 4 événements
+    → score: 9.62
+
+  event_name: 'cftc_copper_speculative_net_positions'
+    → event_key: 'cftc copper speculative net positions'
+    → importance: MED (2)
+    → count: 4 événements
+    → score: 9.62
+
+  event_name: 'cftc_gold_speculative_net_positions'
+    → event_key: 'cftc gold speculative net positions'
+    → importance: MED (2)
+    → count: 4 événements
+    → score: 9.62
+
+  event_name: 'cftc_silver_speculative_net_positions'
+    → event_key: 'cftc silver speculative net positions'
+    → importance: MED (2)
+    → count: 4 événements
+    → score: 9.62
+
+  event_name: 'treasury_refunding_financingimates'
+    → event_key: 'treasury refunding financingimates'
+    → importance: MED (2)
+    → count: 4 événements
+    → score: 9.20
+
+  event_name: 'ny_fed_treasury_purchases_22.5_to_30_yrs'
+    → event_key: 'ny fed treasury purchases 22.5 to 30 yrs'
+    → importance: MED (2)
+    → count: 4 événements
+    → score: 13.92
+
+  event_name: 'ny_fed_treasury_purchases_0_to_1_yrs'
+    → event_key: 'ny fed treasury purchases 0 to 1 yrs'
+    → importance: MED (2)
+    → count: 4 événements
+    → score: 11.19
+
+  event_name: 'ny_fed_treasury_purchases_4.5_to_7_yrs'
+    → event_key: 'ny fed treasury purchases 4.5 to 7 yrs'
+    → importance: MED (2)
+    → count: 4 événements
+    → score: 5.03
+
+  event_name: 'fed_barr_testimony'
+    → event_key: 'fed barr testimony'
+    → importance: MED (2)
+    → count: 4 événements
+    → score: 7.12
+
+  event_name: 'building_permits'
+    → event_key: 'building permits'
+    → importance: LOW (1)
+    → count: 3 événements
+    → score: 18.23
+
+  event_name: 'cftc_palladium_speculative_net_positions'
+    → event_key: 'cftc palladium speculative net positions'
+    → importance: MED (2)
+    → count: 3 événements
+    → score: 7.71
+
+  event_name: 'fed_hammack_speech'
+    → event_key: 'fed hammack speech'
+    → importance: MED (2)
+    → count: 3 événements
+    → score: 16.73
+
+  event_name: 'cftc_platinum_speculative_net_positions'
+    → event_key: 'cftc platinum speculative net positions'
+    → importance: MED (2)
+    → count: 3 événements
+    → score: 7.71
+
+  event_name: 'fed_schmid_speech'
+    → event_key: 'fed schmid speech'
+    → importance: MED (2)
+    → count: 3 événements
+    → score: 17.88
+
+  event_name: 'imf_meeting'
+    → event_key: 'imf meeting'
+    → importance: MED (2)
+    → count: 3 événements
+    → score: 13.68
+
+  event_name: 'ny_fed_treasury_purchases_tips_7.5_to_30_yrs'
+    → event_key: 'ny fed treasury purchases tips 7.5 to 30 yrs'
+    → importance: MED (2)
+    → count: 3 événements
+    → score: 13.45
+
+  event_name: 'ny_fed_treasury_purchases_10_to_22.5_yrs'
+    → event_key: 'ny fed treasury purchases 10 to 22.5 yrs'
+    → importance: MED (2)
+    → count: 3 événements
+    → score: 11.81
+
+  event_name: 'ny_fed_treasury_purchases_0_to_2.25_yrs'
+    → event_key: 'ny fed treasury purchases 0 to 2.25 yrs'
+    → importance: MED (2)
+    → count: 3 événements
+    → score: 13.18
+
+  event_name: 'washington’s_birthday'
+    → event_key: 'washington’s birthday'
+    → importance: MED (2)
+    → count: 3 événements
+    → score: 5.87
+
+  event_name: 'new_home_sales'
+    → event_key: 'new home sales'
+    → importance: LOW (1)
+    → count: 2 événements
+    → score: 24.01
+
+  event_name: 'personal_income'
+    → event_key: 'personal income'
+    → importance: MED (2)
+    → count: 2 événements
+    → score: 25.66
+
+  event_name: 'opec_meeting'
+    → event_key: 'opec meeting'
+    → importance: MED (2)
+    → count: 2 événements
+    → score: 27.70
+
+  event_name: 'memorial_day'
+    → event_key: 'memorial day'
+    → importance: MED (2)
+    → count: 2 événements
+    → score: 3.73
+
+  event_name: 'ny_fed_treasury_purchases_2.25_to_4.5_yrs'
+    → event_key: 'ny fed treasury purchases 2.25 to 4.5 yrs'
+    → importance: MED (2)
+    → count: 2 événements
+    → score: 14.74
+
+  event_name: 'eia_weekly_refinery_utilization_rates_wow'
+    → event_key: 'eia weekly refinery utilization rates wow'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 22.09
+
+  event_name: 'cftc_natural_gas_speculative_net_positions'
+    → event_key: 'cftc natural gas speculative net positions'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 9.77
+
+  event_name: 'cftc_corn_speculative_net_positions'
+    → event_key: 'cftc corn speculative net positions'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 9.77
+
+  event_name: 'cftc_wheat_speculative_net_positions'
+    → event_key: 'cftc wheat speculative net positions'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 9.77
+
+  event_name: 'cftc_crude_oil_speculative_net_positions'
+    → event_key: 'cftc crude oil speculative net positions'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 9.77
+
+  event_name: 'cftc_soybeans_speculative_net_positions'
+    → event_key: 'cftc soybeans speculative net positions'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 9.77
+
+  event_name: 'cftc_nasdaq_100_speculative_net_positions'
+    → event_key: 'cftc nasdaq 100 speculative net positions'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 9.77
+
+  event_name: 'cftc_s&p_500_speculative_net_positions'
+    → event_key: 'cftc s&p 500 speculative net positions'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 9.77
+
+  event_name: 'inflation_expectations'
+    → event_key: 'inflation expectations'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 31.12
+
+  event_name: 'thomson_reuters_ipsos_pcsi'
+    → event_key: 'thomson reuters ipsos pcsi'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 19.70
+
+  event_name: 'cb_employment_trends_index'
+    → event_key: 'cb employment trends index'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 15.27
+
+  event_name: 'boe_consumer_credit'
+    → event_key: 'boe consumer credit'
+    → importance: HIGH (3)
+    → count: 1 événements
+    → score: 18.62
+
+  event_name: 'budget_balance'
+    → event_key: 'budget balance'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 12.95
+
+  event_name: 'consumer_inflation_expectation'
+    → event_key: 'consumer inflation expectation'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 18.68
+
+  event_name: 'all_truck_sales'
+    → event_key: 'all truck sales'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 27.45
+
+  event_name: 'opec_monthly_report'
+    → event_key: 'opec monthly report'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 13.26
+
+  event_name: 'all_car_sales'
+    → event_key: 'all car sales'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 19.54
+
+  event_name: 'press_conference'
+    → event_key: 'press conference'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 46.39
+
+  event_name: 'martin_luther_king,_jr._day'
+    → event_key: 'martin luther king, jr. day'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 10.40
+
+  event_name: 's&p_global_manufacturing_pmi_flash'
+    → event_key: 's&p global manufacturing pmi flash'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 22.27
+
+  event_name: 'christmas'
+    → event_key: 'christmas'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 14.83
+
+  event_name: 's&p_global_services_pmi_flash'
+    → event_key: 's&p global services pmi flash'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 22.27
+
+  event_name: 's&p_global_composite_pmi_flash'
+    → event_key: 's&p global composite pmi flash'
+    → importance: MED (2)
+    → count: 1 événements
+    → score: 22.27
+
+================================================================================
+CATÉGORIE 2 : VARIANTES TROUVÉES (⚠️ FOUND_VARIANTS)
+================================================================================
+
+Scores où event_name ne correspond pas exactement,
+mais des variantes existent (suffixes _mom, _yoy, etc.)
+
+46 scores avec variantes :
+
+  event_name (CSV): 'ppi' (score=27.26)
+    → event_key attendu: 'ppi'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'core ppi_mom' : 26 événements [MED]
+       • 'core ppi_yoy' : 25 événements [MED]
+       • 'ppi_yoy' : 22 événements [MED]
+       • 'ppi_mom' : 22 événements [MED]
+       • 'ppi ex food, energy and trade_yoy' : 16 événements [MED]
+       • 'ppi ex food, energy and trade_mom' : 16 événements [MED]
+
+  event_name (CSV): 'redbook' (score=17.65)
+    → event_key attendu: 'redbook'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'redbook_yoy' : 104 événements [MED]
+
+  event_name (CSV): 'inflation_rate' (score=48.84)
+    → event_key attendu: 'inflation rate'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'inflation rate_mom' : 25 événements [HIGH]
+       • 'core inflation rate_mom' : 25 événements [HIGH]
+       • 'core inflation rate_yoy' : 24 événements [HIGH]
+       • 'inflation rate_yoy' : 23 événements [HIGH]
+
+  event_name (CSV): 'pce_price_index' (score=25.38)
+    → event_key attendu: 'pce price index'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'pce price index_mom' : 24 événements [MED]
+       • 'pce price index_yoy' : 24 événements [MED]
+       • 'core pce price index_yoy' : 24 événements [MED]
+       • 'core pce price index_mom' : 23 événements [MED]
+
+  event_name (CSV): 'retail_sales' (score=34.68)
+    → event_key attendu: 'retail sales'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'retail sales ex autos_mom' : 23 événements [MED]
+       • 'retail sales_yoy' : 23 événements [MED]
+       • 'retail sales_mom' : 23 événements [MED]
+       • 'retail sales ex gas/autos_mom' : 22 événements [MED]
+
+  event_name (CSV): 'durable_goods_orders' (score=26.52)
+    → event_key attendu: 'durable goods orders'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'durable goods orders ex transp_mom' : 25 événements [LOW]
+       • 'durable goods orders ex defense_mom' : 25 événements [LOW]
+       • 'durable goods orders_mom' : 24 événements [LOW]
+
+  event_name (CSV): 'retail_inventories_ex_autos' (score=25.44)
+    → event_key attendu: 'retail inventories ex autos'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'retail inventories ex autos_mom' : 42 événements [MED]
+       • 'retail inventories ex autos mom adv' : 19 événements [MED]
+
+  event_name (CSV): 'wholesale_inventories' (score=23.78)
+    → event_key attendu: 'wholesale inventories'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'wholesale inventories_mom' : 41 événements [MED]
+       • 'wholesale inventories mom adv' : 19 événements [MED]
+
+  event_name (CSV): 'pce_prices' (score=38.52)
+    → event_key attendu: 'pce prices'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'core pce prices_qoq' : 20 événements [MED]
+       • 'pce prices_qoq' : 20 événements [MED]
+       • 'core pce prices qoq adv' : 7 événements [MED]
+       • 'pce prices qoq adv' : 7 événements [MED]
+
+  event_name (CSV): 'core_ppi' (score=31.63)
+    → event_key attendu: 'core ppi'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'core ppi_mom' : 26 événements [MED]
+       • 'core ppi_yoy' : 25 événements [MED]
+
+  event_name (CSV): 'core_inflation_rate' (score=47.18)
+    → event_key attendu: 'core inflation rate'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'core inflation rate_mom' : 25 événements [HIGH]
+       • 'core inflation rate_yoy' : 24 événements [HIGH]
+
+  event_name (CSV): 'house_price_index' (score=17.72)
+    → event_key attendu: 'house price index'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'house price index_mom' : 24 événements [MED]
+       • 'house price index_yoy' : 24 événements [MED]
+
+  event_name (CSV): 'pending_home_sales' (score=21.54)
+    → event_key attendu: 'pending home sales'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'pending home sales_mom' : 24 événements [LOW]
+       • 'pending home sales_yoy' : 24 événements [LOW]
+
+  event_name (CSV): 'export_prices' (score=26.56)
+    → event_key attendu: 'export prices'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'export prices_yoy' : 24 événements [MED]
+       • 'export prices_mom' : 24 événements [MED]
+
+  event_name (CSV): 'manufacturing_production' (score=22.10)
+    → event_key attendu: 'manufacturing production'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'manufacturing production_yoy' : 24 événements [MED]
+       • 'manufacturing production_mom' : 24 événements [MED]
+
+  event_name (CSV): 'import_prices' (score=25.48)
+    → event_key attendu: 'import prices'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'import prices_yoy' : 24 événements [MED]
+       • 'import prices_mom' : 24 événements [MED]
+
+  event_name (CSV): 'industrial_production' (score=22.08)
+    → event_key attendu: 'industrial production'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'industrial production_mom' : 24 événements [LOW]
+       • 'industrial production_yoy' : 24 événements [LOW]
+
+  event_name (CSV): 'factory_orders' (score=25.06)
+    → event_key attendu: 'factory orders'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'factory orders ex transportation' : 24 événements [LOW]
+       • 'factory orders_mom' : 24 événements [LOW]
+
+  event_name (CSV): 'average_hourly_earnings' (score=60.63)
+    → event_key attendu: 'average hourly earnings'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'average hourly earnings_mom' : 24 événements [MED]
+       • 'average hourly earnings_yoy' : 23 événements [MED]
+
+  event_name (CSV): 'core_pce_price_index' (score=26.98)
+    → event_key attendu: 'core pce price index'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'core pce price index_yoy' : 24 événements [MED]
+       • 'core pce price index_mom' : 23 événements [MED]
+
+  event_name (CSV): 'used_car_prices' (score=20.60)
+    → event_key attendu: 'used car prices'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'used car prices_mom' : 22 événements [MED]
+       • 'used car prices_yoy' : 22 événements [MED]
+
+  event_name (CSV): 'trade_balance' (score=34.47)
+    → event_key attendu: 'trade balance'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'goods trade balance adv' : 21 événements [MED]
+       • 'goods trade balance' : 16 événements [MED]
+
+  event_name (CSV): 'ppi_ex_food,_energy_and_trade' (score=28.98)
+    → event_key attendu: 'ppi ex food, energy and trade'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'ppi ex food, energy and trade_yoy' : 16 événements [MED]
+       • 'ppi ex food, energy and trade_mom' : 16 événements [MED]
+
+  event_name (CSV): 'real_consumer_spending' (score=40.72)
+    → event_key attendu: 'real consumer spending'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'real consumer spending_qoq' : 21 événements [MED]
+       • 'real consumer spending qoq adv' : 7 événements [MED]
+
+  event_name (CSV): 'gdp_growth_rate' (score=38.52)
+    → event_key attendu: 'gdp growth rate'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'gdp growth rate_qoq' : 21 événements [HIGH]
+       • 'gdp growth rate qoq adv' : 7 événements [HIGH]
+
+  event_name (CSV): 'core_pce_prices' (score=40.31)
+    → event_key attendu: 'core pce prices'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'core pce prices_qoq' : 20 événements [MED]
+       • 'core pce prices qoq adv' : 7 événements [MED]
+
+  event_name (CSV): 'gdp_sales' (score=38.06)
+    → event_key attendu: 'gdp sales'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'gdp sales_qoq' : 20 événements [HIGH]
+       • 'gdp sales qoq adv' : 7 événements [HIGH]
+
+  event_name (CSV): 'gdp_price_index' (score=38.06)
+    → event_key attendu: 'gdp price index'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'gdp price index_qoq' : 20 événements [HIGH]
+       • 'gdp price index qoq adv' : 7 événements [HIGH]
+
+  event_name (CSV): 'durable_goods_orders_ex_defense' (score=26.96)
+    → event_key attendu: 'durable goods orders ex defense'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'durable goods orders ex defense_mom' : 25 événements [LOW]
+
+  event_name (CSV): 'durable_goods_orders_ex_transp' (score=27.13)
+    → event_key attendu: 'durable goods orders ex transp'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'durable goods orders ex transp_mom' : 25 événements [LOW]
+
+  event_name (CSV): 'business_inventories' (score=22.54)
+    → event_key attendu: 'business inventories'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'business inventories_mom' : 25 événements [MED]
+
+  event_name (CSV): 'existing_home_sales' (score=19.30)
+    → event_key attendu: 'existing home sales'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'existing home sales_mom' : 24 événements [LOW]
+
+  event_name (CSV): 'housing_starts' (score=17.00)
+    → event_key attendu: 'housing starts'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'housing starts_mom' : 24 événements [LOW]
+
+  event_name (CSV): 'construction_spending' (score=27.07)
+    → event_key attendu: 'construction spending'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'construction spending_mom' : 24 événements [MED]
+
+  event_name (CSV): 'personal_spending' (score=26.32)
+    → event_key attendu: 'personal spending'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'personal spending_mom' : 24 événements [MED]
+
+  event_name (CSV): 'retail_sales_ex_autos' (score=32.54)
+    → event_key attendu: 'retail sales ex autos'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'retail sales ex autos_mom' : 23 événements [MED]
+
+  event_name (CSV): 'leading_index' (score=21.60)
+    → event_key attendu: 'leading index'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'cb leading index_mom' : 22 événements [MED]
+       • 'leading index_mom' : 1 événements [MED]
+
+  event_name (CSV): 'retail_sales_ex_gas/autos' (score=32.41)
+    → event_key attendu: 'retail sales ex gas/autos'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'retail sales ex gas/autos_mom' : 22 événements [MED]
+
+  event_name (CSV): 'cb_leading_index' (score=17.73)
+    → event_key attendu: 'cb leading index'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'cb leading index_mom' : 22 événements [MED]
+
+  event_name (CSV): 'unit_labour_costs' (score=22.86)
+    → event_key attendu: 'unit labour costs'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'unit labour costs_qoq' : 16 événements [MED]
+
+  event_name (CSV): 'nonfarm_productivity' (score=20.66)
+    → event_key attendu: 'nonfarm productivity'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'nonfarm productivity_qoq' : 16 événements [HIGH]
+
+  event_name (CSV): 'beige_book' (score=8.79)
+    → event_key attendu: 'beige book'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'fed beige book' : 15 événements [MED]
+
+  event_name (CSV): 'corporate_profits' (score=31.68)
+    → event_key attendu: 'corporate profits'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'corporate profits_qoq' : 14 événements [MED]
+
+  event_name (CSV): 'employment_cost_index' (score=23.80)
+    → event_key attendu: 'employment cost index'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'employment cost index_qoq' : 8 événements [MED]
+
+  event_name (CSV): 'producer_price_index' (score=31.45)
+    → event_key attendu: 'producer price index'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'producer price index_yoy' : 3 événements [MED]
+       • 'producer price index_mom' : 3 événements [MED]
+
+  event_name (CSV): 'wholesale_sales' (score=21.84)
+    → event_key attendu: 'wholesale sales'
+    → INTROUVABLE exact
+    → Variantes trouvées :
+       • 'wholesale sales_mom' : 1 événements [MED]
+
+================================================================================
+CATÉGORIE 3 : SIMILARITÉ PARTIELLE (🔍 FOUND_SIMILAR)
+================================================================================
+
+23 scores avec similarité :
+
+  event_name: 'jobless_claims_4_week_average' (score=27.91)
+    → Correspondances possibles :
+       • 'jobless claims 4-week average' : 119 événements [MED]
+       • 'continuing jobless claims' : 104 événements [MED]
+       • 'initial jobless claims' : 103 événements [MED]
+
+  event_name: 'mba_30_year_mortgage_rate' (score=13.16)
+    → Correspondances possibles :
+       • 'mba mortgage applications' : 97 événements [MED]
+       • 'mba purchase index' : 95 événements [MED]
+       • 'mba 30-year mortgage rate' : 94 événements [MED]
+       • 'mba mortgage refinance index' : 94 événements [MED]
+       • 'mba mortgage market index' : 92 événements [MED]
+
+  event_name: 's&p/case_shiller_home_price' (score=17.82)
+    → Correspondances possibles :
+       • 's&p/case-shiller home price_mom' : 24 événements [MED]
+       • 's&p/case-shiller home price_yoy' : 24 événements [MED]
+
+  event_name: 'net_long_term_tic_flows' (score=7.67)
+    → Correspondances possibles :
+       • 'net long-term tic flows' : 23 événements [MED]
+       • 'overall net capital flows' : 20 événements [MED]
+       • 'cftc copper speculative net positions' : 4 événements [MED]
+       • 'cftc aluminium speculative net positions' : 4 événements [MED]
+       • 'cftc gold speculative net positions' : 4 événements [MED]
+
+  event_name: 'ism_non_manufacturing_business_activity' (score=35.00)
+    → Correspondances possibles :
+       • 'ism manufacturing prices' : 24 événements [MED]
+       • 'ism manufacturing new orders' : 24 événements [MED]
+       • 'nfib business optimism index' : 24 événements [MED]
+       • 'ism manufacturing employment' : 24 événements [MED]
+       • 'ism manufacturing pmi' : 24 événements [MED]
+
+  event_name: 'ism_non_manufacturing_pmi' (score=35.00)
+    → Correspondances possibles :
+       • 'ism manufacturing prices' : 24 événements [MED]
+       • 'ism manufacturing pmi' : 24 événements [MED]
+       • 'nfib business optimism index' : 24 événements [MED]
+       • 'ism manufacturing employment' : 24 événements [MED]
+       • 'ism manufacturing new orders' : 24 événements [MED]
+
+  event_name: 'ism_non_manufacturing_new_orders' (score=35.00)
+    → Correspondances possibles :
+       • 'ism manufacturing new orders' : 24 événements [MED]
+       • 'ism manufacturing pmi' : 24 événements [MED]
+       • 'ism manufacturing prices' : 24 événements [MED]
+       • 'nfib business optimism index' : 24 événements [MED]
+       • 'ism manufacturing employment' : 24 événements [MED]
+
+  event_name: 'ism_non_manufacturing_employment' (score=30.88)
+    → Correspondances possibles :
+       • 'ism manufacturing employment' : 24 événements [MED]
+       • 'ism manufacturing new orders' : 24 événements [MED]
+       • 'ism manufacturing pmi' : 24 événements [MED]
+       • 'ism manufacturing prices' : 24 événements [MED]
+       • 'nfib business optimism index' : 24 événements [MED]
+
+  event_name: 'ism_non_manufacturing_prices' (score=32.62)
+    → Correspondances possibles :
+       • 'ism manufacturing prices' : 24 événements [MED]
+       • 'nfib business optimism index' : 24 événements [MED]
+       • 'ism manufacturing pmi' : 24 événements [MED]
+       • 'ism manufacturing new orders' : 24 événements [MED]
+       • 'ism manufacturing employment' : 24 événements [MED]
+
+  event_name: 'employment_cost___benefits' (score=24.06)
+    → Correspondances possibles :
+       • 'unemployment rate' : 25 événements [HIGH]
+       • 'ism manufacturing employment' : 24 événements [MED]
+       • 'adp employment change' : 23 événements [MED]
+       • 'philly fed employment' : 21 événements [MED]
+       • 'ism services employment' : 20 événements [MED]
+
+  event_name: 'employment_cost___wages' (score=24.06)
+    → Correspondances possibles :
+       • 'unemployment rate' : 25 événements [HIGH]
+       • 'ism manufacturing employment' : 24 événements [MED]
+       • 'adp employment change' : 23 événements [MED]
+       • 'philly fed employment' : 21 événements [MED]
+       • 'ism services employment' : 20 événements [MED]
+
+  event_name: 'interest_rate_projection___longer' (score=51.96)
+    → Correspondances possibles :
+       • 'fed interest rate decision' : 17 événements [HIGH]
+       • 'interest rate projection - 1st yr' : 8 événements [MED]
+       • 'interest rate projection - current' : 8 événements [MED]
+       • 'interest rate projection - longer' : 8 événements [MED]
+       • 'interest rate projection - 2nd yr' : 8 événements [MED]
+
+  event_name: 'quarterly_grain_stocks___corn' (score=15.89)
+    → Correspondances possibles :
+       • 'quarterly grain stocks - soy' : 8 événements [MED]
+       • 'quarterly grain stocks - corn' : 8 événements [MED]
+       • 'quarterly grain stocks - wheat' : 8 événements [MED]
+
+  event_name: 'interest_rate_projection___1st_yr' (score=53.94)
+    → Correspondances possibles :
+       • 'fed interest rate decision' : 17 événements [HIGH]
+       • 'interest rate projection - 2nd yr' : 8 événements [MED]
+       • 'interest rate projection - current' : 8 événements [MED]
+       • 'interest rate projection - longer' : 8 événements [MED]
+       • 'interest rate projection - 1st yr' : 8 événements [MED]
+
+  event_name: 'real_earnings' (score=39.38)
+    → Correspondances possibles :
+       • 'real consumer spending_qoq' : 21 événements [MED]
+       • 'real consumer spending qoq adv' : 7 événements [MED]
+
+  event_name: 'interest_rate_projection___current' (score=49.84)
+    → Correspondances possibles :
+       • 'fed interest rate decision' : 17 événements [HIGH]
+       • 'interest rate projection - 1st yr' : 8 événements [MED]
+       • 'interest rate projection - longer' : 8 événements [MED]
+       • 'interest rate projection - current' : 8 événements [MED]
+       • 'interest rate projection - 2nd yr' : 8 événements [MED]
+
+  event_name: 'interest_rate_projection___2nd_yr' (score=53.94)
+    → Correspondances possibles :
+       • 'fed interest rate decision' : 17 événements [HIGH]
+       • 'interest rate projection - 1st yr' : 8 événements [MED]
+       • 'interest rate projection - longer' : 8 événements [MED]
+       • 'interest rate projection - current' : 8 événements [MED]
+       • 'interest rate projection - 2nd yr' : 8 événements [MED]
+
+  event_name: 'quarterly_grain_stocks___soy' (score=14.11)
+    → Correspondances possibles :
+       • 'quarterly grain stocks - soy' : 8 événements [MED]
+       • 'quarterly grain stocks - wheat' : 8 événements [MED]
+       • 'quarterly grain stocks - corn' : 8 événements [MED]
+
+  event_name: 'quarterly_grain_stocks___wheat' (score=14.11)
+    → Correspondances possibles :
+       • 'quarterly grain stocks - soy' : 8 événements [MED]
+       • 'quarterly grain stocks - corn' : 8 événements [MED]
+       • 'quarterly grain stocks - wheat' : 8 événements [MED]
+
+  event_name: 'interest_rate_projection___3rd_yr' (score=54.20)
+    → Correspondances possibles :
+       • 'fed interest rate decision' : 17 événements [HIGH]
+       • 'interest rate projection - 1st yr' : 8 événements [MED]
+       • 'interest rate projection - current' : 8 événements [MED]
+       • 'interest rate projection - longer' : 8 événements [MED]
+       • 'interest rate projection - 2nd yr' : 8 événements [MED]
+
+  event_name: 'employment_benefits' (score=16.75)
+    → Correspondances possibles :
+       • 'unemployment rate' : 25 événements [HIGH]
+       • 'ism manufacturing employment' : 24 événements [MED]
+       • 'adp employment change' : 23 événements [MED]
+       • 'philly fed employment' : 21 événements [MED]
+       • 'ism services employment' : 20 événements [MED]
+
+  event_name: 'employment_wages' (score=16.75)
+    → Correspondances possibles :
+       • 'unemployment rate' : 25 événements [HIGH]
+       • 'ism manufacturing employment' : 24 événements [MED]
+       • 'adp employment change' : 23 événements [MED]
+       • 'philly fed employment' : 21 événements [MED]
+       • 'ism services employment' : 20 événements [MED]
+
+  event_name: 'monetary_policy_report' (score=27.85)
+    → Correspondances possibles :
+       • '2023 us monetary policy forum' : 1 événements [MED]
+
+================================================================================
+CATÉGORIE 4 : INTROUVABLES (❌ NOT_FOUND)
+================================================================================
+
+24 scores sans correspondance :
+
+  ❌ 'u_6_unemployment_rate' (score=63.96)
+  ❌ 'gross_domestic_product' (score=39.70)
+  ❌ '8_week_bill_auction' (score=15.26)
+  ❌ '4_week_bill_auction' (score=15.21)
+  ❌ '10_year_note_auction' (score=15.10)
+  ❌ '30_year_bond_auction' (score=14.93)
+  ❌ '7_year_note_auction' (score=14.76)
+  ❌ '15_year_mortgage_rate' (score=14.05)
+  ❌ '30_year_mortgage_rate' (score=13.84)
+  ❌ '17_week_bill_auction' (score=13.79)
+  ❌ '6_month_bill_auction' (score=13.39)
+  ❌ '52_week_bill_auction' (score=13.35)
+  ❌ '3_month_bill_auction' (score=13.25)
+  ❌ '20_year_bond_auction' (score=11.71)
+  ❌ '2_year_frn_auction' (score=11.55)
+  ❌ '5_year_tips_auction' (score=11.06)
+  ❌ '42_day_bill_auction' (score=11.06)
+  ❌ '2_year_note_auction' (score=11.02)
+  ❌ 'm2_money_supply' (score=10.99)
+  ❌ '3_year_note_auction' (score=10.97)
+  ❌ '5_year_note_auction' (score=10.94)
+  ❌ '10_year_tips_auction' (score=10.23)
+  ❌ '30_year_tips_auction' (score=7.25)
+  ❌ 'international_monetary_market_(imm)_date' (score=5.86)
+
+================================================================================
+ANALYSE PAR IMPORTANCE
+================================================================================
+
+Distribution importance (événements trouvés) :
+  HIGH (3) :  39 scores
+  MED  (2) : 363 scores
+  LOW  (1) :  17 scores
+
+Scores HIGH utilisables :
+  Mapping parfait : 13 scores
+  Avec variantes  : 6 scores
+
+================================================================================
+RECOMMANDATIONS
+================================================================================
+
+⚠️  PROBLÈME MODÉRÉ : Mapping partiellement cassé (50-80%)
+
+Actions :
+  1. Créer table mapping event_name ↔ event_key(s)
+  2. Recalculer scores pour variantes principales
+  3. Session 127 : Recalibration scores complets

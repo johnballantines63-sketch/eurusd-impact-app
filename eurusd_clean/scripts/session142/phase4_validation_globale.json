@@ -1,0 +1,244 @@
+{
+  "mae_global": 14.691924695200635,
+  "baseline_mae_global": 14.94,
+  "improvement": -0.24807530479936446,
+  "improvement_percent": -1.6604772744268037,
+  "status": {
+    "excellent_count": 23,
+    "acceptable_count": 4,
+    "total_groups": 27,
+    "excellent_percent": 85.18518518518519
+  },
+  "group_results": [
+    {
+      "pattern": "CRASH_RECOVERY_UP",
+      "score_range": "100-200",
+      "count": 2,
+      "mae": 26.529999999995724,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "0-100",
+      "count": 23,
+      "mae": 15.444980237154438,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "100-200",
+      "count": 24,
+      "mae": 9.388695652173352,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "200-300",
+      "count": 17,
+      "mae": 17.297499999999403,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "300-400",
+      "count": 9,
+      "mae": 26.660833333334082,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "400-500",
+      "count": 1,
+      "mae": 0.0,
+      "method": "mean",
+      "skipped": true
+    },
+    {
+      "pattern": "DOUBLE_WAVE_DOWN",
+      "score_range": "500+",
+      "count": 10,
+      "mae": 17.432222222222048,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "0-100",
+      "count": 19,
+      "mae": 14.098421052631469,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "100-200",
+      "count": 18,
+      "mae": 10.79699346405158,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "200-300",
+      "count": 19,
+      "mae": 14.275730994152052,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "300-400",
+      "count": 5,
+      "mae": 23.764000000000117,
+      "method": "median",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "400-500",
+      "count": 3,
+      "mae": 7.7933333333324315,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "DOUBLE_WAVE_UP",
+      "score_range": "500+",
+      "count": 12,
+      "mae": 10.371818181818554,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "0-100",
+      "count": 37,
+      "mae": 16.17510510510514,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "100-200",
+      "count": 29,
+      "mae": 14.593965517241061,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "200-300",
+      "count": 23,
+      "mae": 6.487075098814699,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "300-400",
+      "count": 9,
+      "mae": 17.235833333333154,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "400-500",
+      "count": 6,
+      "mae": 11.92999999999956,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_DOWN",
+      "score_range": "500+",
+      "count": 14,
+      "mae": 16.450329670330195,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "0-100",
+      "count": 35,
+      "mae": 12.71222408963577,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "100-200",
+      "count": 25,
+      "mae": 16.006400000000095,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "200-300",
+      "count": 19,
+      "mae": 23.68859649122842,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "300-400",
+      "count": 9,
+      "mae": 3.6888888888893083,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "400-500",
+      "count": 7,
+      "mae": 17.562857142856974,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_FORT_UP",
+      "score_range": "500+",
+      "count": 19,
+      "mae": 18.559707602339945,
+      "method": "mean",
+      "skipped": false
+    },
+    {
+      "pattern": "SINGLE_WAVE_STANDARD_DOWN",
+      "score_range": "0-100",
+      "count": 1,
+      "mae": 0.0,
+      "method": "mean",
+      "skipped": true
+    },
+    {
+      "pattern": "SINGLE_WAVE_STANDARD_UP",
+      "score_range": "100-200",
+      "count": 1,
+      "mae": 0.0,
+      "method": "mean",
+      "skipped": true
+    }
+  ],
+  "optimizations_applied": {
+    "DOUBLE_WAVE_UP_300_400": {
+      "method": "median",
+      "mae_before": 29.79,
+      "mae_after": 23.76,
+      "gain": -6.03
+    },
+    "DOUBLE_WAVE_DOWN_300_400": {
+      "method": "mean",
+      "mae_before": 26.66,
+      "mae_after": 26.66,
+      "gain": 0.0
+    }
+  }
+}

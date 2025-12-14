@@ -1,0 +1,66 @@
+{
+  "date": "2024-07-12",
+  "movement_start_time": "2024-07-12 13:46:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": "UP",
+  "score": 0.12688634384928998,
+  "has_trigger": true,
+  "n_active": 5,
+  "contributions": [
+    {
+      "event_key": "core ppi",
+      "family": "PPI",
+      "actual": 0.4,
+      "estimate": 0.2,
+      "surprise": 0.2,
+      "surprise_z": 0.8169898578680113,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.05964736284966665,
+      "is_trigger": true
+    },
+    {
+      "event_key": "core ppi_mom",
+      "family": "PPI",
+      "actual": 0.4,
+      "estimate": 0.2,
+      "surprise": 0.2,
+      "surprise_z": 0.6950999306545312,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.05074833840498809,
+      "is_trigger": false
+    },
+    {
+      "event_key": "ppi_yoy",
+      "family": "PPI",
+      "actual": 2.6,
+      "estimate": 2.3,
+      "surprise": 0.30000000000000027,
+      "surprise_z": 0.5060986535074957,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.03694960192316885,
+      "is_trigger": false
+    },
+    {
+      "event_key": "ppi_mom",
+      "family": "PPI",
+      "actual": 0.2,
+      "estimate": 0.1,
+      "surprise": 0.1,
+      "surprise_z": 0.26772961267853856,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.019546589470168713,
+      "is_trigger": false
+    },
+    {
+      "event_key": "core ppi_yoy",
+      "family": "PPI",
+      "actual": 3.0,
+      "estimate": 2.5,
+      "surprise": 0.5,
+      "surprise_z": 1.6002833443026545,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.11683459761543248,
+      "is_trigger": true
+    }
+  ]
+}

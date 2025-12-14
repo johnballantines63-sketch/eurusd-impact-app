@@ -1,0 +1,17 @@
+================================================================================
+FORMULE AMPLIFICATION OPTIMALE - SESSION 98
+================================================================================
+
+POIDS MULTI-PÉRIODES :
+  w1 (24h) = 0.0
+  w2 (48h) = 0.0
+  w3 (72h) = 1.0
+
+FORMULE COMPLÈTE :
+  score_tendance = 0.0 × R²_24h + 0.0 × R²_48h + 1.0 × R²_72h
+  amplification = 1.8892 × score_tendance + 1.7395
+
+PERFORMANCE :
+  MAE               : 0.555
+  Corrélation       : 0.546
+  Amélioration vs 2.5 : 26.9%

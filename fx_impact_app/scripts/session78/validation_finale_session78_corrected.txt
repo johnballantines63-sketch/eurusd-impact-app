@@ -1,0 +1,16 @@
+VALIDATION FINALE - SESSION 78 CORRIGÉE
+======================================================================
+
+Fenêtre optimale : ±15 min
+MAE 11 septembre : 53.0 pips
+MAE Session 75   : 102.6 pips
+Statut           : INSUFFISANT
+
+DÉTAILS PAR MOUVEMENT
+----------------------------------------------------------------------
+2024-12-18 | Réel: -139.7 | Prédit: 0.0 | MAE: 139.7
+2024-04-10 | Réel: -113.4 | Prédit: 0.0 | MAE: 113.4
+2024-02-13 | Réel: -84.7 | Prédit: 0.0 | MAE: 84.7
+2024-06-07 | Réel: -83.2 | Prédit: 0.0 | MAE: 83.2
+2024-01-05 | Réel: 104.0 | Prédit: 0.0 | MAE: 104.0
+2025-09-17 | Réel: -90.7 | Prédit: 0.0 | MAE: 90.7

@@ -1,0 +1,73 @@
+# MESSAGE À COPIER-COLLER POUR NOUVELLE SESSION CLAUDE
+
+---
+
+## 📋 COPIER CE TEXTE 👇
+
+```
+Bonjour Claude,
+
+Je reprends le projet "EUR/USD News Impact Calculator" version 8.6.2.
+
+CONTEXTE :
+- Objectif : Afficher visuellement le pullback (zone ORANGE) dans le graphique
+- Status : Code créé à 95%, reste 1 modification + tests
+- Phase 1 (calcul) : ✅ Complétée
+- Phase 2 (graphique) : ⏳ En cours
+
+FICHIERS À LIRE (dans l'ordre) :
+
+1. Brief session (2 min) :
+~/Desktop/eurusd_news_impact_calculator_MPC/BRIEF_NOUVELLE_SESSION.md
+
+2. Résumé exécutif (5 min) :
+~/Desktop/eurusd_news_impact_calculator_MPC/RESUME_EXECUTIF_REPRISE_PHASE2.md
+
+3. TODO list (2 min) :
+~/Desktop/eurusd_news_impact_calculator_MPC/TODO_PHASE2_FINALE.md
+
+4. Si besoin de détails techniques :
+~/Desktop/eurusd_news_impact_calculator_MPC/RAPPORT_EXHAUSTIF_PHASE2_GRAPHIQUE_PULLBACK.md
+
+PREMIÈRE ACTION :
+Lis le BRIEF_NOUVELLE_SESSION.md puis suis les instructions.
+
+Temps estimé pour terminer : 25 minutes.
+```
+
+---
+
+## 📝 ALTERNATIVE ULTRA-COURTE
+
+Si tu veux être encore plus concis :
+
+```
+Reprends projet EUR/USD v8.6.2 - Phase 2 pullback graphique.
+
+Lis d'abord :
+~/Desktop/eurusd_news_impact_calculator_MPC/BRIEF_NOUVELLE_SESSION.md
+
+Puis suis les instructions dans RESUME_EXECUTIF et TODO.
+
+95% fait, reste 1 modif + test (25 min estimé).
+```
+
+---
+
+## 💡 CONSEIL D'UTILISATION
+
+**Option 1 - Nouvelle session immédiate :**
+1. Copier un des messages ci-dessus
+2. Ouvrir nouvelle conversation Claude
+3. Coller le message
+4. Attendre que Claude lise les fichiers
+5. Suivre ses instructions
+
+**Option 2 - Plus tard (autre jour) :**
+1. Noter que le fichier `BRIEF_NOUVELLE_SESSION.md` existe
+2. Lors de la reprise, donner juste le chemin à Claude
+3. Claude lira le brief et saura quoi faire
+
+---
+
+**Les 4 fichiers sont maintenant sauvegardés dans ton projet !**

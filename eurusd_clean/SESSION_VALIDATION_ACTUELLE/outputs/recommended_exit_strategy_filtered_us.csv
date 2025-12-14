@@ -1,0 +1,2 @@
+recommended_exit_pct,reason,win_rate,avg_gain_per_trade,exit_target_pips,winning_trades,total_trades,bias_median_ratio,bias_mean_error,n_movements_filtered,n_movements_valid_predictions
+85,Prédictions sous-estimées → on peut viser plus haut,99.21534437663469,8.8889088787433,9.26937365370912,1138.0,1147.0,0.15225614582646158,-38.33792340037506,1147,1147

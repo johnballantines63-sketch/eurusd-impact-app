@@ -1,0 +1,18 @@
+date,error_ancien,error_nouveau,improvement_pips,improvement_pct,raison_plafond
+2025-10-24,14.316587427344366,14.316587427344366,0.0,0.0,Amplification déjà inférieure au plafond (1.27x < 2.0x)
+2025-09-11,20.652555671432843,20.652555671432843,0.0,0.0,Amplification déjà inférieure au plafond (2.00x < 3.0x)
+2025-08-12,6.8711837874592305,6.8711837874592305,0.0,0.0,Amplification déjà inférieure au plafond (2.00x < 2.5x)
+2025-07-15,6.22912929580491,6.229129295804924,-1.4210854715202004e-14,-2.281354911796821e-13,Amplification déjà inférieure au plafond (1.17x < 2.5x)
+2025-06-11,9.72507710449947,9.72507710449947,0.0,0.0,Pattern modéré (ratio 1.22) → plafond 2.0x - Amplification déjà au plafond
+2025-05-13,47.19741480382632,47.19741480382632,0.0,0.0,Pattern modéré (ratio 0.85) → plafond 2.0x - Amplification déjà au plafond
+2025-04-10,134.00344341148195,38.17499601239873,95.82844739908322,71.51192906649759,Protection : amplification trop faible corrigée à 0.1x
+2025-03-12,6.0628449998583775,6.0628449998583775,0.0,0.0,Amplification déjà inférieure au plafond (0.99x < 2.0x)
+2025-01-15,14.631413111820637,14.631413111820647,-1.0658141036401503e-14,-7.284423558371713e-14,Amplification déjà inférieure au plafond (1.60x < 2.0x)
+2024-12-11,35.617932768317054,35.617932768317054,0.0,0.0,Pattern modéré (ratio 1.09) → plafond 2.0x - Amplification déjà au plafond
+2024-11-13,11.666072816275936,11.666072816275936,0.0,0.0,Amplification déjà inférieure au plafond (2.00x < 2.5x)
+2024-09-11,6.117553973149988,6.117553973149988,0.0,0.0,Amplification déjà inférieure au plafond (1.40x < 2.0x)
+2024-07-11,9.207758235140853,9.207758235140853,0.0,0.0,Amplification déjà inférieure au plafond (1.79x < 2.0x)
+2024-06-12,12.574436959281854,12.574436959281854,0.0,0.0,Amplification déjà inférieure au plafond (1.40x < 2.5x)
+2024-05-15,9.914166355419468,9.914166355419468,0.0,0.0,Amplification déjà inférieure au plafond (2.00x < 3.0x)
+2024-03-12,31.43704752676968,31.43704752676968,0.0,0.0,Amplification déjà inférieure au plafond (1.42x < 2.0x)
+2024-01-11,9.148504769137716,9.148504769137716,0.0,0.0,Amplification déjà inférieure au plafond (2.00x < 3.0x)

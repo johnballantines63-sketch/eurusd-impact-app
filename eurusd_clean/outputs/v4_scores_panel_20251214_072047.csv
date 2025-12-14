@@ -1,0 +1,2 @@
+date_local,kernel_size,kernel_releases,kernel_keys_json,score_0_100,prob_up,prob_down,impact_pred_pips
+2025-08-01,10,1,"[""average hourly earnings mom"", ""average hourly earnings yoy"", ""average weekly hours"", ""government payrolls"", ""manufacturing payrolls"", ""non farm payrolls"", ""nonfarm payrolls private"", ""participation rate"", ""u6 unemployment rate"", ""unemployment rate""]",99.49832775919732,0.031188515673233424,0.9688114843267666,37.08939652949957

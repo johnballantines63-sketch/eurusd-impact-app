@@ -1,0 +1,11 @@
+================================================================================
+ANALYSE EMPIRIQUE DES ÉVÉNEMENTS MULTIPLES
+================================================================================
+
+📊 Étape 1 : Identification des jours avec événements multiples...
+❌ Erreur requête : Binder Error: Referenced column "surprise" not found in FROM clause!
+Candidate bindings: "unit", "previous", "estimate", "ts_utc", "importance_n"
+
+LINE 12:         WHERE surprise IS NOT NULL
+                       ^
+❌ Aucun jour avec événements multiples trouvé

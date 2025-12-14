@@ -1,0 +1,37 @@
+ts_utc,ts_local,country,event_key,event_title,actual,consensus,previous,importance_n,is_core
+2025-09-11 01:01:00+02:00,2025-09-11 01:01:00+02:00,UK,rics house price balance,RICS House Price Balance,-19.0,-10.0,-13.0,2,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,bsi large manufacturing qoq,BSI Large Manufacturing QoQ,3.8,-3.3,-4.8,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,stock investment by foreigners,Stock Investment by Foreigners,108.6,,-785.7,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,ppi mom,PPI MoM,-0.2,-0.1,0.3,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,ppi yoy,PPI YoY,2.7,2.7,2.5,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,stock investment by foreigners,Stock Investment by Foreigners,108.6,,-785.7,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,bsi large manufacturing qoq,BSI Large Manufacturing QoQ,3.8,-3.3,-4.8,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,foreign bond investment,Foreign Bond Investment,245.1,,1419.9,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,ppi mom,PPI MoM,-0.2,-0.1,0.3,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,ppi yoy,PPI YoY,2.7,2.7,2.5,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,stock investment by foreigners,Stock Investment by Foreigners,108.6,,-785.7,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,bsi large manufacturing qoq,BSI Large Manufacturing QoQ,3.8,-3.3,-4.8,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,foreign bond investment,Foreign Bond Investment,245.1,,1419.9,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,ppi mom,PPI MoM,-0.2,-0.1,0.3,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,ppi yoy,PPI YoY,2.7,2.7,2.5,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,stock investment by foreigners,Stock Investment by Foreigners,108.6,,-785.7,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,bsi large manufacturing qoq,BSI Large Manufacturing QoQ,3.8,-3.3,-4.8,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,foreign bond investment,Foreign Bond Investment,245.1,,1419.9,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,ppi mom,PPI MoM,-0.2,-0.1,0.3,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,ppi yoy,PPI YoY,2.7,2.7,2.5,3,False
+2025-09-11 01:50:00+02:00,2025-09-11 01:50:00+02:00,JP,foreign bond investment,Foreign Bond Investment,245.1,,1419.9,3,False
+2025-09-11 14:00:00+02:00,2025-09-11 14:00:00+02:00,MX,industrial production mom,Industrial Production MoM,-1.2,-0.2,-0.3,3,False
+2025-09-11 14:00:00+02:00,2025-09-11 14:00:00+02:00,MX,industrial production yoy,Industrial Production YoY,-2.7,-0.9,-0.4,3,False
+2025-09-11 14:00:00+02:00,2025-09-11 14:00:00+02:00,MX,industrial production yoy,Industrial Production YoY,-2.7,-0.9,-0.4,3,False
+2025-09-11 14:00:00+02:00,2025-09-11 14:00:00+02:00,MX,industrial production mom,Industrial Production MoM,-1.2,-0.2,-0.3,3,False
+2025-09-11 14:30:00+02:00,2025-09-11 14:30:00+02:00,US,continuing jobless claims,Continuing Jobless Claims,1939.0,1950.0,1939.0,3,True
+2025-09-11 14:30:00+02:00,2025-09-11 14:30:00+02:00,US,core inflation rate mom,Core Inflation Rate MoM,0.3,0.3,0.3,1,True
+2025-09-11 14:30:00+02:00,2025-09-11 14:30:00+02:00,US,core inflation rate yoy,Core Inflation Rate YoY,3.1,3.1,3.1,1,True
+2025-09-11 14:30:00+02:00,2025-09-11 14:30:00+02:00,US,cpi sa,CPI s.a,323.364,,322.132,2,True
+2025-09-11 14:30:00+02:00,2025-09-11 14:30:00+02:00,US,inflation rate yoy,Inflation Rate YoY,2.9,2.9,2.7,1,True
+2025-09-11 14:30:00+02:00,2025-09-11 14:30:00+02:00,US,initial jobless claims,Initial Jobless Claims,263.0,235.0,236.0,2,True
+2025-09-11 14:30:00+02:00,2025-09-11 14:30:00+02:00,US,jobless claims 4week average,Jobless Claims 4-week Average,240.5,,230.75,3,True
+2025-09-11 14:30:00+02:00,2025-09-11 14:30:00+02:00,US,inflation rate mom,Inflation Rate MoM,0.4,0.3,0.2,1,True
+2025-09-11 14:30:00+02:00,2025-09-11 14:30:00+02:00,US,cpi,CPI,323.98,323.89,323.05,2,True
+2025-09-11 14:45:00+02:00,2025-09-11 14:45:00+02:00,DE,current account,Current Account,14.8,,17.1,3,False
+2025-09-11 15:00:00+02:00,2025-09-11 15:00:00+02:00,RU,balance of trade,Balance of Trade,13.17,,9.3,3,False

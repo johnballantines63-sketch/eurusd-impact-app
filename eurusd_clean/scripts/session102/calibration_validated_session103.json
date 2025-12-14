@@ -1,0 +1,15 @@
+{
+  "validation": "session_92.5_timestamps_fix",
+  "impact_real_validated": 56.8,
+  "impact_mt5": 56.2,
+  "ecart_vs_mt5": 0.5999999999999943,
+  "calibration": {
+    "score_adjusted": 84.2,
+    "num_events": 11,
+    "impact_baseline_2_5": 56.26899300000001,
+    "amp_optimal": 2.5235936200434987,
+    "correction_factor": 1.0094374480173995,
+    "error_pips": 2.8696428927332818e-05,
+    "recommendation": "baseline_2_5_validated"
+  }
+}

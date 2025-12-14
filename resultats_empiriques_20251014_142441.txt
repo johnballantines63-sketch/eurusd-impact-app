@@ -1,0 +1,699 @@
+================================================================================
+ANALYSE EMPIRIQUE DES ÉVÉNEMENTS MULTIPLES
+================================================================================
+
+📊 Étape 1 : Identification des jours avec événements multiples...
+
+✅ Trouvé 50 jours avec événements multiples (gap ≤ 15 min)
+
+  event_date  num_events                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          events_list                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              timestamps  num_simultaneous
+0 2025-09-11          11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ECB Interest Rate Decision (EU), Interest Rate Decision (EU), Marginal Lending Rate (EU), Continuing Jobless Claims (US), Core Inflation Rate (US), CPI (US), CPI s.a (US), Inflation Rate (US), Initial Jobless Claims (US), Jobless Claims 4-Week Average (US), Current Account (DE)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  2025-09-11 14:15:00+02, 2025-09-11 14:15:00+02, 2025-09-11 14:15:00+02, 2025-09-11 14:30:00+02, 2025-09-11 14:30:00+02, 2025-09-11 14:30:00+02, 2025-09-11 14:30:00+02, 2025-09-11 14:30:00+02, 2025-09-11 14:30:00+02, 2025-09-11 14:30:00+02, 2025-09-11 14:45:00+02              11.0
+1 2025-09-10           5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  PPI Ex Food, Energy and Trade (US), Producer Price Index (US), EIA Crude Oil Stocks Change (US), EIA Distillate Stocks Change (US), EIA Gasoline Stocks Change (US)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  2025-09-10 14:30:00+02, 2025-09-10 14:30:00+02, 2025-09-10 16:30:00+02, 2025-09-10 16:30:00+02, 2025-09-10 16:30:00+02               5.0
+2 2025-09-08           4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Exports (DE), Imports (DE), Trade Balance (DE), Consumer Credit Change (US)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          2025-09-08 08:00:00+02, 2025-09-08 08:00:00+02, 2025-09-08 08:00:00+02, 2025-09-08 21:00:00+02               4.0
+3 2025-09-05          14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Current Account (FR), Exports (FR), Foreign Exchange Reserves (FR), Imports (FR), Trade Balance (FR), GDP Growth Rate (EU), Gross Domestic Product (EU), Average Weekly Hours (US), Manufacturing Payrolls (US), Non Farm Payrolls (US), Nonfarm Payrolls Private (US), Participation Rate (US), U-6 Unemployment Rate (US), Unemployment Rate (US)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          2025-09-05 08:45:00+02, 2025-09-05 08:45:00+02, 2025-09-05 08:45:00+02, 2025-09-05 08:45:00+02, 2025-09-05 08:45:00+02, 2025-09-05 11:00:00+02, 2025-09-05 11:00:00+02, 2025-09-05 14:30:00+02, 2025-09-05 14:30:00+02, 2025-09-05 14:30:00+02, 2025-09-05 14:30:00+02, 2025-09-05 14:30:00+02, 2025-09-05 14:30:00+02, 2025-09-05 14:30:00+02              14.0
+4 2025-09-04          27                                                                                                                                                                                                                                                HCOB Construction PMI (DE), HCOB Construction PMI (EU), HCOB Construction PMI (FR), HCOB Construction PMI (IT), Retail Sales (EU), Balance of Trade (US), Continuing Jobless Claims (US), Exports (US), Imports (US), Initial Jobless Claims (US), Jobless Claims 4-Week Average (US), Nonfarm Productivity (US), Trade Balance (US), Unit Labour Costs (US), S&P Global Services PMI (US), ISM Non-Manufacturing Employment (US), ISM Non-Manufacturing PMI (US), ISM Non-Manufacturing Prices (US), ISM Services Business Activity (US), ISM Services Employment (US), ISM Services New Orders (US), ISM Services PMI (US), ISM Services Prices (US), Atlanta Fed GDPNow (US), EIA Crude Oil Stocks Change (US), EIA Distillate Stocks Change (US), EIA Gasoline Stocks Change (US)                                                                                                                                                                                                                                                                                                  2025-09-04 09:30:00+02, 2025-09-04 09:30:00+02, 2025-09-04 09:30:00+02, 2025-09-04 09:30:00+02, 2025-09-04 11:00:00+02, 2025-09-04 14:30:00+02, 2025-09-04 14:30:00+02, 2025-09-04 14:30:00+02, 2025-09-04 14:30:00+02, 2025-09-04 14:30:00+02, 2025-09-04 14:30:00+02, 2025-09-04 14:30:00+02, 2025-09-04 14:30:00+02, 2025-09-04 14:30:00+02, 2025-09-04 15:45:00+02, 2025-09-04 16:00:00+02, 2025-09-04 16:00:00+02, 2025-09-04 16:00:00+02, 2025-09-04 16:00:00+02, 2025-09-04 16:00:00+02, 2025-09-04 16:00:00+02, 2025-09-04 16:00:00+02, 2025-09-04 16:00:00+02, 2025-09-04 18:00:00+02, 2025-09-04 18:00:00+02, 2025-09-04 18:00:00+02, 2025-09-04 18:00:00+02              27.0
+5 2025-09-03          21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                HCOB Services PMI (ES), Services PMI (ES), HCOB Services PMI (IT), Services PMI (IT), HCOB Composite PMI (FR), HCOB Services PMI (FR), PMI (FR), Services PMI (FR), HCOB Composite PMI (DE), HCOB Services PMI (DE), PMI (DE), Services PMI (DE), HCOB Composite PMI (EU), HCOB Services PMI (EU), PMI (EU), Services PMI (EU), New Car Registrations (DE), Factory Orders (US), Factory Orders ex Transportation (US), JOLTs Job Openings (US), JOLTs Job Quits (US)                                                                                                                                                                                                                                                                                                                                                                                                                                                  2025-09-03 09:15:00+02, 2025-09-03 09:15:00+02, 2025-09-03 09:45:00+02, 2025-09-03 09:45:00+02, 2025-09-03 09:50:00+02, 2025-09-03 09:50:00+02, 2025-09-03 09:50:00+02, 2025-09-03 09:50:00+02, 2025-09-03 09:55:00+02, 2025-09-03 09:55:00+02, 2025-09-03 09:55:00+02, 2025-09-03 09:55:00+02, 2025-09-03 10:00:00+02, 2025-09-03 10:00:00+02, 2025-09-03 10:00:00+02, 2025-09-03 10:00:00+02, 2025-09-03 11:30:00+02, 2025-09-03 16:00:00+02, 2025-09-03 16:00:00+02, 2025-09-03 16:00:00+02, 2025-09-03 16:00:00+02              21.0
+6 2025-09-02          12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Employment Change (ES), CPI (EU), Inflation Rate (EU), Producer Price Index (IT), Construction Spending (US), ISM Manufacturing Employment (US), ISM Manufacturing New Orders (US), ISM Manufacturing PMI (US), ISM Manufacturing Prices (US), IBD/TIPP Economic Optimism (US), RCM/TIPP Economic Optimism Index (US), Atlanta Fed GDPNow (US)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          2025-09-02 09:00:00+02, 2025-09-02 11:00:00+02, 2025-09-02 11:00:00+02, 2025-09-02 11:00:00+02, 2025-09-02 16:00:00+02, 2025-09-02 16:00:00+02, 2025-09-02 16:00:00+02, 2025-09-02 16:00:00+02, 2025-09-02 16:00:00+02, 2025-09-02 16:10:00+02, 2025-09-02 16:10:00+02, 2025-09-02 19:00:00+02              12.0
+7 2025-09-01          10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   HCOB Manufacturing PMI (ES), Manufacturing PMI (ES), Manufacturing PMI (IT), HCOB Manufacturing PMI (FR), Manufacturing PMI (FR), HCOB Manufacturing PMI (DE), Manufacturing PMI (DE), HCOB Manufacturing PMI (EU), Manufacturing PMI (EU), Unemployment Rate (IT)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          2025-09-01 09:15:00+02, 2025-09-01 09:15:00+02, 2025-09-01 09:45:00+02, 2025-09-01 09:50:00+02, 2025-09-01 09:50:00+02, 2025-09-01 09:55:00+02, 2025-09-01 09:55:00+02, 2025-09-01 10:00:00+02, 2025-09-01 10:00:00+02, 2025-09-01 10:00:00+02              10.0
+8 2025-08-29          39  Retail Sales (DE), CPI (FR), GDP Growth Rate (FR), Gross Domestic Product (FR), Harmonised Inflation Rate (FR), HICP (FR), Household Consumption (FR), Inflation Rate (FR), Producer Price Index (FR), Core Inflation Rate (ES), CPI (ES), Harmonised Inflation Rate (ES), HICP (ES), Inflation Rate (ES), Retail Sales (ES), Unemployed Persons (DE), Unemployment Rate (DE), Consumer Inflation Expectation (EU), Current Account (ES), GDP Growth Rate (IT), Gross Domestic Product (IT), Harmonised Inflation Rate (IT), HICP (IT), Inflation Rate (IT), Harmonised Inflation Rate (DE), Inflation Rate (DE), Goods Trade Balance (US), Goods Trade Balance Adv (US), PCE Price Index (US), Personal Income (US), Personal Spending (US), Retail Inventories Ex Autos (US), Wholesale Inventories (US), Inflation Expectations (US), Michigan 5 Year Inflation Expectations (US), Michigan Consumer Expectations (US), Michigan Consumer Sentiment (US), Michigan Current Conditions (US), Michigan Inflation Expectations (US)  2025-08-29 08:00:00+02, 2025-08-29 08:45:00+02, 2025-08-29 08:45:00+02, 2025-08-29 08:45:00+02, 2025-08-29 08:45:00+02, 2025-08-29 08:45:00+02, 2025-08-29 08:45:00+02, 2025-08-29 08:45:00+02, 2025-08-29 08:45:00+02, 2025-08-29 09:00:00+02, 2025-08-29 09:00:00+02, 2025-08-29 09:00:00+02, 2025-08-29 09:00:00+02, 2025-08-29 09:00:00+02, 2025-08-29 09:00:00+02, 2025-08-29 09:55:00+02, 2025-08-29 09:55:00+02, 2025-08-29 10:00:00+02, 2025-08-29 10:00:00+02, 2025-08-29 10:00:00+02, 2025-08-29 10:00:00+02, 2025-08-29 11:00:00+02, 2025-08-29 11:00:00+02, 2025-08-29 11:00:00+02, 2025-08-29 14:00:00+02, 2025-08-29 14:00:00+02, 2025-08-29 14:30:00+02, 2025-08-29 14:30:00+02, 2025-08-29 14:30:00+02, 2025-08-29 14:30:00+02, 2025-08-29 14:30:00+02, 2025-08-29 14:30:00+02, 2025-08-29 14:30:00+02, 2025-08-29 16:00:00+02, 2025-08-29 16:00:00+02, 2025-08-29 16:00:00+02, 2025-08-29 16:00:00+02, 2025-08-29 16:00:00+02, 2025-08-29 16:00:00+02              39.0
+9 2025-08-28          23                                                                                                                                                                                                                                                                                                                                                                                                                   New Car Registrations (EU), Consumer Confidence (IT), Loans to Companies (EU), Loans to Households (EU), M3 Money Supply (EU), Private sector loans (EU), Consumer Confidence (EU), Consumer Inflation Expectation (EU), Economic Sentiment (EU), Industrial Sales (IT), Industrial Sentiment (EU), Selling Price Expectations (EU), Services Sentiment (EU), Core PCE Prices (US), Corporate Profits (US), GDP Growth Rate (US), GDP Price Index (US), GDP Sales (US), Gross Domestic Product (US), Initial Jobless Claims (US), Jobless Claims 4-Week Average (US), PCE Prices (US), Real Consumer Spending (US)                                                                                                                                                                                                                                                                                                                                                                                                  2025-08-28 06:00:00+02, 2025-08-28 10:00:00+02, 2025-08-28 10:00:00+02, 2025-08-28 10:00:00+02, 2025-08-28 10:00:00+02, 2025-08-28 10:00:00+02, 2025-08-28 11:00:00+02, 2025-08-28 11:00:00+02, 2025-08-28 11:00:00+02, 2025-08-28 11:00:00+02, 2025-08-28 11:00:00+02, 2025-08-28 11:00:00+02, 2025-08-28 11:00:00+02, 2025-08-28 14:30:00+02, 2025-08-28 14:30:00+02, 2025-08-28 14:30:00+02, 2025-08-28 14:30:00+02, 2025-08-28 14:30:00+02, 2025-08-28 14:30:00+02, 2025-08-28 14:30:00+02, 2025-08-28 14:30:00+02, 2025-08-28 14:30:00+02, 2025-08-28 14:30:00+02              23.0
+
+================================================================================
+📊 Étape 2 : Analyse détaillée des cas récents...
+================================================================================
+
+
+🔍 Analyse du 2025-09-11 00:00:00...
+   Événements : ECB Interest Rate Decision (EU), Interest Rate Decision (EU), Marginal Lending Rate (EU), Continuing...
+
+   ✅ 2 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 12 événement(s)
+      - Direction : UP
+      - Mouvement : 35.0 pips
+
+   Phase 2 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -11.2 pips
+--------------------------------------------------------------------------------
+
+🔍 Analyse du 2025-09-10 00:00:00...
+   Événements : PPI Ex Food, Energy and Trade (US), Producer Price Index (US), EIA Crude Oil Stocks Change (US), EIA...
+
+   ✅ 6 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -31.0 pips
+
+   Phase 2 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -11.3 pips
+
+   Phase 3 :
+      - 3 événement(s)
+      - Direction : UP
+      - Mouvement : 31.2 pips
+
+   Phase 4 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 10.3 pips
+
+   Phase 5 :
+      - 3 événement(s)
+      - Direction : DOWN
+      - Mouvement : -7.9 pips
+
+   Phase 6 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -7.2 pips
+--------------------------------------------------------------------------------
+
+🔍 Analyse du 2025-09-08 00:00:00...
+   Événements : Exports (DE), Imports (DE), Trade Balance (DE), Consumer Credit Change (US)...
+
+   ✅ 5 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 4 événement(s)
+      - Direction : UP
+      - Mouvement : 7.7 pips
+
+   Phase 2 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -8.3 pips
+
+   Phase 3 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -5.1 pips
+
+   Phase 4 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 7.2 pips
+
+   Phase 5 :
+      - 2 événement(s)
+      - Direction : UP
+      - Mouvement : 10.8 pips
+--------------------------------------------------------------------------------
+
+🔍 Analyse du 2025-09-05 00:00:00...
+   Événements : Current Account (FR), Exports (FR), Foreign Exchange Reserves (FR), Imports (FR), Trade Balance (FR)...
+
+   ✅ 6 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 5.8 pips
+
+   Phase 2 :
+      - 6 événement(s)
+      - Direction : DOWN
+      - Mouvement : -6.1 pips
+
+   Phase 3 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 8.6 pips
+
+   Phase 4 :
+      - 3 événement(s)
+      - Direction : UP
+      - Mouvement : 10.9 pips
+
+   Phase 5 :
+      - 8 événement(s)
+      - Direction : UP
+      - Mouvement : 49.9 pips
+
+   Phase 6 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -15.5 pips
+--------------------------------------------------------------------------------
+
+🔍 Analyse du 2025-09-04 00:00:00...
+   Événements : HCOB Construction PMI (DE), HCOB Construction PMI (EU), HCOB Construction PMI (FR), HCOB Constructio...
+
+   ✅ 8 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 3.0 pips
+
+   Phase 2 :
+      - 4 événement(s)
+      - Direction : UP
+      - Mouvement : 9.0 pips
+
+   Phase 3 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 7.2 pips
+
+   Phase 4 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -2.6 pips
+
+   Phase 5 :
+      - 10 événement(s)
+      - Direction : UP
+      - Mouvement : 10.0 pips
+
+   Phase 6 :
+      - 10 événement(s)
+      - Direction : DOWN
+      - Mouvement : -14.1 pips
+
+   Phase 7 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -14.3 pips
+
+   Phase 8 :
+      - 4 événement(s)
+      - Direction : DOWN
+      - Mouvement : -14.2 pips
+--------------------------------------------------------------------------------
+
+🔍 Analyse du 2025-09-03 00:00:00...
+   Événements : HCOB Services PMI (ES), Services PMI (ES), HCOB Services PMI (IT), Services PMI (IT), HCOB Composite...
+
+   ✅ 7 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 3 événement(s)
+      - Direction : DOWN
+      - Mouvement : -21.8 pips
+
+   Phase 2 :
+      - 15 événement(s)
+      - Direction : UP
+      - Mouvement : 17.6 pips
+
+   Phase 3 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 7.5 pips
+
+   Phase 4 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 10.6 pips
+
+   Phase 5 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -9.9 pips
+
+   Phase 6 :
+      - 5 événement(s)
+      - Direction : UP
+      - Mouvement : 39.6 pips
+
+   Phase 7 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 5.5 pips
+--------------------------------------------------------------------------------
+
+🔍 Analyse du 2025-09-02 00:00:00...
+   Événements : Employment Change (ES), CPI (EU), Inflation Rate (EU), Producer Price Index (IT), Construction Spend...
+
+   ✅ 4 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 2 événement(s)
+      - Direction : DOWN
+      - Mouvement : -3.0 pips
+
+   Phase 2 :
+      - 4 événement(s)
+      - Direction : DOWN
+      - Mouvement : -18.6 pips
+
+   Phase 3 :
+      - 8 événement(s)
+      - Direction : UP
+      - Mouvement : 23.0 pips
+
+   Phase 4 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -4.0 pips
+--------------------------------------------------------------------------------
+
+🔍 Analyse du 2025-09-01 00:00:00...
+   Événements : HCOB Manufacturing PMI (ES), Manufacturing PMI (ES), Manufacturing PMI (IT), HCOB Manufacturing PMI ...
+
+   ✅ 5 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 3 événement(s)
+      - Direction : DOWN
+      - Mouvement : -13.2 pips
+
+   Phase 2 :
+      - 9 événement(s)
+      - Direction : UP
+      - Mouvement : 10.9 pips
+
+   Phase 3 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -10.8 pips
+
+   Phase 4 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 7.8 pips
+
+   Phase 5 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -6.3 pips
+--------------------------------------------------------------------------------
+
+🔍 Analyse du 2025-08-29 00:00:00...
+   Événements : Retail Sales (DE), CPI (FR), GDP Growth Rate (FR), Gross Domestic Product (FR), Harmonised Inflation...
+
+   ✅ 8 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 2 événement(s)
+      - Direction : UP
+      - Mouvement : 6.8 pips
+
+   Phase 2 :
+      - 15 événement(s)
+      - Direction : UP
+      - Mouvement : 5.5 pips
+
+   Phase 3 :
+      - 7 événement(s)
+      - Direction : UP
+      - Mouvement : 11.3 pips
+
+   Phase 4 :
+      - 4 événement(s)
+      - Direction : DOWN
+      - Mouvement : -11.3 pips
+
+   Phase 5 :
+      - 2 événement(s)
+      - Direction : DOWN
+      - Mouvement : -11.4 pips
+
+   Phase 6 :
+      - 8 événement(s)
+      - Direction : UP
+      - Mouvement : 7.1 pips
+
+   Phase 7 :
+      - 7 événement(s)
+      - Direction : UP
+      - Mouvement : 15.8 pips
+
+   Phase 8 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 5.6 pips
+--------------------------------------------------------------------------------
+
+🔍 Analyse du 2025-08-28 00:00:00...
+   Événements : New Car Registrations (EU), Consumer Confidence (IT), Loans to Companies (EU), Loans to Households (...
+
+   ✅ 7 phase(s) identifiée(s)
+
+   Phase 1 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -3.0 pips
+
+   Phase 2 :
+      - 6 événement(s)
+      - Direction : UP
+      - Mouvement : 7.5 pips
+
+   Phase 3 :
+      - 7 événement(s)
+      - Direction : UP
+      - Mouvement : 9.6 pips
+
+   Phase 4 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -12.4 pips
+
+   Phase 5 :
+      - 11 événement(s)
+      - Direction : UP
+      - Mouvement : 16.8 pips
+
+   Phase 6 :
+      - 1 événement(s)
+      - Direction : UP
+      - Mouvement : 16.0 pips
+
+   Phase 7 :
+      - 1 événement(s)
+      - Direction : DOWN
+      - Mouvement : -13.4 pips
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 Étape 3 : Analyse des interactions multi-phases...
+================================================================================
+
+
+📅 2025-09-11 00:00:00 - 2 phases
+
+   Phase 1→2 :
+      - Phase 1 : +35.0 pips
+      - Phase 2 : -11.2 pips
+      - Directions opposées (vectoriel naturel)
+
+📅 2025-09-10 00:00:00 - 6 phases
+
+   Phase 1→2 :
+      - Phase 1 : -31.0 pips
+      - Phase 2 : -11.3 pips
+      - Somme attendue : 42.3 pips
+      - Mouvement net réel : 19.1 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 45.15%
+
+   Phase 1→2 :
+      - Phase 1 : -11.3 pips
+      - Phase 2 : +31.2 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +31.2 pips
+      - Phase 2 : +10.3 pips
+      - Somme attendue : 41.5 pips
+      - Mouvement net réel : 32.7 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 78.80%
+
+   Phase 1→2 :
+      - Phase 1 : +10.3 pips
+      - Phase 2 : -7.9 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : -7.9 pips
+      - Phase 2 : -7.2 pips
+      - Somme attendue : 15.1 pips
+      - Mouvement net réel : 16.8 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 111.26%
+
+📅 2025-09-08 00:00:00 - 5 phases
+
+   Phase 1→2 :
+      - Phase 1 : +7.7 pips
+      - Phase 2 : -8.3 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : -8.3 pips
+      - Phase 2 : -5.1 pips
+      - Somme attendue : 13.4 pips
+      - Mouvement net réel : 15.8 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 117.91%
+
+   Phase 1→2 :
+      - Phase 1 : -5.1 pips
+      - Phase 2 : +7.2 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +7.2 pips
+      - Phase 2 : +10.8 pips
+      - Somme attendue : 18.0 pips
+      - Mouvement net réel : 21.2 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 117.78%
+
+📅 2025-09-05 00:00:00 - 6 phases
+
+   Phase 1→2 :
+      - Phase 1 : +5.8 pips
+      - Phase 2 : -6.1 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : -6.1 pips
+      - Phase 2 : +8.6 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +8.6 pips
+      - Phase 2 : +10.9 pips
+      - Somme attendue : 19.5 pips
+      - Mouvement net réel : 14.7 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 75.38%
+
+   Phase 1→2 :
+      - Phase 1 : +10.9 pips
+      - Phase 2 : +49.9 pips
+      - Somme attendue : 60.8 pips
+      - Mouvement net réel : 70.8 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 116.45%
+
+   Phase 1→2 :
+      - Phase 1 : +49.9 pips
+      - Phase 2 : -15.5 pips
+      - Directions opposées (vectoriel naturel)
+
+📅 2025-09-04 00:00:00 - 8 phases
+
+   Phase 1→2 :
+      - Phase 1 : +3.0 pips
+      - Phase 2 : +9.0 pips
+      - Somme attendue : 12.0 pips
+      - Mouvement net réel : 2.8 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 23.33%
+
+   Phase 1→2 :
+      - Phase 1 : +9.0 pips
+      - Phase 2 : +7.2 pips
+      - Somme attendue : 16.2 pips
+      - Mouvement net réel : 11.2 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 69.14%
+
+   Phase 1→2 :
+      - Phase 1 : +7.2 pips
+      - Phase 2 : -2.6 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : -2.6 pips
+      - Phase 2 : +10.0 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +10.0 pips
+      - Phase 2 : -14.1 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : -14.1 pips
+      - Phase 2 : -14.3 pips
+      - Somme attendue : 28.4 pips
+      - Mouvement net réel : 20.1 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 70.77%
+
+   Phase 1→2 :
+      - Phase 1 : -14.3 pips
+      - Phase 2 : -14.2 pips
+      - Somme attendue : 28.5 pips
+      - Mouvement net réel : 11.2 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 39.30%
+
+📅 2025-09-03 00:00:00 - 7 phases
+
+   Phase 1→2 :
+      - Phase 1 : -21.8 pips
+      - Phase 2 : +17.6 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +17.6 pips
+      - Phase 2 : +7.5 pips
+      - Somme attendue : 25.1 pips
+      - Mouvement net réel : 35.0 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 139.44%
+
+   Phase 1→2 :
+      - Phase 1 : +7.5 pips
+      - Phase 2 : +10.6 pips
+      - Somme attendue : 18.1 pips
+      - Mouvement net réel : 12.0 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 66.30%
+
+   Phase 1→2 :
+      - Phase 1 : +10.6 pips
+      - Phase 2 : -9.9 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : -9.9 pips
+      - Phase 2 : +39.6 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +39.6 pips
+      - Phase 2 : +5.5 pips
+      - Somme attendue : 45.1 pips
+      - Mouvement net réel : 23.8 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 52.77%
+
+📅 2025-09-02 00:00:00 - 4 phases
+
+   Phase 1→2 :
+      - Phase 1 : -3.0 pips
+      - Phase 2 : -18.6 pips
+      - Somme attendue : 21.6 pips
+      - Mouvement net réel : 73.3 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 339.35%
+
+   Phase 1→2 :
+      - Phase 1 : -18.6 pips
+      - Phase 2 : +23.0 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +23.0 pips
+      - Phase 2 : -4.0 pips
+      - Directions opposées (vectoriel naturel)
+
+📅 2025-09-01 00:00:00 - 5 phases
+
+   Phase 1→2 :
+      - Phase 1 : -13.2 pips
+      - Phase 2 : +10.9 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +10.9 pips
+      - Phase 2 : -10.8 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : -10.8 pips
+      - Phase 2 : +7.8 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +7.8 pips
+      - Phase 2 : -6.3 pips
+      - Directions opposées (vectoriel naturel)
+
+📅 2025-08-29 00:00:00 - 8 phases
+
+   Phase 1→2 :
+      - Phase 1 : +6.8 pips
+      - Phase 2 : +5.5 pips
+      - Somme attendue : 12.3 pips
+      - Mouvement net réel : 7.2 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 58.54%
+
+   Phase 1→2 :
+      - Phase 1 : +5.5 pips
+      - Phase 2 : +11.3 pips
+      - Somme attendue : 16.8 pips
+      - Mouvement net réel : 13.0 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 77.38%
+
+   Phase 1→2 :
+      - Phase 1 : +11.3 pips
+      - Phase 2 : -11.3 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : -11.3 pips
+      - Phase 2 : -11.4 pips
+      - Somme attendue : 22.7 pips
+      - Mouvement net réel : 31.1 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 137.00%
+
+   Phase 1→2 :
+      - Phase 1 : -11.4 pips
+      - Phase 2 : +7.1 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +7.1 pips
+      - Phase 2 : +15.8 pips
+      - Somme attendue : 22.9 pips
+      - Mouvement net réel : 18.7 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 81.66%
+
+   Phase 1→2 :
+      - Phase 1 : +15.8 pips
+      - Phase 2 : +5.6 pips
+      - Somme attendue : 21.4 pips
+      - Mouvement net réel : 44.4 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 207.48%
+
+📅 2025-08-28 00:00:00 - 7 phases
+
+   Phase 1→2 :
+      - Phase 1 : -3.0 pips
+      - Phase 2 : +7.5 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +7.5 pips
+      - Phase 2 : +9.6 pips
+      - Somme attendue : 17.1 pips
+      - Mouvement net réel : 11.2 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 65.50%
+
+   Phase 1→2 :
+      - Phase 1 : +9.6 pips
+      - Phase 2 : -12.4 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : -12.4 pips
+      - Phase 2 : +16.8 pips
+      - Directions opposées (vectoriel naturel)
+
+   Phase 1→2 :
+      - Phase 1 : +16.8 pips
+      - Phase 2 : +16.0 pips
+      - Somme attendue : 32.8 pips
+      - Mouvement net réel : 16.2 pips
+      - ⚠️ FACTEUR D'ATTÉNUATION : 49.39%
+
+   Phase 1→2 :
+      - Phase 1 : +16.0 pips
+      - Phase 2 : -13.4 pips
+      - Directions opposées (vectoriel naturel)
+
+================================================================================
+📊 STATISTIQUES D'ATTÉNUATION (même direction)
+================================================================================
+
+Nombre d'observations : 22
+Facteur moyen : 97.28%
+Facteur médian : 77.38%
+Min : 23.33%
+Max : 339.35%
+
+💡 RECOMMANDATION : Utiliser facteur ~0.97 pour événements simultanés
+
+================================================================================
+✅ ANALYSE TERMINÉE
+================================================================================

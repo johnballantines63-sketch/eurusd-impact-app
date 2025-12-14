@@ -1,0 +1,66 @@
+{
+  "date": "2024-10-04",
+  "movement_start_time": "2024-10-04 12:30:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "DOWN",
+  "score": -0.7182818027708595,
+  "has_trigger": true,
+  "n_active": 5,
+  "contributions": [
+    {
+      "event_key": "non farm payrolls",
+      "family": "NFP",
+      "actual": 254.0,
+      "estimate": 140.0,
+      "surprise": 114.0,
+      "surprise_z": 0.884910138639871,
+      "alpha_weight": 1,
+      "contribution": 0.884910138639871,
+      "is_trigger": false
+    },
+    {
+      "event_key": "nonfarm payrolls private",
+      "family": "NFP",
+      "actual": 223.0,
+      "estimate": 125.0,
+      "surprise": 98.0,
+      "surprise_z": 1.0335485985650212,
+      "alpha_weight": 1,
+      "contribution": 1.0335485985650212,
+      "is_trigger": true
+    },
+    {
+      "event_key": "u 6 unemployment rate",
+      "family": "Unemployment",
+      "actual": 7.7,
+      "estimate": 8.0,
+      "surprise": -0.2999999999999998,
+      "surprise_z": -1.5855492677450704,
+      "alpha_weight": 1,
+      "contribution": -1.5855492677450704,
+      "is_trigger": true
+    },
+    {
+      "event_key": "unemployment rate",
+      "family": "Unemployment",
+      "actual": 4.1,
+      "estimate": 4.2,
+      "surprise": -0.10000000000000053,
+      "surprise_z": -0.35348713971148993,
+      "alpha_weight": 1,
+      "contribution": -0.35348713971148993,
+      "is_trigger": false
+    },
+    {
+      "event_key": "u-6 unemployment rate",
+      "family": "Unemployment",
+      "actual": 7.7,
+      "estimate": 8.0,
+      "surprise": -0.2999999999999998,
+      "surprise_z": -1.5855492677450704,
+      "alpha_weight": 1,
+      "contribution": -1.5855492677450704,
+      "is_trigger": true
+    }
+  ]
+}

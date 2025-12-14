@@ -1,0 +1,14 @@
+RÉSUMÉ OPTION C - TOUS LES CAS
+==================================================
+
+total_dates: 49
+mae_sans: 34.88
+mae_avec: 21.99
+amélioration_mae: -9.74
+amélioration_pct: -79.45
+cas_améliorés: 32
+cas_dégradés: 5
+cas_inchangés: 12
+taux_amélioration: 65.31
+pattern_utilisé: 38
+pattern_ignoré: 11

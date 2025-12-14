@@ -1,0 +1,30 @@
+{
+  "count": 5,
+  "mean_impact": 63.579999999999515,
+  "median_impact": 46.3799999999992,
+  "std_impact": 30.508182508959504,
+  "min_impact": 41.51000000000238,
+  "max_impact": 123.1699999999991,
+  "q1_impact": 45.88999999999732,
+  "q3_impact": 60.94999999999962,
+  "iqr_impact": 15.060000000002297,
+  "cv_impact": 47.983929708964666,
+  "num_outliers": 1,
+  "outliers": [
+    {
+      "movement_datetime": "2025-04-03 09:13:00+00:00",
+      "impact_pips": 123.1699999999991,
+      "total_score": 312.4391568368037,
+      "num_events": 23
+    }
+  ],
+  "mean_score": 334.47268130609916,
+  "mean_num_events": 19.2,
+  "correlation_impact_score": -0.3736854041254594,
+  "events_distribution": {
+    "23": 2,
+    "16": 1,
+    "14": 1,
+    "20": 1
+  }
+}

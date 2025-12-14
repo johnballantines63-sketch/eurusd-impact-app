@@ -1,0 +1,12 @@
+================================================================================
+FORMULE AMPLIFICATION DYNAMIQUE - SESSION 101
+================================================================================
+
+amplification = 0.5490 × R²_72h + 1.6988
+
+Corrélation R² vs Amp Optimale : 0.111
+MAE BASELINE (amp=2.5)         : 25.38 pips
+MAE NOUVELLE (dynamique)       : 22.06 pips
+AMÉLIORATION                   : 13.1%
+
+DÉCISION : ✅ VALIDER formule dynamique (amélioration >10%)

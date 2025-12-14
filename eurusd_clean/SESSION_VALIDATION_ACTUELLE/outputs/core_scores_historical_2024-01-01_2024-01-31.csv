@@ -1,0 +1,2 @@
+core_type,country,empirical_score,avg_impact_pips,p80_impact_pips,median_impact_pips,std_impact_pips,min_impact_pips,max_impact_pips,sample_size,pattern_distribution
+GENERIC,US,20.704250000000528,26.975000000000747,32.18000000000077,26.250000000000995,5.947425913788232,20.400000000000418,35.00000000000058,4,"{'UP': 3, 'DOWN': 1}"

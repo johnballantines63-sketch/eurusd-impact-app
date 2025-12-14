@@ -1,0 +1,14 @@
+{
+  "n_total": 24,
+  "n_triggered": 15,
+  "coverage_triggers": 62.5,
+  "accuracy_triggered": 0.0,
+  "balanced_accuracy": 0.0,
+  "accuracy_up": 0.0,
+  "accuracy_down": null,
+  "n_correct": 0,
+  "n_incorrect": 1,
+  "n_unknown": 14,
+  "n_up_real": 1,
+  "n_down_real": 0
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "event_key":"inflation rate_yoy",
+    "actual":2.9,
+    "estimate":2.9,
+    "empirical_score":46.1310027136,
+    "family":"Inflation",
+    "surprise":0.0
+  },
+  {
+    "event_key":"core inflation rate_yoy",
+    "actual":3.1,
+    "estimate":3.1,
+    "empirical_score":45.8563025875,
+    "family":"Inflation",
+    "surprise":0.0
+  },
+  {
+    "event_key":"inflation rate_mom",
+    "actual":0.4,
+    "estimate":0.3,
+    "empirical_score":45.7038482842,
+    "family":"Inflation",
+    "surprise":0.3333333333
+  },
+  {
+    "event_key":"cpi",
+    "actual":323.98,
+    "estimate":323.89,
+    "empirical_score":45.1341228602,
+    "family":"Inflation",
+    "surprise":0.0002778721
+  },
+  {
+    "event_key":"core inflation rate_mom",
+    "actual":0.3,
+    "estimate":0.3,
+    "empirical_score":45.0233012701,
+    "family":"Inflation",
+    "surprise":0.0
+  },
+  {
+    "event_key":"cpi s.a",
+    "actual":323.364,
+    "estimate":323.0,
+    "empirical_score":44.6922108373,
+    "family":"Inflation",
+    "surprise":0.001126935
+  },
+  {
+    "event_key":"inflation rate",
+    "actual":2.9,
+    "estimate":2.9,
+    "empirical_score":44.4148445124,
+    "family":"Inflation",
+    "surprise":0.0
+  },
+  {
+    "event_key":"core inflation rate",
+    "actual":0.3,
+    "estimate":0.3,
+    "empirical_score":44.4148445124,
+    "family":"Inflation",
+    "surprise":0.0
+  },
+  {
+    "event_key":"real earnings_mom",
+    "actual":-0.1,
+    "estimate":null,
+    "empirical_score":43.243742252,
+    "family":"Other",
+    "surprise":null
+  },
+  {
+    "event_key":"cpi s a",
+    "actual":323.364,
+    "estimate":323.0,
+    "empirical_score":42.0127283894,
+    "family":"Inflation",
+    "surprise":0.001126935
+  },
+  {
+    "event_key":"real earnings",
+    "actual":-0.1,
+    "estimate":null,
+    "empirical_score":40.7828449345,
+    "family":"Other",
+    "surprise":null
+  }
+]

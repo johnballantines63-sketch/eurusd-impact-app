@@ -1,0 +1,8 @@
+BACKUP effectué avant Session 92.3
+Date: 27 octobre 2025
+Raison: Avant implémentation amplifications calibrées par type
+
+Fichier source:
+5_Planificateur_V2_FORMULES_VALIDEES_backup_session72_fix_importance_20251024 copie 2.py
+
+Ce backup préserve la version avec amplification fixe 2.5

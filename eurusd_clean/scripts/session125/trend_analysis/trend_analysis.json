@@ -1,0 +1,256 @@
+{
+  "method": "detect_trend_reversals (Session 102 validated)",
+  "parameters": {
+    "window": 240,
+    "min_amplitude_pips": 30
+  },
+  "results": [
+    {
+      "cluster_time": "2023-03-14 16:30:00+00:00",
+      "impact_measured": 20.500000000001073,
+      "inversion_found": true,
+      "inversion_time": "2023-03-14 07:45:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.06797,
+      "trend_duration_hours": 8.733333333333333,
+      "trend_r2": 0.5351571924450987,
+      "trend_amplitude_pips": 67.80000000000008
+    },
+    {
+      "cluster_time": "2023-08-10 12:30:00+00:00",
+      "impact_measured": 41.29999999999967,
+      "inversion_found": true,
+      "inversion_time": "2023-08-09 12:19:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.09624,
+      "trend_duration_hours": 24.166666666666668,
+      "trend_r2": 0.534041387708696,
+      "trend_amplitude_pips": 67.59999999999877
+    },
+    {
+      "cluster_time": "2023-09-13 12:30:00+00:00",
+      "impact_measured": 30.799999999999716,
+      "inversion_found": true,
+      "inversion_time": "2023-09-12 01:12:00+00:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "inversion_price": 1.07615,
+      "trend_duration_hours": 35.28333333333333,
+      "trend_r2": 0.10993487043449617,
+      "trend_amplitude_pips": 58.30000000000002
+    },
+    {
+      "cluster_time": "2023-10-12 12:30:00+00:00",
+      "impact_measured": 54.69999999999864,
+      "inversion_found": true,
+      "inversion_time": "2023-10-11 12:30:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.05912,
+      "trend_duration_hours": 23.983333333333334,
+      "trend_r2": 0.25950299131796895,
+      "trend_amplitude_pips": 53.49999999999966
+    },
+    {
+      "cluster_time": "2023-11-14 13:30:00+00:00",
+      "impact_measured": 96.60000000000002,
+      "inversion_found": true,
+      "inversion_time": "2023-11-09 19:43:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.06607,
+      "trend_duration_hours": 113.76666666666667,
+      "trend_r2": 0.7697333908435033,
+      "trend_amplitude_pips": 73.00000000000084
+    },
+    {
+      "cluster_time": "2023-12-12 13:30:00+00:00",
+      "impact_measured": 34.899999999999935,
+      "inversion_found": true,
+      "inversion_time": "2023-12-05 18:41:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.07786,
+      "trend_duration_hours": 162.8,
+      "trend_r2": 0.17530434523042127,
+      "trend_amplitude_pips": 84.90000000000109
+    },
+    {
+      "cluster_time": "2024-02-13 13:30:00+00:00",
+      "impact_measured": 92.40000000000137,
+      "inversion_found": true,
+      "inversion_time": "2024-02-13 09:10:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.0759,
+      "trend_duration_hours": 4.316666666666666,
+      "trend_r2": 0.888324924963271,
+      "trend_amplitude_pips": 35.29999999999811
+    },
+    {
+      "cluster_time": "2024-03-12 12:30:00+00:00",
+      "impact_measured": 31.49999999999986,
+      "inversion_found": true,
+      "inversion_time": "2024-03-08 13:42:00+00:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "inversion_price": 1.09781,
+      "trend_duration_hours": 94.78333333333333,
+      "trend_r2": 0.36484680878425,
+      "trend_amplitude_pips": 63.29999999999947
+    },
+    {
+      "cluster_time": "2024-04-10 12:30:00+00:00",
+      "impact_measured": 96.00000000000053,
+      "inversion_found": true,
+      "inversion_time": "2024-04-05 13:14:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.07916,
+      "trend_duration_hours": 119.25,
+      "trend_r2": 0.5414152427968426,
+      "trend_amplitude_pips": 93.30000000000061
+    },
+    {
+      "cluster_time": "2024-07-11 12:30:00+00:00",
+      "impact_measured": 52.49999999999977,
+      "inversion_found": true,
+      "inversion_time": "2024-07-05 14:11:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.08113,
+      "trend_duration_hours": 142.3,
+      "trend_r2": 0.00874173859743369,
+      "trend_amplitude_pips": 52.09999999999937
+    },
+    {
+      "cluster_time": "2024-09-11 12:30:00+00:00",
+      "impact_measured": 44.69999999999974,
+      "inversion_found": true,
+      "inversion_time": "2024-09-06 12:31:00+00:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "inversion_price": 1.115,
+      "trend_duration_hours": 119.96666666666667,
+      "trend_r2": 0.6016331798371294,
+      "trend_amplitude_pips": 134.60000000000028
+    },
+    {
+      "cluster_time": "2024-11-13 13:30:00+00:00",
+      "impact_measured": 28.099999999999792,
+      "inversion_found": true,
+      "inversion_time": "2024-11-13 08:09:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.0594,
+      "trend_duration_hours": 5.333333333333333,
+      "trend_r2": 0.5414694908389036,
+      "trend_amplitude_pips": 46.500000000000426
+    },
+    {
+      "cluster_time": "2024-12-11 13:30:00+00:00",
+      "impact_measured": 24.599999999999067,
+      "inversion_found": true,
+      "inversion_time": "2024-12-06 21:59:00+00:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "inversion_price": 1.05711,
+      "trend_duration_hours": 111.5,
+      "trend_r2": 0.6131786909587497,
+      "trend_amplitude_pips": 104.99999999999955
+    },
+    {
+      "cluster_time": "2025-01-15 13:30:00+00:00",
+      "impact_measured": 52.1999999999978,
+      "inversion_found": true,
+      "inversion_time": "2025-01-13 09:27:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.018,
+      "trend_duration_hours": 52.03333333333333,
+      "trend_r2": 0.8878957353244481,
+      "trend_amplitude_pips": 135.60000000000016
+    },
+    {
+      "cluster_time": "2025-02-12 13:30:00+00:00",
+      "impact_measured": 49.9000000000005,
+      "inversion_found": true,
+      "inversion_time": "2025-02-11 19:40:00+00:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "inversion_price": 1.03749,
+      "trend_duration_hours": 17.816666666666666,
+      "trend_r2": 0.43112541521170905,
+      "trend_amplitude_pips": 30.400000000001537
+    },
+    {
+      "cluster_time": "2025-03-12 12:30:00+00:00",
+      "impact_measured": 38.399999999998435,
+      "inversion_found": true,
+      "inversion_time": "2025-03-11 18:23:00+00:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "inversion_price": 1.09475,
+      "trend_duration_hours": 18.1,
+      "trend_r2": 0.3139261525017025,
+      "trend_amplitude_pips": 58.59999999999977
+    },
+    {
+      "cluster_time": "2025-04-10 12:30:00+00:00",
+      "impact_measured": 32.69999999999884,
+      "inversion_found": true,
+      "inversion_time": "2025-04-09 18:18:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.09173,
+      "trend_duration_hours": 18.183333333333334,
+      "trend_r2": 0.7842984002009193,
+      "trend_amplitude_pips": 187.49999999999824
+    },
+    {
+      "cluster_time": "2025-05-13 12:30:00+00:00",
+      "impact_measured": 35.09999999999902,
+      "inversion_found": true,
+      "inversion_time": "2025-05-09 00:07:00+00:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "inversion_price": 1.12338,
+      "trend_duration_hours": 108.36666666666666,
+      "trend_r2": 0.7162583792269916,
+      "trend_amplitude_pips": 224.2999999999995
+    },
+    {
+      "cluster_time": "2025-06-11 12:30:00+00:00",
+      "impact_measured": 52.400000000001334,
+      "inversion_found": true,
+      "inversion_time": "2025-06-10 07:13:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.13746,
+      "trend_duration_hours": 29.266666666666666,
+      "trend_r2": 0.09534048146529663,
+      "trend_amplitude_pips": 71.30000000000081
+    },
+    {
+      "cluster_time": "2025-07-15 12:30:00+00:00",
+      "impact_measured": 22.899999999999032,
+      "inversion_found": true,
+      "inversion_time": "2025-07-14 06:22:00+00:00",
+      "inversion_type": "LOW_TO_HIGH",
+      "inversion_price": 1.1655,
+      "trend_duration_hours": 30.116666666666667,
+      "trend_r2": 0.007404042097395838,
+      "trend_amplitude_pips": 41.400000000000325
+    },
+    {
+      "cluster_time": "2025-08-12 12:30:00+00:00",
+      "impact_measured": 51.000000000001044,
+      "inversion_found": true,
+      "inversion_time": "2025-08-08 15:21:00+00:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "inversion_price": 1.16679,
+      "trend_duration_hours": 93.13333333333334,
+      "trend_r2": 0.6129720712163909,
+      "trend_amplitude_pips": 84.69999999999978
+    },
+    {
+      "cluster_time": "2025-10-15 12:30:00+00:00",
+      "impact_measured": 11.400000000001409,
+      "inversion_found": true,
+      "inversion_time": "2025-10-10 20:55:00+00:00",
+      "inversion_type": "HIGH_TO_LOW",
+      "inversion_price": 1.16298,
+      "trend_duration_hours": 111.56666666666666,
+      "trend_r2": 0.07807684621541877,
+      "trend_amplitude_pips": 100.40000000000049
+    }
+  ],
+  "summary": {
+    "total_analyzed": 29,
+    "success_count": 22,
+    "error_count": 7
+  }
+}

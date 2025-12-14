@@ -1,0 +1,22 @@
+{
+  "date": "2025-05-30",
+  "movement_start_time": "2025-05-30 07:00:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "DOWN",
+  "score": -0.9499939699262617,
+  "has_trigger": true,
+  "n_active": 1,
+  "contributions": [
+    {
+      "event_key": "retail sales",
+      "family": "Retail Sales",
+      "actual": -1.1,
+      "estimate": 0.2,
+      "surprise": -1.3,
+      "surprise_z": -0.9499939699262617,
+      "alpha_weight": 1,
+      "contribution": -0.9499939699262617,
+      "is_trigger": true
+    }
+  ]
+}

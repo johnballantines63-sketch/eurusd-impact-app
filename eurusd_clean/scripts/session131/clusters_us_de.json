@@ -1,0 +1,785 @@
+{
+  "metadata": {
+    "created": "2025-11-13T00:16:49.378936",
+    "target_composition": [
+      "continuing jobless claims",
+      "core inflation rate_mom",
+      "core inflation rate_yoy",
+      "cpi",
+      "cpi s.a",
+      "current account",
+      "inflation rate_mom",
+      "inflation rate_yoy",
+      "initial jobless claims",
+      "jobless claims 4 week average",
+      "real earnings_mom"
+    ],
+    "n_target_events": 11,
+    "search_period": "2023-01-01 to 2025-11-07",
+    "similarity_threshold": 0.8,
+    "total_days_scanned": 1041
+  },
+  "clusters": [
+    {
+      "date": "2023-08-10",
+      "cluster_time": "2023-08-10T14:30:00+02:00",
+      "similarity": 0.8181818181818182,
+      "n_events": 9,
+      "events": [
+        {
+          "event_key": "core inflation rate_mom",
+          "ts_utc": "2023-08-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.2,
+          "forecast": 0.2,
+          "previous": 0.2
+        },
+        {
+          "event_key": "inflation rate_mom",
+          "ts_utc": "2023-08-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.2,
+          "forecast": 0.2,
+          "previous": 0.2
+        },
+        {
+          "event_key": "continuing jobless claims",
+          "ts_utc": "2023-08-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 1684.0,
+          "forecast": 1710.0,
+          "previous": 1692.0
+        },
+        {
+          "event_key": "jobless claims 4 week average",
+          "ts_utc": "2023-08-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 231.0,
+          "forecast": 231.01,
+          "previous": 228.25
+        },
+        {
+          "event_key": "inflation rate_yoy",
+          "ts_utc": "2023-08-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 3.2,
+          "forecast": 3.3,
+          "previous": 3.0
+        },
+        {
+          "event_key": "cpi s.a",
+          "ts_utc": "2023-08-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 304.348,
+          "forecast": null,
+          "previous": 303.841
+        },
+        {
+          "event_key": "core inflation rate_yoy",
+          "ts_utc": "2023-08-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 4.7,
+          "forecast": 4.8,
+          "previous": 4.8
+        },
+        {
+          "event_key": "initial jobless claims",
+          "ts_utc": "2023-08-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 248.0,
+          "forecast": 230.0,
+          "previous": 227.0
+        },
+        {
+          "event_key": "cpi",
+          "ts_utc": "2023-08-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 305.691,
+          "forecast": 305.84,
+          "previous": 305.109
+        }
+      ],
+      "composition": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average"
+      ],
+      "intersection": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average"
+      ],
+      "missing_from_target": [
+        "current account",
+        "real earnings_mom"
+      ],
+      "extra_in_cluster": []
+    },
+    {
+      "date": "2023-10-12",
+      "cluster_time": "2023-10-12T14:30:00+02:00",
+      "similarity": 0.8181818181818182,
+      "n_events": 9,
+      "events": [
+        {
+          "event_key": "continuing jobless claims",
+          "ts_utc": "2023-10-12T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 1702.0,
+          "forecast": 1680.0,
+          "previous": 1672.0
+        },
+        {
+          "event_key": "initial jobless claims",
+          "ts_utc": "2023-10-12T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 209.0,
+          "forecast": 210.0,
+          "previous": 209.0
+        },
+        {
+          "event_key": "core inflation rate_yoy",
+          "ts_utc": "2023-10-12T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 4.1,
+          "forecast": 4.1,
+          "previous": 4.3
+        },
+        {
+          "event_key": "core inflation rate_mom",
+          "ts_utc": "2023-10-12T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.3,
+          "forecast": 0.3,
+          "previous": 0.3
+        },
+        {
+          "event_key": "jobless claims 4 week average",
+          "ts_utc": "2023-10-12T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 206.25,
+          "forecast": null,
+          "previous": 209.25
+        },
+        {
+          "event_key": "cpi s.a",
+          "ts_utc": "2023-10-12T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 307.481,
+          "forecast": null,
+          "previous": 306.269
+        },
+        {
+          "event_key": "inflation rate_yoy",
+          "ts_utc": "2023-10-12T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 3.7,
+          "forecast": 3.6,
+          "previous": 3.7
+        },
+        {
+          "event_key": "cpi",
+          "ts_utc": "2023-10-12T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 307.789,
+          "forecast": 307.386,
+          "previous": 307.026
+        },
+        {
+          "event_key": "inflation rate_mom",
+          "ts_utc": "2023-10-12T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.4,
+          "forecast": 0.3,
+          "previous": 0.6
+        }
+      ],
+      "composition": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average"
+      ],
+      "intersection": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average"
+      ],
+      "missing_from_target": [
+        "current account",
+        "real earnings_mom"
+      ],
+      "extra_in_cluster": []
+    },
+    {
+      "date": "2024-07-11",
+      "cluster_time": "2024-07-11T14:30:00+02:00",
+      "similarity": 0.8181818181818182,
+      "n_events": 9,
+      "events": [
+        {
+          "event_key": "inflation rate_mom",
+          "ts_utc": "2024-07-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": -0.1,
+          "forecast": 0.1,
+          "previous": null
+        },
+        {
+          "event_key": "inflation rate_yoy",
+          "ts_utc": "2024-07-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 3.0,
+          "forecast": 3.1,
+          "previous": 3.3
+        },
+        {
+          "event_key": "core inflation rate_mom",
+          "ts_utc": "2024-07-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.1,
+          "forecast": 0.2,
+          "previous": 0.2
+        },
+        {
+          "event_key": "core inflation rate_yoy",
+          "ts_utc": "2024-07-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 3.3,
+          "forecast": 3.4,
+          "previous": 3.4
+        },
+        {
+          "event_key": "initial jobless claims",
+          "ts_utc": "2024-07-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 222.0,
+          "forecast": 236.0,
+          "previous": 239.0
+        },
+        {
+          "event_key": "cpi s.a",
+          "ts_utc": "2024-07-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 313.049,
+          "forecast": null,
+          "previous": 313.225
+        },
+        {
+          "event_key": "continuing jobless claims",
+          "ts_utc": "2024-07-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 1852.0,
+          "forecast": 1860.0,
+          "previous": 1856.0
+        },
+        {
+          "event_key": "cpi",
+          "ts_utc": "2024-07-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 314.18,
+          "forecast": 314.63,
+          "previous": 314.07
+        },
+        {
+          "event_key": "jobless claims 4 week average",
+          "ts_utc": "2024-07-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 233.5,
+          "forecast": null,
+          "previous": 238.75
+        }
+      ],
+      "composition": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average"
+      ],
+      "intersection": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average"
+      ],
+      "missing_from_target": [
+        "current account",
+        "real earnings_mom"
+      ],
+      "extra_in_cluster": []
+    },
+    {
+      "date": "2024-10-10",
+      "cluster_time": "2024-10-10T14:30:00+02:00",
+      "similarity": 0.8181818181818182,
+      "n_events": 9,
+      "events": [
+        {
+          "event_key": "jobless claims 4 week average",
+          "ts_utc": "2024-10-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 231.0,
+          "forecast": 225.0,
+          "previous": 224.25
+        },
+        {
+          "event_key": "initial jobless claims",
+          "ts_utc": "2024-10-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 258.0,
+          "forecast": 230.0,
+          "previous": 225.0
+        },
+        {
+          "event_key": "inflation rate_yoy",
+          "ts_utc": "2024-10-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 2.4,
+          "forecast": 2.3,
+          "previous": 2.5
+        },
+        {
+          "event_key": "inflation rate_mom",
+          "ts_utc": "2024-10-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.2,
+          "forecast": 0.1,
+          "previous": 0.2
+        },
+        {
+          "event_key": "cpi",
+          "ts_utc": "2024-10-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 315.3,
+          "forecast": 314.86,
+          "previous": 314.8
+        },
+        {
+          "event_key": "core inflation rate_yoy",
+          "ts_utc": "2024-10-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 3.3,
+          "forecast": 3.2,
+          "previous": 3.2
+        },
+        {
+          "event_key": "core inflation rate_mom",
+          "ts_utc": "2024-10-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.3,
+          "forecast": 0.2,
+          "previous": 0.3
+        },
+        {
+          "event_key": "continuing jobless claims",
+          "ts_utc": "2024-10-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 1861.0,
+          "forecast": 1830.0,
+          "previous": 1819.0
+        },
+        {
+          "event_key": "cpi s.a",
+          "ts_utc": "2024-10-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 314.686,
+          "forecast": 314.4,
+          "previous": 314.121
+        }
+      ],
+      "composition": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average"
+      ],
+      "intersection": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average"
+      ],
+      "missing_from_target": [
+        "current account",
+        "real earnings_mom"
+      ],
+      "extra_in_cluster": []
+    },
+    {
+      "date": "2025-04-10",
+      "cluster_time": "2025-04-10T14:30:00+02:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 14,
+      "events": [
+        {
+          "event_key": "inflation rate_yoy",
+          "ts_utc": "2025-04-10T14:25:00+02:00",
+          "country": "UA",
+          "importance": "MEDIUM",
+          "actual": null,
+          "forecast": 15.0,
+          "previous": 13.4
+        },
+        {
+          "event_key": "inflation rate_yoy",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 2.4,
+          "forecast": 2.6,
+          "previous": 2.8
+        },
+        {
+          "event_key": "continuing jobless claims",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 1850.0,
+          "forecast": 1880.0,
+          "previous": 1893.0
+        },
+        {
+          "event_key": "initial jobless claims",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 223.0,
+          "forecast": 223.0,
+          "previous": 219.0
+        },
+        {
+          "event_key": "inflation rate_mom",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": -0.1,
+          "forecast": 0.1,
+          "previous": 0.2
+        },
+        {
+          "event_key": "core inflation rate_mom",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.1,
+          "forecast": 0.3,
+          "previous": 0.2
+        },
+        {
+          "event_key": "real earnings_mom",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.3,
+          "forecast": null,
+          "previous": 0.3
+        },
+        {
+          "event_key": "core inflation rate_yoy",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 2.8,
+          "forecast": 3.0,
+          "previous": 3.1
+        },
+        {
+          "event_key": "building permits",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "CA",
+          "importance": "MEDIUM",
+          "actual": 2.9,
+          "forecast": -0.5,
+          "previous": -4.3
+        },
+        {
+          "event_key": "jobless claims 4 week average",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 223.0,
+          "forecast": 226.0,
+          "previous": 223.0
+        },
+        {
+          "event_key": "cpi s.a",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 319.615,
+          "forecast": 320.1,
+          "previous": 319.775
+        },
+        {
+          "event_key": "cpi",
+          "ts_utc": "2025-04-10T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 319.799,
+          "forecast": 320.17,
+          "previous": 319.082
+        },
+        {
+          "event_key": "inflation rate_mom",
+          "ts_utc": "2025-04-10T14:35:00+02:00",
+          "country": "UA",
+          "importance": "MEDIUM",
+          "actual": null,
+          "forecast": 1.0,
+          "previous": 0.8
+        },
+        {
+          "event_key": "cpi",
+          "ts_utc": "2025-04-10T14:35:00+02:00",
+          "country": "UA",
+          "importance": "MEDIUM",
+          "actual": null,
+          "forecast": null,
+          "previous": 0.8
+        }
+      ],
+      "composition": [
+        "building permits",
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average",
+        "real earnings_mom"
+      ],
+      "intersection": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average",
+        "real earnings_mom"
+      ],
+      "missing_from_target": [
+        "current account"
+      ],
+      "extra_in_cluster": [
+        "building permits"
+      ]
+    },
+    {
+      "date": "2025-09-11",
+      "cluster_time": "2025-09-11T14:30:00+02:00",
+      "similarity": 0.9090909090909091,
+      "n_events": 10,
+      "events": [
+        {
+          "event_key": "inflation rate_mom",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.4,
+          "forecast": 0.3,
+          "previous": 0.2
+        },
+        {
+          "event_key": "initial jobless claims",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 263.0,
+          "forecast": 235.0,
+          "previous": 236.0
+        },
+        {
+          "event_key": "core inflation rate_yoy",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 3.1,
+          "forecast": 3.1,
+          "previous": 3.1
+        },
+        {
+          "event_key": "jobless claims 4 week average",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 240.5,
+          "forecast": 232.0,
+          "previous": 230.75
+        },
+        {
+          "event_key": "core inflation rate_mom",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 0.3,
+          "forecast": 0.3,
+          "previous": 0.3
+        },
+        {
+          "event_key": "continuing jobless claims",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 1939.0,
+          "forecast": 1950.0,
+          "previous": 1939.0
+        },
+        {
+          "event_key": "real earnings_mom",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": -0.1,
+          "forecast": null,
+          "previous": 0.1
+        },
+        {
+          "event_key": "cpi",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 323.98,
+          "forecast": 323.89,
+          "previous": 323.05
+        },
+        {
+          "event_key": "cpi s.a",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 323.364,
+          "forecast": 323.0,
+          "previous": 322.132
+        },
+        {
+          "event_key": "inflation rate_yoy",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "importance": "MEDIUM",
+          "actual": 2.9,
+          "forecast": 2.9,
+          "previous": 2.7
+        }
+      ],
+      "composition": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average",
+        "real earnings_mom"
+      ],
+      "intersection": [
+        "continuing jobless claims",
+        "core inflation rate_mom",
+        "core inflation rate_yoy",
+        "cpi",
+        "cpi s.a",
+        "inflation rate_mom",
+        "inflation rate_yoy",
+        "initial jobless claims",
+        "jobless claims 4 week average",
+        "real earnings_mom"
+      ],
+      "missing_from_target": [
+        "current account"
+      ],
+      "extra_in_cluster": []
+    }
+  ],
+  "n_clusters": 6,
+  "statistics": {
+    "mean_similarity": 0.835858585858586,
+    "min_similarity": 0.8181818181818182,
+    "max_similarity": 0.9090909090909091
+  }
+}

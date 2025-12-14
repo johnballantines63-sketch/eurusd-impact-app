@@ -1,0 +1,2 @@
+formula_type,base_formula,correction_criteria_strong,correction_factor_strong,correction_criteria_very_strong,correction_factor_very_strong,mae,median_ratio,correlation
+hybrid_linear_corrective,impact = 30.5450 + 0.4692*base_score + 0.1882*adjusted_score + 0.0201*surprise_avg - 0.0034*surprise_max + 0.7355*n_events,adjusted_score >= 40 OR n_events >= 15,1.0,(adjusted_score >= 45 AND n_events >= 15) OR (adjusted_score >= 40 AND n_events >= 17) OR (surprise >= 40% AND n_events >= 15),1.5,29.203710909561828,1.4742938688917506,0.23217719743159196

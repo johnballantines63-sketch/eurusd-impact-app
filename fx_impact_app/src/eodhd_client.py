@@ -79,7 +79,7 @@ def fetch_calendar_json(
 # Normalize
 # ---------------------------------------------------------------------
 def _col(df: pd.DataFrame, *names: str) -> pd.Series:
-    """Renvoie la première colonne existante parmi *names*, sinon une Series NA."""
+    """Renvoie la première colonne existante parmi *names, sinon une Series NA."""
     for n in names:
         if n in df.columns:
             return df[n]
@@ -132,7 +132,7 @@ def calendar_to_events_df(items: List[Dict[str, Any]]) -> pd.DataFrame:
 
     raw = pd.DataFrame(items)
 
-    # champs texte “titre”
+    # champs texte "titre"
     event_title = _col(raw, "event", "indicator", "title", "event_title")
     label = _col(raw, "label", "shortname", "short_name", "name")
     typ = _col(raw, "category", "type", "group", "event_group")
@@ -140,10 +140,29 @@ def calendar_to_events_df(items: List[Dict[str, Any]]) -> pd.DataFrame:
     # clé (id)
     key_src = _col(raw, "event_id", "id", "code")
     event_key = key_src.copy()
+    
+    # ✅ CORRECTION 1 : Génération intelligente d'event_key
     if event_key.isna().all():
-        base = (event_title.fillna("") + "||" + typ.fillna(""))
+        # Combiner title et type intelligemment (éviter _ au début)
+        def make_key(title, typ):
+            t = str(title).strip() if pd.notna(title) else ""
+            y = str(typ).strip() if pd.notna(typ) else ""
+            if t and y:
+                return f"{t}_{y}"
+            elif t:
+                return t
+            elif y:
+                return y
+            else:
+                return "unknown"
+        
+        event_key = pd.Series([
+            make_key(title, typ)
+            for title, typ in zip(event_title, typ)
+        ], index=event_title.index)
+        
         event_key = (
-            base.astype(str)
+            event_key.astype(str)
                 .str.strip()
                 .str.lower()
                 .str.replace(r"\s+", " ", regex=True)
@@ -164,6 +183,15 @@ def calendar_to_events_df(items: List[Dict[str, Any]]) -> pd.DataFrame:
     actual = pd.to_numeric(_col(raw, "actual", "value"), errors="coerce")
 
     unit = _col(raw, "unit", "unit_short", "units").astype("string")
+    
+    # ✅ SESSION 19 : Extraire comparison (mom, yoy, qoq)
+    comparison = _col(raw, "comparison").astype("string")
+    
+    # ✅ SESSION 19 FULL : Extraire TOUS les autres champs EODHD
+    period = _col(raw, "period").astype("string")
+    change = pd.to_numeric(_col(raw, "change"), errors="coerce").astype("Float64")
+    change_percentage = pd.to_numeric(_col(raw, "change_percentage"), errors="coerce").astype("Float64")
+    event_type = _col(raw, "type").astype("string")  # 'type' EODHD (différent de 'category')
 
     # importance
     imp_src = _col(raw, "importance", "impact", "priority", "importance_n")
@@ -181,10 +209,31 @@ def calendar_to_events_df(items: List[Dict[str, Any]]) -> pd.DataFrame:
         "previous": previous.astype("Float64"),
         "actual": actual.astype("Float64"),
         "unit": unit.astype("string"),
+        "comparison": comparison,  # ✅ SESSION 19 : MoM/YoY/QoQ
+        "period": period,  # ✅ SESSION 19 FULL : Période
+        "change": change,  # ✅ SESSION 19 FULL : Changement absolu
+        "change_percentage": change_percentage,  # ✅ SESSION 19 FULL : Changement %
+        "event_type": event_type,  # ✅ SESSION 19 FULL : Type événement EODHD
         "importance_n": importance_n,
     })
 
     df = df.dropna(subset=["ts_utc"])
+
+    # ✅ SESSION 19 : Enrichir event_key avec comparison (mom/yoy/qoq)
+    for idx in df.index:
+        comp = df.at[idx, 'comparison']
+        if pd.notna(comp):
+            comp_lower = str(comp).lower().strip()
+            event_key_current = str(df.at[idx, 'event_key']).lower().strip()
+            
+            # Ajouter suffixe si comparison valide et pas déjà présent
+            if comp_lower in ['mom', 'yoy', 'qoq']:
+                if comp_lower not in event_key_current:
+                    df.at[idx, 'event_key'] = f"{event_key_current}_{comp_lower}"
+    
+    # ✅ SESSION 19 FULL : On garde TOUS les champs
+    # (plus de drop - tous les champs sont précieux)
+    
     return df.reset_index(drop=True)
 
 
@@ -204,20 +253,27 @@ CREATE TABLE IF NOT EXISTS events (
   previous DOUBLE,
   actual DOUBLE,
   unit VARCHAR,
+  comparison VARCHAR,
+  period VARCHAR,
+  change DOUBLE,
+  change_percentage DOUBLE,
+  event_type VARCHAR,
   importance_n BIGINT
 );
 """
 
 _DB_COLS = [
     "ts_utc","country","event_title","event_key","label","type",
-    "estimate","forecast","previous","actual","unit","importance_n"
+    "estimate","forecast","previous","actual","unit",
+    "comparison","period","change","change_percentage","event_type",
+    "importance_n"
 ]
 
 
 def upsert_events(con: duckdb.DuckDBPyConnection, df: pd.DataFrame) -> int:
     """
     Insère/fusionne les lignes dans `events`.
-    Clé d’upsert: (ts_utc, country, event_key)
+    Clé d'upsert: (ts_utc, country, event_key)
       - Si event_key manquant -> on substitue une clé dérivée (event_title||type).
     Retourne le nombre de lignes sources passées à la MERGE.
     """
@@ -234,9 +290,27 @@ def upsert_events(con: duckdb.DuckDBPyConnection, df: pd.DataFrame) -> int:
     df["ts_utc"] = pd.to_datetime(df["ts_utc"], utc=True)
     df["country"] = df["country"].astype("string").str.upper()
 
+    # ✅ CORRECTION 2 : Génération intelligente de fallback key
     missing_key = df["event_key"].isna() | (df["event_key"].astype(str).str.strip() == "")
     if missing_key.any():
-        fallback = (df["event_title"].fillna("") + "||" + df["type"].fillna("")).astype("string")
+        # Combiner intelligemment title et type (éviter _ au début)
+        def make_fallback(title, typ):
+            t = str(title).strip() if pd.notna(title) and str(title).strip() else ""
+            y = str(typ).strip() if pd.notna(typ) and str(typ).strip() else ""
+            if t and y:
+                return f"{t}_{y}"
+            elif t:
+                return t
+            elif y:
+                return y
+            else:
+                return "unknown_event"
+        
+        fallback = pd.Series([
+            make_fallback(title, typ)
+            for title, typ in zip(df["event_title"], df["type"])
+        ], index=df.index)
+        
         df.loc[missing_key, "event_key"] = (
             fallback.str.lower().str.replace(r"\s+", " ", regex=True)
         )

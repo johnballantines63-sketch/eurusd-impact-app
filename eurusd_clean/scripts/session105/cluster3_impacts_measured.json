@@ -1,0 +1,82 @@
+{
+  "cluster": "Cluster #3 - CPI mensuel",
+  "num_dates": 6,
+  "method": "session_92.5_validated",
+  "event_time_bern": "14:30:00",
+  "event_time_db": "12:30:00",
+  "measurements": [
+    {
+      "date": "2025-09-11",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.16874,
+      "price_peak": 1.17442,
+      "direction": "UP",
+      "impact_pips": 56.80000000000129,
+      "duration_min": 109.0,
+      "num_candles": 121
+    },
+    {
+      "date": "2025-08-12",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.16056,
+      "price_peak": 1.166,
+      "direction": "UP",
+      "impact_pips": 54.3999999999989,
+      "duration_min": 95.0,
+      "num_candles": 121
+    },
+    {
+      "date": "2025-07-15",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.16668,
+      "price_peak": 1.16222,
+      "direction": "DOWN",
+      "impact_pips": 44.599999999999085,
+      "duration_min": 119.0,
+      "num_candles": 121
+    },
+    {
+      "date": "2025-06-11",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.14358,
+      "price_peak": 1.14886,
+      "direction": "UP",
+      "impact_pips": 52.799999999999514,
+      "duration_min": 6.0,
+      "num_candles": 121
+    },
+    {
+      "date": "2025-05-13",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.11141,
+      "price_peak": 1.11485,
+      "direction": "UP",
+      "impact_pips": 34.399999999998876,
+      "duration_min": 67.0,
+      "num_candles": 121
+    },
+    {
+      "date": "2025-04-10",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.11037,
+      "price_peak": 1.11431,
+      "direction": "UP",
+      "impact_pips": 39.39999999999833,
+      "duration_min": 113.0,
+      "num_candles": 121
+    }
+  ],
+  "statistics": {
+    "mean": 47.066666666666,
+    "median": 48.6999999999993,
+    "std": 9.018795189307665,
+    "min": 34.399999999998876,
+    "max": 56.80000000000129
+  }
+}

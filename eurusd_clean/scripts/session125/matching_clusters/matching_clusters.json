@@ -1,0 +1,2428 @@
+{
+  "reference_case": {
+    "date": "2025-09-11",
+    "signature": [
+      [
+        "core_inflation_rate",
+        "usd"
+      ],
+      [
+        "core_inflation_rate",
+        "usd"
+      ],
+      [
+        "cpi",
+        "usd"
+      ],
+      [
+        "cpi_s.a",
+        "usd"
+      ],
+      [
+        "inflation_rate",
+        "usd"
+      ],
+      [
+        "inflation_rate",
+        "usd"
+      ]
+    ],
+    "num_events": 6,
+    "impact_target": 56.2,
+    "amplification_ideal": 0.0813442014861073,
+    "r2_inversion": 0.6376
+  },
+  "matching_clusters": [
+    {
+      "cluster_time": "2023-03-14 16:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2023-03-14 16:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-03-14 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-03-14 16:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-03-14 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-03-14 16:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-03-14 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-03-14 16:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-03-14 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-03-14 16:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-03-14 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-03-14 16:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-03-14 16:30:00+00:00"
+        }
+      ],
+      "impact_measured": 20.500000000001073,
+      "baseline_price": 1.07167,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2023-04-12 16:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2023-04-12 16:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-04-12 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-04-12 16:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-04-12 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-04-12 16:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-04-12 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-04-12 16:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-04-12 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-04-12 16:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-04-12 16:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-04-12 16:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-04-12 16:30:00+00:00"
+        }
+      ],
+      "impact_measured": 4.500000000000615,
+      "baseline_price": 1.09942,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2023-08-10 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2023-08-10 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-08-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-08-10 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-08-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-08-10 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-08-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-08-10 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-08-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-08-10 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-08-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-08-10 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-08-10 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 41.29999999999967,
+      "baseline_price": 1.1024,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2023-09-13 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2023-09-13 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-09-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-09-13 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-09-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-09-13 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-09-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-09-13 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-09-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-09-13 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-09-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-09-13 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-09-13 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 30.799999999999716,
+      "baseline_price": 1.07309,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2023-10-12 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2023-10-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-10-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-10-12 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-10-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-10-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-10-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-10-12 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-10-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-10-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-10-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-10-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-10-12 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 54.69999999999864,
+      "baseline_price": 1.06222,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2023-11-14 13:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2023-11-14 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-11-14 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-11-14 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-11-14 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-11-14 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-11-14 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-11-14 13:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-11-14 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-11-14 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-11-14 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-11-14 13:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-11-14 13:30:00+00:00"
+        }
+      ],
+      "impact_measured": 96.60000000000002,
+      "baseline_price": 1.07264,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2023-12-12 13:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2023-12-12 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-12-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-12-12 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-12-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-12-12 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-12-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-12-12 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-12-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-12-12 13:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-12-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2023-12-12 13:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2023-12-12 13:30:00+00:00"
+        }
+      ],
+      "impact_measured": 34.899999999999935,
+      "baseline_price": 1.08087,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-02-13 13:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-02-13 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-02-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-02-13 13:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-02-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-02-13 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-02-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-02-13 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-02-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-02-13 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-02-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-02-13 13:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-02-13 13:30:00+00:00"
+        }
+      ],
+      "impact_measured": 92.40000000000137,
+      "baseline_price": 1.07932,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-03-12 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-03-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-03-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-03-12 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-03-12 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-03-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-03-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-03-12 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 31.49999999999986,
+      "baseline_price": 1.09347,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-04-10 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-04-10 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-04-10 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-04-10 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-04-10 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-04-10 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-04-10 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-04-10 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 96.00000000000053,
+      "baseline_price": 1.08592,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-05-15 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-05-15 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-05-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-05-15 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-05-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-05-15 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-05-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-05-15 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-05-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-05-15 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-05-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-05-15 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-05-15 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 39.70000000000029,
+      "baseline_price": 1.083,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-06-12 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-06-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-06-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-06-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-06-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-06-12 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-06-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-06-12 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-06-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-06-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-06-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-06-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-06-12 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 72.10000000000161,
+      "baseline_price": 1.07649,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-07-11 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-07-11 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-07-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-07-11 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-07-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-07-11 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-07-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-07-11 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-07-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-07-11 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-07-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-07-11 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-07-11 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 52.49999999999977,
+      "baseline_price": 1.08476,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-08-14 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-08-14 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-08-14 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-08-14 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-08-14 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-08-14 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-08-14 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-08-14 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-08-14 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-08-14 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-08-14 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-08-14 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-08-14 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 23.400000000000087,
+      "baseline_price": 1.10276,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-09-11 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-09-11 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-09-11 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-09-11 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-09-11 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-09-11 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-09-11 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-09-11 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 44.69999999999974,
+      "baseline_price": 1.10483,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-10-10 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-10-10 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-10-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-10-10 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-10-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-10-10 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-10-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-10-10 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-10-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-10-10 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-10-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-10-10 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-10-10 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 23.799999999998267,
+      "baseline_price": 1.09315,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-11-13 13:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-11-13 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-11-13 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-11-13 13:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-11-13 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-11-13 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-11-13 13:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-11-13 13:30:00+00:00"
+        }
+      ],
+      "impact_measured": 28.099999999999792,
+      "baseline_price": 1.0626,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2024-12-11 13:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2024-12-11 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-12-11 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-12-11 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-12-11 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-12-11 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-12-11 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-12-11 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-12-11 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-12-11 13:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-12-11 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2024-12-11 13:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2024-12-11 13:30:00+00:00"
+        }
+      ],
+      "impact_measured": 24.599999999999067,
+      "baseline_price": 1.05129,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-01-15 13:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-01-15 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-01-15 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-01-15 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-01-15 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-01-15 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-01-15 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-01-15 13:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-01-15 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-01-15 13:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-01-15 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-01-15 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-01-15 13:30:00+00:00"
+        }
+      ],
+      "impact_measured": 52.1999999999978,
+      "baseline_price": 1.03025,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-02-12 13:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-02-12 13:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-02-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-02-12 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-02-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-02-12 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-02-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-02-12 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-02-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-02-12 13:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-02-12 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-02-12 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-02-12 13:30:00+00:00"
+        }
+      ],
+      "impact_measured": 49.9000000000005,
+      "baseline_price": 1.03674,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-03-12 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-03-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-03-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-03-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-03-12 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-03-12 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-03-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-03-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-03-12 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 38.399999999998435,
+      "baseline_price": 1.08942,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-04-10 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-04-10 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-04-10 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-04-10 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-04-10 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-04-10 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-04-10 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-04-10 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-04-10 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 32.69999999999884,
+      "baseline_price": 1.10992,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-05-13 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-05-13 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-05-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-05-13 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-05-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-05-13 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-05-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-05-13 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-05-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-05-13 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-05-13 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-05-13 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-05-13 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 35.09999999999902,
+      "baseline_price": 1.11132,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-06-11 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-06-11 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-06-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-06-11 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-06-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-06-11 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-06-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-06-11 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-06-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-06-11 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-06-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-06-11 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-06-11 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 52.400000000001334,
+      "baseline_price": 1.14373,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-07-15 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-07-15 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-07-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-07-15 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-07-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-07-15 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-07-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-07-15 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-07-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-07-15 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-07-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-07-15 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-07-15 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 22.899999999999032,
+      "baseline_price": 1.16686,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-08-12 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-08-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-08-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-08-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-08-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-08-12 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-08-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-08-12 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-08-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-08-12 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-08-12 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-08-12 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-08-12 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 51.000000000001044,
+      "baseline_price": 1.16052,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-09-11 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-09-11 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-09-11 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-09-11 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-09-11 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-09-11 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-09-11 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-09-11 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-09-11 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 60.100000000000705,
+      "baseline_price": 1.1679,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-10-15 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-10-15 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-15 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-15 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-15 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-15 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-15 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-15 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-15 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 11.400000000001409,
+      "baseline_price": 1.16222,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-10-24 12:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-10-24 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-24 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-24 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-24 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-24 12:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-24 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-24 12:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-24 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-24 12:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-24 12:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-10-24 12:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-10-24 12:30:00+00:00"
+        }
+      ],
+      "impact_measured": 7.300000000001194,
+      "baseline_price": 1.16145,
+      "prices_available": true
+    },
+    {
+      "cluster_time": "2025-11-13 13:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-11-13 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-11-13 13:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-11-13 13:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-11-13 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-11-13 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-11-13 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-11-13 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-11-13 13:30:00+00:00"
+        }
+      ],
+      "impact_measured": null,
+      "prices_available": false
+    },
+    {
+      "cluster_time": "2025-12-10 13:30:00+00:00",
+      "num_events": 6,
+      "signature": [
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "core_inflation_rate",
+          "usd"
+        ],
+        [
+          "cpi",
+          "usd"
+        ],
+        [
+          "cpi_s.a",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ],
+        [
+          "inflation_rate",
+          "usd"
+        ]
+      ],
+      "events": [
+        {
+          "datetime_utc": "2025-12-10 13:30:00+00:00",
+          "event_name": "cpi_s.a",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-12-10 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-12-10 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-12-10 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-12-10 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-12-10 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-12-10 13:30:00+00:00",
+          "event_name": "cpi",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-12-10 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-12-10 13:30:00+00:00",
+          "event_name": "core_inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-12-10 13:30:00+00:00"
+        },
+        {
+          "datetime_utc": "2025-12-10 13:30:00+00:00",
+          "event_name": "inflation_rate",
+          "country": "usd",
+          "importance": "HIGH",
+          "cluster_key": "2025-12-10 13:30:00+00:00"
+        }
+      ],
+      "impact_measured": null,
+      "prices_available": false
+    }
+  ],
+  "summary": {
+    "total_matches": 31,
+    "with_prices": 29,
+    "scan_period": "2015-01-01 to 2025-12-31",
+    "cluster_window_minutes": 10
+  }
+}

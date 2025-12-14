@@ -1,0 +1,77 @@
+{
+  "date": "2025-07-30",
+  "movement_start_time": "2025-07-30 12:30:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": NaN,
+  "score": 0.07723618414637937,
+  "has_trigger": true,
+  "n_active": 6,
+  "contributions": [
+    {
+      "event_key": "gdp growth rate",
+      "family": "GDP",
+      "actual": 1.4,
+      "estimate": 1.2,
+      "surprise": 0.19999999999999996,
+      "surprise_z": 0.5692824069391893,
+      "alpha_weight": 0.0224270008922002,
+      "contribution": 0.012767297048339076,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp growth rate",
+      "family": "GDP",
+      "actual": 3.0,
+      "estimate": 2.4,
+      "surprise": 0.6000000000000001,
+      "surprise_z": 2.11656279503032,
+      "alpha_weight": 0.0224270008922002,
+      "contribution": 0.047468155692542736,
+      "is_trigger": true
+    },
+    {
+      "event_key": "gdp price index",
+      "family": "GDP",
+      "actual": 2.0,
+      "estimate": 2.2,
+      "surprise": -0.20000000000000018,
+      "surprise_z": -0.6524626787562735,
+      "alpha_weight": 0.0438536931228031,
+      "contribution": -0.02861289808825968,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp sales",
+      "family": "GDP",
+      "actual": 6.3,
+      "estimate": 1.9,
+      "surprise": 4.4,
+      "surprise_z": 3.62707133298365,
+      "alpha_weight": 0.0224270008922002,
+      "contribution": 0.0813443320208981,
+      "is_trigger": true
+    },
+    {
+      "event_key": "gross domestic product",
+      "family": "GDP",
+      "actual": 3.0,
+      "estimate": 2.5,
+      "surprise": 0.5,
+      "surprise_z": 2.0743672509012456,
+      "alpha_weight": 0.0224270008922002,
+      "contribution": 0.046521836186713114,
+      "is_trigger": true
+    },
+    {
+      "event_key": "gdp growth rate_qoq",
+      "family": "GDP",
+      "actual": 3.0,
+      "estimate": 2.4,
+      "surprise": 0.6000000000000001,
+      "surprise_z": 1.3243196502642953,
+      "alpha_weight": 0.0224270008922002,
+      "contribution": 0.02970051797803561,
+      "is_trigger": true
+    }
+  ]
+}

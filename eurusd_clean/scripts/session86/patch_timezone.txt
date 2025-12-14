@@ -1,0 +1,12 @@
+"""
+Patch rapide : Corriger timezone awareness dans measure_real_impact
+"""
+
+# Ajouter après line 176 dans extract_real_prices, juste avant le return :
+
+# Convertir event_dt en timezone-aware pour compatibilité pandas
+import pytz
+bern_tz = pytz.timezone('Europe/Zurich')
+event_dt_aware = bern_tz.localize(event_dt)
+    
+return df, event_dt_aware

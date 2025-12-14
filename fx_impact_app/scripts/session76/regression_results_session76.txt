@@ -1,0 +1,20 @@
+======================================================================
+RÉGRESSION ML MULTI-VARIABLES - SESSION 76
+======================================================================
+
+MÉTRIQUES TRAINING SET :
+   R² : 0.251
+   MAE : 15.5 pips
+   RMSE : 20.0 pips
+
+MÉTRIQUES VALIDATION CROISÉE (5-FOLD) :
+   R² : -1.191 ± 1.795
+   MAE : 23.1 ± 8.6 pips
+   RMSE : 28.2 ± 11.3 pips
+
+COEFFICIENTS :
+   Intercept : 37.72
+   score_ajuste         :   0.0867
+   nb_events            :   0.5979
+   surprise_max         :  -0.1743
+   coherence_famille    :  48.3176

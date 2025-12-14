@@ -1,0 +1,85 @@
+## 🌊 SESSION 73 : PIPELINE DATA-DRIVEN CRÉÉE (24 octobre 2025)
+
+### Objectif & Résultat
+
+**Mission :** Implémenter méthodologie inversée data-driven  
+**Résultat :** ✅ SUCCÈS - Pipeline complète créée (5 scripts, 1,170 lignes)
+
+### Changement de Paradigme
+
+**Ancienne approche (S64-72) :**
+```
+❌ Événements → Prédiction hypothétique → Validation réalité
+```
+
+**Nouvelle approche (S73+) :**
+```
+✅ Réalité Dukascopy → Mouvements forts → Événements → Patterns ML → Formules
+```
+
+**Tokens Session 73 :** 80,000 / 190,000 (42%)
+
+---
+
+## 🌊 SESSION 74 : FORMULES V2.0 CRÉÉES - DATASET À AMÉLIORER (24 octobre 2025)
+
+### Objectif & Résultat
+
+**Mission :** Exécuter pipeline Session 73 + créer formulas_validated_v2.py  
+**Résultat :** ✅ SUCCÈS avec corrections nécessaires  
+**Tokens :** 90,000 / 190,000 (47%)
+
+### Réalisations
+
+**1. Corrections critiques appliquées :**
+- Timezone UTC+2 → UTC (0 événements → 10 événements)
+- Gestion NaN dans ML (ValueError résolu)
+- Gestion event_title NULL (TypeError résolu)
+
+**2. Dataset créé :**
+- 50 mouvements analysés (1er août 2025)
+- 10 mouvements AVEC événements (20%)
+- 40 mouvements SANS événements (80%) ⚠️
+
+**3. Analyse ML complétée :**
+- Régression linéaire : **R² = 0.541, MAE = 2.5 pips** ✅
+- Clustering K-Means : **3 clusters identifiés**
+- Prédicteur dominant : **SURPRISE** (corr 0.67)
+- Formule simplifiée : Impact = 144.59 + 0.028×surprise_max + 0.032×surprise_cumule
+
+**4. Module formulas_validated_v2.py créé :**
+- 500+ lignes Python
+- Fonctions : calculate_impact_v2(), detect_cluster_type(), calculate_peak_timing_v2(), calculate_ttr_v2()
+- Tests validation : 3/3 passés ✅
+
+### Limitation Critique Identifiée
+
+**Problème : Dataset trop concentré**
+- TOUS les 50 mouvements = même jour (1er août 2025)
+- Mouvement NFP exceptionnel fragmenté en 50 "pics"
+- 80% mouvements sans événements
+- Modèle apprend 1 seul jour → risque overfitting
+
+**Cause :**
+- Scanner "top 50 absolus" concentre sur jours exceptionnels
+- Besoin échantillonnage stratifié (1-2 par semaine)
+
+### Fichiers Session 74
+
+**Scripts :**
+- `create_dataset_session73_FIXED.py` (430 lignes)
+- `analyze_correlations_session73_FIXED.py` (360 lignes)
+
+**Module :**
+- `formulas_validated_v2.py` (500 lignes)
+
+**Outputs :**
+- `dataset_complete_session73_FIXED.csv`
+- `regression_results_session73_FIXED.txt`
+- `clustering_results_session73_FIXED.txt`
+
+**Documentation :**
+- `SESSION74_RAPPORT_COMPLET.md`
+- `MESSAGE_SESSION74_SESSION75.md`
+
+**Progression :** 92% → 93%

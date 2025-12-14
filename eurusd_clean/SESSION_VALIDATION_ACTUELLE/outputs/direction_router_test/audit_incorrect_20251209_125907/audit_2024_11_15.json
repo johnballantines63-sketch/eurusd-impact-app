@@ -1,0 +1,55 @@
+{
+  "date": "2024-11-15",
+  "movement_start_time": "2024-11-15 08:28:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "NEUTRAL",
+  "score": -0.08248676403093312,
+  "has_trigger": true,
+  "n_active": 4,
+  "contributions": [
+    {
+      "event_key": "gdp 3 month avg",
+      "family": "GDP",
+      "actual": 0.1,
+      "estimate": 0.2,
+      "surprise": -0.1,
+      "surprise_z": -0.9957026015176188,
+      "alpha_weight": 0.0438536931228031,
+      "contribution": -0.04366523632853035,
+      "is_trigger": true
+    },
+    {
+      "event_key": "gdp growth rate",
+      "family": "GDP",
+      "actual": 0.1,
+      "estimate": 0.2,
+      "surprise": -0.1,
+      "surprise_z": -0.5911778841291583,
+      "alpha_weight": 0.0438536931228031,
+      "contribution": -0.025925333511588156,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gross domestic product",
+      "family": "GDP",
+      "actual": -0.1,
+      "estimate": 0.2,
+      "surprise": -0.30000000000000004,
+      "surprise_z": -1.352848207109508,
+      "alpha_weight": 0.0438536931228031,
+      "contribution": -0.059327390116314736,
+      "is_trigger": true
+    },
+    {
+      "event_key": "niesr monthly gdp tracker",
+      "family": "GDP",
+      "actual": 0.1,
+      "estimate": 0.2,
+      "surprise": -0.1,
+      "surprise_z": -0.8221786020271296,
+      "alpha_weight": 0.0438536931228031,
+      "contribution": -0.036055568105433,
+      "is_trigger": true
+    }
+  ]
+}

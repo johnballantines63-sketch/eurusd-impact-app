@@ -1,0 +1,55 @@
+{
+  "date": "2025-05-01",
+  "movement_start_time": "2025-05-01 14:06:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "DOWN",
+  "score": -2.9831381882713144,
+  "has_trigger": true,
+  "n_active": 4,
+  "contributions": [
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1916.0,
+      "estimate": 1844.0,
+      "surprise": 72.0,
+      "surprise_z": 2.4757630921290867,
+      "alpha_weight": -1,
+      "contribution": -2.4757630921290867,
+      "is_trigger": true
+    },
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 241.0,
+      "estimate": 225.0,
+      "surprise": 16.0,
+      "surprise_z": 1.6148712032161248,
+      "alpha_weight": -1,
+      "contribution": -1.6148712032161248,
+      "is_trigger": true
+    },
+    {
+      "event_key": "jobless claims 4 week average",
+      "family": "Jobless Claims",
+      "actual": 226.0,
+      "estimate": 222.0,
+      "surprise": 4.0,
+      "surprise_z": 0.9378210405987087,
+      "alpha_weight": -1,
+      "contribution": -0.9378210405987087,
+      "is_trigger": false
+    },
+    {
+      "event_key": "jobless claims 4-week average",
+      "family": "Jobless Claims",
+      "actual": 226.0,
+      "estimate": 222.0,
+      "surprise": 4.0,
+      "surprise_z": 0.9378210405987087,
+      "alpha_weight": -1,
+      "contribution": -0.9378210405987087,
+      "is_trigger": false
+    }
+  ]
+}

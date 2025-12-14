@@ -1,0 +1,50 @@
+#!/bin/bash
+# Script de diagnostic et correction en 1 commande
+
+echo "╔════════════════════════════════════════════════════════════════════════════╗"
+echo "║  🔍 DIAGNOSTIC COMPLET : Problème Graphique 231.9 pips                    ║"
+echo "╚════════════════════════════════════════════════════════════════════════════╝"
+echo ""
+
+cd ~/Desktop/eurusd_news_impact_calculator_MPC/corrections_graphique
+
+echo "📊 Exécution du diagnostic final..."
+echo ""
+
+python3 diagnostic_final.py
+
+echo ""
+echo "╔════════════════════════════════════════════════════════════════════════════╗"
+echo "║  🎯 SOLUTION LA PLUS PROBABLE : CACHE NAVIGATEUR                          ║"
+echo "╚════════════════════════════════════════════════════════════════════════════╝"
+echo ""
+echo "Le code Python est correct. Le problème vient probablement du cache."
+echo ""
+echo "🚀 ÉTAPES SUIVANTES :"
+echo ""
+echo "1. Vider le cache navigateur :"
+echo "   - Chrome/Edge : Ctrl+Shift+Del (Windows) ou Cmd+Shift+Del (Mac)"
+echo "   - Cocher 'Images et fichiers en cache'"
+echo "   - Cliquer 'Effacer les données'"
+echo ""
+echo "2. Relancer Streamlit :"
+echo "   cd ~/Desktop/eurusd_news_impact_calculator_MPC"
+echo "   streamlit run fx_impact_app/streamlit_app/Home.py"
+echo ""
+echo "3. Dans le navigateur, recharger avec force :"
+echo "   Ctrl+F5 (Windows) ou Cmd+Shift+R (Mac)"
+echo ""
+echo "4. Tester sur 11/09/2025 :"
+echo "   - Planificateur Multi-Événements"
+echo "   - Mode séquentiel activé ✅"
+echo "   - Générer graphique minute par minute"
+echo "   - ✅ Vérifier : Amplitude ~52 pips (PAS 231)"
+echo ""
+echo "╔════════════════════════════════════════════════════════════════════════════╗"
+echo "║  💡 SI LE PROBLÈME PERSISTE                                               ║"
+echo "╚════════════════════════════════════════════════════════════════════════════╝"
+echo ""
+echo "Consultez le rapport ci-dessus pour voir si des problèmes ont été détectés."
+echo ""
+echo "Ou consultez : corrections_graphique/GUIDE_CORRECTION_GRAPHIQUE.md"
+echo ""

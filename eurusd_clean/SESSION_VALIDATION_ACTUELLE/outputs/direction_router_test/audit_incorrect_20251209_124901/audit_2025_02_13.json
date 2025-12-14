@@ -1,0 +1,165 @@
+{
+  "date": "2025-02-13",
+  "movement_start_time": "2025-02-13 15:09:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": "UP",
+  "score": 0.13129936269308784,
+  "has_trigger": true,
+  "n_active": 14,
+  "contributions": [
+    {
+      "event_key": "niesr monthly gdp tracker",
+      "family": "GDP",
+      "actual": 0.3,
+      "estimate": 0.1,
+      "surprise": 0.19999999999999998,
+      "surprise_z": 1.4201266762286782,
+      "alpha_weight": 0.0224270008922002,
+      "contribution": 0.03184918223481787,
+      "is_trigger": true
+    },
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1850.0,
+      "estimate": 1880.0,
+      "surprise": -30.0,
+      "surprise_z": -0.9652957114296912,
+      "alpha_weight": -0.0153479181689676,
+      "contribution": -0.014815279587878262,
+      "is_trigger": true
+    },
+    {
+      "event_key": "core ppi",
+      "family": "PPI",
+      "actual": 3.6,
+      "estimate": 3.3,
+      "surprise": 0.30000000000000027,
+      "surprise_z": 1.15595373506857,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.08439467296814544,
+      "is_trigger": true
+    },
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 213.0,
+      "estimate": 215.0,
+      "surprise": -2.0,
+      "surprise_z": 0.01875774364876176,
+      "alpha_weight": 0.050668191263372,
+      "contribution": -0.0009504209428647622,
+      "is_trigger": false
+    },
+    {
+      "event_key": "jobless claims 4 week average",
+      "family": "Jobless Claims",
+      "actual": 216.0,
+      "estimate": 216.0,
+      "surprise": 0.0,
+      "surprise_z": 0.29760079291253383,
+      "alpha_weight": 0.050668191263372,
+      "contribution": -0.015078893895423426,
+      "is_trigger": false
+    },
+    {
+      "event_key": "ppi ex food energy and trade",
+      "family": "PPI",
+      "actual": 3.4,
+      "estimate": 3.2,
+      "surprise": 0.19999999999999973,
+      "surprise_z": 1.127258526380505,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.08229967324669181,
+      "is_trigger": true
+    },
+    {
+      "event_key": "producer price index",
+      "family": "PPI",
+      "actual": 147.716,
+      "estimate": 147.2,
+      "surprise": 0.5160000000000196,
+      "surprise_z": 1.312405113655399,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.09581698385368248,
+      "is_trigger": true
+    },
+    {
+      "event_key": "jobless claims 4-week average",
+      "family": "Jobless Claims",
+      "actual": 216.0,
+      "estimate": 216.0,
+      "surprise": 0.0,
+      "surprise_z": 0.29760079291253383,
+      "alpha_weight": 0.050668191263372,
+      "contribution": -0.015078893895423426,
+      "is_trigger": false
+    },
+    {
+      "event_key": "ppi ex food, energy and trade_yoy",
+      "family": "PPI",
+      "actual": 3.4,
+      "estimate": 3.2,
+      "surprise": 0.19999999999999973,
+      "surprise_z": 0.9011551125709438,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.0657921582082052,
+      "is_trigger": true
+    },
+    {
+      "event_key": "ppi ex food, energy and trade_mom",
+      "family": "PPI",
+      "actual": 0.3,
+      "estimate": 0.2,
+      "surprise": 0.09999999999999998,
+      "surprise_z": 0.1690308509457032,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.012340721738525075,
+      "is_trigger": false
+    },
+    {
+      "event_key": "core ppi_yoy",
+      "family": "PPI",
+      "actual": 3.6,
+      "estimate": 3.3,
+      "surprise": 0.30000000000000027,
+      "surprise_z": 0.9795673804519287,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.07151693551005266,
+      "is_trigger": true
+    },
+    {
+      "event_key": "producer price index_yoy",
+      "family": "PPI",
+      "actual": 3.5,
+      "estimate": 3.2,
+      "surprise": 0.2999999999999998,
+      "surprise_z": 0.8124513189184586,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.05931601004653914,
+      "is_trigger": true
+    },
+    {
+      "event_key": "core ppi_mom",
+      "family": "PPI",
+      "actual": 0.3,
+      "estimate": 0.3,
+      "surprise": 0.0,
+      "surprise_z": -0.12476152601491582,
+      "alpha_weight": 0.0155460648586795,
+      "contribution": -0.001939550775295711,
+      "is_trigger": false
+    },
+    {
+      "event_key": "producer price index_mom",
+      "family": "PPI",
+      "actual": 0.4,
+      "estimate": 0.3,
+      "surprise": 0.10000000000000003,
+      "surprise_z": 0.49054337830104716,
+      "alpha_weight": 0.0730086943861462,
+      "contribution": 0.03581393158952885,
+      "is_trigger": false
+    }
+  ]
+}

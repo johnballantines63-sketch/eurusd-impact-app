@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2025-12-01",
+    "error": "Donn\u00e9es invalides apr\u00e8s import : Trop peu de prix pour jour avec fin pr\u00e9coce (827 < 850), Fin trop pr\u00e9coce (13h, minimum attendu: 19h)",
+    "n_imported": 767
+  }
+]

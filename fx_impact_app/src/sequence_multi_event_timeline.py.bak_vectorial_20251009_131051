@@ -1,0 +1,285 @@
+"""
+Fonction de séquençage temporel pour multi-événements
+Résout le bug TTR en calculant phases distinctes au lieu d'un TTR global
+"""
+
+from datetime import datetime, timedelta
+from typing import List, Dict, Any
+
+def sequence_multi_event_timeline(predictions: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Créer timeline séquentielle avec phases distinctes pour multi-événements
+    
+    Résout le problème : Actuellement on mesure TTR depuis le premier événement
+    jusqu'au retournement final, mais si un 2ème événement arrive AVANT le TTR
+    du premier, il crée une NOUVELLE phase qui masque/coupe le premier TTR.
+    
+    Exemple 11/09/2025 :
+        14:30 → Jobless + CPI → Mouvement DOWN → TTR attendu ~5 min
+        14:35 → Premier retracement ✅
+        14:45 → Current Account (DE) → NOUVEAU mouvement UP ← Coupe le premier !
+        14:50 → Deuxième retracement
+        
+        Avant : TTR mesuré = 20 min (14:30 → 14:50) ❌
+        Après : Phase 1 TTR = 5 min, Phase 2 TTR = 5 min ✅
+    
+    Args:
+        predictions: Liste de prédictions triées par temps
+                    Chaque prédiction contient :
+                    {
+                        'event': {
+                            'ts_utc': datetime,
+                            'family': str,
+                            'event_key': str,
+                            'country': str
+                        },
+                        'predicted_pips': float,
+                        'direction': int (1=UP, -1=DOWN),
+                        'latency_median': float (minutes),
+                        'ttr_median': float (minutes)
+                    }
+    
+    Returns:
+        phases: Liste de phases temporelles distinctes
+                Chaque phase contient :
+                {
+                    'phase_num': int,
+                    'event_family': str,
+                    'event_key': str,
+                    'country': str,
+                    'start_time': datetime,
+                    'predicted_end': datetime,
+                    'actual_end': datetime,
+                    'impact_pips': float (signé selon direction),
+                    'direction': str ('UP' | 'DOWN'),
+                    'latency_minutes': float,
+                    'ttr_theoretical': float (minutes),
+                    'ttr_real': float (minutes),
+                    'duration_minutes': float,
+                    'interrupted': bool,
+                    'interrupted_by': str | None,
+                    'interruption_time': datetime | None,
+                    'note': str
+                }
+    """
+    
+    if not predictions:
+        return []
+    
+    # Trier par temps (au cas où)
+    sorted_predictions = sorted(predictions, key=lambda p: p['event']['ts_utc'])
+    
+    phases = []
+    
+    for i, pred in enumerate(sorted_predictions):
+        event = pred['event']
+        event_time = event['ts_utc']
+        predicted_ttr = pred['ttr_median']
+        predicted_latency = pred['latency_median']
+        
+        # Calcul temps de fin théorique
+        # Temps de fin = Événement + Latence + TTR
+        predicted_end = event_time + timedelta(minutes=predicted_latency + predicted_ttr)
+        
+        # Direction signée
+        impact_signed = pred['predicted_pips'] * pred['direction']
+        direction_str = 'UP' if pred['direction'] > 0 else 'DOWN'
+        
+        # Phase initiale
+        phase = {
+            'phase_num': i + 1,
+            'event_family': event['family'],
+            'event_key': event.get('event_key', event['family']),
+            'country': event.get('country', 'N/A'),
+            'start_time': event_time,
+            'predicted_end': predicted_end,
+            'impact_pips': impact_signed,
+            'direction': direction_str,
+            'latency_minutes': predicted_latency,
+            'ttr_theoretical': predicted_ttr,
+            'interrupted': False,
+            'interrupted_by': None,
+            'interruption_time': None
+        }
+        
+        # Vérifier si événement suivant interfère
+        if i + 1 < len(sorted_predictions):
+            next_pred = sorted_predictions[i + 1]
+            next_event = next_pred['event']
+            next_time = next_event['ts_utc']
+            
+            # Si événement suivant arrive AVANT la fin théorique
+            if next_time < predicted_end:
+                # L'événement suivant COUPE cette phase
+                # On calcule le TTR réel tronqué
+                
+                # Temps entre début événement et arrivée événement suivant
+                time_until_interruption = (next_time - event_time).total_seconds() / 60
+                
+                # TTR réel = temps jusqu'à interruption - latence
+                # (car latence = temps avant que le mouvement commence)
+                ttr_real = max(0, time_until_interruption - predicted_latency)
+                
+                phase['interrupted'] = True
+                phase['interrupted_by'] = next_event['family']
+                phase['interruption_time'] = next_time
+                phase['ttr_real'] = ttr_real
+                phase['actual_end'] = next_time
+                phase['duration_minutes'] = time_until_interruption
+                
+                # Note explicative
+                phase['note'] = (
+                    f"⚠️ Phase interrompue par {next_event['family']} "
+                    f"à {next_time.strftime('%H:%M')}. "
+                    f"TTR tronqué de {predicted_ttr:.0f} min → {ttr_real:.0f} min"
+                )
+            else:
+                # Pas d'interférence, la phase se déroule complètement
+                phase['ttr_real'] = predicted_ttr
+                phase['actual_end'] = predicted_end
+                phase['duration_minutes'] = predicted_latency + predicted_ttr
+                phase['note'] = "✅ Phase complète sans interférence"
+        else:
+            # Dernier événement, pas d'interférence possible
+            phase['ttr_real'] = predicted_ttr
+            phase['actual_end'] = predicted_end
+            phase['duration_minutes'] = predicted_latency + predicted_ttr
+            phase['note'] = "✅ Dernier événement (phase complète)"
+        
+        phases.append(phase)
+    
+    return phases
+
+
+def format_phase_summary(phases: List[Dict[str, Any]]) -> str:
+    """
+    Créer résumé textuel de la timeline pour affichage
+    
+    Args:
+        phases: Liste de phases retournées par sequence_multi_event_timeline()
+    
+    Returns:
+        Résumé textuel formaté
+    """
+    if not phases:
+        return "Aucune phase à afficher"
+    
+    summary_lines = []
+    summary_lines.append("📊 TIMELINE SÉQUENTIELLE MULTI-ÉVÉNEMENTS")
+    summary_lines.append("=" * 60)
+    summary_lines.append("")
+    
+    for phase in phases:
+        # En-tête phase
+        phase_header = (
+            f"Phase {phase['phase_num']}: {phase['event_family']} ({phase['country']}) "
+            f"à {phase['start_time'].strftime('%H:%M')}"
+        )
+        summary_lines.append(phase_header)
+        summary_lines.append("-" * len(phase_header))
+        
+        # Métriques
+        icon = "🔺" if phase['direction'] == 'UP' else "🔻"
+        summary_lines.append(f"Direction: {icon} {phase['direction']}")
+        summary_lines.append(f"Impact: {abs(phase['impact_pips']):.1f} pips")
+        summary_lines.append(f"Latence: {phase['latency_minutes']:.0f} min")
+        summary_lines.append(f"TTR théorique: {phase['ttr_theoretical']:.0f} min")
+        summary_lines.append(f"TTR réel: {phase['ttr_real']:.0f} min")
+        summary_lines.append(f"Durée totale: {phase['duration_minutes']:.0f} min")
+        summary_lines.append(
+            f"Fenêtre: {phase['start_time'].strftime('%H:%M')} → "
+            f"{phase['actual_end'].strftime('%H:%M')}"
+        )
+        
+        # Note
+        summary_lines.append(f"\n{phase['note']}")
+        summary_lines.append("")
+    
+    # Statistiques globales
+    total_duration = sum(p['duration_minutes'] for p in phases)
+    avg_ttr = sum(p['ttr_real'] for p in phases) / len(phases)
+    interrupted_count = sum(1 for p in phases if p['interrupted'])
+    
+    summary_lines.append("=" * 60)
+    summary_lines.append("STATISTIQUES GLOBALES")
+    summary_lines.append(f"Nombre de phases: {len(phases)}")
+    summary_lines.append(f"Durée totale: {total_duration:.0f} min")
+    summary_lines.append(f"TTR moyen: {avg_ttr:.1f} min")
+    summary_lines.append(f"Phases interrompues: {interrupted_count}/{len(phases)}")
+    
+    return "\n".join(summary_lines)
+
+
+# Exemple d'utilisation
+if __name__ == "__main__":
+    from datetime import datetime, timedelta
+    
+    # Simulation cas 11/09/2025
+    predictions_test = [
+        {
+            'event': {
+                'ts_utc': datetime(2025, 9, 11, 14, 30),
+                'family': 'Jobless_Claims',
+                'event_key': 'jobless claims',
+                'country': 'US'
+            },
+            'predicted_pips': 31.0,
+            'direction': -1,  # DOWN
+            'latency_median': 1.0,
+            'ttr_median': 30.0  # TTR théorique
+        },
+        {
+            'event': {
+                'ts_utc': datetime(2025, 9, 11, 14, 30),
+                'family': 'CPI',
+                'event_key': 'cpi',
+                'country': 'US'
+            },
+            'predicted_pips': 54.9,
+            'direction': -1,  # DOWN
+            'latency_median': 5.0,
+            'ttr_median': 39.0  # TTR théorique
+        },
+        {
+            'event': {
+                'ts_utc': datetime(2025, 9, 11, 14, 45),
+                'family': 'Current_Account',
+                'event_key': 'current account',
+                'country': 'DE'
+            },
+            'predicted_pips': 24.9,
+            'direction': 1,  # UP
+            'latency_median': 5.0,
+            'ttr_median': 49.5  # TTR théorique
+        }
+    ]
+    
+    # Calculer phases
+    phases = sequence_multi_event_timeline(predictions_test)
+    
+    # Afficher résumé
+    print(format_phase_summary(phases))
+    
+    # Vérifications attendues
+    print("\n" + "=" * 60)
+    print("VÉRIFICATIONS")
+    print("=" * 60)
+    
+    # Phase 1 (Jobless) devrait être interrompue
+    phase1 = phases[0]
+    print(f"\nPhase 1 (Jobless):")
+    print(f"  Interrompue: {phase1['interrupted']} (attendu: True)")
+    print(f"  TTR réel: {phase1['ttr_real']:.0f} min (attendu: ~14 min)")
+    print(f"  Note: {phase1['note']}")
+    
+    # Phase 2 (CPI) devrait aussi être interrompue
+    phase2 = phases[1]
+    print(f"\nPhase 2 (CPI):")
+    print(f"  Interrompue: {phase2['interrupted']} (attendu: True)")
+    print(f"  TTR réel: {phase2['ttr_real']:.0f} min (attendu: ~10 min)")
+    
+    # Phase 3 (Current Account) devrait être complète
+    phase3 = phases[2]
+    print(f"\nPhase 3 (Current Account):")
+    print(f"  Interrompue: {phase3['interrupted']} (attendu: False)")
+    print(f"  TTR réel: {phase3['ttr_real']:.0f} min (attendu: ~49 min)")

@@ -1,0 +1,158 @@
+{
+  "reference_date": "2025-09-11",
+  "criteria": {
+    "us_events_1430_berne": "12:30 UTC",
+    "current_account_1445_berne": "12:45 UTC"
+  },
+  "events": [
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "continuing jobless claims",
+      "country": "US",
+      "importance_n": 2,
+      "actual": 1939.0,
+      "forecast": 1950.0,
+      "previous": 1939.0,
+      "empirical_score": 27.763139534884026
+    },
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "core inflation rate_mom",
+      "country": "US",
+      "importance_n": 2,
+      "actual": 0.3,
+      "forecast": 0.3,
+      "previous": 0.3,
+      "empirical_score": 47.17999999999994
+    },
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "core inflation rate_yoy",
+      "country": "US",
+      "importance_n": 2,
+      "actual": 3.1,
+      "forecast": 3.1,
+      "previous": 3.1,
+      "empirical_score": 47.17999999999994
+    },
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "cpi",
+      "country": "US",
+      "importance_n": 2,
+      "actual": 323.98,
+      "forecast": 323.89,
+      "previous": 323.05,
+      "empirical_score": 45.47810810810828
+    },
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "cpi s.a",
+      "country": "US",
+      "importance_n": 2,
+      "actual": 323.364,
+      "forecast": 323.0,
+      "previous": 322.132,
+      "empirical_score": 44.534411764706576
+    },
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "inflation rate_mom",
+      "country": "US",
+      "importance_n": 2,
+      "actual": 0.4,
+      "forecast": 0.3,
+      "previous": 0.2,
+      "empirical_score": 48.84133333333301
+    },
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "inflation rate_yoy",
+      "country": "US",
+      "importance_n": 2,
+      "actual": 2.9,
+      "forecast": 2.9,
+      "previous": 2.7,
+      "empirical_score": 48.84133333333301
+    },
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "initial jobless claims",
+      "country": "US",
+      "importance_n": 2,
+      "actual": 263.0,
+      "forecast": 235.0,
+      "previous": 236.0,
+      "empirical_score": 28.529585798816623
+    },
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "jobless claims 4 week average",
+      "country": "US",
+      "importance_n": 2,
+      "actual": 240.5,
+      "forecast": 232.0,
+      "previous": 230.75,
+      "empirical_score": 27.913457446808675
+    },
+    {
+      "ts_utc": "2025-09-11 14:30:00+02:00",
+      "event_key": "real earnings_mom",
+      "country": "US",
+      "importance_n": 2,
+      "actual": -0.1,
+      "forecast": NaN,
+      "previous": 0.1,
+      "empirical_score": 39.38100000000047
+    },
+    {
+      "ts_utc": "2025-09-11 14:45:00+02:00",
+      "event_key": "current account",
+      "country": "DE",
+      "importance_n": 2,
+      "actual": 14.8,
+      "forecast": 21.5,
+      "previous": 17.1,
+      "empirical_score": NaN
+    }
+  ],
+  "event_keys_raw": [
+    "continuing jobless claims",
+    "core inflation rate_mom",
+    "core inflation rate_yoy",
+    "cpi",
+    "cpi s.a",
+    "current account",
+    "inflation rate_mom",
+    "inflation rate_yoy",
+    "initial jobless claims",
+    "jobless claims 4 week average",
+    "real earnings_mom"
+  ],
+  "event_keys_normalized": [
+    "continuing jobless claims",
+    "core inflation rate_mom",
+    "core inflation rate_yoy",
+    "cpi",
+    "cpi s.a",
+    "current account",
+    "inflation rate_mom",
+    "inflation rate_yoy",
+    "initial jobless claims",
+    "jobless claims 4 week average",
+    "real earnings_mom"
+  ],
+  "composition_set": [
+    "continuing jobless claims",
+    "core inflation rate_mom",
+    "core inflation rate_yoy",
+    "cpi",
+    "cpi s.a",
+    "current account",
+    "inflation rate_mom",
+    "inflation rate_yoy",
+    "initial jobless claims",
+    "jobless claims 4 week average",
+    "real earnings_mom"
+  ]
+}

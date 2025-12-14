@@ -1,0 +1,172 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                       SESSION 11 - ÉTAT D'AVANCEMENT                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📅 Date: 18 octobre 2025
+⏱️  Temps écoulé: ~2h30
+🎯 Objectif: Intégrer formule v9-CLEAN dans le planificateur
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ PHASE 1: FONCTION v9-CLEAN CRÉÉE                                      ✅ 100%│
+├──────────────────────────────────────────────────────────────────────────────┤
+│ ✅ Fonction predict_impact_v9_clean() ajoutée à forecaster_mvp.py           │
+│ ✅ Gestion 1 événement vs ≥2 événements                                     │
+│ ✅ Gestion scores NULL                                                       │
+│ ✅ Documentation complète (docstring + exemples)                            │
+│ ✅ Script de test créé (test_v9_clean_function.py)                          │
+│ ✅ Tests validés:                                                            │
+│    • 11 sept: 28.50 pips prédit vs 44.2 réel (erreur 15.7 pips)            │
+│    • Score 50: 13.87 pips                                                    │
+│    • Comparaison formules: +4.7% pour multi-événements                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ PHASE 2: SCRIPTS D'INTÉGRATION CRÉÉS                                  ✅ 100%│
+├──────────────────────────────────────────────────────────────────────────────┤
+│ ✅ Analyse du code existant (4_Planificateur-Multi-Evenements.py)           │
+│ ✅ Identification fonction cible (predict_impact_fast)                      │
+│ ✅ Script automatique créé (integrate_v9_clean.py)                          │
+│ ✅ Documentation modification créée                                          │
+│ ✅ Rapport session créé (SESSION11_INTEGRATION_REPORT.md)                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ PHASE 3: EXÉCUTION INTÉGRATION                                        ⏳ 0%  │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ ⏳ Exécuter integrate_v9_clean.py                                            │
+│ ⏳ Vérifier backup créé                                                      │
+│ ⏳ Vérifier modifications appliquées                                         │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ PHASE 4: TESTS STREAMLIT                                              ⏳ 0%  │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ ⏳ Lancer Streamlit                                                          │
+│ ⏳ Test 11 septembre 2025 (6 événements)                                    │
+│ ⏳ Vérifier logs console (🎯 v9-CLEAN)                                      │
+│ ⏳ Test événement seul                                                       │
+│ ⏳ Test scores NULL                                                          │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ PHASE 5: DOCUMENTATION FINALE                                         ⏳ 0%  │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ ⏳ RAPPORT_SESSION11_FINAL.md                                                │
+│ ⏳ START_HERE.md mis à jour                                                  │
+│ ⏳ SESSION11_RECAP.md                                                        │
+│ ⏳ Screenshots résultats                                                     │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                              FICHIERS CRÉÉS                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📝 Code:
+  ✅ fx_impact_app/src/forecaster_mvp.py (modifié)
+  ✅ test_v9_clean_function.py
+  ✅ integrate_v9_clean.py
+  ✅ predict_impact_fast_v9_modification.py
+
+📚 Documentation:
+  ✅ SESSION11_INTEGRATION_REPORT.md
+  ✅ SESSION11_PROGRESS.txt (ce fichier)
+
+🔄 Backups:
+  ⏳ 4_Planificateur-Multi-Evenements.py.backup_session11_* (sera créé)
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                           PROCHAINES ACTIONS                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🚀 ACTION IMMÉDIATE:
+
+   cd /Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC
+   python3 integrate_v9_clean.py
+
+   ⬇️  Le script va:
+   1. Créer backup automatique
+   2. Modifier predict_impact_fast()
+   3. Vérifier que tout est OK
+   4. Afficher rapport de succès
+
+🧪 ENSUITE:
+
+   streamlit run fx_impact_app/streamlit_app/Home.py
+
+   ⬇️  Dans Streamlit:
+   1. Aller sur "Planificateur Multi-Événements"
+   2. Sélectionner 11 septembre 2025, 14:30
+   3. Vérifier logs console:
+      🎯 v9-CLEAN: CPI (score 82/100, 6 evt) → 28.5 pips
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                            MÉTRIQUES SESSION                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+⏱️  Temps: ~2h30
+🎯 Progression: 40% (2/5 phases complètes)
+💾 Tokens: 79K / 190K (42%)
+📊 Critères succès: 6/12 (50%)
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         COMPARAISON MÉTHODES                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────────┬────────────────────┬─────────────────────────────────┐
+│ Aspect              │ Ancien système     │ v9-CLEAN (Session 11)           │
+├─────────────────────┼────────────────────┼─────────────────────────────────┤
+│ Formule             │ mfe × (score/20)   │ -7.08 + 0.419 × score           │
+│ Validation          │ Aucune             │ R²=0.264, MAE=6.68 pips         │
+│ Événements groupés  │ Non distingué      │ Formule spécifique (v9-MULTI)   │
+│ Dataset             │ Non défini         │ 2,087 groupes (2024-2025)       │
+│ Type                │ Heuristique        │ Régression linéaire             │
+└─────────────────────┴────────────────────┴─────────────────────────────────┘
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                       EXEMPLE: 11 SEPTEMBRE 2025                             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📊 Conditions:
+   • Date: 2025-09-11 14:30
+   • Événements: 6 (CPI, Jobless Claims, etc.)
+   • Score empirique: 81.7
+
+🔮 Ancien système:
+   • Calcul: mfe × (81.7 / 20) = mfe × 4.085
+   • Non reproductible, pas de validation
+
+✨ v9-CLEAN:
+   • Formule: -10.47 + 0.477 × 81.7 = 28.50 pips
+   • Validé sur 2,087 groupes historiques
+   • MAE = 6.68 pips
+
+🎯 Réalité MT5:
+   • Impact mesuré: 44.2 pips
+   • Erreur v9-CLEAN: 15.7 pips (acceptable)
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                            AIDE DÉPANNAGE                                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+❓ Problème: Script intégration échoue
+   → Vérifier que forecaster_mvp.py a bien la fonction predict_impact_v9_clean()
+   → Lancer: python3 test_v9_clean_function.py
+
+❓ Problème: Streamlit crash
+   → Restaurer backup:
+     cp fx_impact_app/streamlit_app/pages/4_Planificateur-Multi-Evenements.py.backup_session11_* \\
+        fx_impact_app/streamlit_app/pages/4_Planificateur-Multi-Evenements.py
+
+❓ Problème: Pas de message 🎯 v9-CLEAN dans console
+   → Vérifier que score empirique est chargé depuis DB
+   → Vérifier function signature a bien num_events=1
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                              FIN SESSION 11                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Version: 1.0
+Date: 18 octobre 2025
+Statut: 🚧 EN COURS - Prêt pour Phase 3
+Auteur: André & Claude

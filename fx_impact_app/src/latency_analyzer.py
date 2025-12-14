@@ -30,7 +30,7 @@ class LatencyAnalyzer:
         self.close()
     
     def calculate_event_latency(self, event_time, event_key: str, 
-                               threshold_pips: float = 5.0, max_minutes: int = 30) -> Dict:
+                               threshold_pips: float = 2.0, max_minutes: int = 30) -> Dict:
         """Calcule les métriques de latence pour un événement spécifique"""
         self.connect()
         
@@ -82,7 +82,7 @@ class LatencyAnalyzer:
             "direction": direction
         }
     
-    def calculate_family_latency_stats(self, family_pattern: str, threshold_pips: float = 5.0,
+    def calculate_family_latency_stats(self, family_pattern: str, threshold_pips: float = 2.0,
                                       min_events: int = 10, lookback_days: int = 365) -> Dict:
         """Calcule les statistiques de latence moyennes pour une famille d'événements"""
         self.connect()
@@ -142,7 +142,7 @@ class LatencyAnalyzer:
         return stats
     
     def predict_latency_for_event(self, event_key: str, surprise_magnitude: Optional[float] = None,
-                                 threshold_pips: float = 5.0) -> Dict:
+                                 threshold_pips: float = 2.0) -> Dict:
         """Prédit la latence attendue pour un événement futur"""
         self.connect()
         
@@ -198,7 +198,7 @@ class LatencyAnalyzer:
         
         return prediction
     
-    def get_all_families_latency_summary(self, threshold_pips: float = 5.0) -> List[Dict]:
+    def get_all_families_latency_summary(self, threshold_pips: float = 2.0) -> List[Dict]:
         """Résumé des latences pour toutes les familles d'événements"""
         # Patterns élargis pour mieux détecter les variantes
         family_patterns = {

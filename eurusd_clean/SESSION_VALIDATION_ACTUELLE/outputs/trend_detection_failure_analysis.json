@@ -1,0 +1,1172 @@
+{
+  "categories": {
+    "moyen_errors": 15,
+    "moyen_corrects": 29,
+    "fort_corrects": 5,
+    "fort_errors": 1
+  },
+  "detection_stats": {
+    "MOYEN_False": {
+      "default": {
+        "success": 5,
+        "total": 5
+      },
+      "longer_lookback": {
+        "success": 5,
+        "total": 5
+      },
+      "lower_r2_threshold": {
+        "success": 5,
+        "total": 5
+      },
+      "shorter_min_hours": {
+        "success": 5,
+        "total": 5
+      },
+      "smaller_segments": {
+        "success": 5,
+        "total": 5
+      },
+      "relaxed_all": {
+        "success": 5,
+        "total": 5
+      }
+    },
+    "MOYEN_True": {
+      "default": {
+        "success": 5,
+        "total": 5
+      },
+      "longer_lookback": {
+        "success": 5,
+        "total": 5
+      },
+      "lower_r2_threshold": {
+        "success": 5,
+        "total": 5
+      },
+      "shorter_min_hours": {
+        "success": 5,
+        "total": 5
+      },
+      "smaller_segments": {
+        "success": 5,
+        "total": 5
+      },
+      "relaxed_all": {
+        "success": 5,
+        "total": 5
+      }
+    },
+    "FORT_True": {
+      "default": {
+        "success": 5,
+        "total": 5
+      },
+      "longer_lookback": {
+        "success": 5,
+        "total": 5
+      },
+      "lower_r2_threshold": {
+        "success": 5,
+        "total": 5
+      },
+      "shorter_min_hours": {
+        "success": 5,
+        "total": 5
+      },
+      "smaller_segments": {
+        "success": 5,
+        "total": 5
+      },
+      "relaxed_all": {
+        "success": 5,
+        "total": 5
+      }
+    },
+    "FORT_False": {
+      "default": {
+        "success": 1,
+        "total": 1
+      },
+      "longer_lookback": {
+        "success": 1,
+        "total": 1
+      },
+      "lower_r2_threshold": {
+        "success": 1,
+        "total": 1
+      },
+      "shorter_min_hours": {
+        "success": 1,
+        "total": 1
+      },
+      "smaller_segments": {
+        "success": 1,
+        "total": 1
+      },
+      "relaxed_all": {
+        "success": 1,
+        "total": 1
+      }
+    }
+  },
+  "detailed_cases": [
+    {
+      "date": "2023-01-06",
+      "direction_real": "UP",
+      "movement_class": "MOYEN",
+      "direction_correct": false,
+      "n_prices": 14193,
+      "query_dt": "2023-01-06 04:00:00+01:00",
+      "start_dt": "2022-12-23 04:00:00+01:00",
+      "event_time_idx": 14192,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.983333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.983333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.983333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.983333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 42.483333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 17.366666666666667,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "direction_real": "UP",
+      "movement_class": "MOYEN",
+      "direction_correct": false,
+      "n_prices": 14359,
+      "query_dt": "2025-08-12 10:00:00+02:00",
+      "start_dt": "2025-07-29 10:00:00+02:00",
+      "event_time_idx": 14358,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 27.65,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 27.65,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 27.65,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 16.816666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 112.86666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 16.816666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2023-12-08",
+      "direction_real": "DOWN",
+      "movement_class": "MOYEN",
+      "direction_correct": false,
+      "n_prices": 14368,
+      "query_dt": "2023-12-08 12:30:00+01:00",
+      "start_dt": "2023-11-24 12:30:00+01:00",
+      "event_time_idx": 14367,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 28.466666666666665,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 28.466666666666665,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 28.466666666666665,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 17.65,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 28.466666666666665,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 17.65,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-10-14",
+      "direction_real": "UP",
+      "movement_class": "MOYEN",
+      "direction_correct": false,
+      "n_prices": 14697,
+      "query_dt": "2025-10-14 10:00:00+02:00",
+      "start_dt": "2025-09-30 10:00:00+02:00",
+      "event_time_idx": 14696,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.6,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.6,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.6,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.6,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.6,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 17.05,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-05-13",
+      "direction_real": "UP",
+      "movement_class": "MOYEN",
+      "direction_correct": false,
+      "n_prices": 14389,
+      "query_dt": "2025-05-13 10:00:00+02:00",
+      "start_dt": "2025-04-29 10:00:00+02:00",
+      "event_time_idx": 14388,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 101.81666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 101.81666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 101.81666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 13.45,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 30.866666666666667,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 13.45,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2024-09-06",
+      "direction_real": "UP",
+      "movement_class": "MOYEN",
+      "direction_correct": true,
+      "n_prices": 14294,
+      "query_dt": "2024-09-06 12:30:00+02:00",
+      "start_dt": "2024-08-23 12:30:00+02:00",
+      "event_time_idx": 14293,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 64.48333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 64.48333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 64.48333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 64.48333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 30.233333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 19.716666666666665,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-05-02",
+      "direction_real": "DOWN",
+      "movement_class": "MOYEN",
+      "direction_correct": true,
+      "n_prices": 14381,
+      "query_dt": "2025-05-02 12:00:00+02:00",
+      "start_dt": "2025-04-18 12:00:00+02:00",
+      "event_time_idx": 14380,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 69.7,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 69.7,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 65.56666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 18.083333333333332,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 26.683333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 18.083333333333332,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-04-23",
+      "direction_real": "DOWN",
+      "movement_class": "MOYEN",
+      "direction_correct": true,
+      "n_prices": 14373,
+      "query_dt": "2025-04-22 22:00:00+02:00",
+      "start_dt": "2025-04-08 22:00:00+02:00",
+      "event_time_idx": 14372,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 28.75,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 28.75,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 28.75,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 14.5,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 24.833333333333332,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 24.833333333333332,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-01-10",
+      "direction_real": "DOWN",
+      "movement_class": "MOYEN",
+      "direction_correct": true,
+      "n_prices": 12936,
+      "query_dt": "2025-01-10 12:30:00+01:00",
+      "start_dt": "2024-12-27 12:30:00+01:00",
+      "event_time_idx": 12935,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 40.0,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 40.0,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 40.0,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 40.0,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 40.0,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 13.45,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2023-11-03",
+      "direction_real": "UP",
+      "movement_class": "MOYEN",
+      "direction_correct": true,
+      "n_prices": 14420,
+      "query_dt": "2023-11-03 11:30:00+01:00",
+      "start_dt": "2023-10-20 11:30:00+01:00",
+      "event_time_idx": 14419,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 44.983333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 44.983333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 44.983333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 17.8,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 44.983333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 17.8,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-04-10",
+      "direction_real": "UP",
+      "movement_class": "FORT",
+      "direction_correct": true,
+      "n_prices": 14298,
+      "query_dt": "2025-04-10 12:30:00+02:00",
+      "start_dt": "2025-03-27 12:30:00+02:00",
+      "event_time_idx": 14297,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 66.86666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 66.86666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 66.86666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 16.183333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 27.6,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 16.183333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-10-29",
+      "direction_real": "DOWN",
+      "movement_class": "FORT",
+      "direction_correct": true,
+      "n_prices": 14384,
+      "query_dt": "2025-10-29 10:00:00+01:00",
+      "start_dt": "2025-10-15 10:00:00+01:00",
+      "event_time_idx": 14383,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 119.75,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 119.75,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 46.81666666666667,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 13.983333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 25.883333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 13.983333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2023-10-06",
+      "direction_real": "UP",
+      "movement_class": "FORT",
+      "direction_correct": true,
+      "n_prices": 14278,
+      "query_dt": "2023-10-06 10:50:00+02:00",
+      "start_dt": "2023-09-22 10:50:00+02:00",
+      "event_time_idx": 14277,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 97.83333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 97.83333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 65.03333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 97.83333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 30.866666666666667,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 12.8,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-02-12",
+      "direction_real": "UP",
+      "movement_class": "FORT",
+      "direction_correct": true,
+      "n_prices": 14379,
+      "query_dt": "2025-02-12 11:00:00+01:00",
+      "start_dt": "2025-01-29 11:00:00+01:00",
+      "event_time_idx": 14378,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 30.816666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 30.816666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 30.816666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 30.816666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 30.816666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 14.316666666666666,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-02-07",
+      "direction_real": "DOWN",
+      "movement_class": "FORT",
+      "direction_correct": true,
+      "n_prices": 14384,
+      "query_dt": "2025-02-07 12:30:00+01:00",
+      "start_dt": "2025-01-24 12:30:00+01:00",
+      "event_time_idx": 14383,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 44.483333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 44.483333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 44.483333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 22.883333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "DOWN",
+          "duration_hours": 44.483333333333334,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 22.883333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "direction_real": "DOWN",
+      "movement_class": "FORT",
+      "direction_correct": false,
+      "n_prices": 13767,
+      "query_dt": "2025-01-15 11:00:00+01:00",
+      "start_dt": "2025-01-01 11:00:00+01:00",
+      "event_time_idx": 13766,
+      "scenarios": {
+        "default": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 48.53333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "longer_lookback": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 48.53333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "lower_r2_threshold": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 48.53333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "shorter_min_hours": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 48.53333333333333,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "smaller_segments": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 31.283333333333335,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        },
+        "relaxed_all": {
+          "trend_exists": true,
+          "direction": "UP",
+          "duration_hours": 31.283333333333335,
+          "r2_linear": 0,
+          "volatility_pips": 0,
+          "reversal_type": "UNKNOWN",
+          "error": null
+        }
+      }
+    }
+  ]
+}

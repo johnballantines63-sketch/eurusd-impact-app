@@ -1,0 +1,44 @@
+{
+  "date": "2025-01-20",
+  "movement_start_time": "2025-01-20 09:39:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "NEUTRAL",
+  "score": -1.2263069375799474,
+  "has_trigger": true,
+  "n_active": 3,
+  "contributions": [
+    {
+      "event_key": "producer price index",
+      "family": "PPI",
+      "actual": 0.8,
+      "estimate": 1.1,
+      "surprise": -0.30000000000000004,
+      "surprise_z": -0.5350084889197727,
+      "alpha_weight": 1,
+      "contribution": -0.5350084889197727,
+      "is_trigger": false
+    },
+    {
+      "event_key": "producer price index_yoy",
+      "family": "PPI",
+      "actual": 0.8,
+      "estimate": 1.1,
+      "surprise": -0.30000000000000004,
+      "surprise_z": -0.6367861688820358,
+      "alpha_weight": 1,
+      "contribution": -0.6367861688820358,
+      "is_trigger": false
+    },
+    {
+      "event_key": "producer price index_mom",
+      "family": "PPI",
+      "actual": -0.1,
+      "estimate": 0.3,
+      "surprise": -0.4,
+      "surprise_z": -0.9522312637608561,
+      "alpha_weight": 1,
+      "contribution": -0.9522312637608561,
+      "is_trigger": true
+    }
+  ]
+}

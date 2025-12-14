@@ -1,0 +1,11 @@
+{
+  "date": "2025-09-11",
+  "method": "session_102_exact_copy",
+  "impact_pips": 56.80000000000129,
+  "direction": "UP",
+  "price_start": 1.16874,
+  "price_peak": 1.17442,
+  "duration_minutes": 109.0,
+  "validation": "PASSED",
+  "error_pips": 1.2931877790833823e-12
+}

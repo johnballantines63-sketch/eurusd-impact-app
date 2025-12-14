@@ -1,0 +1,17 @@
+{
+  "event_date": "2025-09-11",
+  "event_time_utc": "2025-09-11T12:30:00+00:00",
+  "impact_real_corrected": {
+    "price_start": 1.17321,
+    "price_peak": 1.17448,
+    "time_peak": "2025-09-11 15:23:00+02:00",
+    "direction": "UP",
+    "duration_to_peak_min": 53.0,
+    "impact_pips": 12.699999999998823,
+    "method": "start_to_peak"
+  },
+  "impact_old_method": {
+    "impact_pips": 18.299999999999983,
+    "method": "max_minus_min"
+  }
+}

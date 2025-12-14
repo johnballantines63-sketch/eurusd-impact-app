@@ -1,0 +1,3 @@
+date,pattern_type,score,chronological,wave1_valid,pullback_valid,wave2_valid,ecart_abs
+2025-10-24,DOUBLE_WAVE,1.0,False,True,True,True,34.235433914740675
+2024-07-11,DOUBLE_WAVE,1.0,False,True,True,True,52.87264812025806

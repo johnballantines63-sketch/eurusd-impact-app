@@ -1,0 +1,33 @@
+{
+  "date": "2025-01-29",
+  "movement_start_time": "2025-01-29 19:25:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "NEUTRAL",
+  "score": -0.055133522476813114,
+  "has_trigger": true,
+  "n_active": 1,
+  "contributions": [
+    {
+      "event_key": "atlanta fed gdpnow",
+      "family": "GDP",
+      "actual": 2.3,
+      "estimate": 3.2,
+      "surprise": -0.9000000000000004,
+      "surprise_z": -1.2572150382505576,
+      "alpha_weight": 0.0438536931228031,
+      "contribution": -0.055133522476813114,
+      "is_trigger": true
+    },
+    {
+      "event_key": "fed interest rate decision",
+      "family": "FOMC",
+      "actual": 4.5,
+      "estimate": 4.5,
+      "surprise": 0.0,
+      "surprise_z": 0.09999999999999999,
+      "alpha_weight": 0.0,
+      "contribution": 0.0,
+      "is_trigger": false
+    }
+  ]
+}

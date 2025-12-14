@@ -1,0 +1,7 @@
+{
+  "filename": "warehouse.duckdb",
+  "size_mb": 205.01,
+  "backup_date": "2025-11-10T16:18:50.284805",
+  "source_path": "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/eurusd_clean/data/warehouse.duckdb",
+  "description": "Base de donn\u00e9es principale - 58,449 events + 1.1M prix 1min"
+}

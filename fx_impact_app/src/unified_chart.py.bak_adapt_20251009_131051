@@ -1,0 +1,209 @@
+import plotly.graph_objects as go
+from datetime import timedelta
+import pandas as pd
+
+def create_unified_prediction_chart(phases, predictions, real_prices_df=None, window_start=None, window_end=None):
+    fig = go.Figure()
+    
+    if window_start is None:
+        window_start = min(pd.to_datetime(p['event']['ts_utc']) for p in predictions) - timedelta(minutes=30)
+    if window_end is None:
+        window_end = max(pd.to_datetime(p['event']['ts_utc']) for p in predictions) + timedelta(minutes=90)
+    
+    # Prix réel
+    if real_prices_df is not None and len(real_prices_df) > 0:
+        plot_times = [t.to_pydatetime() if isinstance(t, pd.Timestamp) else t for t in real_prices_df['time']]
+        fig.add_trace(go.Scatter(x=plot_times, y=real_prices_df['price'], mode='lines',
+            name='💹 Prix Réel', line=dict(color='#2E86DE', width=3)))
+        ref_price = real_prices_df.iloc[0]['price']
+    else:
+        ref_price = 1.17000
+        fig.add_annotation(x=0.5, y=0.95, xref='paper', yref='paper',
+            text='⚠️ Événements futurs - Trajectoire prédite uniquement',
+            showarrow=False, font=dict(size=14, color='orange'))
+    
+    # Trajectoire prédite
+    current_price = ref_price
+    traj_times, traj_prices = [], []
+    
+    for idx, phase in enumerate(phases):
+        # Accès robuste aux clés (compatibilité différentes structures)
+        start = pd.to_datetime(phase.get('start_time') or phase.get('window_start'))
+        end = pd.to_datetime(phase.get('end_time') or phase.get('window_end'))
+        
+        if idx == 0:
+            traj_times.append(start.to_pydatetime())
+            traj_prices.append(current_price)
+        
+        # Accès robuste au mouvement prédit
+        impact_pips = phase.get('predicted_movement_pips') or phase.get('total_pips') or 0
+        impact = impact_pips / 10000
+        target = current_price + impact
+        traj_times.append(end.to_pydatetime())
+        traj_prices.append(target)
+        
+        color = '#10AC84' if impact > 0 else '#EE5A6F'
+        arrow = '↗' if impact > 0 else '↘'
+        
+        fig.add_shape(type="rect", x0=start, x1=end, y0=current_price, y1=target,
+            fillcolor=color, opacity=0.15, line_width=0, layer='below')
+        
+        label = f"Phase {idx+1}"
+        events_list = phase.get('events') or []
+        if events_list:
+            families = [e.get('family') or str(e) for e in events_list]
+            label += f"<br>{'+ '.join(families)}"
+        
+        mid = start + (end - start) / 2
+        fig.add_annotation(x=mid, y=(current_price + target) / 2,
+            text=f"{arrow} {label}<br>{abs(phase['predicted_movement_pips']):.0f} pips",
+            showarrow=False, font=dict(size=11, color=color),
+            bgcolor='rgba(255,255,255,0.8)', bordercolor=color, borderwidth=2)
+        
+        events_list = phase.get('events') or []
+        if events_list:
+            evt = events_list[0]
+            evt_time = pd.to_datetime(evt.get('time') or evt.get('event_time') or start)
+            fig.add_vline(x=evt_time, line_dash="dot", line_color=color, line_width=2,
+                annotation_text=f"📊 {evt_time.strftime('%H:%M')}", annotation_position="top")
+        
+        current_price = target
+    
+    fig.add_trace(go.Scatter(x=traj_times, y=traj_prices, mode='lines+markers',
+        name='🎯 Trajectoire Prédite', line=dict(color='#FFA502', width=3, dash='dash'),
+        marker=dict(size=8, color='#FFA502', symbol='diamond')))
+    
+    fig.add_hline(y=ref_price, line_dash="dash", line_color="gray", line_width=1,
+        annotation_text=f"Ref: {ref_price:.5f}", annotation_position="right")
+    
+    fig.update_layout(
+        title={'text': '📈 Trajectoire Prédite vs Prix Réel EUR/USD', 'x': 0.5, 'xanchor': 'center'},
+        xaxis_title='Temps', yaxis_title='Prix EUR/USD',
+        xaxis=dict(range=[window_start, window_end]),
+        height=600, hovermode='x unified', showlegend=True,
+        plot_bgcolor='#1E1E1E', paper_bgcolor='#2C2C2C', font=dict(color='white'))
+    
+    return fig
+
+
+
+
+def create_grouped_backtest_table(phases, backtest_results):
+    """
+    Crée un tableau de backtesting groupé par fenêtre temporelle (phases)
+    au lieu d'événements individuels
+    
+    Args:
+        phases: Liste des phases du mode séquentiel
+        backtest_results: Liste des résultats de backtesting individuels
+    
+    Returns:
+        Dict avec 'grouped_data' (DataFrame groupé) et 'individual_data' (détails)
+    """
+    import pandas as pd
+    import numpy as np
+    
+    grouped_data = []
+    individual_details = {}
+    
+    # Grouper les résultats de backtesting par phase
+    for phase_idx, phase in enumerate(phases):
+        phase_start = pd.to_datetime(phase['start_time'])
+        phase_end = pd.to_datetime(phase['end_time'])
+        
+        # Trouver tous les backtest_results dans cette fenêtre
+        phase_backtests = []
+        phase_predictions = []
+        
+        for result in backtest_results:
+            event_time = pd.to_datetime(result['event_time'])
+            if phase_start <= event_time < phase_end:
+                phase_backtests.append(result)
+                phase_predictions.append(result['prediction'])
+        
+        if len(phase_backtests) == 0:
+            continue
+        
+        # === CALCULS GROUPÉS ===
+        
+        # Impact prédit (vectoriel combiné)
+        predicted_impact_total = sum(
+            p['predicted_pips'] * p['direction'] 
+            for p in phase_predictions
+        )
+        
+        # Impact réel (vectoriel - mouvement total observé)
+        if len(phase_backtests) > 0:
+            # Prendre le mouvement du premier au dernier prix de la phase
+            first_price = phase_backtests[0]['prices'].iloc[0]['price']
+            last_price = phase_backtests[-1]['prices'].iloc[-1]['price']
+            real_impact_total = (last_price - first_price) * 10000
+        else:
+            real_impact_total = 0
+        
+        # Latence prédite (moyenne pondérée ou min selon contexte)
+        if len(phase_predictions) > 1:
+            # Si plusieurs événements simultanés, prendre le minimum (réaction au plus rapide)
+            predicted_latency = min(p['latency_median'] for p in phase_predictions)
+        else:
+            predicted_latency = phase_predictions[0]['latency_median']
+        
+        # Latence réelle (premier mouvement significatif observé)
+        real_latencies = [r['real_metrics']['real_latency_minutes'] 
+                         for r in phase_backtests 
+                         if r['real_metrics']['had_reaction']]
+        real_latency = min(real_latencies) if real_latencies else predicted_latency
+        
+        # TTR prédit (de la phase)
+        predicted_ttr = phase['duration_minutes']
+        
+        # TTR réel (durée réelle du mouvement jusqu'au retracement)
+        real_ttrs = [r['real_metrics']['real_ttr_minutes'] for r in phase_backtests]
+        real_ttr = max(real_ttrs) if real_ttrs else predicted_ttr
+        
+        # Erreurs
+        error_impact = abs(predicted_impact_total - real_impact_total)
+        error_latency = abs(predicted_latency - real_latency)
+        error_ttr = abs(predicted_ttr - real_ttr)
+        
+        # === CONSTRUIRE LA LIGNE DU TABLEAU ===
+        
+        # Nom de la fenêtre
+        window_name = phase_start.strftime('%H:%M')
+        event_names = ' + '.join([e['family'] for e in phase['events']])
+        window_label = f"{window_name} ({event_names})"
+        
+        grouped_data.append({
+            'Fenêtre': window_label,
+            'Impact Prédit': f"{predicted_impact_total:+.1f} pips",
+            'Impact Réel': f"{real_impact_total:+.1f} pips",
+            'Erreur Impact': f"{error_impact:.1f} pips",
+            'Latence Prédite': f"{predicted_latency:.0f} min",
+            'Latence Réelle': f"{real_latency:.0f} min",
+            'Erreur Latence': f"{error_latency:.0f} min",
+            'TTR Prédit': f"{predicted_ttr:.0f} min",
+            'TTR Réel': f"{real_ttr:.0f} min",
+            'Erreur TTR': f"{error_ttr:.0f} min"
+        })
+        
+        # === DÉTAILS INDIVIDUELS (pour l'expander) ===
+        
+        individual_details[window_label] = []
+        for i, result in enumerate(phase_backtests):
+            pred = result['prediction']
+            real = result['real_metrics']
+            
+            individual_details[window_label].append({
+                'Événement': pred['event']['family'],
+                'Impact Prédit': f"{pred['predicted_pips'] * pred['direction']:+.1f} pips",
+                'Impact Réel': f"{real['real_impact_pips']:+.1f} pips",
+                'Latence Prédite': f"{pred['latency_median']:.0f} min",
+                'Latence Réelle': f"{real['real_latency_minutes']:.0f} min",
+                'TTR Prédit': f"{pred['ttr_median']:.0f} min",
+                'TTR Réel': f"{real['real_ttr_minutes']:.0f} min"
+            })
+    
+    return {
+        'grouped': pd.DataFrame(grouped_data),
+        'details': individual_details
+    }

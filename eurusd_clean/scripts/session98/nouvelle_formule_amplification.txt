@@ -1,0 +1,9 @@
+================================================================================
+NOUVELLE FORMULE AMPLIFICATION - CALIBRÉE PLANIFICATEUR V2.4
+================================================================================
+
+amplification = 1.9938 × R²_72h + 1.4448
+
+Corrélation R² vs Amp Optimale : 0.472
+MAE NOUVELLE formule : 12.09 pips
+MAE BASELINE (2.5)   : 13.51 pips

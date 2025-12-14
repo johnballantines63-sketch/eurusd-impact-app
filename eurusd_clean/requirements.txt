@@ -1,0 +1,28 @@
+# EUR/USD Impact Calculator - Clean Version
+# Requirements Python 3.9+
+
+# Core dependencies
+duckdb>=0.9.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Streamlit UI
+streamlit>=1.28.0
+plotly>=5.17.0
+
+# Data analysis
+scipy>=1.11.0
+scikit-learn>=1.3.0  # Pour futures optimisations ML
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.7.0  # Code formatting
+flake8>=6.1.0  # Linting
+mypy>=1.5.0  # Type checking

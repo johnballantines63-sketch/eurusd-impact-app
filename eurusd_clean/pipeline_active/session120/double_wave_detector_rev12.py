@@ -1,0 +1,1 @@
+/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/eurusd_clean/scripts/session120/double_wave_detector_rev12.py

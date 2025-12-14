@@ -1,0 +1,149 @@
+{
+  "reference_date": "2025-09-11",
+  "reference_events": [
+    {
+      "datetime_bern": "2025-09-11 14:15:00+02:00",
+      "datetime_utc": "2025-09-11 14:15:00+02:00",
+      "event_name": "ecb_interest_rate_decision",
+      "country": "eur",
+      "importance": "HIGH",
+      "actual": 2.15,
+      "forecast": null,
+      "previous": 2.15,
+      "delta_minutes": -14.0
+    },
+    {
+      "datetime_bern": "2025-09-11 14:30:00+02:00",
+      "datetime_utc": "2025-09-11 14:30:00+02:00",
+      "event_name": "inflation_rate",
+      "country": "usd",
+      "importance": "HIGH",
+      "actual": 2.9,
+      "forecast": null,
+      "previous": 2.7,
+      "delta_minutes": 1.0
+    },
+    {
+      "datetime_bern": "2025-09-11 14:30:00+02:00",
+      "datetime_utc": "2025-09-11 14:30:00+02:00",
+      "event_name": "cpi_s.a",
+      "country": "usd",
+      "importance": "HIGH",
+      "actual": 323.364,
+      "forecast": null,
+      "previous": 322.132,
+      "delta_minutes": 1.0
+    },
+    {
+      "datetime_bern": "2025-09-11 14:30:00+02:00",
+      "datetime_utc": "2025-09-11 14:30:00+02:00",
+      "event_name": "cpi",
+      "country": "usd",
+      "importance": "HIGH",
+      "actual": 323.98,
+      "forecast": null,
+      "previous": 323.05,
+      "delta_minutes": 1.0
+    },
+    {
+      "datetime_bern": "2025-09-11 14:30:00+02:00",
+      "datetime_utc": "2025-09-11 14:30:00+02:00",
+      "event_name": "continuing_jobless_claims",
+      "country": "usd",
+      "importance": "HIGH",
+      "actual": 1939.0,
+      "forecast": null,
+      "previous": 1939.0,
+      "delta_minutes": 1.0
+    },
+    {
+      "datetime_bern": "2025-09-11 14:30:00+02:00",
+      "datetime_utc": "2025-09-11 14:30:00+02:00",
+      "event_name": "core_inflation_rate",
+      "country": "usd",
+      "importance": "HIGH",
+      "actual": 0.3,
+      "forecast": null,
+      "previous": 0.3,
+      "delta_minutes": 1.0
+    },
+    {
+      "datetime_bern": "2025-09-11 14:30:00+02:00",
+      "datetime_utc": "2025-09-11 14:30:00+02:00",
+      "event_name": "jobless_claims_4_week_average",
+      "country": "usd",
+      "importance": "HIGH",
+      "actual": 240.5,
+      "forecast": null,
+      "previous": 230.75,
+      "delta_minutes": 1.0
+    },
+    {
+      "datetime_bern": "2025-09-11 14:30:00+02:00",
+      "datetime_utc": "2025-09-11 14:30:00+02:00",
+      "event_name": "core_inflation_rate",
+      "country": "usd",
+      "importance": "HIGH",
+      "actual": 3.1,
+      "forecast": null,
+      "previous": 3.1,
+      "delta_minutes": 1.0
+    },
+    {
+      "datetime_bern": "2025-09-11 14:30:00+02:00",
+      "datetime_utc": "2025-09-11 14:30:00+02:00",
+      "event_name": "initial_jobless_claims",
+      "country": "usd",
+      "importance": "HIGH",
+      "actual": 263.0,
+      "forecast": null,
+      "previous": 236.0,
+      "delta_minutes": 1.0
+    },
+    {
+      "datetime_bern": "2025-09-11 14:30:00+02:00",
+      "datetime_utc": "2025-09-11 14:30:00+02:00",
+      "event_name": "inflation_rate",
+      "country": "usd",
+      "importance": "HIGH",
+      "actual": 0.4,
+      "forecast": null,
+      "previous": 0.2,
+      "delta_minutes": 1.0
+    }
+  ],
+  "cluster_fingerprint": [
+    "USD_cpi",
+    "USD_initial_jobless_claims",
+    "USD_inflation_rate",
+    "USD_continuing_jobless_claims",
+    "USD_jobless_claims_4_week_average",
+    "EUR_ecb_interest_rate_decision",
+    "USD_cpi_s.a",
+    "USD_core_inflation_rate"
+  ],
+  "similar_dates_found": 1,
+  "double_wave_detected": 2,
+  "validation_results": [
+    {
+      "date": "2025-09-11",
+      "is_reference": true,
+      "real_amplitude": 51.7,
+      "predicted_impact": 21.59447672479374,
+      "mae": 30.105523275206263,
+      "mae_pct": 58.23118621896762,
+      "events_count": 10
+    },
+    {
+      "date": "2024-07-11",
+      "is_reference": false,
+      "real_amplitude": 51.4,
+      "predicted_impact": 6.01866216613342,
+      "mae": 45.38133783386658,
+      "mae_pct": 88.29054053281436,
+      "events_count": 9
+    }
+  ],
+  "mae_mean": 37.743430554536424,
+  "mae_median": 45.38133783386658
+}

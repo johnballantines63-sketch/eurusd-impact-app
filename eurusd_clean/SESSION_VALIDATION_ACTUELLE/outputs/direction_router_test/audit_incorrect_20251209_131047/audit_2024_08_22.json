@@ -1,0 +1,55 @@
+{
+  "date": "2024-08-22",
+  "movement_start_time": "2024-08-22 13:45:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": "UP",
+  "score": 1.0508552961539548,
+  "has_trigger": true,
+  "n_active": 4,
+  "contributions": [
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1863.0,
+      "estimate": 1870.0,
+      "surprise": -7.0,
+      "surprise_z": -0.18937068709780988,
+      "alpha_weight": -1,
+      "contribution": 0.18937068709780988,
+      "is_trigger": false
+    },
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 232.0,
+      "estimate": 230.0,
+      "surprise": 2.0,
+      "surprise_z": 0.37344962355262024,
+      "alpha_weight": -1,
+      "contribution": -0.37344962355262024,
+      "is_trigger": false
+    },
+    {
+      "event_key": "jobless claims 4 week average",
+      "family": "Jobless Claims",
+      "actual": 236.0,
+      "estimate": 245.0,
+      "surprise": -9.0,
+      "surprise_z": -1.14289476438136,
+      "alpha_weight": -1,
+      "contribution": 1.14289476438136,
+      "is_trigger": true
+    },
+    {
+      "event_key": "jobless claims 4-week average",
+      "family": "Jobless Claims",
+      "actual": 236.0,
+      "estimate": 245.0,
+      "surprise": -9.0,
+      "surprise_z": -1.14289476438136,
+      "alpha_weight": -1,
+      "contribution": 1.14289476438136,
+      "is_trigger": true
+    }
+  ]
+}

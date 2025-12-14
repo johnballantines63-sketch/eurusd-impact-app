@@ -1,0 +1,4933 @@
+{
+  "summary": {
+    "total_patterns": 149,
+    "validated_patterns": 110,
+    "mae_mean": 59.71959516873451,
+    "mae_median": 23.728953750151753,
+    "mae_std": 148.8013618786803,
+    "mae_min": 1.3388364153277141,
+    "mae_max": 1427.7104073165947,
+    "r_squared": -90.92607962585859,
+    "under_5pips": 4,
+    "under_10pips": 21,
+    "under_20pips": 50
+  },
+  "results": [
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 57.5,
+      "predicted_impact": 0,
+      "mae": 57.5,
+      "events_count": 0,
+      "date": "2024-01-11",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 33.7,
+      "predicted_impact": 0,
+      "mae": 33.7,
+      "events_count": 0,
+      "date": "2024-01-12",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 9.9,
+      "predicted_impact": 0,
+      "mae": 9.9,
+      "events_count": 0,
+      "date": "2024-01-25",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 13.9,
+      "predicted_impact": 0.3577092511013214,
+      "mae": 13.54229074889868,
+      "mae_pct": 97.4265521503502,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "s&p_global_manufacturing_pmi",
+          "country": "cad",
+          "surprise": 6.387665198237882,
+          "score": 12.775330396475765
+        }
+      ],
+      "date": "2024-02-01",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 18.4,
+      "predicted_impact": 0.0,
+      "mae": 18.4,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "ecb_elderson_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-02-08",
+      "direction": "bearish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 35.9,
+      "predicted_impact": 43.09115433486461,
+      "mae": 7.191154334864613,
+      "mae_pct": 20.03107057065352,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "industrial_production",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "manufacturing_production",
+          "country": "usd",
+          "surprise": -599.9999999999999,
+          "score": 1199.9999999999998
+        },
+        {
+          "event_name": "industrial_production",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "capacity_utilization",
+          "country": "usd",
+          "surprise": -0.25412960609911417,
+          "score": 0.5082592121982283
+        },
+        {
+          "event_name": "manufacturing_production",
+          "country": "usd",
+          "surprise": -169.23076923076923,
+          "score": 338.46153846153845
+        }
+      ],
+      "date": "2024-02-15",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 16.0,
+      "predicted_impact": 0,
+      "mae": 16.0,
+      "events_count": 0,
+      "date": "2024-02-20",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 10.9,
+      "predicted_impact": 0,
+      "mae": 10.9,
+      "events_count": 0,
+      "date": "2024-02-21",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 36.5,
+      "predicted_impact": 0,
+      "mae": 36.5,
+      "events_count": 0,
+      "date": "2024-02-22",
+      "direction": "bearish",
+      "confidence": 70.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 4.6,
+      "predicted_impact": 0,
+      "mae": 4.6,
+      "events_count": 0,
+      "date": "2024-02-23",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 18.6,
+      "predicted_impact": 0.0,
+      "mae": 18.6,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "ecb_mccaul_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-02-28",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 18.1,
+      "predicted_impact": 0,
+      "mae": 18.1,
+      "events_count": 0,
+      "date": "2024-02-29",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 40.7,
+      "predicted_impact": 0,
+      "mae": 40.7,
+      "events_count": 0,
+      "date": "2024-03-08",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 10.0,
+      "predicted_impact": 0.07380958968541732,
+      "mae": 9.926190410314582,
+      "mae_pct": 99.26190410314582,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "michigan_consumer_sentiment",
+          "country": "usd",
+          "surprise": -0.5201560468140516,
+          "score": 1.0403120936281032
+        },
+        {
+          "event_name": "michigan_current_conditions",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_5_year_inflation_expectations",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_inflation_expectations",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_consumer_expectations",
+          "country": "usd",
+          "surprise": -0.7978723404255433,
+          "score": 1.5957446808510867
+        },
+        {
+          "event_name": "ecb_lane_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-03-15",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 5.8,
+      "predicted_impact": 0.35,
+      "mae": 5.45,
+      "mae_pct": 93.96551724137932,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "nahb_housing_market_index",
+          "country": "usd",
+          "surprise": 6.25,
+          "score": 12.5
+        }
+      ],
+      "date": "2024-03-18",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 13.0,
+      "predicted_impact": 8.141385949837872,
+      "mae": 4.858614050162128,
+      "mae_pct": 37.373954232016374,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "new_home_sales",
+          "country": "usd",
+          "surprise": -0.3012048192771087,
+          "score": 0.6024096385542174
+        },
+        {
+          "event_name": "new_home_sales",
+          "country": "usd",
+          "surprise": -117.64705882352942,
+          "score": 235.29411764705884
+        },
+        {
+          "event_name": "dallas_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": -27.433628318584063,
+          "score": 54.867256637168126
+        },
+        {
+          "event_name": "fed_cook_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-03-25",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 5.5,
+      "predicted_impact": 13.838420434527304,
+      "mae": 8.338420434527304,
+      "mae_pct": 151.6076442641328,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "richmond_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": -120.0,
+          "score": 240.0
+        },
+        {
+          "event_name": "richmond_fed_services_index",
+          "country": "usd",
+          "surprise": 56.25,
+          "score": 112.5
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_shipments_index",
+          "country": "usd",
+          "surprise": 6.666666666666667,
+          "score": 13.333333333333334
+        },
+        {
+          "event_name": "cb_consumer_confidence",
+          "country": "usd",
+          "surprise": -0.09541984732823885,
+          "score": 0.1908396946564777
+        },
+        {
+          "event_name": "dallas_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": -23.076923076923077,
+          "score": 46.15384615384615
+        },
+        {
+          "event_name": "dallas_fed_services_index",
+          "country": "usd",
+          "surprise": -41.02564102564103,
+          "score": 82.05128205128206
+        }
+      ],
+      "date": "2024-03-26",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 11.2,
+      "predicted_impact": 0,
+      "mae": 11.2,
+      "events_count": 0,
+      "date": "2024-03-29",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 54.5,
+      "predicted_impact": 0.37402597402597415,
+      "mae": 54.125974025974024,
+      "mae_pct": 99.31371380912665,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "ivey_pmi_s.a",
+          "country": "cad",
+          "surprise": 6.679035250463825,
+          "score": 13.35807050092765
+        }
+      ],
+      "date": "2024-04-05",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 25.6,
+      "predicted_impact": 0,
+      "mae": 25.6,
+      "events_count": 0,
+      "date": "2024-04-08",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 15.7,
+      "predicted_impact": 0.03862068965517205,
+      "mae": 15.661379310344827,
+      "mae_pct": 99.75400834614541,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "rcm/tipp_economic_optimism_index",
+          "country": "usd",
+          "surprise": -0.6896551724137866,
+          "score": 1.3793103448275732
+        }
+      ],
+      "date": "2024-04-09",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 30.1,
+      "predicted_impact": 0.0,
+      "mae": 30.1,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-04-11",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 25.6,
+      "predicted_impact": 1.138153037120911,
+      "mae": 24.46184696287909,
+      "mae_pct": 95.55408969874644,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "michigan_inflation_expectations",
+          "country": "usd",
+          "surprise": 6.896551724137938,
+          "score": 13.793103448275875
+        },
+        {
+          "event_name": "michigan_5_year_inflation_expectations",
+          "country": "usd",
+          "surprise": 7.1428571428571495,
+          "score": 14.285714285714299
+        },
+        {
+          "event_name": "michigan_consumer_expectations",
+          "country": "usd",
+          "surprise": -0.5167958656330822,
+          "score": 1.0335917312661644
+        },
+        {
+          "event_name": "michigan_current_conditions",
+          "country": "usd",
+          "surprise": -3.8787878787878824,
+          "score": 7.757575757575765
+        },
+        {
+          "event_name": "michigan_consumer_sentiment",
+          "country": "usd",
+          "surprise": -1.889168765743073,
+          "score": 3.778337531486146
+        }
+      ],
+      "date": "2024-04-12",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 18.5,
+      "predicted_impact": 98.01883090354873,
+      "mae": 79.51883090354873,
+      "mae_pct": 429.83151839756067,
+      "events_count": 9,
+      "events_scores": [
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -53.17582605718199,
+          "score": 106.35165211436399
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -266.3652802893309,
+          "score": 532.7305605786618
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": -261.3986013986014,
+          "score": 522.7972027972028
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": -276.1946902654867,
+          "score": 552.3893805309734
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": -215.15151515151518,
+          "score": 430.30303030303037
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": 213.91304347826087,
+          "score": 427.82608695652175
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 95.35315985130111,
+          "score": 190.70631970260223
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": -249.3723849372385,
+          "score": 498.744769874477
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 119.41176470588235,
+          "score": 238.8235294117647
+        }
+      ],
+      "date": "2024-04-17",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 26.6,
+      "predicted_impact": 22.377659216534486,
+      "mae": 4.222340783465516,
+      "mae_pct": 15.873461591975621,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "cb_leading_index",
+          "country": "usd",
+          "surprise": -250.0,
+          "score": 500.0
+        },
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -145.26315789473685,
+          "score": 290.5263157894737
+        },
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -4.337899543378984,
+          "score": 8.675799086757968
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-04-18",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 13.1,
+      "predicted_impact": 0.0,
+      "mae": 13.1,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "fed_goolsbee_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-04-19",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 8.8,
+      "predicted_impact": 24.191416426710543,
+      "mae": 15.391416426710542,
+      "mae_pct": 174.90245939443795,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "new_home_sales",
+          "country": "usd",
+          "surprise": 272.54901960784315,
+          "score": 545.0980392156863
+        },
+        {
+          "event_name": "richmond_fed_services_index",
+          "country": "usd",
+          "surprise": -85.71428571428571,
+          "score": 171.42857142857142
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_shipments_index",
+          "country": "usd",
+          "surprise": 28.57142857142857,
+          "score": 57.14285714285714
+        },
+        {
+          "event_name": "new_home_sales",
+          "country": "usd",
+          "surprise": 8.791208791208781,
+          "score": 17.582417582417563
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": 36.36363636363637,
+          "score": 72.72727272727273
+        }
+      ],
+      "date": "2024-04-23",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 11.4,
+      "predicted_impact": 261.1369733672758,
+      "mae": 249.7369733672758,
+      "mae_pct": 2190.6752049761035,
+      "events_count": 11,
+      "events_scores": [
+        {
+          "event_name": "ecb_schnabel_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": 158.47826086956522,
+          "score": 316.95652173913044
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -2096.969696969697,
+          "score": 4193.939393939394
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 568.421052631579,
+          "score": 1136.842105263158
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": -1000.0,
+          "score": 2000.0
+        },
+        {
+          "event_name": "ny_fed_treasury_purchases_7_to_10_yrs",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -332.83363802559415,
+          "score": 665.6672760511883
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": 250.28011204481794,
+          "score": 500.5602240896359
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": 45.06065857885615,
+          "score": 90.1213171577123
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 79.0557508789553,
+          "score": 158.1115017579106
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": -132.06106870229007,
+          "score": 264.12213740458014
+        }
+      ],
+      "date": "2024-04-24",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 38.1,
+      "predicted_impact": 11.979999999999997,
+      "mae": 26.120000000000005,
+      "mae_pct": 68.55643044619424,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 101.42857142857142,
+          "score": 202.85714285714283
+        },
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 112.49999999999997,
+          "score": 224.99999999999994
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-04-25",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 30.2,
+      "predicted_impact": 0.038888888888888744,
+      "mae": 30.16111111111111,
+      "mae_pct": 99.87122884473878,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "dallas_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": -0.694444444444442,
+          "score": 1.388888888888884
+        }
+      ],
+      "date": "2024-04-29",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 9.4,
+      "predicted_impact": 127.89505429737606,
+      "mae": 118.49505429737606,
+      "mae_pct": 1260.585684014639,
+      "events_count": 16,
+      "events_scores": [
+        {
+          "event_name": "ism_manufacturing_employment",
+          "country": "usd",
+          "surprise": 2.5316455696202596,
+          "score": 5.063291139240519
+        },
+        {
+          "event_name": "ism_manufacturing_pmi",
+          "country": "usd",
+          "surprise": -2.1868787276341837,
+          "score": 4.373757455268367
+        },
+        {
+          "event_name": "ism_manufacturing_prices",
+          "country": "usd",
+          "surprise": 9.139784946236562,
+          "score": 18.279569892473123
+        },
+        {
+          "event_name": "jolts_job_openings",
+          "country": "usd",
+          "surprise": -3.6877340292749463,
+          "score": 7.375468058549893
+        },
+        {
+          "event_name": "ism_manufacturing_new_orders",
+          "country": "usd",
+          "surprise": -4.47470817120622,
+          "score": 8.94941634241244
+        },
+        {
+          "event_name": "construction_spending",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "jolts_job_quits",
+          "country": "usd",
+          "surprise": -5.613836121349587,
+          "score": 11.227672242699175
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": 154.25867507886434,
+          "score": 308.5173501577287
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": -252.24719101123597,
+          "score": 504.49438202247194
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": -116.68219944082014,
+          "score": 233.36439888164028
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 468.34532374100723,
+          "score": 936.6906474820145
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 192.36363636363635,
+          "score": 384.7272727272727
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": -447.61904761904765,
+          "score": 895.2380952380953
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -145.35315985130111,
+          "score": 290.70631970260223
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 214.08605527638187,
+          "score": 428.17211055276374
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 265.2503793626707,
+          "score": 530.5007587253414
+        }
+      ],
+      "date": "2024-05-01",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 7.4,
+      "predicted_impact": 0,
+      "mae": 7.4,
+      "events_count": 0,
+      "date": "2024-05-06",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 14.7,
+      "predicted_impact": 0.7171336553945257,
+      "mae": 13.982866344605474,
+      "mae_pct": 95.12153975922092,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "ivey_pmi_s.a",
+          "country": "cad",
+          "surprise": 9.565217391304348,
+          "score": 19.130434782608695
+        },
+        {
+          "event_name": "rcm/tipp_economic_optimism_index",
+          "country": "usd",
+          "surprise": -3.240740740740754,
+          "score": 6.481481481481508
+        },
+        {
+          "event_name": "ny_fed_treasury_purchases_0_to_1_yrs",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-05-07",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 25.7,
+      "predicted_impact": 0.0,
+      "mae": 25.7,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "fed_chair_powell_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-05-14",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 9.8,
+      "predicted_impact": 0.0,
+      "mae": 9.8,
+      "mae_pct": 100.0,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "fed_barr_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "fed_harker_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-05-16",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 12.3,
+      "predicted_impact": 0.0,
+      "mae": 12.3,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "fed_jefferson_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-05-20",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 12.2,
+      "predicted_impact": 1.959420196552903,
+      "mae": 10.240579803447096,
+      "mae_pct": 83.93917871677948,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "michigan_5_year_inflation_expectations",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_current_conditions",
+          "country": "usd",
+          "surprise": -11.898734177215196,
+          "score": 23.797468354430393
+        },
+        {
+          "event_name": "michigan_consumer_sentiment",
+          "country": "usd",
+          "surprise": -10.492227979274622,
+          "score": 20.984455958549244
+        },
+        {
+          "event_name": "michigan_consumer_expectations",
+          "country": "usd",
+          "surprise": -9.473684210526319,
+          "score": 18.947368421052637
+        },
+        {
+          "event_name": "michigan_inflation_expectations",
+          "country": "usd",
+          "surprise": 3.124999999999989,
+          "score": 6.249999999999978
+        }
+      ],
+      "date": "2024-05-24",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 18.9,
+      "predicted_impact": 2.2026031351772044,
+      "mae": 16.697396864822792,
+      "mae_pct": 88.34601515779255,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "3_month_bill_auction",
+          "country": "usd",
+          "surprise": 0.1906577693040951,
+          "score": 0.3813155386081902
+        },
+        {
+          "event_name": "6_month_bill_auction",
+          "country": "usd",
+          "surprise": 0.19379844961239895,
+          "score": 0.3875968992247979
+        },
+        {
+          "event_name": "cb_consumer_confidence",
+          "country": "usd",
+          "surprise": 5.154639175257731,
+          "score": 10.309278350515463
+        },
+        {
+          "event_name": "dallas_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": -33.79310344827585,
+          "score": 67.5862068965517
+        }
+      ],
+      "date": "2024-05-28",
+      "direction": "bearish",
+      "confidence": 70.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 22.8,
+      "predicted_impact": 140.03142718916303,
+      "mae": 117.23142718916303,
+      "mae_pct": 514.172926268259,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "richmond_fed_manufacturing_shipments_index",
+          "country": "usd",
+          "surprise": 229.99999999999997,
+          "score": 459.99999999999994
+        },
+        {
+          "event_name": "richmond_fed_services_index",
+          "country": "usd",
+          "surprise": 123.07692307692308,
+          "score": 246.15384615384616
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "dallas_fed_services_index",
+          "country": "usd",
+          "surprise": -14.150943396226415,
+          "score": 28.30188679245283
+        },
+        {
+          "event_name": "dallas_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": 2133.3333333333335,
+          "score": 4266.666666666667
+        }
+      ],
+      "date": "2024-05-29",
+      "direction": "bearish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 17.5,
+      "predicted_impact": 437.5777777777777,
+      "mae": 420.0777777777777,
+      "mae_pct": 2400.4444444444443,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": -7500.0,
+          "score": 15000.0
+        },
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": -313.88888888888886,
+          "score": 627.7777777777777
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-05-30",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 29.7,
+      "predicted_impact": 0,
+      "mae": 29.7,
+      "events_count": 0,
+      "date": "2024-05-31",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 20.3,
+      "predicted_impact": 118.9747007961993,
+      "mae": 98.6747007961993,
+      "mae_pct": 486.08226993201623,
+      "events_count": 11,
+      "events_scores": [
+        {
+          "event_name": "new_home_sales",
+          "country": "usd",
+          "surprise": -11.318051575931227,
+          "score": 22.636103151862454
+        },
+        {
+          "event_name": "new_home_sales",
+          "country": "usd",
+          "surprise": -665.0,
+          "score": 1330.0
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 102.62096774193547,
+          "score": 205.24193548387095
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 240.9893992932862,
+          "score": 481.9787985865724
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -173.61563517915312,
+          "score": 347.23127035830623
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 152.20588235294116,
+          "score": 304.4117647058823
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": 78.15758980301275,
+          "score": 156.3151796060255
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": -444.047619047619,
+          "score": 888.095238095238
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": 216.4035087719298,
+          "score": 432.8070175438596
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": -22.813688212927755,
+          "score": 45.62737642585551
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": 17.375886524822683,
+          "score": 34.751773049645365
+        }
+      ],
+      "date": "2024-06-26",
+      "direction": "bearish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 24.0,
+      "predicted_impact": 4.678132678132678,
+      "mae": 19.321867321867323,
+      "mae_pct": 80.50778050778051,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 72.72727272727272,
+          "score": 145.45454545454544
+        },
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 10.81081081081082,
+          "score": 21.62162162162164
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "ny_fed_treasury_purchases_tips_7.5_to_30_yrs",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-06-27",
+      "direction": "bullish",
+      "confidence": 70.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 50.1,
+      "predicted_impact": 185.11128616513247,
+      "mae": 135.01128616513247,
+      "mae_pct": 269.4836051200249,
+      "events_count": 18,
+      "events_scores": [
+        {
+          "event_name": "ism_services_pmi",
+          "country": "usd",
+          "surprise": -9.29368029739777,
+          "score": 18.58736059479554
+        },
+        {
+          "event_name": "ism_services_employment",
+          "country": "usd",
+          "surprise": -2.1231422505307855,
+          "score": 4.246284501061571
+        },
+        {
+          "event_name": "ism_services_business_activity",
+          "country": "usd",
+          "surprise": -18.954248366013076,
+          "score": 37.90849673202615
+        },
+        {
+          "event_name": "8_week_bill_auction",
+          "country": "usd",
+          "surprise": 0.2851711026616078,
+          "score": 0.5703422053232156
+        },
+        {
+          "event_name": "factory_orders",
+          "country": "usd",
+          "surprise": -225.0,
+          "score": 450.0
+        },
+        {
+          "event_name": "factory_orders_ex_transportation",
+          "country": "usd",
+          "surprise": -240.0,
+          "score": 480.0
+        },
+        {
+          "event_name": "ism_services_prices",
+          "country": "usd",
+          "surprise": -3.0981067125645514,
+          "score": 6.196213425129103
+        },
+        {
+          "event_name": "ism_services_new_orders",
+          "country": "usd",
+          "surprise": -12.569316081330875,
+          "score": 25.13863216266175
+        },
+        {
+          "event_name": "4_week_bill_auction",
+          "country": "usd",
+          "surprise": 0.18975332068312478,
+          "score": 0.37950664136624956
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -438.5407964355333,
+          "score": 877.0815928710666
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": -953.846153846154,
+          "score": 1907.692307692308
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 252.65486725663715,
+          "score": 505.3097345132743
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 43.66197183098592,
+          "score": 87.32394366197184
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -307.16180371352783,
+          "score": 614.3236074270557
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 162.28373702422147,
+          "score": 324.56747404844293
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": -183.4212509419744,
+          "score": 366.8425018839488
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": -240.88669950738915,
+          "score": 481.7733990147783
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": 211.58798283261802,
+          "score": 423.17596566523605
+        }
+      ],
+      "date": "2024-07-03",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 51.4,
+      "predicted_impact": 0.0,
+      "mae": 51.4,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-07-11",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 11.6,
+      "predicted_impact": 76.72942357899308,
+      "mae": 65.12942357899308,
+      "mae_pct": 561.460548094768,
+      "events_count": 9,
+      "events_scores": [
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -24.643874643874653,
+          "score": 49.28774928774931
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": -49.26829268292683,
+          "score": 98.53658536585365
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -41.44641301190822,
+          "score": 82.89282602381644
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 359.0909090909092,
+          "score": 718.1818181818184
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -29.27927927927928,
+          "score": 58.55855855855856
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": -414.2259414225942,
+          "score": 828.4518828451884
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": 265.9022931206381,
+          "score": 531.8045862412762
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": -29.21348314606741,
+          "score": 58.42696629213482
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": -157.09779179810727,
+          "score": 314.19558359621453
+        }
+      ],
+      "date": "2024-07-17",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 10.8,
+      "predicted_impact": 0,
+      "mae": 10.8,
+      "events_count": 0,
+      "date": "2024-07-22",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 15.3,
+      "predicted_impact": 59.28642335766423,
+      "mae": 43.986423357664236,
+      "mae_pct": 287.49296312198845,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "richmond_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": -70.0,
+          "score": 140.0
+        },
+        {
+          "event_name": "consumer_confidence",
+          "country": "eur",
+          "surprise": 7.142857142857142,
+          "score": 14.285714285714285
+        },
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -5.3527980535279855,
+          "score": 10.705596107055971
+        },
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -671.4285714285716,
+          "score": 1342.8571428571431
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_shipments_index",
+          "country": "usd",
+          "surprise": -133.33333333333331,
+          "score": 266.66666666666663
+        },
+        {
+          "event_name": "richmond_fed_services_index",
+          "country": "usd",
+          "surprise": 171.42857142857142,
+          "score": 342.85714285714283
+        }
+      ],
+      "date": "2024-07-23",
+      "direction": "bearish",
+      "confidence": 70.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 21.4,
+      "predicted_impact": 0.0,
+      "mae": 21.4,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-07-25",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 13.3,
+      "predicted_impact": 0.6707622316361075,
+      "mae": 12.629237768363893,
+      "mae_pct": 94.95667495010446,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "michigan_5_year_inflation_expectations",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_inflation_expectations",
+          "country": "usd",
+          "surprise": -3.333333333333336,
+          "score": 6.666666666666672
+        },
+        {
+          "event_name": "michigan_current_conditions",
+          "country": "usd",
+          "surprise": -4.855842185128987,
+          "score": 9.711684370257974
+        },
+        {
+          "event_name": "michigan_consumer_sentiment",
+          "country": "usd",
+          "surprise": -2.63929618768328,
+          "score": 5.27859237536656
+        },
+        {
+          "event_name": "michigan_consumer_expectations",
+          "country": "usd",
+          "surprise": -1.1494252873563178,
+          "score": 2.2988505747126355
+        }
+      ],
+      "date": "2024-07-26",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 7.5,
+      "predicted_impact": 0.8900662251655631,
+      "mae": 6.6099337748344364,
+      "mae_pct": 88.13245033112582,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "dallas_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": -15.89403973509934,
+          "score": 31.78807947019868
+        }
+      ],
+      "date": "2024-07-29",
+      "direction": "bearish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 14.0,
+      "predicted_impact": 22.931719306931058,
+      "mae": 8.931719306931058,
+      "mae_pct": 63.79799504950755,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "jolts_job_quits",
+          "country": "usd",
+          "surprise": -3.555686159271231,
+          "score": 7.111372318542462
+        },
+        {
+          "event_name": "cb_consumer_confidence",
+          "country": "usd",
+          "surprise": 2.556237218813906,
+          "score": 5.112474437627812
+        },
+        {
+          "event_name": "jolts_job_openings",
+          "country": "usd",
+          "surprise": -0.5589307411907795,
+          "score": 1.117861482381559
+        },
+        {
+          "event_name": "dallas_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": 305.2631578947369,
+          "score": 610.5263157894738
+        },
+        {
+          "event_name": "dallas_fed_services_index",
+          "country": "usd",
+          "surprise": 97.5609756097561,
+          "score": 195.1219512195122
+        }
+      ],
+      "date": "2024-07-30",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 26.9,
+      "predicted_impact": 3.5864630184559854,
+      "mae": 23.31353698154401,
+      "mae_pct": 86.66742372321194,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "construction_spending",
+          "country": "usd",
+          "surprise": 25.000000000000007,
+          "score": 50.000000000000014
+        },
+        {
+          "event_name": "ism_manufacturing_employment",
+          "country": "usd",
+          "surprise": -11.967545638945232,
+          "score": 23.935091277890464
+        },
+        {
+          "event_name": "ism_manufacturing_new_orders",
+          "country": "usd",
+          "surprise": -3.853955375253547,
+          "score": 7.707910750507094
+        },
+        {
+          "event_name": "ism_manufacturing_pmi",
+          "country": "usd",
+          "surprise": -3.5051546391752635,
+          "score": 7.010309278350527
+        },
+        {
+          "event_name": "ism_manufacturing_prices",
+          "country": "usd",
+          "surprise": 1.535508637236079,
+          "score": 3.071017274472158
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": -18.181818181818183,
+          "score": 36.36363636363637
+        }
+      ],
+      "date": "2024-08-01",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 8.4,
+      "predicted_impact": 57.7679099746745,
+      "mae": 49.367909974674504,
+      "mae_pct": 587.7132139842203,
+      "events_count": 10,
+      "events_scores": [
+        {
+          "event_name": "ivey_pmi_s.a",
+          "country": "cad",
+          "surprise": -7.839999999999998,
+          "score": 15.679999999999996
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 115.60975609756096,
+          "score": 231.21951219512192
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": 198.0544747081712,
+          "score": 396.1089494163424
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": 159.49367088607596,
+          "score": 318.9873417721519
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": 136.56207366984995,
+          "score": 273.1241473396999
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -38.13559322033899,
+          "score": 76.27118644067798
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 30.2325581395349,
+          "score": 60.4651162790698
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 152.3508137432188,
+          "score": 304.7016274864376
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -8.498253783469158,
+          "score": 16.996507566938316
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 184.7926267281106,
+          "score": 369.5852534562212
+        }
+      ],
+      "date": "2024-08-07",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 37.8,
+      "predicted_impact": 4.293333333333333,
+      "mae": 33.50666666666666,
+      "mae_pct": 88.64197530864196,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "wholesale_inventories",
+          "country": "usd",
+          "surprise": -60.0,
+          "score": 120.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 16.666666666666664,
+          "score": 33.33333333333333
+        }
+      ],
+      "date": "2024-08-08",
+      "direction": "bearish",
+      "confidence": 90.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 18.0,
+      "predicted_impact": 0,
+      "mae": 18.0,
+      "events_count": 0,
+      "date": "2024-08-13",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 8.3,
+      "predicted_impact": 107.89301958028143,
+      "mae": 99.59301958028144,
+      "mae_pct": 1199.9158985576075,
+      "events_count": 10,
+      "events_scores": [
+        {
+          "event_name": "non_farm_payrolls_annual_revision",
+          "country": "usd",
+          "surprise": -337.4331550802139,
+          "score": 674.8663101604278
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 236.84210526315792,
+          "score": 473.68421052631584
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": 241.53846153846152,
+          "score": 483.07692307692304
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": 198.88059701492537,
+          "score": 397.76119402985074
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": 44.50587422252937,
+          "score": 89.01174844505874
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 114.46540880503144,
+          "score": 228.9308176100629
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -97.96772265391512,
+          "score": 195.93544530783024
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 146.06741573033707,
+          "score": 292.13483146067415
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 66.36636636636636,
+          "score": 132.73273273273273
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -442.59395725865886,
+          "score": 885.1879145173177
+        }
+      ],
+      "date": "2024-08-21",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 15.3,
+      "predicted_impact": 2.4959999999999996,
+      "mae": 12.804000000000002,
+      "mae_pct": 83.68627450980392,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "dallas_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": 44.57142857142857,
+          "score": 89.14285714285714
+        }
+      ],
+      "date": "2024-08-26",
+      "direction": "bearish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 29.8,
+      "predicted_impact": 0.7132539959433322,
+      "mae": 29.086746004056668,
+      "mae_pct": 97.60653021495526,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "michigan_5_year_inflation_expectations",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_inflation_expectations",
+          "country": "usd",
+          "surprise": -3.448275862068969,
+          "score": 6.896551724137938
+        },
+        {
+          "event_name": "michigan_consumer_sentiment",
+          "country": "usd",
+          "surprise": 2.259036144578313,
+          "score": 4.518072289156626
+        },
+        {
+          "event_name": "ecb_af_jochnick_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_current_conditions",
+          "country": "usd",
+          "surprise": -2.2328548644338206,
+          "score": 4.465709728867641
+        },
+        {
+          "event_name": "michigan_consumer_expectations",
+          "country": "usd",
+          "surprise": 4.796511627906972,
+          "score": 9.593023255813945
+        }
+      ],
+      "date": "2024-08-30",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 9.8,
+      "predicted_impact": 0,
+      "mae": 9.8,
+      "events_count": 0,
+      "date": "2024-09-02",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 24.5,
+      "predicted_impact": 1.0319432459651503,
+      "mae": 23.46805675403485,
+      "mae_pct": 95.78798675116266,
+      "events_count": 7,
+      "events_scores": [
+        {
+          "event_name": "ecb_af_jochnick_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "ism_manufacturing_prices",
+          "country": "usd",
+          "surprise": 2.0793950850661655,
+          "score": 4.158790170132331
+        },
+        {
+          "event_name": "ism_manufacturing_pmi",
+          "country": "usd",
+          "surprise": 0.854700854700867,
+          "score": 1.709401709401734
+        },
+        {
+          "event_name": "ism_manufacturing_new_orders",
+          "country": "usd",
+          "surprise": -5.907172995780585,
+          "score": 11.81434599156117
+        },
+        {
+          "event_name": "ism_manufacturing_employment",
+          "country": "usd",
+          "surprise": 5.990783410138252,
+          "score": 11.981566820276504
+        },
+        {
+          "event_name": "construction_spending",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "rcm/tipp_economic_optimism_index",
+          "country": "usd",
+          "surprise": 3.595505617977531,
+          "score": 7.191011235955062
+        }
+      ],
+      "date": "2024-09-03",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 19.4,
+      "predicted_impact": 11.63076923076923,
+      "mae": 7.769230769230768,
+      "mae_pct": 40.04758128469469,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 207.6923076923077,
+          "score": 415.3846153846154
+        },
+        {
+          "event_name": "ecb_buch_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-09-12",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 19.3,
+      "predicted_impact": 5.8871794871794885,
+      "mae": 13.412820512820513,
+      "mae_pct": 69.49647934103893,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "nahb_housing_market_index",
+          "country": "usd",
+          "surprise": 5.128205128205128,
+          "score": 10.256410256410255
+        },
+        {
+          "event_name": "business_inventories",
+          "country": "usd",
+          "surprise": 33.33333333333335,
+          "score": 66.6666666666667
+        },
+        {
+          "event_name": "fed_logan_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "retail_inventories_ex_autos",
+          "country": "usd",
+          "surprise": 66.66666666666667,
+          "score": 133.33333333333334
+        }
+      ],
+      "date": "2024-09-17",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 29.3,
+      "predicted_impact": 21.328080808080802,
+      "mae": 7.9719191919191985,
+      "mae_pct": 27.207915330782246,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -266.66666666666663,
+          "score": 533.3333333333333
+        },
+        {
+          "event_name": "cb_leading_index",
+          "country": "usd",
+          "surprise": 66.66666666666666,
+          "score": 133.33333333333331
+        },
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -2.5252525252525277,
+          "score": 5.0505050505050555
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 45.0,
+          "score": 90.0
+        }
+      ],
+      "date": "2024-09-19",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 33.2,
+      "predicted_impact": 0.208955223880597,
+      "mae": 32.99104477611941,
+      "mae_pct": 99.37061679554037,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "consumer_confidence",
+          "country": "eur",
+          "surprise": 3.731343283582089,
+          "score": 7.462686567164178
+        }
+      ],
+      "date": "2024-09-20",
+      "direction": "bearish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 27.5,
+      "predicted_impact": 0.0,
+      "mae": 27.5,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "fed_goolsbee_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-09-23",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 29.0,
+      "predicted_impact": 7.166291866028708,
+      "mae": 21.833708133971292,
+      "mae_pct": 75.28864873783205,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "cb_consumer_confidence",
+          "country": "usd",
+          "surprise": -6.534090909090902,
+          "score": 13.068181818181804
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": -10.526315789473683,
+          "score": 21.052631578947366
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_shipments_index",
+          "country": "usd",
+          "surprise": -20.0,
+          "score": 40.0
+        },
+        {
+          "event_name": "richmond_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": 90.9090909090909,
+          "score": 181.8181818181818
+        }
+      ],
+      "date": "2024-09-24",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 38.0,
+      "predicted_impact": 10.896507468191038,
+      "mae": 27.10349253180896,
+      "mae_pct": 71.32498034686569,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 64.70588235294117,
+          "score": 129.41176470588235
+        },
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 110.9090909090909,
+          "score": 221.8181818181818
+        },
+        {
+          "event_name": "ecb_guindos_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": -18.96551724137931,
+          "score": 37.93103448275862
+        },
+        {
+          "event_name": "fed_barr_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-09-26",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 9.3,
+      "predicted_impact": 10.638836415327715,
+      "mae": 1.3388364153277141,
+      "mae_pct": 14.396090487394774,
+      "events_count": 9,
+      "events_scores": [
+        {
+          "event_name": "ism_manufacturing_prices",
+          "country": "usd",
+          "surprise": -10.55555555555556,
+          "score": 21.11111111111112
+        },
+        {
+          "event_name": "ism_manufacturing_pmi",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "ism_manufacturing_new_orders",
+          "country": "usd",
+          "surprise": 3.3632286995515694,
+          "score": 6.726457399103139
+        },
+        {
+          "event_name": "construction_spending",
+          "country": "usd",
+          "surprise": 80.0,
+          "score": 160.0
+        },
+        {
+          "event_name": "jolts_job_quits",
+          "country": "usd",
+          "surprise": -4.902867715078625,
+          "score": 9.80573543015725
+        },
+        {
+          "event_name": "jolts_job_openings",
+          "country": "usd",
+          "surprise": 4.266632084035778,
+          "score": 8.533264168071556
+        },
+        {
+          "event_name": "ism_manufacturing_employment",
+          "country": "usd",
+          "surprise": -4.56521739130435,
+          "score": 9.1304347826087
+        },
+        {
+          "event_name": "dallas_fed_services_index",
+          "country": "usd",
+          "surprise": 66.23376623376622,
+          "score": 132.46753246753244
+        },
+        {
+          "event_name": "dallas_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": 16.09195402298851,
+          "score": 32.18390804597702
+        }
+      ],
+      "date": "2024-10-01",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 21.5,
+      "predicted_impact": 16.427296683732045,
+      "mae": 5.072703316267955,
+      "mae_pct": 23.593968912874207,
+      "events_count": 8,
+      "events_scores": [
+        {
+          "event_name": "ism_services_prices",
+          "country": "usd",
+          "surprise": 3.6649214659685887,
+          "score": 7.329842931937177
+        },
+        {
+          "event_name": "ism_services_pmi",
+          "country": "usd",
+          "surprise": 6.6019417475728135,
+          "score": 13.203883495145627
+        },
+        {
+          "event_name": "factory_orders_ex_transportation",
+          "country": "usd",
+          "surprise": -133.33333333333334,
+          "score": 266.6666666666667
+        },
+        {
+          "event_name": "factory_orders",
+          "country": "usd",
+          "surprise": -104.08163265306123,
+          "score": 208.16326530612247
+        },
+        {
+          "event_name": "ism_services_business_activity",
+          "country": "usd",
+          "surprise": 12.382739212007507,
+          "score": 24.765478424015015
+        },
+        {
+          "event_name": "ism_services_employment",
+          "country": "usd",
+          "surprise": -4.183266932270919,
+          "score": 8.366533864541838
+        },
+        {
+          "event_name": "ism_services_new_orders",
+          "country": "usd",
+          "surprise": 12.075471698113205,
+          "score": 24.15094339622641
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 17.02127659574468,
+          "score": 34.04255319148936
+        }
+      ],
+      "date": "2024-10-03",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 55.5,
+      "predicted_impact": 1.6162601626016257,
+      "mae": 53.88373983739837,
+      "mae_pct": 97.08781952684392,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "nahb_housing_market_index",
+          "country": "usd",
+          "surprise": 4.878048780487805,
+          "score": 9.75609756097561
+        },
+        {
+          "event_name": "retail_inventories_ex_autos",
+          "country": "usd",
+          "surprise": -16.666666666666664,
+          "score": 33.33333333333333
+        },
+        {
+          "event_name": "business_inventories",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": -7.317073170731707,
+          "score": 14.634146341463413
+        }
+      ],
+      "date": "2024-10-17",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 14.2,
+      "predicted_impact": 0.0,
+      "mae": 14.2,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "fed_kashkari_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-10-18",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 11.4,
+      "predicted_impact": 27.37777777777778,
+      "mae": 15.97777777777778,
+      "mae_pct": 140.15594541910332,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "richmond_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": 400.0,
+          "score": 800.0
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": 33.33333333333333,
+          "score": 66.66666666666666
+        },
+        {
+          "event_name": "fed_harker_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_shipments_index",
+          "country": "usd",
+          "surprise": 55.55555555555556,
+          "score": 111.11111111111111
+        }
+      ],
+      "date": "2024-10-22",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 11.6,
+      "predicted_impact": 96.21361771243276,
+      "mae": 84.61361771243277,
+      "mae_pct": 729.4277389002825,
+      "events_count": 16,
+      "events_scores": [
+        {
+          "event_name": "consumer_confidence",
+          "country": "eur",
+          "surprise": 3.1007751937984525,
+          "score": 6.201550387596905
+        },
+        {
+          "event_name": "ecb_president_lagarde_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "ecb_lane_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": 50.0,
+          "score": 100.0
+        },
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -1.0309278350515474,
+          "score": 2.061855670103095
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -420.3703703703703,
+          "score": 840.7407407407406
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 209.8290598290598,
+          "score": 419.6581196581196
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": 67.74193548387098,
+          "score": 135.48387096774195
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 170.7757704569607,
+          "score": 341.5515409139214
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": 139.89095865515674,
+          "score": 279.7819173103135
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": 18.36734693877551,
+          "score": 36.73469387755102
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": 99.39393939393939,
+          "score": 198.78787878787878
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 349.72627737226276,
+          "score": 699.4525547445255
+        },
+        {
+          "event_name": "ecb_cipollone_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "boc_press_conference",
+          "country": "cad",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 187.87295476419635,
+          "score": 375.7459095283927
+        }
+      ],
+      "date": "2024-10-23",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 6.4,
+      "predicted_impact": 3.7333333333333325,
+      "mae": 2.666666666666668,
+      "mae_pct": 41.666666666666686,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "dallas_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": 66.66666666666666,
+          "score": 133.33333333333331
+        }
+      ],
+      "date": "2024-10-28",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 30.5,
+      "predicted_impact": 11.429312606894323,
+      "mae": 19.07068739310568,
+      "mae_pct": 62.52684391182189,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "jolts_job_openings",
+          "country": "usd",
+          "surprise": -5.317389645083325,
+          "score": 10.63477929016665
+        },
+        {
+          "event_name": "cb_consumer_confidence",
+          "country": "usd",
+          "surprise": 9.576612903225806,
+          "score": 19.153225806451612
+        },
+        {
+          "event_name": "jolts_job_quits",
+          "country": "usd",
+          "surprise": -3.366897419760848,
+          "score": 6.733794839521696
+        },
+        {
+          "event_name": "dallas_fed_services_index",
+          "country": "usd",
+          "surprise": 176.9230769230769,
+          "score": 353.8461538461538
+        },
+        {
+          "event_name": "dallas_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": -8.910891089108915,
+          "score": 17.82178217821783
+        }
+      ],
+      "date": "2024-10-29",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 33.6,
+      "predicted_impact": 169.39630838637606,
+      "mae": 135.79630838637607,
+      "mae_pct": 404.15567972135733,
+      "events_count": 11,
+      "events_scores": [
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 186.66666666666666,
+          "score": 373.3333333333333
+        },
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 1133.3333333333335,
+          "score": 2266.666666666667
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 296.82080924855495,
+          "score": 593.6416184971099
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": -166.26506024096386,
+          "score": 332.5301204819277
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -109.40811107051516,
+          "score": 218.81622214103032
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": -157.58754863813232,
+          "score": 315.17509727626464
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": 14.298245614035082,
+          "score": 28.596491228070164
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": -138.88888888888889,
+          "score": 277.77777777777777
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": -408.31435079726657,
+          "score": 816.6287015945331
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": 303.9285714285714,
+          "score": 607.8571428571428
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": -109.4224924012158,
+          "score": 218.8449848024316
+        }
+      ],
+      "date": "2024-10-30",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 14.5,
+      "predicted_impact": 0.22356240350379686,
+      "mae": 14.276437596496203,
+      "mae_pct": 98.45819032066348,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "all_car_sales",
+          "country": "usd",
+          "surprise": 2.3489932885905986,
+          "score": 4.697986577181197
+        },
+        {
+          "event_name": "all_truck_sales",
+          "country": "usd",
+          "surprise": 1.6431924882629174,
+          "score": 3.286384976525835
+        }
+      ],
+      "date": "2024-11-04",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 18.6,
+      "predicted_impact": 0.9236096845194427,
+      "mae": 17.67639031548056,
+      "mae_pct": 95.03435653484172,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "s&p_global_composite_pmi",
+          "country": "cad",
+          "surprise": 7.87234042553192,
+          "score": 15.74468085106384
+        },
+        {
+          "event_name": "ecb_president_lagarde_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "s&p_global_services_pmi",
+          "country": "cad",
+          "surprise": 8.620689655172415,
+          "score": 17.24137931034483
+        }
+      ],
+      "date": "2024-11-05",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 22.6,
+      "predicted_impact": 0,
+      "mae": 22.6,
+      "events_count": 0,
+      "date": "2024-11-08",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 61.8,
+      "predicted_impact": 11.99503875968992,
+      "mae": 49.80496124031008,
+      "mae_pct": 80.59055216878653,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "fed_collins_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "manufacturing_production",
+          "country": "usd",
+          "surprise": 50.0,
+          "score": 100.0
+        },
+        {
+          "event_name": "capacity_utilization",
+          "country": "usd",
+          "surprise": -0.3875968992248209,
+          "score": 0.7751937984496418
+        },
+        {
+          "event_name": "manufacturing_production",
+          "country": "usd",
+          "surprise": -66.66666666666667,
+          "score": 133.33333333333334
+        },
+        {
+          "event_name": "industrial_production",
+          "country": "usd",
+          "surprise": 40.0,
+          "score": 80.0
+        },
+        {
+          "event_name": "industrial_production",
+          "country": "usd",
+          "surprise": 57.14285714285714,
+          "score": 114.28571428571428
+        }
+      ],
+      "date": "2024-11-15",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 23.4,
+      "predicted_impact": 0,
+      "mae": 23.4,
+      "events_count": 0,
+      "date": "2024-11-21",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 43.1,
+      "predicted_impact": 0,
+      "mae": 43.1,
+      "events_count": 0,
+      "date": "2024-11-27",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 14.6,
+      "predicted_impact": 0,
+      "mae": 14.6,
+      "events_count": 0,
+      "date": "2024-12-03",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 16.4,
+      "predicted_impact": 0.17725180802103893,
+      "mae": 16.22274819197896,
+      "mae_pct": 98.91919629255463,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "s&p_global_services_pmi",
+          "country": "cad",
+          "surprise": 1.5873015873015959,
+          "score": 3.1746031746031917
+        },
+        {
+          "event_name": "s&p_global_composite_pmi",
+          "country": "cad",
+          "surprise": 1.5779092702169568,
+          "score": 3.1558185404339136
+        }
+      ],
+      "date": "2024-12-04",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 43.5,
+      "predicted_impact": 0,
+      "mae": 43.5,
+      "events_count": 0,
+      "date": "2024-12-05",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 11.6,
+      "predicted_impact": 0,
+      "mae": 11.6,
+      "events_count": 0,
+      "date": "2024-12-09",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 8.8,
+      "predicted_impact": 0.0,
+      "mae": 8.8,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "snb_quarterly_bulletin",
+          "country": "chf",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2024-12-18",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 8.9,
+      "predicted_impact": 0,
+      "mae": 8.9,
+      "events_count": 0,
+      "date": "2024-12-27",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 57.8,
+      "predicted_impact": 0,
+      "mae": 57.8,
+      "events_count": 0,
+      "date": "2024-12-30",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 82.9,
+      "predicted_impact": 0.5999696601941747,
+      "mae": 82.30003033980583,
+      "mae_pct": 99.27627302751004,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "fed_cook_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "s&p_global_services_pmi",
+          "country": "cad",
+          "surprise": -5.859375,
+          "score": 11.71875
+        },
+        {
+          "event_name": "s&p_global_composite_pmi",
+          "country": "cad",
+          "surprise": -4.854368932038835,
+          "score": 9.70873786407767
+        }
+      ],
+      "date": "2025-01-06",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 30.1,
+      "predicted_impact": 0,
+      "mae": 30.1,
+      "events_count": 0,
+      "date": "2025-01-14",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 90.8,
+      "predicted_impact": 0,
+      "mae": 90.8,
+      "events_count": 0,
+      "date": "2025-01-20",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 35.6,
+      "predicted_impact": 0,
+      "mae": 35.6,
+      "events_count": 0,
+      "date": "2025-01-21",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 23.4,
+      "predicted_impact": 0,
+      "mae": 23.4,
+      "events_count": 0,
+      "date": "2025-01-31",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 18.3,
+      "predicted_impact": 0.06436781609195416,
+      "mae": 18.235632183908045,
+      "mae_pct": 99.64826330004396,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "s&p_global_manufacturing_pmi",
+          "country": "cad",
+          "surprise": -1.1494252873563244,
+          "score": 2.298850574712649
+        }
+      ],
+      "date": "2025-02-03",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 14.0,
+      "predicted_impact": 0,
+      "mae": 14.0,
+      "events_count": 0,
+      "date": "2025-02-06",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 19.3,
+      "predicted_impact": 0,
+      "mae": 19.3,
+      "events_count": 0,
+      "date": "2025-02-11",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 51.2,
+      "predicted_impact": 0,
+      "mae": 51.2,
+      "events_count": 0,
+      "date": "2025-02-13",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 30.0,
+      "predicted_impact": 102.87501075268818,
+      "mae": 72.87501075268818,
+      "mae_pct": 242.9167025089606,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "manufacturing_production",
+          "country": "usd",
+          "surprise": 1100.0,
+          "score": 2200.0
+        },
+        {
+          "event_name": "industrial_production",
+          "country": "usd",
+          "surprise": -50.0,
+          "score": 100.0
+        },
+        {
+          "event_name": "industrial_production",
+          "country": "usd",
+          "surprise": 566.6666666666667,
+          "score": 1133.3333333333335
+        },
+        {
+          "event_name": "manufacturing_production",
+          "country": "usd",
+          "surprise": -120.0,
+          "score": 240.0
+        },
+        {
+          "event_name": "capacity_utilization",
+          "country": "usd",
+          "surprise": 0.3870967741935447,
+          "score": 0.7741935483870894
+        },
+        {
+          "event_name": "boc_senior_loan_officer_survey",
+          "country": "cad",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2025-02-14",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 12.6,
+      "predicted_impact": 0.0,
+      "mae": 12.6,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "ecb_lane_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2025-02-21",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 10.3,
+      "predicted_impact": 0,
+      "mae": 10.3,
+      "events_count": 0,
+      "date": "2025-02-26",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 7.9,
+      "predicted_impact": 0.41240310077519415,
+      "mae": 7.4875968992248065,
+      "mae_pct": 94.77970758512413,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "s&p_global_manufacturing_pmi",
+          "country": "cad",
+          "surprise": -7.364341085271326,
+          "score": 14.728682170542651
+        }
+      ],
+      "date": "2025-03-03",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 70.2,
+      "predicted_impact": 0.5797402597402599,
+      "mae": 69.62025974025974,
+      "mae_pct": 99.17415917415917,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "s&p_global_composite_pmi",
+          "country": "cad",
+          "surprise": -5.45454545454546,
+          "score": 10.90909090909092
+        },
+        {
+          "event_name": "s&p_global_services_pmi",
+          "country": "cad",
+          "surprise": -4.897959183673466,
+          "score": 9.795918367346932
+        }
+      ],
+      "date": "2025-03-05",
+      "direction": "bullish",
+      "confidence": 70.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 16.1,
+      "predicted_impact": 122.23516227752381,
+      "mae": 106.13516227752382,
+      "mae_pct": 659.2246104194026,
+      "events_count": 11,
+      "events_scores": [
+        {
+          "event_name": "thomson_reuters_ipsos_pcsi",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -209.2526690391459,
+          "score": 418.5053380782918
+        },
+        {
+          "event_name": "boc_press_conference",
+          "country": "cad",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 1031.4814814814818,
+          "score": 2062.9629629629635
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -59.933591588267845,
+          "score": 119.86718317653569
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 80.7495741056218,
+          "score": 161.4991482112436
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -18.285280728376318,
+          "score": 36.570561456752635
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": -116.8103448275862,
+          "score": 233.6206896551724
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": -300.3489183531054,
+          "score": 600.6978367062108
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": -173.13432835820893,
+          "score": 346.26865671641787
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": 192.77456647398847,
+          "score": 385.54913294797694
+        }
+      ],
+      "date": "2025-03-12",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 32.2,
+      "predicted_impact": 1.2599999999999998,
+      "mae": 30.940000000000005,
+      "mae_pct": 96.08695652173914,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 22.5,
+          "score": 45.0
+        }
+      ],
+      "date": "2025-03-13",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 15.3,
+      "predicted_impact": 0,
+      "mae": 15.3,
+      "events_count": 0,
+      "date": "2025-03-18",
+      "direction": "bearish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 24.8,
+      "predicted_impact": 5.397590361445782,
+      "mae": 19.402409638554218,
+      "mae_pct": 78.23552273610571,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "dallas_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": -96.38554216867469,
+          "score": 192.77108433734938
+        }
+      ],
+      "date": "2025-03-31",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 40.2,
+      "predicted_impact": 5.406896551724137,
+      "mae": 34.793103448275865,
+      "mae_pct": 86.55000857780065,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "fed_bowman_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "fed_schmid_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 96.55172413793103,
+          "score": 193.10344827586206
+        }
+      ],
+      "date": "2025-04-10",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 10.7,
+      "predicted_impact": 0.977251285761687,
+      "mae": 9.722748714238312,
+      "mae_pct": 90.86681041344218,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "ivey_pmi_s.a",
+          "country": "cad",
+          "surprise": -6.6276803118908365,
+          "score": 13.255360623781673
+        },
+        {
+          "event_name": "pmi",
+          "country": "cad",
+          "surprise": -5.935251798561159,
+          "score": 11.870503597122317
+        },
+        {
+          "event_name": "rcm/tipp_economic_optimism_index",
+          "country": "usd",
+          "surprise": -2.4439918533604947,
+          "score": 4.8879837067209895
+        },
+        {
+          "event_name": "ibd/tipp_economic_optimism",
+          "country": "usd",
+          "surprise": -2.4439918533604947,
+          "score": 4.8879837067209895
+        },
+        {
+          "event_name": "ny_fed_treasury_purchases_0_to_1_yrs",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2025-05-06",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 31.3,
+      "predicted_impact": 0.0,
+      "mae": 31.3,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "fed_kugler_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2025-05-12",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 29.8,
+      "predicted_impact": 20.763076923076923,
+      "mae": 9.036923076923078,
+      "mae_pct": 30.325245224574083,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "business_inventories",
+          "country": "usd",
+          "surprise": -50.0,
+          "score": 100.0
+        },
+        {
+          "event_name": "nahb_housing_market_index",
+          "country": "usd",
+          "surprise": -15.0,
+          "score": 30.0
+        },
+        {
+          "event_name": "retail_inventories_ex_autos",
+          "country": "usd",
+          "surprise": 300.00000000000006,
+          "score": 600.0000000000001
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 5.769230769230769,
+          "score": 11.538461538461538
+        }
+      ],
+      "date": "2025-05-15",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 29.7,
+      "predicted_impact": 5.662375334421881,
+      "mae": 24.037624665578118,
+      "mae_pct": 80.93476318376472,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -0.4975124378109347,
+          "score": 0.9950248756218694
+        },
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": 91.52542372881356,
+          "score": 183.05084745762713
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 9.090909090909092,
+          "score": 18.181818181818183
+        }
+      ],
+      "date": "2025-05-22",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 24.6,
+      "predicted_impact": 0.6101492537313429,
+      "mae": 23.989850746268658,
+      "mae_pct": 97.5197184807669,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "new_home_sales",
+          "country": "usd",
+          "surprise": 10.895522388059694,
+          "score": 21.79104477611939
+        }
+      ],
+      "date": "2025-05-23",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 73.8,
+      "predicted_impact": 30.63454545454545,
+      "mae": 43.16545454545455,
+      "mae_pct": 58.48977580684899,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": -316.66666666666663,
+          "score": 633.3333333333333
+        },
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": -214.54545454545456,
+          "score": 429.0909090909091
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": -15.833333333333332,
+          "score": 31.666666666666664
+        }
+      ],
+      "date": "2025-05-29",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 63.2,
+      "predicted_impact": 1.3981768949337523,
+      "mae": 61.80182310506625,
+      "mae_pct": 97.78769478649723,
+      "events_count": 4,
+      "events_scores": [
+        {
+          "event_name": "ivey_pmi_s.a",
+          "country": "cad",
+          "surprise": 2.0876826722338206,
+          "score": 4.175365344467641
+        },
+        {
+          "event_name": "pmi",
+          "country": "cad",
+          "surprise": 2.0876826722338206,
+          "score": 4.175365344467641
+        },
+        {
+          "event_name": "ecb_lagarde_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 20.792079207920793,
+          "score": 41.584158415841586
+        }
+      ],
+      "date": "2025-06-05",
+      "direction": "bullish",
+      "confidence": 70.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 20.6,
+      "predicted_impact": 0.0,
+      "mae": 20.6,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "ecb_buch_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2025-06-10",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 30.0,
+      "predicted_impact": 0,
+      "mae": 30.0,
+      "events_count": 0,
+      "date": "2025-06-16",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 41.3,
+      "predicted_impact": 9.035397881251539,
+      "mae": 32.264602118748456,
+      "mae_pct": 78.12252328994785,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "fed_chair_powell_testimony",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "cb_consumer_confidence",
+          "country": "usd",
+          "surprise": -5.487804878048786,
+          "score": 10.975609756097573
+        },
+        {
+          "event_name": "richmond_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": 63.63636363636363,
+          "score": 127.27272727272727
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_shipments_index",
+          "country": "usd",
+          "surprise": 70.0,
+          "score": 140.0
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": 22.22222222222222,
+          "score": 44.44444444444444
+        },
+        {
+          "event_name": "ny_fed_treasury_purchases_10_to_22.5_yrs",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2025-06-24",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 33.8,
+      "predicted_impact": 5.647130682840947,
+      "mae": 28.152869317159052,
+      "mae_pct": 83.29251277265992,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "michigan_consumer_sentiment",
+          "country": "usd",
+          "surprise": 16.28352490421456,
+          "score": 32.56704980842912
+        },
+        {
+          "event_name": "michigan_inflation_expectations",
+          "country": "usd",
+          "surprise": -24.24242424242424,
+          "score": 48.48484848484848
+        },
+        {
+          "event_name": "michigan_current_conditions",
+          "country": "usd",
+          "surprise": 10.016977928692697,
+          "score": 20.033955857385394
+        },
+        {
+          "event_name": "michigan_consumer_expectations",
+          "country": "usd",
+          "surprise": 21.294363256784976,
+          "score": 42.58872651356995
+        },
+        {
+          "event_name": "michigan_5_year_inflation_expectations",
+          "country": "usd",
+          "surprise": -4.761904761904765,
+          "score": 9.52380952380953
+        },
+        {
+          "event_name": "inflation_expectations",
+          "country": "usd",
+          "surprise": -24.24242424242424,
+          "score": 48.48484848484848
+        }
+      ],
+      "date": "2025-06-27",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 23.5,
+      "predicted_impact": 464.17045362893305,
+      "mae": 440.67045362893305,
+      "mae_pct": 1875.1934196975874,
+      "events_count": 13,
+      "events_scores": [
+        {
+          "event_name": "ecb_president_lagarde_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "ecb_lagarde_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 165.88416723783413,
+          "score": 331.76833447566827
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 453.6723163841807,
+          "score": 907.3446327683614
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -221.76724137931038,
+          "score": 443.53448275862075
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 232.43243243243242,
+          "score": 464.86486486486484
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": 57.943925233644855,
+          "score": 115.88785046728971
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": -6237.5,
+          "score": 12475.0
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": 301.8313253012048,
+          "score": 603.6626506024096
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": 71.7877094972067,
+          "score": 143.5754189944134
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": -5.600000000000005,
+          "score": 11.20000000000001
+        },
+        {
+          "event_name": "eia_weekly_refinery_utilization_rates_wow",
+          "country": "usd",
+          "surprise": -86.66666666666667,
+          "score": 173.33333333333334
+        },
+        {
+          "event_name": "imports",
+          "country": "usd",
+          "surprise": 453.6723163841807,
+          "score": 907.3446327683614
+        }
+      ],
+      "date": "2025-07-02",
+      "direction": "bearish",
+      "confidence": 90.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 11.1,
+      "predicted_impact": 0,
+      "mae": 11.1,
+      "events_count": 0,
+      "date": "2025-07-14",
+      "direction": "bearish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 18.9,
+      "predicted_impact": 2.7812893081761003,
+      "mae": 16.1187106918239,
+      "mae_pct": 85.28418355462381,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "business_inventories",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "nahb_housing_market_index",
+          "country": "usd",
+          "surprise": 3.125,
+          "score": 6.25
+        },
+        {
+          "event_name": "retail_inventories_ex_autos",
+          "country": "usd",
+          "surprise": -33.33333333333333,
+          "score": 66.66666666666666
+        },
+        {
+          "event_name": "fed_kugler_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": -13.20754716981132,
+          "score": 26.41509433962264
+        }
+      ],
+      "date": "2025-07-17",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 10.2,
+      "predicted_impact": 97.29008125608951,
+      "mae": 87.0900812560895,
+      "mae_pct": 853.8243260400932,
+      "events_count": 13,
+      "events_scores": [
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -370.0,
+          "score": 740.0
+        },
+        {
+          "event_name": "existing_home_sales",
+          "country": "usd",
+          "surprise": -2.72277227722772,
+          "score": 5.44554455445544
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -29.7627606038821,
+          "score": 59.5255212077642
+        },
+        {
+          "event_name": "imports",
+          "country": "usd",
+          "surprise": -87.34177215189872,
+          "score": 174.68354430379745
+        },
+        {
+          "event_name": "eia_weekly_refinery_utilization_rates_wow",
+          "country": "usd",
+          "surprise": 300.00000000000006,
+          "score": 600.0000000000001
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": 155.4140127388535,
+          "score": 310.828025477707
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": 100.35460992907801,
+          "score": 200.70921985815602
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": -151.13268608414242,
+          "score": 302.26537216828484
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 134.60122699386503,
+          "score": 269.20245398773005
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 187.1559633027523,
+          "score": 374.3119266055046
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 113.61502347417843,
+          "score": 227.23004694835686
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 17.880279865250063,
+          "score": 35.76055973050013
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": -87.34177215189872,
+          "score": 174.68354430379745
+        }
+      ],
+      "date": "2025-07-23",
+      "direction": "bearish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 15.4,
+      "predicted_impact": 22.88687334270542,
+      "mae": 7.486873342705421,
+      "mae_pct": 48.616060666918315,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "jolts_job_quits",
+          "country": "usd",
+          "surprise": -3.9143730886850183,
+          "score": 7.828746177370037
+        },
+        {
+          "event_name": "cb_consumer_confidence",
+          "country": "usd",
+          "surprise": 2.1008403361344534,
+          "score": 4.201680672268907
+        },
+        {
+          "event_name": "jolts_job_openings",
+          "country": "usd",
+          "surprise": -3.565871369294599,
+          "score": 7.131742738589198
+        },
+        {
+          "event_name": "dallas_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": 253.65853658536585,
+          "score": 507.3170731707317
+        },
+        {
+          "event_name": "dallas_fed_services_index",
+          "country": "usd",
+          "surprise": 145.45454545454547,
+          "score": 290.90909090909093
+        }
+      ],
+      "date": "2025-07-29",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 54.9,
+      "predicted_impact": 1482.6104073165948,
+      "mae": 1427.7104073165947,
+      "mae_pct": 2600.56540494826,
+      "events_count": 14,
+      "events_scores": [
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": -144.44444444444443,
+          "score": 288.88888888888886
+        },
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": -354.5454545454545,
+          "score": 709.090909090909
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 342.91574629220577,
+          "score": 685.8314925844115
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": 24.019106107130664,
+          "score": 48.03821221426133
+        },
+        {
+          "event_name": "boc_press_conference",
+          "country": "cad",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "imports",
+          "country": "usd",
+          "surprise": 277.97297297297297,
+          "score": 555.9459459459459
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 277.97297297297297,
+          "score": 555.9459459459459
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 139.71631205673762,
+          "score": 279.43262411347524
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": -56.789413118527044,
+          "score": 113.57882623705409
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": 24533.333333333332,
+          "score": 49066.666666666664
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": -128.73563218390805,
+          "score": 257.4712643678161
+        },
+        {
+          "event_name": "eia_weekly_refinery_utilization_rates_wow",
+          "country": "usd",
+          "surprise": -106.25,
+          "score": 212.5
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 36.8421052631579,
+          "score": 73.6842105263158
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 51.64835164835163,
+          "score": 103.29670329670326
+        }
+      ],
+      "date": "2025-07-30",
+      "direction": "bearish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 50.6,
+      "predicted_impact": 0.0,
+      "mae": 50.6,
+      "mae_pct": 100.0,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "fed_barkin_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "fed_schmid_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2025-08-12",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 13.6,
+      "predicted_impact": 0,
+      "mae": 13.6,
+      "events_count": 0,
+      "date": "2025-08-19",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 21.3,
+      "predicted_impact": 318.8209589481207,
+      "mae": 297.52095894812066,
+      "mae_pct": 1396.812013840942,
+      "events_count": 11,
+      "events_scores": [
+        {
+          "event_name": "imports",
+          "country": "usd",
+          "surprise": -274.2489270386266,
+          "score": 548.4978540772532
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": -160.82224909310762,
+          "score": 321.64449818621523
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": -243.43434343434342,
+          "score": 486.86868686868684
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": -2690.0,
+          "score": 5380.0
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": 228.15126050420167,
+          "score": 456.30252100840335
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 503.125,
+          "score": 1006.25
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 831.1111111111112,
+          "score": 1662.2222222222224
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -298.08959156785244,
+          "score": 596.1791831357049
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": -274.2489270386266,
+          "score": 548.4978540772532
+        },
+        {
+          "event_name": "eia_weekly_refinery_utilization_rates_wow",
+          "country": "usd",
+          "surprise": 140.0,
+          "score": 280.0
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": -50.0,
+          "score": 100.0
+        }
+      ],
+      "date": "2025-08-20",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 57.7,
+      "predicted_impact": 1.0438378825475596,
+      "mae": 56.656162117452446,
+      "mae_pct": 98.19092221395572,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "ivey_pmi_s.a",
+          "country": "cad",
+          "surprise": -10.215053763440853,
+          "score": 20.430107526881706
+        },
+        {
+          "event_name": "pmi",
+          "country": "cad",
+          "surprise": -8.424908424908427,
+          "score": 16.849816849816854
+        }
+      ],
+      "date": "2025-09-05",
+      "direction": "bullish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 29.6,
+      "predicted_impact": 0.03763651638196577,
+      "mae": 29.562363483618036,
+      "mae_pct": 99.87284960681768,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "cb_employment_trends_index",
+          "country": "usd",
+          "surprise": -0.6720806496779603,
+          "score": 1.3441612993559207
+        }
+      ],
+      "date": "2025-09-08",
+      "direction": "bullish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 10.5,
+      "predicted_impact": 0.0,
+      "mae": 10.5,
+      "mae_pct": 100.0,
+      "events_count": 1,
+      "events_scores": [
+        {
+          "event_name": "ny_fed_treasury_purchases_22.5_to_30_yrs",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2025-09-09",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 51.7,
+      "predicted_impact": 1.6290909090909091,
+      "mae": 50.07090909090909,
+      "mae_pct": 96.84895375417618,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "ecb_lagarde_speech",
+          "country": "eur",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 29.09090909090909,
+          "score": 58.18181818181818
+        }
+      ],
+      "date": "2025-09-11",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 11.4,
+      "predicted_impact": 1.3655301353566487,
+      "mae": 10.034469864643352,
+      "mae_pct": 88.02166547932765,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "michigan_5_year_inflation_expectations",
+          "country": "usd",
+          "surprise": 11.428571428571425,
+          "score": 22.85714285714285
+        },
+        {
+          "event_name": "michigan_inflation_expectations",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_consumer_expectations",
+          "country": "usd",
+          "surprise": -7.334525939177104,
+          "score": 14.669051878354209
+        },
+        {
+          "event_name": "inflation_expectations",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_consumer_sentiment",
+          "country": "usd",
+          "surprise": -4.81099656357389,
+          "score": 9.62199312714778
+        },
+        {
+          "event_name": "michigan_current_conditions",
+          "country": "usd",
+          "surprise": -0.8103727714748784,
+          "score": 1.6207455429497568
+        }
+      ],
+      "date": "2025-09-12",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 9.2,
+      "predicted_impact": 0,
+      "mae": 9.2,
+      "events_count": 0,
+      "date": "2025-09-15",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 18.3,
+      "predicted_impact": 225.7263576280997,
+      "mae": 207.42635762809968,
+      "mae_pct": 1133.4773640879764,
+      "events_count": 12,
+      "events_scores": [
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": -260.97393689986285,
+          "score": 521.9478737997257
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -335.7197258187357,
+          "score": 671.4394516374714
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 18.9041095890411,
+          "score": 37.8082191780822
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": -1041.6666666666665,
+          "score": 2083.333333333333
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -14.188759278897129,
+          "score": 28.377518557794257
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 36.84210526315789,
+          "score": 73.68421052631578
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": -565.7185628742515,
+          "score": 1131.437125748503
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": 151.8796992481203,
+          "score": 303.7593984962406
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": -672.5490196078432,
+          "score": 1345.0980392156864
+        },
+        {
+          "event_name": "eia_weekly_refinery_utilization_rates_wow",
+          "country": "usd",
+          "surprise": -366.6666666666667,
+          "score": 733.3333333333334
+        },
+        {
+          "event_name": "boc_press_conference",
+          "country": "cad",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "imports",
+          "country": "usd",
+          "surprise": -565.7185628742515,
+          "score": 1131.437125748503
+        }
+      ],
+      "date": "2025-09-17",
+      "direction": "bullish",
+      "confidence": 85.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 69.8,
+      "predicted_impact": 35.09859154929577,
+      "mae": 34.70140845070423,
+      "mae_pct": 49.71548488639574,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "leading_index",
+          "country": "usd",
+          "surprise": -599.9999999999999,
+          "score": 1199.9999999999998
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 26.76056338028169,
+          "score": 53.52112676056338
+        }
+      ],
+      "date": "2025-09-18",
+      "direction": "bearish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 13.6,
+      "predicted_impact": 0.21677419354838695,
+      "mae": 13.383225806451613,
+      "mae_pct": 98.40607210626186,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "fed_musalem_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "consumer_confidence",
+          "country": "eur",
+          "surprise": 3.8709677419354813,
+          "score": 7.741935483870963
+        }
+      ],
+      "date": "2025-09-22",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 23.9,
+      "predicted_impact": 82.42544104587654,
+      "mae": 58.52544104587654,
+      "mae_pct": 244.87632236768428,
+      "events_count": 12,
+      "events_scores": [
+        {
+          "event_name": "new_home_sales",
+          "country": "usd",
+          "surprise": 20.481927710843372,
+          "score": 40.963855421686745
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": 266.66666666666663,
+          "score": 533.3333333333333
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": 53.983809118023004,
+          "score": 107.96761823604601
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": -128.2089552238806,
+          "score": 256.4179104477612
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": 113.19796954314721,
+          "score": 226.39593908629442
+        },
+        {
+          "event_name": "eia_weekly_refinery_utilization_rates_wow",
+          "country": "usd",
+          "surprise": 81.25,
+          "score": 162.5
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 159.7972972972973,
+          "score": 319.5945945945946
+        },
+        {
+          "event_name": "imports",
+          "country": "usd",
+          "surprise": 151.30183220829315,
+          "score": 302.6036644165863
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 93.46257404415725,
+          "score": 186.9251480883145
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": 110.58394160583941,
+          "score": 221.16788321167883
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": 151.30183220829315,
+          "score": 302.6036644165863
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -141.646070192783,
+          "score": 283.292140385566
+        }
+      ],
+      "date": "2025-09-24",
+      "direction": "bearish",
+      "confidence": 70.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 56.2,
+      "predicted_impact": 0.9333333333333331,
+      "mae": 55.26666666666667,
+      "mae_pct": 98.33926453143536,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "fed_bowman_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": -16.666666666666664,
+          "score": 33.33333333333333
+        }
+      ],
+      "date": "2025-09-25",
+      "direction": "bearish",
+      "confidence": 80.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 30.2,
+      "predicted_impact": 126.53333333333335,
+      "mae": 96.33333333333334,
+      "mae_pct": 318.9845474613687,
+      "events_count": 3,
+      "events_scores": [
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 442.8571428571428,
+          "score": 885.7142857142856
+        },
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 1433.3333333333335,
+          "score": 2866.666666666667
+        },
+        {
+          "event_name": "dallas_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": -383.3333333333333,
+          "score": 766.6666666666666
+        }
+      ],
+      "date": "2025-09-29",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 24.5,
+      "predicted_impact": 17.72811125639522,
+      "mae": 6.77188874360478,
+      "mae_pct": 27.640362218795023,
+      "events_count": 5,
+      "events_scores": [
+        {
+          "event_name": "jolts_job_quits",
+          "country": "usd",
+          "surprise": -2.3689197725836935,
+          "score": 4.737839545167387
+        },
+        {
+          "event_name": "jolts_job_openings",
+          "country": "usd",
+          "surprise": 0.2635960044395134,
+          "score": 0.5271920088790268
+        },
+        {
+          "event_name": "cb_consumer_confidence",
+          "country": "usd",
+          "surprise": -3.6809815950920184,
+          "score": 7.361963190184037
+        },
+        {
+          "event_name": "dallas_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": -127.90697674418605,
+          "score": 255.8139534883721
+        },
+        {
+          "event_name": "dallas_fed_services_index",
+          "country": "usd",
+          "surprise": -182.35294117647055,
+          "score": 364.7058823529411
+        }
+      ],
+      "date": "2025-09-30",
+      "direction": "bearish",
+      "confidence": 75.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 10.3,
+      "predicted_impact": 2.260454860299934,
+      "mae": 8.039545139700067,
+      "mae_pct": 78.05383630776763,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "ivey_pmi_s.a",
+          "country": "cad",
+          "surprise": 19.36127744510977,
+          "score": 38.72255489021954
+        },
+        {
+          "event_name": "fed_bostic_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "pmi",
+          "country": "cad",
+          "surprise": 19.36127744510977,
+          "score": 38.72255489021954
+        },
+        {
+          "event_name": "fed_bowman_speech",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "ibd/tipp_economic_optimism",
+          "country": "usd",
+          "surprise": -0.821355236139642,
+          "score": 1.642710472279284
+        },
+        {
+          "event_name": "rcm/tipp_economic_optimism_index",
+          "country": "usd",
+          "surprise": -0.821355236139642,
+          "score": 1.642710472279284
+        }
+      ],
+      "date": "2025-10-07",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 14.8,
+      "predicted_impact": 2.852830188679245,
+      "mae": 11.947169811320755,
+      "mae_pct": 80.72412034676185,
+      "events_count": 2,
+      "events_scores": [
+        {
+          "event_name": "wholesale_inventories",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_natural_gas_stocks_change",
+          "country": "usd",
+          "surprise": 50.943396226415096,
+          "score": 101.88679245283019
+        }
+      ],
+      "date": "2025-10-09",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 12.5,
+      "predicted_impact": 0.23910002197609817,
+      "mae": 12.260899978023902,
+      "mae_pct": 98.08719982419122,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "michigan_consumer_expectations",
+          "country": "usd",
+          "surprise": -0.9671179883945841,
+          "score": 1.9342359767891681
+        },
+        {
+          "event_name": "inflation_expectations",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "michigan_inflation_expectations",
+          "country": "usd",
+          "surprise": -2.1276595744680966,
+          "score": 4.255319148936193
+        },
+        {
+          "event_name": "michigan_current_conditions",
+          "country": "usd",
+          "surprise": 0.9933774834437109,
+          "score": 1.9867549668874218
+        },
+        {
+          "event_name": "michigan_consumer_sentiment",
+          "country": "usd",
+          "surprise": -0.18148820326679024,
+          "score": 0.3629764065335805
+        },
+        {
+          "event_name": "michigan_5_year_inflation_expectations",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        }
+      ],
+      "date": "2025-10-10",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 15.6,
+      "predicted_impact": 0,
+      "mae": 15.6,
+      "events_count": 0,
+      "date": "2025-10-15",
+      "direction": "bearish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 4.3,
+      "predicted_impact": 40.994263680367546,
+      "mae": 36.69426368036755,
+      "mae_pct": 853.3549693108732,
+      "events_count": 6,
+      "events_scores": [
+        {
+          "event_name": "richmond_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": 300.0,
+          "score": 600.0
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_index",
+          "country": "usd",
+          "surprise": 76.47058823529412,
+          "score": 152.94117647058823
+        },
+        {
+          "event_name": "cb_consumer_confidence",
+          "country": "usd",
+          "surprise": -1.0460251046025106,
+          "score": 2.0920502092050213
+        },
+        {
+          "event_name": "richmond_fed_manufacturing_shipments_index",
+          "country": "usd",
+          "surprise": 120.0,
+          "score": 240.0
+        },
+        {
+          "event_name": "dallas_fed_services_revenues_index",
+          "country": "usd",
+          "surprise": -166.66666666666669,
+          "score": 333.33333333333337
+        },
+        {
+          "event_name": "dallas_fed_services_index",
+          "country": "usd",
+          "surprise": -67.85714285714288,
+          "score": 135.71428571428575
+        }
+      ],
+      "date": "2025-10-28",
+      "direction": "bullish",
+      "confidence": 95.0
+    },
+    {
+      "status": "VALIDATED",
+      "real_amplitude": 11.2,
+      "predicted_impact": 130.87351302207767,
+      "mae": 119.67351302207767,
+      "mae_pct": 1068.5135091256934,
+      "events_count": 14,
+      "events_scores": [
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "wholesale_inventories",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "retail_inventories_ex_autos",
+          "country": "usd",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "pending_home_sales",
+          "country": "usd",
+          "surprise": -123.6842105263158,
+          "score": 247.3684210526316
+        },
+        {
+          "event_name": "boc_press_conference",
+          "country": "cad",
+          "surprise": 0.0,
+          "score": 0.0
+        },
+        {
+          "event_name": "eia_gasoline_production_change",
+          "country": "usd",
+          "surprise": -101.70212765957447,
+          "score": 203.40425531914894
+        },
+        {
+          "event_name": "eia_gasoline_stocks_change",
+          "country": "usd",
+          "surprise": -176.71169073125293,
+          "score": 353.42338146250586
+        },
+        {
+          "event_name": "eia_heating_oil_stocks_change",
+          "country": "usd",
+          "surprise": -44.31818181818181,
+          "score": 88.63636363636363
+        },
+        {
+          "event_name": "eia_refinery_crude_runs_change",
+          "country": "usd",
+          "surprise": -185.16666666666669,
+          "score": 370.33333333333337
+        },
+        {
+          "event_name": "eia_distillate_fuel_production_change",
+          "country": "usd",
+          "surprise": -435.00000000000006,
+          "score": 870.0000000000001
+        },
+        {
+          "event_name": "eia_cushing_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": 273.24675324675326,
+          "score": 546.4935064935065
+        },
+        {
+          "event_name": "eia_crude_oil_stocks_change",
+          "country": "usd",
+          "surprise": -613.6316337148803,
+          "score": 1227.2632674297606
+        },
+        {
+          "event_name": "eia_crude_oil_imports_change",
+          "country": "usd",
+          "surprise": -256.25,
+          "score": 512.5
+        },
+        {
+          "event_name": "eia_distillate_stocks_change",
+          "country": "usd",
+          "surprise": -127.315753887762,
+          "score": 254.631507775524
+        }
+      ],
+      "date": "2025-10-29",
+      "direction": "bullish",
+      "confidence": 90.0
+    },
+    {
+      "status": "NO_EVENTS",
+      "real_amplitude": 17.7,
+      "predicted_impact": 0,
+      "mae": 17.7,
+      "events_count": 0,
+      "date": "2025-10-31",
+      "direction": "bearish",
+      "confidence": 85.0
+    }
+  ]
+}

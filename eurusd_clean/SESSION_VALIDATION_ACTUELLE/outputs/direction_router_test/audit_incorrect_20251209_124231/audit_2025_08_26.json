@@ -1,0 +1,88 @@
+{
+  "date": "2025-08-26",
+  "movement_start_time": "2025-08-26 13:33:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "NEUTRAL",
+  "score": -0.1106116460589496,
+  "has_trigger": true,
+  "n_active": 7,
+  "contributions": [
+    {
+      "event_key": "durable goods orders",
+      "family": "Durable Goods",
+      "actual": -2.8,
+      "estimate": -4.0,
+      "surprise": 1.2000000000000002,
+      "surprise_z": 0.07391110630565863,
+      "alpha_weight": -0.0747808481600945,
+      "contribution": -0.0055271352179880615,
+      "is_trigger": false
+    },
+    {
+      "event_key": "durable goods orders ex defense",
+      "family": "Durable Goods",
+      "actual": -2.5,
+      "estimate": -3.6,
+      "surprise": 1.1,
+      "surprise_z": -0.18550563274037093,
+      "alpha_weight": -0.0491380109682547,
+      "contribution": 0.009115377816269376,
+      "is_trigger": false
+    },
+    {
+      "event_key": "durable goods orders ex transp",
+      "family": "Durable Goods",
+      "actual": 1.1,
+      "estimate": 0.2,
+      "surprise": 0.9000000000000001,
+      "surprise_z": 2.0582341732174267,
+      "alpha_weight": -0.0747808481600945,
+      "contribution": -0.15391649718529005,
+      "is_trigger": true
+    },
+    {
+      "event_key": "durable goods orders ex defense_mom",
+      "family": "Durable Goods",
+      "actual": -2.5,
+      "estimate": -3.6,
+      "surprise": 1.1,
+      "surprise_z": -0.14593746687241363,
+      "alpha_weight": -0.0491380109682547,
+      "contribution": 0.007171076847855968,
+      "is_trigger": false
+    },
+    {
+      "event_key": "durable goods orders ex defense_mom",
+      "family": "Durable Goods",
+      "actual": -2.5,
+      "estimate": -3.6,
+      "surprise": 1.1,
+      "surprise_z": -0.14593746687241363,
+      "alpha_weight": -0.0491380109682547,
+      "contribution": 0.007171076847855968,
+      "is_trigger": false
+    },
+    {
+      "event_key": "durable goods orders ex transp_mom",
+      "family": "Durable Goods",
+      "actual": 1.1,
+      "estimate": 0.2,
+      "surprise": 0.9000000000000001,
+      "surprise_z": 2.1161593418752362,
+      "alpha_weight": -0.0747808481600945,
+      "contribution": -0.15824819042733757,
+      "is_trigger": true
+    },
+    {
+      "event_key": "durable goods orders_mom",
+      "family": "Durable Goods",
+      "actual": -2.8,
+      "estimate": -4.0,
+      "surprise": 1.2000000000000002,
+      "surprise_z": -0.03222319560673554,
+      "alpha_weight": -0.0491380109682547,
+      "contribution": 0.0015833837391559878,
+      "is_trigger": false
+    }
+  ]
+}

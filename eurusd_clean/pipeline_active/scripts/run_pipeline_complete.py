@@ -1,0 +1,1 @@
+/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/eurusd_clean/scripts/run_pipeline_complete.py

@@ -1,0 +1,56 @@
+{
+  "name": "11 Sept 2025 - CPI + Jobless + Current Account",
+  "date": "2025-09-11",
+  "created_at": "2025-10-16T22:30:00",
+  "description": "Configuration de test pour le 11 septembre 2025 avec CPI US, Jobless Claims US et Current Account DE",
+  "events": [
+    {
+      "event_key": "Core CPI (MoM)",
+      "country": "US",
+      "family": "CPI",
+      "ts_utc": "2025-09-11T12:30:00",
+      "importance_n": 3,
+      "previous": 0.2,
+      "estimate": 0.2,
+      "hypothetical_actual": 0.3,
+      "surprise": 0.1,
+      "empirical_score": 75.0
+    },
+    {
+      "event_key": "CPI (YoY)",
+      "country": "US",
+      "family": "CPI",
+      "ts_utc": "2025-09-11T12:30:00",
+      "importance_n": 3,
+      "previous": 2.9,
+      "estimate": 2.6,
+      "hypothetical_actual": 2.5,
+      "surprise": -0.1,
+      "empirical_score": 78.0
+    },
+    {
+      "event_key": "Jobless Claims",
+      "country": "US",
+      "family": "Jobless_Claims",
+      "ts_utc": "2025-09-11T12:30:00",
+      "importance_n": 2,
+      "previous": 227.0,
+      "estimate": 230.0,
+      "hypothetical_actual": 230.0,
+      "surprise": 0.0,
+      "empirical_score": 45.0
+    },
+    {
+      "event_key": "Current Account",
+      "country": "DE",
+      "family": "Current_Account",
+      "ts_utc": "2025-09-11T12:45:00",
+      "importance_n": 2,
+      "previous": 18.6,
+      "estimate": 20.0,
+      "hypothetical_actual": 22.5,
+      "surprise": 2.5,
+      "empirical_score": 42.0
+    }
+  ]
+}

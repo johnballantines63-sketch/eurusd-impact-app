@@ -1,0 +1,53 @@
+    def predict_ml(self, features: EventMetrics) -> float:
+        """
+        Prédiction ML avec formule simplifiée robuste
+        
+        NOTE: Les coefficients V1 originaux causaient des valeurs négatives
+        pour nb_events=1 (surprise_max = surprise_moyenne).
+        Cette version utilise une formule empirique simplifiée.
+        
+        Args:
+            features: EventMetrics calculées
+            
+        Returns:
+            Impact prédit en pips
+        """
+        # Cas 0 événement
+        if features.nb_events == 0:
+            return 0.0
+        
+        # Formule simplifiée robuste basée sur observations empiriques
+        impact = 10.0  # Base minimum
+        
+        # Contribution du score (~0.8 pips par point de score)
+        impact += features.score_cumule * 0.8
+        
+        # Contribution de la surprise (~2.5 pips par % de surprise)
+        impact += features.surprise_max * 2.5
+        
+        # Bonus haute surprise (>10%)
+        if features.surprise_max > 10:
+            impact *= 1.3
+        
+        # Bonus score élevé (>30)
+        if features.score_cumule > 30:
+            impact *= 1.2
+        
+        # Pénalité multi-events (dilution attention)
+        if features.nb_events > 2:
+            penalty = (features.nb_events - 2) * 0.1
+            impact *= (1.0 - min(penalty, 0.4))  # Max 40% réduction
+        
+        # Ajustement concordance directions
+        if features.ratio_concordance < 0.6:
+            impact *= 0.85
+        
+        # Ajustement cohérence famille
+        if features.coherence_famille < 0.5:
+            impact *= 0.90
+        
+        # Caps réalistes
+        impact = max(15.0, impact)  # Minimum 15 pips
+        impact = min(300.0, impact)  # Maximum 300 pips
+        
+        return impact

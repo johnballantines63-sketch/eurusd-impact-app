@@ -1,0 +1,22 @@
+{
+  "date": "2025-02-03",
+  "movement_start_time": "2025-02-03 18:58:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": "NEUTRAL",
+  "score": 1.3809169195242064,
+  "has_trigger": true,
+  "n_active": 1,
+  "contributions": [
+    {
+      "event_key": "atlanta fed gdpnow",
+      "family": "GDP",
+      "actual": 3.9,
+      "estimate": 2.9,
+      "surprise": 1.0,
+      "surprise_z": 1.3809169195242064,
+      "alpha_weight": 1,
+      "contribution": 1.3809169195242064,
+      "is_trigger": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+date,type,should_detect,detected,status,delta_pips,reason
+2025-09-11,reference,True,True,PASS,36.89999999999971,
+2025-08-01,reference,True,True,PASS,158.59999999999985,
+2025-08-12,reference,True,True,PASS,47.699999999999406,
+2025-11-20,reference,True,False,FAIL,5.800000000000249,delta_too_small
+2025-10-24,false_positive,False,False,PASS,,peak_too_early_delta_insufficient
+2025-07-15,false_positive,False,False,PASS,25.300000000001432,delta_too_small

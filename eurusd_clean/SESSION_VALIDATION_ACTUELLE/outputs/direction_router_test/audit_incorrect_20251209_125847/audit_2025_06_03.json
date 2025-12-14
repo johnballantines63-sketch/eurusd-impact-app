@@ -1,0 +1,55 @@
+{
+  "date": "2025-06-03",
+  "movement_start_time": "2025-06-03 09:47:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "DOWN",
+  "score": -0.9963265299193457,
+  "has_trigger": true,
+  "n_active": 4,
+  "contributions": [
+    {
+      "event_key": "core inflation rate",
+      "family": "CPI",
+      "actual": 2.3,
+      "estimate": 2.5,
+      "surprise": -0.20000000000000018,
+      "surprise_z": -1.382939101772211,
+      "alpha_weight": 1,
+      "contribution": -1.382939101772211,
+      "is_trigger": true
+    },
+    {
+      "event_key": "cpi",
+      "family": "CPI",
+      "actual": 128.73,
+      "estimate": 128.9,
+      "surprise": -0.17000000000001592,
+      "surprise_z": 0.0874758113016118,
+      "alpha_weight": 1,
+      "contribution": 0.0874758113016118,
+      "is_trigger": false
+    },
+    {
+      "event_key": "inflation rate",
+      "family": "CPI",
+      "actual": 1.9,
+      "estimate": 2.0,
+      "surprise": -0.10000000000000009,
+      "surprise_z": -0.5804882734824811,
+      "alpha_weight": 1,
+      "contribution": -0.5804882734824811,
+      "is_trigger": false
+    },
+    {
+      "event_key": "unemployment rate",
+      "family": "Unemployment",
+      "actual": 6.2,
+      "estimate": 6.2,
+      "surprise": 0.0,
+      "surprise_z": -0.1167014958856111,
+      "alpha_weight": 1,
+      "contribution": -0.1167014958856111,
+      "is_trigger": false
+    }
+  ]
+}

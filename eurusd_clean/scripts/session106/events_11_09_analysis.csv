@@ -1,0 +1,12 @@
+event_key,actual,estimate,empirical_score,family,surprise
+inflation rate_yoy,2.9,2.9,46.131002713643156,Inflation,0.0
+core inflation rate_yoy,3.1,3.1,45.85630258750297,Inflation,0.0
+inflation rate_mom,0.4,0.3,45.70384828422969,Inflation,0.3333333333333335
+cpi,323.98,323.89,45.13412286023265,Inflation,0.00027787211707688364
+core inflation rate_mom,0.3,0.3,45.02330127008234,Inflation,0.0
+cpi s.a,323.364,323.0,44.69221083727704,Inflation,0.0011269349845200493
+inflation rate,2.9,2.9,44.414844512436375,Inflation,0.0
+core inflation rate,0.3,0.3,44.414844512436375,Inflation,0.0
+real earnings_mom,-0.1,,43.24374225199799,Other,
+cpi s a,323.364,323.0,42.012728389432944,Inflation,0.0011269349845200493
+real earnings,-0.1,,40.7828449344552,Other,

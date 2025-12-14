@@ -1,0 +1,44 @@
+{
+  "date": "2024-02-02",
+  "movement_start_time": "2024-02-02 13:30:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": "UP",
+  "score": 0.08912887174621964,
+  "has_trigger": true,
+  "n_active": 3,
+  "contributions": [
+    {
+      "event_key": "non farm payrolls",
+      "family": "NFP",
+      "actual": 353.0,
+      "estimate": 180.0,
+      "surprise": 173.0,
+      "surprise_z": 1.609206529572852,
+      "alpha_weight": 0.0425436598435558,
+      "contribution": 0.06846153521217632,
+      "is_trigger": true
+    },
+    {
+      "event_key": "nonfarm payrolls private",
+      "family": "NFP",
+      "actual": 317.0,
+      "estimate": 155.0,
+      "surprise": 162.0,
+      "surprise_z": 1.9644696193210058,
+      "alpha_weight": 0.0425436598435558,
+      "contribution": 0.08357572725739243,
+      "is_trigger": true
+    },
+    {
+      "event_key": "unemployment rate",
+      "family": "Unemployment",
+      "actual": 3.7,
+      "estimate": 3.8,
+      "surprise": -0.09999999999999964,
+      "surprise_z": -0.3534871397114878,
+      "alpha_weight": -0.0066154367541702,
+      "contribution": 0.002338471816173873,
+      "is_trigger": false
+    }
+  ]
+}

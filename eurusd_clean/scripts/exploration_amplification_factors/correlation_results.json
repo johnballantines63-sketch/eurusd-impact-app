@@ -1,0 +1,73 @@
+{
+  "n_samples": 67,
+  "correlations": {
+    "r2_trend": {
+      "label": "R\u00b2 tendance",
+      "correlation": 0.11506955213698987,
+      "p_value": 0.3537995744568437
+    },
+    "volatility": {
+      "label": "Volatilit\u00e9 pr\u00e9-\u00e9v\u00e9nement",
+      "correlation": 0.03596012885264515,
+      "p_value": 0.772657529413061
+    },
+    "surprise_max": {
+      "label": "Surprise max (%)",
+      "correlation": -0.001995768550152946,
+      "p_value": 0.9872115339782515
+    },
+    "num_events": {
+      "label": "Nombre d'\u00e9v\u00e9nements",
+      "correlation": -0.6321751077972096,
+      "p_value": 9.593408303678255e-09
+    },
+    "mean_empirical_score": {
+      "label": "Score empirique moyen",
+      "correlation": -0.5246925711980488,
+      "p_value": 5.168032311021076e-06
+    },
+    "mean_adjusted_score": {
+      "label": "Score ajust\u00e9 moyen",
+      "correlation": -0.6768265018485471,
+      "p_value": 3.224751235268938e-10
+    },
+    "total_score": {
+      "label": "Score total",
+      "correlation": -0.7615980182758293,
+      "p_value": 7.278679504568598e-14
+    },
+    "impact_real": {
+      "label": "Impact r\u00e9el (pips)",
+      "correlation": 0.19172963412221397,
+      "p_value": 0.12011309552004214
+    },
+    "direction_numeric": {
+      "label": "Direction (1=UP, -1=DOWN)",
+      "correlation": -0.03995939254826179,
+      "p_value": 0.7481689771678156
+    }
+  },
+  "regression_model": {
+    "factors": [
+      "total_score",
+      "mean_adjusted_score",
+      "num_events",
+      "mean_empirical_score"
+    ],
+    "factor_labels": [
+      "Score total",
+      "Score ajust\u00e9 moyen",
+      "Nombre d'\u00e9v\u00e9nements",
+      "Score empirique moyen"
+    ],
+    "coefficients": [
+      0.008406819486669428,
+      -0.14099202882945744,
+      -0.41624768856072886,
+      -0.01480233052427535
+    ],
+    "intercept": 9.01955034518372,
+    "r2": 0.6844074220313472,
+    "mae": 0.5931383709760656
+  }
+}

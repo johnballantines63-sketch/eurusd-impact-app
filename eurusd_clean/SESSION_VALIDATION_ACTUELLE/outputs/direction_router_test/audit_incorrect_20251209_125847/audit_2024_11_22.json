@@ -1,0 +1,55 @@
+{
+  "date": "2024-11-22",
+  "movement_start_time": "2024-11-22 08:59:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "DOWN",
+  "score": -1.1390682967726953,
+  "has_trigger": true,
+  "n_active": 4,
+  "contributions": [
+    {
+      "event_key": "gdp growth rate",
+      "family": "GDP",
+      "actual": -0.3,
+      "estimate": -0.2,
+      "surprise": -0.09999999999999998,
+      "surprise_z": -0.5911778841291581,
+      "alpha_weight": 1,
+      "contribution": -0.5911778841291581,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gross domestic product",
+      "family": "GDP",
+      "actual": 0.1,
+      "estimate": 0.2,
+      "surprise": -0.1,
+      "surprise_z": -0.49604434260681957,
+      "alpha_weight": 1,
+      "contribution": -0.49604434260681957,
+      "is_trigger": false
+    },
+    {
+      "event_key": "retail sales",
+      "family": "Retail Sales",
+      "actual": -0.7,
+      "estimate": -0.3,
+      "surprise": -0.39999999999999997,
+      "surprise_z": -0.20099739261387506,
+      "alpha_weight": 1,
+      "contribution": -0.20099739261387506,
+      "is_trigger": false
+    },
+    {
+      "event_key": "retail sales ex fuel",
+      "family": "Retail Sales",
+      "actual": 2.0,
+      "estimate": 3.3,
+      "surprise": -1.2999999999999998,
+      "surprise_z": -0.9899169741955379,
+      "alpha_weight": 1,
+      "contribution": -0.9899169741955379,
+      "is_trigger": true
+    }
+  ]
+}

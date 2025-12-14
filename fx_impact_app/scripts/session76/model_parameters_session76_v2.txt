@@ -1,0 +1,16 @@
+# PARAMÈTRES MEILLEUR MODÈLE ML - SESSION 76
+
+CONFIG = '4_features'
+N_FEATURES = 4
+FEATURES = ['score_ajuste', 'nb_events', 'surprise_max', 'coherence_famille']
+
+INTERCEPT = 46.8165
+COEF_SCORE_COEF_AJUSTE = 0.0777
+COEF_NB_COEF_EVENTS = 0.5820
+COEF_SURPRISE_COEF_MAX = -0.1011
+COEF_COHERENCE_COEF_FAMILLE = 31.6908
+
+# Métriques validation
+R2_CV = nan
+MAE_CV = 19.5
+SUCCESS_SCORE = 1/4

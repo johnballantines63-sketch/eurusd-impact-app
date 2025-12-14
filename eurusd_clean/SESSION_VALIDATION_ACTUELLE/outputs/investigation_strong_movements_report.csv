@@ -1,0 +1,2 @@
+n_strong_movements,n_weak_movements,impact_real_strong,impact_real_weak,impact_pred_strong,impact_pred_weak,ratio_impact_real,ratio_impact_pred,missing_factor,correlation,avg_score_strong,avg_score_weak,avg_amplification_strong,avg_amplification_weak
+159,988,90.38742138364782,42.62165991902838,16.067766962711932,10.074318737549234,2.120692191607828,1.594923426715077,1.3296514152880872,0.053332056541831194,36.378578179266306,27.85370513440585,2.2066477771495343,1.9064952952457284

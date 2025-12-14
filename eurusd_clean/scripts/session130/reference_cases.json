@@ -1,0 +1,816 @@
+{
+  "metadata": {
+    "source_file": "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/eurusd_clean/scripts/session130/patterns_classified.json",
+    "selection_criteria": {
+      "min_events": 2,
+      "impact_percentile": "50-75",
+      "priority_validated": true
+    },
+    "target_patterns": [
+      "DoubleWave_Overlap",
+      "DoubleWave_Cascade",
+      "SingleWave_Fort",
+      "SingleWave_Intermediate",
+      "ZigZag"
+    ]
+  },
+  "reference_cases": {
+    "DoubleWave_Overlap": {
+      "date": "2025-09-11",
+      "impact_real": 37.27000000000036,
+      "baseline_time": "2025-09-11T14:21:00+02:00",
+      "peak_time": "2025-09-11T14:32:00+02:00",
+      "direction": "bullish",
+      "wave1_pips": 37.27000000000036,
+      "pullback_ratio": 0.49235309900724805,
+      "wave2_pips": 41.7500000000004,
+      "events": [
+        {
+          "event_key": "ecb interest rate decision",
+          "ts_utc": "2025-09-11T14:15:00+02:00",
+          "country": "EU",
+          "actual": 2.15,
+          "forecast": 2.15,
+          "previous": 2.15,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "deposit facility rate",
+          "ts_utc": "2025-09-11T14:15:00+02:00",
+          "country": "EU",
+          "actual": 2.0,
+          "forecast": 2.0,
+          "previous": 2.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "marginal lending rate",
+          "ts_utc": "2025-09-11T14:15:00+02:00",
+          "country": "EU",
+          "actual": 2.4,
+          "forecast": 2.4,
+          "previous": 2.4,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "interest rate decision",
+          "ts_utc": "2025-09-11T14:15:00+02:00",
+          "country": "EU",
+          "actual": 2.15,
+          "forecast": 2.15,
+          "previous": 2.15,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "ecb monetary policy statement and press conference",
+          "ts_utc": "2025-09-11T14:15:00+02:00",
+          "country": "EU",
+          "actual": null,
+          "forecast": null,
+          "previous": null,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "deposit facility rate",
+          "ts_utc": "2025-09-11T14:15:00+02:00",
+          "country": "EU",
+          "actual": 2.0,
+          "forecast": 2.0,
+          "previous": 2.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "inflation rate_yoy",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": 2.9,
+          "forecast": 2.9,
+          "previous": 2.7,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "cpi s.a",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": 323.364,
+          "forecast": 323.0,
+          "previous": 322.132,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "cpi",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": 323.98,
+          "forecast": 323.89,
+          "previous": 323.05,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "real earnings_mom",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": -0.1,
+          "forecast": null,
+          "previous": 0.1,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "continuing jobless claims",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": 1939.0,
+          "forecast": 1950.0,
+          "previous": 1939.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "core inflation rate_mom",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": 0.3,
+          "forecast": 0.3,
+          "previous": 0.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "jobless claims 4 week average",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": 240.5,
+          "forecast": 232.0,
+          "previous": 230.75,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "core inflation rate_yoy",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": 3.1,
+          "forecast": 3.1,
+          "previous": 3.1,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "initial jobless claims",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": 263.0,
+          "forecast": 235.0,
+          "previous": 236.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "inflation rate_mom",
+          "ts_utc": "2025-09-11T14:30:00+02:00",
+          "country": "US",
+          "actual": 0.4,
+          "forecast": 0.3,
+          "previous": 0.2,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "ecb press conference",
+          "ts_utc": "2025-09-11T14:45:00+02:00",
+          "country": "EU",
+          "actual": null,
+          "forecast": null,
+          "previous": null,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "current account",
+          "ts_utc": "2025-09-11T14:45:00+02:00",
+          "country": "DE",
+          "actual": 14.8,
+          "forecast": 21.5,
+          "previous": 17.1,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "balance of trade",
+          "ts_utc": "2025-09-11T15:00:00+02:00",
+          "country": "RU",
+          "actual": 13.17,
+          "forecast": 9.0,
+          "previous": 9.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "trade balance",
+          "ts_utc": "2025-09-11T15:00:00+02:00",
+          "country": "RU",
+          "actual": 13.17,
+          "forecast": null,
+          "previous": 9.26,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "central bank reserves $",
+          "ts_utc": "2025-09-11T15:00:00+02:00",
+          "country": "RU",
+          "actual": 698.5,
+          "forecast": null,
+          "previous": 685.5,
+          "importance": "MEDIUM"
+        }
+      ],
+      "n_events": 21,
+      "status": "validated"
+    },
+    "DoubleWave_Cascade": {
+      "date": "2025-04-04",
+      "impact_real": 45.19000000000162,
+      "baseline_time": "2025-04-04T12:15:00+02:00",
+      "peak_time": "2025-04-04T12:26:00+02:00",
+      "direction": "bullish",
+      "wave1_pips": 45.19000000000162,
+      "pullback_ratio": 0.30537729586194057,
+      "wave2_pips": 38.55000000000164,
+      "events": [
+        {
+          "event_key": "new car registrations_yoy",
+          "ts_utc": "2025-04-04T12:00:00+02:00",
+          "country": "DE",
+          "actual": null,
+          "forecast": null,
+          "previous": -6.4,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "producer price index_yoy",
+          "ts_utc": "2025-04-04T12:00:00+02:00",
+          "country": "RS",
+          "actual": -0.1,
+          "forecast": 2.2,
+          "previous": 1.1,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "current account",
+          "ts_utc": "2025-04-04T12:00:00+02:00",
+          "country": "UZ",
+          "actual": null,
+          "forecast": null,
+          "previous": -371.9,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "balance of trade",
+          "ts_utc": "2025-04-04T12:05:00+02:00",
+          "country": "MK",
+          "actual": -348.0,
+          "forecast": -300.0,
+          "previous": -279.0,
+          "importance": "MEDIUM"
+        }
+      ],
+      "n_events": 4,
+      "status": "to_validate"
+    },
+    "SingleWave_Fort": {
+      "date": "2024-06-07",
+      "impact_real": 64.06999999999829,
+      "baseline_time": "2024-06-07T14:25:00+02:00",
+      "peak_time": "2024-06-07T14:36:00+02:00",
+      "direction": "bearish",
+      "wave1_pips": 64.06999999999829,
+      "pullback_ratio": 0.06087092242857825,
+      "wave2_pips": 14.750000000001151,
+      "events": [
+        {
+          "event_key": "average hourly wages_yoy",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CA",
+          "actual": 5.2,
+          "forecast": null,
+          "previous": 4.8,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "capacity utilization",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CA",
+          "actual": 78.5,
+          "forecast": 78.8,
+          "previous": 78.6,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "non farm payrolls",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 272.0,
+          "forecast": 185.0,
+          "previous": 165.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "average hourly earnings_mom",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 0.4,
+          "forecast": 0.3,
+          "previous": 0.2,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "average hourly earnings_yoy",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 4.1,
+          "forecast": 3.9,
+          "previous": 4.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "average weekly hours",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 34.3,
+          "forecast": 34.3,
+          "previous": 34.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "imports",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CL",
+          "actual": null,
+          "forecast": null,
+          "previous": 6543.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "manufacturing payrolls",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 8.0,
+          "forecast": 5.0,
+          "previous": 6.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "full time employment chg",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CA",
+          "actual": -35.6,
+          "forecast": null,
+          "previous": 40.1,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "government payrolls",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 43.0,
+          "forecast": null,
+          "previous": 7.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "exports",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CL",
+          "actual": null,
+          "forecast": null,
+          "previous": 8412.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "unemployment rate",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 4.0,
+          "forecast": 3.9,
+          "previous": 3.9,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "unemployment rate",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CA",
+          "actual": 6.2,
+          "forecast": 6.2,
+          "previous": 6.1,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "u 6 unemployment rate",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 7.4,
+          "forecast": null,
+          "previous": 7.4,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "part time employment chg",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CA",
+          "actual": 62.4,
+          "forecast": null,
+          "previous": 50.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "participation rate",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 62.5,
+          "forecast": null,
+          "previous": 62.7,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "participation rate",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CA",
+          "actual": 65.4,
+          "forecast": null,
+          "previous": 65.4,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "balance of trade",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CL",
+          "actual": null,
+          "forecast": null,
+          "previous": 1868.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "nonfarm payrolls private",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "US",
+          "actual": 229.0,
+          "forecast": 170.0,
+          "previous": 158.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "employment change",
+          "ts_utc": "2024-06-07T14:30:00+02:00",
+          "country": "CA",
+          "actual": 26.7,
+          "forecast": 22.5,
+          "previous": 90.4,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "foreign exchange reserves",
+          "ts_utc": "2024-06-07T15:00:00+02:00",
+          "country": "RU",
+          "actual": 599.0,
+          "forecast": null,
+          "previous": 598.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "new car registrations_mom",
+          "ts_utc": "2024-06-07T15:00:00+02:00",
+          "country": "BR",
+          "actual": -12.0,
+          "forecast": null,
+          "previous": 17.6,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "used car prices_mom",
+          "ts_utc": "2024-06-07T15:00:00+02:00",
+          "country": "US",
+          "actual": -0.6,
+          "forecast": null,
+          "previous": -2.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "car production_mom",
+          "ts_utc": "2024-06-07T15:00:00+02:00",
+          "country": "BR",
+          "actual": -24.9,
+          "forecast": null,
+          "previous": 13.5,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "used car prices_yoy",
+          "ts_utc": "2024-06-07T15:00:00+02:00",
+          "country": "US",
+          "actual": -12.1,
+          "forecast": null,
+          "previous": -14.0,
+          "importance": "MEDIUM"
+        }
+      ],
+      "n_events": 25,
+      "status": "to_validate"
+    },
+    "SingleWave_Intermediate": {
+      "date": "2023-11-03",
+      "impact_real": 38.689999999999,
+      "baseline_time": "2023-11-03T13:20:00+01:00",
+      "peak_time": "2023-11-03T13:31:00+01:00",
+      "direction": "bullish",
+      "wave1_pips": 38.689999999999,
+      "pullback_ratio": 0.095631946239336,
+      "wave2_pips": 27.399999999999647,
+      "events": [
+        {
+          "event_key": "boe pill speech",
+          "ts_utc": "2023-11-03T13:15:00+01:00",
+          "country": "UK",
+          "actual": null,
+          "forecast": null,
+          "previous": null,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "participation rate",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": 62.7,
+          "forecast": null,
+          "previous": 62.8,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "participation rate",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "CA",
+          "actual": 65.6,
+          "forecast": null,
+          "previous": 65.6,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "average hourly earnings_mom",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": 0.2,
+          "forecast": 0.3,
+          "previous": 0.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "nonfarm payrolls private",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": 99.0,
+          "forecast": 158.0,
+          "previous": 246.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "part time employment chg",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "CA",
+          "actual": 20.8,
+          "forecast": null,
+          "previous": 47.9,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "non farm payrolls",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": 150.0,
+          "forecast": 180.0,
+          "previous": 297.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "government payrolls",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": 51.0,
+          "forecast": 29.0,
+          "previous": 51.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "employment change",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "CA",
+          "actual": 17.5,
+          "forecast": 22.5,
+          "previous": 63.8,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "unemployment rate",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": 3.9,
+          "forecast": 3.8,
+          "previous": 3.8,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "average hourly wages_yoy",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "CA",
+          "actual": 5.0,
+          "forecast": null,
+          "previous": 5.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "u 6 unemployment rate",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": 7.2,
+          "forecast": null,
+          "previous": 7.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "manufacturing payrolls",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": -35.0,
+          "forecast": -10.0,
+          "previous": 14.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "average weekly hours",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": 34.3,
+          "forecast": 34.4,
+          "previous": 34.4,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "average hourly earnings_yoy",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "US",
+          "actual": 4.1,
+          "forecast": 4.0,
+          "previous": 4.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "unemployment rate",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "CA",
+          "actual": 5.7,
+          "forecast": 5.6,
+          "previous": 5.5,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "full time employment chg",
+          "ts_utc": "2023-11-03T13:30:00+01:00",
+          "country": "CA",
+          "actual": -3.3,
+          "forecast": null,
+          "previous": 15.8,
+          "importance": "MEDIUM"
+        }
+      ],
+      "n_events": 17,
+      "status": "to_validate"
+    },
+    "ZigZag": {
+      "date": "2025-01-15",
+      "impact_real": 47.930000000000476,
+      "baseline_time": "2025-01-15T14:21:00+01:00",
+      "peak_time": "2025-01-15T14:32:00+01:00",
+      "direction": "bullish",
+      "wave1_pips": 47.930000000000476,
+      "pullback_ratio": 0.4277070728145393,
+      "wave2_pips": 18.899999999999473,
+      "events": [
+        {
+          "event_key": "inflation rate_yoy",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "US",
+          "actual": 2.9,
+          "forecast": 2.9,
+          "previous": 2.7,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "wholesale sales_mom",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "CA",
+          "actual": -0.2,
+          "forecast": -0.7,
+          "previous": 1.0,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "real earnings_mom",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "US",
+          "actual": -0.1,
+          "forecast": null,
+          "previous": 0.1,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "core inflation rate_mom",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "US",
+          "actual": 0.2,
+          "forecast": 0.2,
+          "previous": 0.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "vehicle sales_mom",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "CA",
+          "actual": 160.9,
+          "forecast": null,
+          "previous": 164.8,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "new motor vehicle sales",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "CA",
+          "actual": 160.9,
+          "forecast": null,
+          "previous": 164.8,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "core inflation rate_yoy",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "US",
+          "actual": 3.2,
+          "forecast": 3.3,
+          "previous": 3.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "cpi",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "US",
+          "actual": 315.61,
+          "forecast": 315.61,
+          "previous": 315.49,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "cpi s.a",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "US",
+          "actual": 317.685,
+          "forecast": 317.4,
+          "previous": 316.441,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "ny empire state manufacturing index",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "US",
+          "actual": -12.6,
+          "forecast": 3.0,
+          "previous": 2.1,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "manufacturing sales_mom",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "CA",
+          "actual": 0.8,
+          "forecast": 0.5,
+          "previous": 2.1,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "inflation rate_mom",
+          "ts_utc": "2025-01-15T14:30:00+01:00",
+          "country": "US",
+          "actual": 0.4,
+          "forecast": 0.3,
+          "previous": 0.3,
+          "importance": "MEDIUM"
+        },
+        {
+          "event_key": "balance of trade",
+          "ts_utc": "2025-01-15T15:00:00+01:00",
+          "country": "BE",
+          "actual": 548.9,
+          "forecast": 250.0,
+          "previous": 3500.9,
+          "importance": "MEDIUM"
+        }
+      ],
+      "n_events": 13,
+      "status": "to_validate"
+    }
+  },
+  "validated_cases": {
+    "DoubleWave_Overlap": {
+      "date": "2025-09-11",
+      "reason": "Validé Session 115 (MAE 0.29 pips)",
+      "priority": 1
+    }
+  }
+}

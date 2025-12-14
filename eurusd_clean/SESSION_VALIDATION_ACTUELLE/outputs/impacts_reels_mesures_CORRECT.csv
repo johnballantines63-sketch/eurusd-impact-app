@@ -1,0 +1,11 @@
+date,event_time,timezone,impact_real_pips,baseline_price,peak_price,peak_time,direction,pattern_type,wave1_pips,wave2_pips,wave1_peak_pips_absolute,wave2_peak_pips_absolute,peak_used,notes
+2025-09-11,14:15,Europe/Zurich,62.09999999999827,0.0,0.0,2025-09-11 15:10:00+02:00,1,DOUBLE_WAVE,47.27,73.35,0.0,62.09999999999827,wave2_peak_pips_absolute,DOUBLE_WAVE - Pic utilisé: wave2_peak_pips_absolute
+2025-08-01,14:30,Europe/Zurich,188.4000000000019,0.0,0.0,2025-08-01 14:38:00+02:00,1,SINGLE_WAVE_STRONG,188.4000000000019,0.0,0.0,188.4000000000019,wave1_peak_pips_absolute,SINGLE_WAVE_STRONG - Pic utilisé: wave1_peak_pips_absolute
+2025-11-20,14:30,Europe/Zurich,36.6,0.0,0.0,2025-11-20 14:45:00+01:00,1,DOUBLE_WAVE,824.12,1278.81,0.0,36.6,wave2_peak_pips_absolute,DOUBLE_WAVE - Pic utilisé: wave2_peak_pips_absolute
+2025-10-10,16:00,Europe/Zurich,61.4,0.0,0.0,2025-10-10 19:25:00+02:00,1,DOUBLE_WAVE,17.12,26.56,0.0,61.4,wave2_peak_pips_absolute,DOUBLE_WAVE - Pic utilisé: wave2_peak_pips_absolute
+2025-06-23,12:45,Europe/Zurich,15.499999999999403,0.0,0.0,2025-06-23 17:55:00+02:00,1,DOUBLE_WAVE,,,0.0,15.499999999999403,wave2_peak_pips_absolute,DOUBLE_WAVE - Pic utilisé: wave2_peak_pips_absolute
+2025-01-15,14:30,Europe/Zurich,52.09999999999937,0.0,0.0,2025-01-15 14:38:00+01:00,1,SINGLE_WAVE_STRONG,52.09999999999937,0.0,0.0,52.09999999999937,wave1_peak_pips_absolute,SINGLE_WAVE_STRONG - Pic utilisé: wave1_peak_pips_absolute
+2025-05-29,18:00,Europe/Zurich,14.999999999998348,0.0,0.0,2025-05-29 19:25:00+02:00,1,DOUBLE_WAVE,236.92,367.64,0.0,14.999999999998348,wave2_peak_pips_absolute,DOUBLE_WAVE - Pic utilisé: wave2_peak_pips_absolute
+2024-09-11,14:30,Europe/Zurich,39.39999999999833,0.0,0.0,2024-09-11 14:38:00+02:00,1,SINGLE_WAVE_STRONG,39.39999999999833,0.0,0.0,39.39999999999833,wave1_peak_pips_absolute,SINGLE_WAVE_STRONG - Pic utilisé: wave1_peak_pips_absolute
+2025-02-12,14:30,Europe/Zurich,51.59999999999832,0.0,0.0,2025-02-12 14:38:00+01:00,1,SINGLE_WAVE_STRONG,51.59999999999832,0.0,0.0,51.59999999999832,wave1_peak_pips_absolute,SINGLE_WAVE_STRONG - Pic utilisé: wave1_peak_pips_absolute
+2025-11-26,14:30,Europe/Zurich,34.4,0.0,0.0,2025-11-26 16:25:00+01:00,1,DOUBLE_WAVE,62.87,97.56,0.0,34.4,wave2_peak_pips_absolute,DOUBLE_WAVE - Pic utilisé: wave2_peak_pips_absolute

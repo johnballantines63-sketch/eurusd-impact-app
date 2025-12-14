@@ -1,0 +1,10 @@
+{
+  "Test": "Validation finale MAX_PULLBACK_RATIO = 0.80",
+  "Date": "2025-11-27 22:45:24",
+  "Tests_valides": 57,
+  "Erreur_moyenne_min": "0.00",
+  "Cas_parfaits": 57,
+  "Pourcentage_parfaits": "100.0%",
+  "Cas_avec_erreur": 0,
+  "Status": "\u2705 VALID\u00c9"
+}

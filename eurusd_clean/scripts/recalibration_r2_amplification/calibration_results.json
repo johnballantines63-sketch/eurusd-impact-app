@@ -1,0 +1,20 @@
+{
+  "n_samples": 67,
+  "sigmoid": {
+    "error": "Optimal parameters not found: Number of calls to function has reached maxfev = 10000."
+  },
+  "linear": {
+    "params": [
+      3.105657606790737,
+      0.521376570811905
+    ],
+    "r2_fit": 0.01324100182900756,
+    "mae": 1.2020328712074069,
+    "formula": "amp = 3.105658 + 0.521377 \u00d7 R\u00b2"
+  },
+  "best_model": "linear",
+  "best_params": [
+    3.105657606790737,
+    0.521376570811905
+  ]
+}

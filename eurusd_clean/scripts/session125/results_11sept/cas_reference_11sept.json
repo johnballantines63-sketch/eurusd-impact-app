@@ -1,0 +1,58 @@
+{
+  "date": "2025-09-11",
+  "pattern": "Double Wave overlapping",
+  "cluster": {
+    "time_utc": "2025-09-11 12:25:00 - 2025-09-11 12:35:00",
+    "time_bern": "14:25-14:35",
+    "events": [
+      {
+        "event_name": "inflation_rate",
+        "country": "usd",
+        "empirical_score": 48.84133333333301
+      },
+      {
+        "event_name": "cpi_s.a",
+        "country": "usd",
+        "empirical_score": 44.534411764706576
+      },
+      {
+        "event_name": "cpi",
+        "country": "usd",
+        "empirical_score": 45.47810810810828
+      },
+      {
+        "event_name": "core_inflation_rate",
+        "country": "usd",
+        "empirical_score": 47.17999999999994
+      },
+      {
+        "event_name": "core_inflation_rate",
+        "country": "usd",
+        "empirical_score": 47.17999999999994
+      },
+      {
+        "event_name": "inflation_rate",
+        "country": "usd",
+        "empirical_score": 48.84133333333301
+      }
+    ],
+    "num_events": 6,
+    "total_score": 282.0551865394808
+  },
+  "impact": {
+    "target_pips": 56.2,
+    "calculated_pips": 56.20000000000001,
+    "error_pips": 7.105427357601002e-15
+  },
+  "amplification": {
+    "ideal_factor": 0.0813442014861073,
+    "surprise_factor": 1.0,
+    "sqrt_n_events": 2.449489742783178
+  },
+  "tendance_pre_cluster": {
+    "r2": 0.6376,
+    "duration_hours": 54.58,
+    "inversion_time": "2025-09-09 08:00:00",
+    "type": "PEAK"
+  }
+}

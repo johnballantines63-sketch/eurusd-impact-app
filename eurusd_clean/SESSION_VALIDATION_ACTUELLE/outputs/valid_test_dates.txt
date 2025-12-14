@@ -1,0 +1,31 @@
+# Dates Valides pour Tests Pipeline
+# Filtrage : Seulement dates avec événement coïncidant avec début du mouvement
+# Exclusion : Dates GENERIC (non tradables - erreur moyenne 86.1%)
+# Date création : 2025-12-06
+# Date mise à jour : 2025-12-06 (exclusion GENERIC)
+
+2025-11-20
+2025-09-11
+2025-08-01
+2025-05-29
+2025-02-07
+2025-01-10
+2024-12-13
+2024-10-11
+2024-09-06
+2024-08-02
+2024-07-11
+2024-06-07
+2024-05-10
+2024-04-05
+2024-03-08
+2024-01-12
+
+# Total : 16 dates valides (excluant GENERIC)
+# Dates éliminées :
+#   - 2025-10-10 : mouvement à 17:00 sans événement coïncidant
+#   - 2025-06-23 : GENERIC (erreur 93.8%)
+#   - 2025-04-10 : GENERIC (erreur 79.1%)
+#   - 2025-03-12 : GENERIC (erreur 86.9%)
+#   - 2024-11-08 : GENERIC (erreur 82.4%)
+#   - 2024-02-13 : GENERIC (erreur 88.6%)

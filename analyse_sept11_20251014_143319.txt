@@ -1,0 +1,109 @@
+================================================================================
+ANALYSE DÉTAILLÉE - 11 SEPTEMBRE 2025
+================================================================================
+
+📊 ÉTAPE 1 : Événements du 11 septembre 2025
+================================================================================
+
+✅ 20 événements trouvés
+
+11:10:00 - 3-Year BTP Auction (IT) - Surprise: N/A
+11:10:00 - 7-Year BTP Auction (IT) - Surprise: N/A
+12:00:00 - Thomson Reuters IPSOS PCSI (DE) - Surprise: N/A
+12:00:00 - Thomson Reuters IPSOS PCSI (ES) - Surprise: N/A
+12:00:00 - Thomson Reuters IPSOS PCSI (FR) - Surprise: N/A
+12:00:00 - Thomson Reuters IPSOS PCSI (IT) - Surprise: N/A
+14:15:00 - Deposit Facility Rate (EU) - Surprise: +0.00
+14:15:00 - ECB Interest Rate Decision (EU) - Surprise: +0.00
+14:15:00 - Interest Rate Decision (EU) - Surprise: +0.00
+14:15:00 - Marginal Lending Rate (EU) - Surprise: +0.00
+14:30:00 - Continuing Jobless Claims (US) - Surprise: -11.00
+14:30:00 - Core Inflation Rate (US) - Surprise: +0.00
+14:30:00 - CPI (US) - Surprise: +0.09
+14:30:00 - CPI s.a (US) - Surprise: +0.36
+14:30:00 - Inflation Rate (US) - Surprise: +0.00
+14:30:00 - Initial Jobless Claims (US) - Surprise: +28.00
+14:30:00 - Jobless Claims 4-Week Average (US) - Surprise: +8.50
+14:30:00 - Real Earnings (US) - Surprise: N/A
+14:45:00 - Current Account (DE) - Surprise: -6.70
+16:30:00 - EIA Natural Gas Stocks Change (US) - Surprise: +3.00
+
+================================================================================
+📊 ÉTAPE 2 : Événements clés identifiés
+================================================================================
+
+✅ 9 événements clés (14h30-14h45)
+
+14:30:00 - Continuing Jobless Claims (US) - Surprise: -11.00
+14:30:00 - Core Inflation Rate (US) - Surprise: +0.00
+14:30:00 - CPI (US) - Surprise: +0.09
+14:30:00 - CPI s.a (US) - Surprise: +0.36
+14:30:00 - Inflation Rate (US) - Surprise: +0.00
+14:30:00 - Initial Jobless Claims (US) - Surprise: +28.00
+14:30:00 - Jobless Claims 4-Week Average (US) - Surprise: +8.50
+14:30:00 - Real Earnings (US) - Surprise: N/A
+14:45:00 - Current Account (DE) - Surprise: -6.70
+
+================================================================================
+📊 ÉTAPE 3 : Prix minute par minute (14h20-15h30)
+================================================================================
+
+✅ 70 minutes de prix récupérées
+
+================================================================================
+📊 ÉTAPE 4 : Analyse des mouvements réels
+================================================================================
+
+Prix de départ (14h30) : 1.17007
+
+Peak HIGH : 1.17381 à 15:09:00 (+37.4 pips)
+Peak LOW  : 1.16727 à 14:21:00 (-28.0 pips)
+
+Prix final (15h00) : 1.17180 (+17.3 pips depuis départ)
+
+================================================================================
+📊 ÉTAPE 5 : Identification du pattern de mouvement
+================================================================================
+
+Phase 1 (14h30-14h35) :
+  Peak : 1.17204
+  Mouvement : +19.7 pips
+
+Pullback (14h35-14h45) :
+  Low : 1.16964
+  Retracement : -24.0 pips (depuis peak Phase 1)
+  Profondeur : 121.8% du mouvement Phase 1
+
+Phase 2 (14h45-15h00) :
+  Peak : 1.17191
+  Mouvement depuis LOW pullback : +22.7 pips
+  Mouvement net depuis départ : +18.4 pips
+
+================================================================================
+📊 ÉTAPE 6 : Comparaison avec notre prédiction
+================================================================================
+
+RÉALITÉ (graphiques MT4) :
+  Phase 1 : +27 pips
+  Pullback : -32 pips
+  Phase 2 : +61 pips depuis low
+  Net final : +56 pips
+
+RÉALITÉ (base de données) :
+  Phase 1 : +19.7 pips
+  Pullback : -24.0 pips
+  Phase 2 : +22.7 pips depuis low
+  Net final : +18.4 pips
+
+NOTRE PRÉDICTION ACTUELLE :
+  Amplitude prédite : 122 pips
+  Pullback : ABSENT
+
+ÉCART :
+  Amplitude : +103.6 pips trop élevée (ratio 6.63x)
+
+================================================================================
+📊 ÉTAPE 7 : Agrégation M5 (comme MT4) - 14h30-15h00
+================================================================================
+
+❌ Erreur : cannot access local variable 'detailed_prices' where it is not associated with a value

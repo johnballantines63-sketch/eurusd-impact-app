@@ -1,0 +1,693 @@
+{
+  "clusters_data": [
+    {
+      "date": "2024-01-11",
+      "cluster_time": "2024-01-11T14:30:00+01:00",
+      "search_mode": "full",
+      "r2_trend": 0.8614841577387626,
+      "impact_measured": 57.000000000000384,
+      "total_score": 157.19421165589154,
+      "n_events": 10,
+      "amp_ideal": 0.11466696179893542
+    },
+    {
+      "date": "2024-02-13",
+      "cluster_time": "2024-02-13T14:30:00+01:00",
+      "search_mode": "full",
+      "r2_trend": 0.888324924963271,
+      "impact_measured": 92.60000000000046,
+      "total_score": 89.60898319328012,
+      "n_events": 7,
+      "amp_ideal": 0.3905803743488886
+    },
+    {
+      "date": "2024-06-12",
+      "cluster_time": "2024-06-12T14:30:00+02:00",
+      "search_mode": "full",
+      "r2_trend": 0.5921861031507168,
+      "impact_measured": 70.00000000000117,
+      "total_score": 89.60898319328012,
+      "n_events": 7,
+      "amp_ideal": 0.2952551425963555
+    },
+    {
+      "date": "2025-05-13",
+      "cluster_time": "2025-05-13T14:30:00+02:00",
+      "search_mode": "full",
+      "r2_trend": 0.7162583792269916,
+      "impact_measured": 34.000000000000696,
+      "total_score": 128.9899831932806,
+      "n_events": 8,
+      "amp_ideal": 0.09319185089092828
+    },
+    {
+      "date": "2025-08-12",
+      "cluster_time": "2025-08-12T14:30:00+02:00",
+      "search_mode": "full",
+      "r2_trend": 0.6129720712163909,
+      "impact_measured": 50.499999999999986,
+      "total_score": 128.9899831932806,
+      "n_events": 8,
+      "amp_ideal": 0.13841730794093474
+    },
+    {
+      "date": "2025-09-11",
+      "cluster_time": "2025-09-11T14:30:00+02:00",
+      "search_mode": "full",
+      "r2_trend": 0.18586875035724032,
+      "impact_measured": 51.70000000000119,
+      "total_score": 213.1961659737899,
+      "n_events": 11,
+      "amp_ideal": 0.07311640171140378
+    },
+    {
+      "date": "2023-08-10",
+      "cluster_time": "2023-08-10T14:30:00+02:00",
+      "search_mode": "us_only",
+      "r2_trend": 0.534041387708696,
+      "impact_measured": 35.199999999999676,
+      "total_score": 166.46849930712247,
+      "n_events": 9,
+      "amp_ideal": 0.07048380553780367
+    },
+    {
+      "date": "2023-10-12",
+      "cluster_time": "2023-10-12T14:30:00+02:00",
+      "search_mode": "us_only",
+      "r2_trend": 0.25950299131796895,
+      "impact_measured": 59.79999999999875,
+      "total_score": 166.4684993071225,
+      "n_events": 9,
+      "amp_ideal": 0.11974237418069912
+    },
+    {
+      "date": "2024-07-11",
+      "cluster_time": "2024-07-11T14:30:00+02:00",
+      "search_mode": "us_only",
+      "r2_trend": 0.00874173859743369,
+      "impact_measured": 51.699999999998965,
+      "total_score": 166.46849930712244,
+      "n_events": 9,
+      "amp_ideal": 0.10352308938364804
+    },
+    {
+      "date": "2024-10-10",
+      "cluster_time": "2024-10-10T14:30:00+02:00",
+      "search_mode": "us_only",
+      "r2_trend": 0.872017633125867,
+      "impact_measured": 23.900000000001143,
+      "total_score": 166.4684993071225,
+      "n_events": 9,
+      "amp_ideal": 0.0478569020555001
+    },
+    {
+      "date": "2024-11-13",
+      "cluster_time": "2024-11-13T14:30:00+01:00",
+      "search_mode": "us_only",
+      "r2_trend": 0.5414694908389036,
+      "impact_measured": 25.500000000000522,
+      "total_score": 137.2895665266139,
+      "n_events": 8,
+      "amp_ideal": 0.06566858420651338
+    },
+    {
+      "date": "2025-01-15",
+      "cluster_time": "2025-01-15T14:30:00+01:00",
+      "search_mode": "us_only",
+      "r2_trend": 0.8878957353244481,
+      "impact_measured": 49.89999999999828,
+      "total_score": 148.2085943043909,
+      "n_events": 8,
+      "amp_ideal": 0.11903705229380931
+    },
+    {
+      "date": "2025-02-12",
+      "cluster_time": "2025-02-12T14:30:00+01:00",
+      "search_mode": "us_only",
+      "r2_trend": 0.43112541521170905,
+      "impact_measured": 51.70000000000119,
+      "total_score": 121.64331652661363,
+      "n_events": 7,
+      "amp_ideal": 0.16063984288279648
+    },
+    {
+      "date": "2025-04-10",
+      "cluster_time": "2025-04-10T14:30:00+02:00",
+      "search_mode": "us_only",
+      "r2_trend": 0.7842984002009193,
+      "impact_measured": 28.099999999999792,
+      "total_score": 205.84949930712295,
+      "n_events": 10,
+      "amp_ideal": 0.043167460960472685
+    }
+  ],
+  "results": {
+    "global": {
+      "calibration": {
+        "best_model": {
+          "name": "quadratic",
+          "formula": "amp = 0.099957 + 0.016902×R² + 0.051329×R²²",
+          "parameters": [
+            0.09995722580958055,
+            0.016902425489657702,
+            0.051328521807244565
+          ],
+          "function": "<function calibrate_amplification_function_advanced.<locals>.quadratic at 0x1032e0b80>"
+        },
+        "metrics": {
+          "r2_fit": 0.0396518665972716,
+          "mae": 0.0672025029459805,
+          "n_samples": 14
+        },
+        "all_models": {
+          "linear": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.linear at 0x1160a2f20>",
+            "params": "[0.09145904 0.06787034]",
+            "r2_fit": 0.03813142200583719,
+            "mae": 0.06712171451080387,
+            "formula": "amp = 0.091459 + 0.067870×R²"
+          },
+          "quadratic": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.quadratic at 0x1032e0b80>",
+            "params": "[0.09995723 0.01690243 0.05132852]",
+            "r2_fit": 0.0396518665972716,
+            "mae": 0.0672025029459805,
+            "formula": "amp = 0.099957 + 0.016902×R² + 0.051329×R²²"
+          },
+          "exponential": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.exponential at 0x1032e0ae0>",
+            "params": "[0.09353458 0.55869217]",
+            "r2_fit": 0.039164890551224074,
+            "mae": 0.06731330667738779,
+            "formula": "amp = 0.093535 × exp(0.558692×R²)"
+          },
+          "sigmoid": {
+            "error": "Fit failed"
+          }
+        }
+      },
+      "validation": {
+        "predictions": [
+          {
+            "date": "2024-01-11",
+            "search_mode": "full",
+            "impact_measured": 57.000000000000384,
+            "impact_pred_function": 80.13552628461888,
+            "impact_pred_baseline": 1242.7293595680142,
+            "error_function": 23.135526284618493,
+            "error_baseline": 1185.7293595680137,
+            "r2_trend": 0.8614841577387626,
+            "amp_from_function": 0.16120872510905115,
+            "n_train": 13,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2024-02-13",
+            "search_mode": "full",
+            "impact_measured": 92.60000000000046,
+            "impact_pred_function": 19.699902639982454,
+            "impact_pred_baseline": 592.7077119169644,
+            "error_function": 72.90009736001801,
+            "error_baseline": 500.1077119169639,
+            "r2_trend": 0.888324924963271,
+            "amp_from_function": 0.08309282233003204,
+            "n_train": 13,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2024-06-12",
+            "search_mode": "full",
+            "impact_measured": 70.00000000000117,
+            "impact_pred_function": 23.692125248028788,
+            "impact_pred_baseline": 592.7077119169644,
+            "error_function": 46.30787475197238,
+            "error_baseline": 522.7077119169633,
+            "r2_trend": 0.5921861031507168,
+            "amp_from_function": 0.0999317402645334,
+            "n_train": 13,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2025-05-13",
+            "search_mode": "full",
+            "impact_measured": 34.000000000000696,
+            "impact_pred_function": 52.470736224196884,
+            "impact_pred_baseline": 912.0969182110753,
+            "error_function": 18.470736224196187,
+            "error_baseline": 878.0969182110746,
+            "r2_trend": 0.7162583792269916,
+            "amp_from_function": 0.14381897136301428,
+            "n_train": 13,
+            "model_name": "exponential"
+          },
+          {
+            "date": "2025-08-12",
+            "search_mode": "full",
+            "impact_measured": 50.499999999999986,
+            "impact_pred_function": 46.77964809263198,
+            "impact_pred_baseline": 912.0969182110753,
+            "error_function": 3.7203519073680056,
+            "error_baseline": 861.5969182110753,
+            "r2_trend": 0.6129720712163909,
+            "amp_from_function": 0.12822005852289908,
+            "n_train": 13,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2025-09-11",
+            "search_mode": "full",
+            "impact_measured": 51.70000000000119,
+            "impact_pred_function": 80.83614643110047,
+            "impact_pred_baseline": 1767.7292231934898,
+            "error_function": 29.136146431099284,
+            "error_baseline": 1716.0292231934886,
+            "r2_trend": 0.18586875035724032,
+            "amp_from_function": 0.11432201460847322,
+            "n_train": 13,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2023-08-10",
+            "search_mode": "us_only",
+            "impact_measured": 35.199999999999676,
+            "impact_pred_function": 68.33555777665661,
+            "impact_pred_baseline": 1248.5137448034184,
+            "error_function": 33.13555777665694,
+            "error_baseline": 1213.3137448034188,
+            "r2_trend": 0.534041387708696,
+            "amp_from_function": 0.1368338115240698,
+            "n_train": 13,
+            "model_name": "sigmoid"
+          },
+          {
+            "date": "2023-10-12",
+            "search_mode": "us_only",
+            "impact_measured": 59.79999999999875,
+            "impact_pred_function": 52.503020903050206,
+            "impact_pred_baseline": 1248.5137448034188,
+            "error_function": 7.29697909694854,
+            "error_baseline": 1188.71374480342,
+            "r2_trend": 0.25950299131796895,
+            "amp_from_function": 0.10513104305334846,
+            "n_train": 13,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2024-07-11",
+            "search_mode": "us_only",
+            "impact_measured": 51.699999999998965,
+            "impact_pred_function": 44.910678244618595,
+            "impact_pred_baseline": 1248.5137448034184,
+            "error_function": 6.789321755380371,
+            "error_baseline": 1196.8137448034195,
+            "r2_trend": 0.00874173859743369,
+            "amp_from_function": 0.0899282815899033,
+            "n_train": 13,
+            "model_name": "exponential"
+          },
+          {
+            "date": "2024-10-10",
+            "search_mode": "us_only",
+            "impact_measured": 23.900000000001143,
+            "impact_pred_function": 90.22006350242486,
+            "impact_pred_baseline": 1248.5137448034188,
+            "error_function": 66.32006350242372,
+            "error_baseline": 1224.6137448034176,
+            "r2_trend": 0.872017633125867,
+            "amp_from_function": 0.18065492646344516,
+            "n_train": 13,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2024-11-13",
+            "search_mode": "us_only",
+            "impact_measured": 25.500000000000522,
+            "impact_pred_function": 53.68742663734851,
+            "impact_pred_baseline": 970.7838347713034,
+            "error_function": 28.187426637347986,
+            "error_baseline": 945.2838347713028,
+            "r2_trend": 0.5414694908389036,
+            "amp_from_function": 0.13825793321433952,
+            "n_train": 13,
+            "model_name": "sigmoid"
+          },
+          {
+            "date": "2025-01-15",
+            "search_mode": "us_only",
+            "impact_measured": 49.89999999999828,
+            "impact_pred_function": 69.8284570976798,
+            "impact_pred_baseline": 1047.9930206276074,
+            "error_function": 19.928457097681523,
+            "error_baseline": 998.0930206276091,
+            "r2_trend": 0.8878957353244481,
+            "amp_from_function": 0.16657662723713063,
+            "n_train": 13,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2025-02-12",
+            "search_mode": "us_only",
+            "impact_measured": 51.70000000000119,
+            "impact_pred_function": 34.5628689278668,
+            "impact_pred_baseline": 804.5949104563325,
+            "error_function": 17.137131072134387,
+            "error_baseline": 752.8949104563313,
+            "r2_trend": 0.43112541521170905,
+            "amp_from_function": 0.10739214379402484,
+            "n_train": 13,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2025-04-10",
+            "search_mode": "us_only",
+            "impact_measured": 28.099999999999792,
+            "impact_pred_function": 102.47417520015888,
+            "impact_pred_baseline": 1627.3831825394032,
+            "error_function": 74.37417520015909,
+            "error_baseline": 1599.2831825394035,
+            "r2_trend": 0.7842984002009193,
+            "amp_from_function": 0.1574217066693783,
+            "n_train": 13,
+            "model_name": "quadratic"
+          }
+        ],
+        "metrics": {
+          "mae_function": 31.91713179271463,
+          "mae_baseline": 1055.9484121875644,
+          "rmse_function": 39.47019726165575,
+          "rmse_baseline": 1109.020357800707,
+          "improvement_pct": 96.97739667730612,
+          "r2_predictions": -3.761445776452976,
+          "n_predictions": 14
+        }
+      }
+    },
+    "full": {
+      "calibration": {
+        "best_model": {
+          "name": "exponential",
+          "formula": "amp = 0.066176 × exp(1.505585×R²)",
+          "parameters": [
+            0.06617572333371764,
+            1.5055846603491436
+          ],
+          "function": "<function calibrate_amplification_function_advanced.<locals>.exponential at 0x116721da0>"
+        },
+        "metrics": {
+          "r2_fit": 0.21665336178207795,
+          "mae": 0.09061459757975952,
+          "n_samples": 6
+        },
+        "all_models": {
+          "linear": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.linear at 0x116721a80>",
+            "params": "[0.03563359 0.23111348]",
+            "r2_fit": 0.2109486139935931,
+            "mae": 0.09080076083118431,
+            "formula": "amp = 0.035634 + 0.231113×R²"
+          },
+          "quadratic": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.quadratic at 0x116721bc0>",
+            "params": "[0.05965842 0.11464732 0.10874966]",
+            "r2_fit": 0.21336575006635905,
+            "mae": 0.0909428643975246,
+            "formula": "amp = 0.059658 + 0.114647×R² + 0.108750×R²²"
+          },
+          "exponential": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.exponential at 0x116721da0>",
+            "params": "[0.06617572 1.50558466]",
+            "r2_fit": 0.21665336178207795,
+            "mae": 0.09061459757975952,
+            "formula": "amp = 0.066176 × exp(1.505585×R²)"
+          },
+          "sigmoid": {
+            "error": "Fit failed"
+          }
+        }
+      },
+      "validation": {
+        "predictions": [
+          {
+            "date": "2024-01-11",
+            "search_mode": "full",
+            "impact_measured": 57.000000000000384,
+            "impact_pred_function": 162.5425627617123,
+            "impact_pred_baseline": 1242.7293595680142,
+            "error_function": 105.54256276171192,
+            "error_baseline": 1185.7293595680137,
+            "r2_trend": 0.8614841577387626,
+            "amp_from_function": 0.32698704973505616,
+            "n_train": 5,
+            "model_name": "exponential"
+          },
+          {
+            "date": "2024-02-13",
+            "search_mode": "full",
+            "impact_measured": 92.60000000000046,
+            "impact_pred_function": 16.11361139259107,
+            "impact_pred_baseline": 592.7077119169644,
+            "error_function": 76.4863886074094,
+            "error_baseline": 500.1077119169639,
+            "r2_trend": 0.888324924963271,
+            "amp_from_function": 0.06796609470659509,
+            "n_train": 5,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2024-06-12",
+            "search_mode": "full",
+            "impact_measured": 70.00000000000117,
+            "impact_pred_function": 18.195942165104846,
+            "impact_pred_baseline": 592.7077119169644,
+            "error_function": 51.80405783489632,
+            "error_baseline": 522.7077119169633,
+            "r2_trend": 0.5921861031507168,
+            "amp_from_function": 0.07674922140904256,
+            "n_train": 5,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2025-05-13",
+            "search_mode": "full",
+            "impact_measured": 34.000000000000696,
+            "impact_pred_function": 84.66184519073742,
+            "impact_pred_baseline": 912.0969182110753,
+            "error_function": 50.66184519073673,
+            "error_baseline": 878.0969182110746,
+            "r2_trend": 0.7162583792269916,
+            "amp_from_function": 0.23205276626958515,
+            "n_train": 5,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2025-08-12",
+            "search_mode": "full",
+            "impact_measured": 50.499999999999986,
+            "impact_pred_function": 81.51358427480976,
+            "impact_pred_baseline": 912.0969182110753,
+            "error_function": 31.013584274809773,
+            "error_baseline": 861.5969182110753,
+            "r2_trend": 0.6129720712163909,
+            "amp_from_function": 0.22342358209773627,
+            "n_train": 5,
+            "model_name": "sigmoid"
+          },
+          {
+            "date": "2025-09-11",
+            "search_mode": "full",
+            "impact_measured": 51.70000000000119,
+            "impact_pred_function": 353.545844638698,
+            "impact_pred_baseline": 1767.7292231934898,
+            "error_function": 301.8458446386968,
+            "error_baseline": 1716.0292231934886,
+            "r2_trend": 0.18586875035724032,
+            "amp_from_function": 0.5,
+            "n_train": 5,
+            "model_name": "quadratic"
+          }
+        ],
+        "metrics": {
+          "mae_function": 102.89238055137683,
+          "mae_baseline": 944.0446405029298,
+          "rmse_function": 138.02924780520493,
+          "rmse_baseline": 1031.782028971762,
+          "improvement_pct": 89.1008988201488,
+          "r2_predictions": -56.04327406636059,
+          "n_predictions": 6
+        }
+      }
+    },
+    "us_only": {
+      "calibration": {
+        "best_model": {
+          "name": "sigmoid",
+          "formula": "amp = 0.132405 / (1 + exp(--2.452088×(R²-0.902424)))",
+          "parameters": [
+            0.13240533005441804,
+            -2.452088100256008,
+            0.9024240356821636
+          ],
+          "function": "<function calibrate_amplification_function_advanced.<locals>.sigmoid at 0x1167b1440>"
+        },
+        "metrics": {
+          "r2_fit": 0.20137339929351683,
+          "mae": 0.030293867472280262,
+          "n_samples": 8
+        },
+        "all_models": {
+          "linear": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.linear at 0x1167b0f40>",
+            "params": "[ 0.1225538  -0.05795461]",
+            "r2_fit": 0.1884501691263819,
+            "mae": 0.03081015044718131,
+            "formula": "amp = 0.122554 + -0.057955×R²"
+          },
+          "quadratic": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.quadratic at 0x1167b1080>",
+            "params": "[ 0.11586623 -0.01327006 -0.0465674 ]",
+            "r2_fit": 0.1979182452303706,
+            "mae": 0.03031772135815224,
+            "formula": "amp = 0.115866 + -0.013270×R² + -0.046567×R²²"
+          },
+          "exponential": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.exponential at 0x1167b1260>",
+            "params": "[ 0.12313523 -0.57929912]",
+            "r2_fit": 0.1789257089258296,
+            "mae": 0.03107113623853721,
+            "formula": "amp = 0.123135 × exp(-0.579299×R²)"
+          },
+          "sigmoid": {
+            "func": "<function calibrate_amplification_function_advanced.<locals>.sigmoid at 0x1167b1440>",
+            "params": "[ 0.13240533 -2.4520881   0.90242404]",
+            "r2_fit": 0.20137339929351683,
+            "mae": 0.030293867472280262,
+            "formula": "amp = 0.132405 / (1 + exp(--2.452088×(R²-0.902424)))"
+          }
+        }
+      },
+      "validation": {
+        "predictions": [
+          {
+            "date": "2023-08-10",
+            "search_mode": "us_only",
+            "impact_measured": 35.199999999999676,
+            "impact_pred_function": 52.09270761872981,
+            "impact_pred_baseline": 1248.5137448034184,
+            "error_function": 16.892707618730135,
+            "error_baseline": 1213.3137448034188,
+            "r2_trend": 0.534041387708696,
+            "amp_from_function": 0.10430943959477981,
+            "n_train": 7,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2023-10-12",
+            "search_mode": "us_only",
+            "impact_measured": 59.79999999999875,
+            "impact_pred_function": 52.87041984063734,
+            "impact_pred_baseline": 1248.5137448034188,
+            "error_function": 6.929580159361407,
+            "error_baseline": 1188.71374480342,
+            "r2_trend": 0.25950299131796895,
+            "amp_from_function": 0.10586671564629413,
+            "n_train": 7,
+            "model_name": "sigmoid"
+          },
+          {
+            "date": "2024-07-11",
+            "search_mode": "us_only",
+            "impact_measured": 51.699999999998965,
+            "impact_pred_function": 115.57946201123136,
+            "impact_pred_baseline": 1248.5137448034184,
+            "error_function": 63.87946201123239,
+            "error_baseline": 1196.8137448034195,
+            "r2_trend": 0.00874173859743369,
+            "amp_from_function": 0.23143410012964985,
+            "n_train": 7,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2024-10-10",
+            "search_mode": "us_only",
+            "impact_measured": 23.900000000001143,
+            "impact_pred_function": 40.33039063089862,
+            "impact_pred_baseline": 1248.5137448034188,
+            "error_function": 16.430390630897477,
+            "error_baseline": 1224.6137448034176,
+            "r2_trend": 0.872017633125867,
+            "amp_from_function": 0.0807568014344302,
+            "n_train": 7,
+            "model_name": "sigmoid"
+          },
+          {
+            "date": "2024-11-13",
+            "search_mode": "us_only",
+            "impact_measured": 25.500000000000522,
+            "impact_pred_function": 40.85765480362206,
+            "impact_pred_baseline": 970.7838347713034,
+            "error_function": 15.35765480362154,
+            "error_baseline": 945.2838347713028,
+            "r2_trend": 0.5414694908389036,
+            "amp_from_function": 0.10521820960597084,
+            "n_train": 7,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2025-01-15",
+            "search_mode": "us_only",
+            "impact_measured": 49.89999999999828,
+            "impact_pred_function": 11.8176627303843,
+            "impact_pred_baseline": 1047.9930206276074,
+            "error_function": 38.08233726961398,
+            "error_baseline": 998.0930206276091,
+            "r2_trend": 0.8878957353244481,
+            "amp_from_function": 0.028191177082713542,
+            "n_train": 7,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2025-02-12",
+            "search_mode": "us_only",
+            "impact_measured": 51.70000000000119,
+            "impact_pred_function": 25.255452283811966,
+            "impact_pred_baseline": 804.5949104563325,
+            "error_function": 26.444547716189224,
+            "error_baseline": 752.8949104563313,
+            "r2_trend": 0.43112541521170905,
+            "amp_from_function": 0.07847257034439893,
+            "n_train": 7,
+            "model_name": "quadratic"
+          },
+          {
+            "date": "2025-04-10",
+            "search_mode": "us_only",
+            "impact_measured": 28.099999999999792,
+            "impact_pred_function": 56.02690537204503,
+            "impact_pred_baseline": 1627.3831825394032,
+            "error_function": 27.926905372045237,
+            "error_baseline": 1599.2831825394035,
+            "r2_trend": 0.7842984002009193,
+            "amp_from_function": 0.08606901246917684,
+            "n_train": 7,
+            "model_name": "quadratic"
+          }
+        ],
+        "metrics": {
+          "mae_function": 26.492948197711424,
+          "mae_baseline": 1139.8762409510405,
+          "rmse_function": 31.32346200446658,
+          "rmse_baseline": 1163.5893403804023,
+          "improvement_pct": 97.67580485969184,
+          "r2_predictions": -4.631826836208301,
+          "n_predictions": 8
+        }
+      }
+    }
+  },
+  "parameters": {
+    "lookback_days": 30,
+    "window_minutes": 240,
+    "amp_min": 0.01,
+    "amp_max": 0.5
+  }
+}

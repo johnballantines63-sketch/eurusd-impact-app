@@ -1,0 +1,2118 @@
+{
+  "target_families": [
+    "consumer_confidence",
+    "inflation_expectations",
+    "michigan_5y_inflation_expectations",
+    "michigan_consumer_expectations",
+    "michigan_current_conditions",
+    "michigan_inflation_expectations"
+  ],
+  "results": [
+    {
+      "session_date": "2024-12-06 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 80.0599999999982,
+      "ttr_theo": 40.0,
+      "ttr_obs": 40.0,
+      "error_ttr": 0.0
+    },
+    {
+      "session_date": "2025-01-10 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 37.048000000000656,
+      "ttr_theo": 40.0,
+      "ttr_obs": 27.0,
+      "error_ttr": 13.0
+    },
+    {
+      "session_date": "2025-02-07 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 58.63999999999915,
+      "ttr_theo": 40.0,
+      "ttr_obs": 59.0,
+      "error_ttr": 19.0
+    },
+    {
+      "session_date": "2025-03-28 15:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 86.35599999999863,
+      "ttr_theo": 40.0,
+      "ttr_obs": 36.0,
+      "error_ttr": 4.0
+    },
+    {
+      "session_date": "2025-04-11 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 9.06400000000113,
+      "ttr_theo": 40.0,
+      "ttr_obs": 19.0,
+      "error_ttr": 21.0
+    },
+    {
+      "session_date": "2025-04-25 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 13.459999999998658,
+      "ttr_theo": 40.0,
+      "ttr_obs": 34.0,
+      "error_ttr": 6.0
+    },
+    {
+      "session_date": "2025-05-30 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 41.87200000000067,
+      "ttr_theo": 40.0,
+      "ttr_obs": 40.0,
+      "error_ttr": 0.0
+    },
+    {
+      "session_date": "2025-06-13 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 8.251999999998844,
+      "ttr_theo": 40.0,
+      "ttr_obs": 4.0,
+      "error_ttr": 36.0
+    },
+    {
+      "session_date": "2025-06-27 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 80.24799999999865,
+      "ttr_theo": 40.0,
+      "ttr_obs": 50.0,
+      "error_ttr": 10.0
+    },
+    {
+      "session_date": "2025-07-18 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 35.072000000001026,
+      "ttr_theo": 40.0,
+      "ttr_obs": 47.0,
+      "error_ttr": 7.0
+    },
+    {
+      "session_date": "2025-08-15 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 123.06399999999829,
+      "ttr_theo": 40.0,
+      "ttr_obs": 47.0,
+      "error_ttr": 7.0
+    },
+    {
+      "session_date": "2025-08-29 16:00",
+      "similarity": 0.8333333333333334,
+      "n_events": 6,
+      "impact_pips": 138.6719999999987,
+      "ttr_theo": 40.0,
+      "ttr_obs": 40.0,
+      "error_ttr": 0.0
+    },
+    {
+      "session_date": "2024-05-10 16:00",
+      "similarity": 0.8,
+      "n_events": 4,
+      "impact_pips": 84.79999999999819,
+      "ttr_theo": 40.0,
+      "ttr_obs": 60.0,
+      "error_ttr": 20.0
+    },
+    {
+      "session_date": "2024-11-22 15:45",
+      "similarity": 0.7142857142857143,
+      "n_events": 16,
+      "impact_pips": 320.0,
+      "ttr_theo": 40.0,
+      "ttr_obs": 29.0,
+      "error_ttr": 11.0
+    },
+    {
+      "session_date": "2024-11-22 15:45",
+      "similarity": 0.7142857142857143,
+      "n_events": 6,
+      "impact_pips": 82.3519999999967,
+      "ttr_theo": 40.0,
+      "ttr_obs": 3.0,
+      "error_ttr": 37.0
+    },
+    {
+      "session_date": "2025-01-24 15:45",
+      "similarity": 0.7142857142857143,
+      "n_events": 24,
+      "impact_pips": 176.00000000000023,
+      "ttr_theo": 40.0,
+      "ttr_obs": 7.0,
+      "error_ttr": 33.0
+    },
+    {
+      "session_date": "2025-01-24 15:45",
+      "similarity": 0.7142857142857143,
+      "n_events": 6,
+      "impact_pips": 227.64799999999573,
+      "ttr_theo": 40.0,
+      "ttr_obs": 40.0,
+      "error_ttr": 0.0
+    },
+    {
+      "session_date": "2025-02-21 15:45",
+      "similarity": 0.7142857142857143,
+      "n_events": 24,
+      "impact_pips": 223.99999999999977,
+      "ttr_theo": 40.0,
+      "ttr_obs": 60.0,
+      "error_ttr": 20.0
+    },
+    {
+      "session_date": "2025-02-21 15:45",
+      "similarity": 0.7142857142857143,
+      "n_events": 6,
+      "impact_pips": 153.0439999999957,
+      "ttr_theo": 40.0,
+      "ttr_obs": 60.0,
+      "error_ttr": 20.0
+    },
+    {
+      "session_date": "2025-08-01 15:45",
+      "similarity": 0.7142857142857143,
+      "n_events": 8,
+      "impact_pips": 127.99999999999955,
+      "ttr_theo": 40.0,
+      "ttr_obs": 16.0,
+      "error_ttr": 24.0
+    },
+    {
+      "session_date": "2025-08-01 15:45",
+      "similarity": 0.7142857142857143,
+      "n_events": 7,
+      "impact_pips": 1.3439999999984593,
+      "ttr_theo": 40.0,
+      "ttr_obs": 40.0,
+      "error_ttr": 0.0
+    },
+    {
+      "session_date": "2023-07-14 16:00",
+      "similarity": 0.6666666666666666,
+      "n_events": 5,
+      "impact_pips": 134.359999999996,
+      "ttr_theo": 40.0,
+      "ttr_obs": 60.0,
+      "error_ttr": 20.0
+    },
+    {
+      "session_date": "2023-09-29 16:00",
+      "similarity": 0.6666666666666666,
+      "n_events": 5,
+      "impact_pips": 92.44799999999886,
+      "ttr_theo": 40.0,
+      "ttr_obs": 49.0,
+      "error_ttr": 9.0
+    },
+    {
+      "session_date": "2023-12-22 16:00",
+      "similarity": 0.6666666666666666,
+      "n_events": 5,
+      "impact_pips": 20.248000000000786,
+      "ttr_theo": 40.0,
+      "ttr_obs": 4.0,
+      "error_ttr": 36.0
+    }
+  ],
+  "detailed_events": [
+    {
+      "session": "2024-12-06 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 48.299999999999336,
+      "impact_real": 13.343333333333034,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2024-12-06 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 26.040000000000067,
+      "impact_real": 13.343333333333034,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2024-12-06 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 13.343333333333034,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2024-12-06 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 13.343333333333034,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2024-12-06 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 13.343333333333034,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2024-12-06 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 37.79999999999893,
+      "impact_real": 13.343333333333034,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-01-10 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 68.99999999999908,
+      "impact_real": 6.174666666666776,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 27.0
+    },
+    {
+      "session": "2025-01-10 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 31.24800000000006,
+      "impact_real": 6.174666666666776,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 27.0
+    },
+    {
+      "session": "2025-01-10 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 6.174666666666776,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 27.0
+    },
+    {
+      "session": "2025-01-10 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 6.174666666666776,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 27.0
+    },
+    {
+      "session": "2025-01-10 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 32.39999999999879,
+      "impact_real": 6.174666666666776,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 27.0
+    },
+    {
+      "session": "2025-01-10 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 43.19999999999879,
+      "impact_real": 6.174666666666776,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 27.0
+    },
+    {
+      "session": "2025-02-07 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 9.773333333333191,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 59.0
+    },
+    {
+      "session": "2025-02-07 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 41.39999999999942,
+      "impact_real": 9.773333333333191,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 59.0
+    },
+    {
+      "session": "2025-02-07 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 26.040000000000067,
+      "impact_real": 9.773333333333191,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 59.0
+    },
+    {
+      "session": "2025-02-07 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 9.773333333333191,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 59.0
+    },
+    {
+      "session": "2025-02-07 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 9.773333333333191,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 59.0
+    },
+    {
+      "session": "2025-02-07 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 9.773333333333191,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 59.0
+    },
+    {
+      "session": "2025-03-28 15:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 48.299999999999336,
+      "impact_real": 14.392666666666438,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 36.0
+    },
+    {
+      "session": "2025-03-28 15:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 36.45600000000008,
+      "impact_real": 14.392666666666438,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 36.0
+    },
+    {
+      "session": "2025-03-28 15:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 14.392666666666438,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 36.0
+    },
+    {
+      "session": "2025-03-28 15:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 14.392666666666438,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 36.0
+    },
+    {
+      "session": "2025-03-28 15:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 43.19999999999864,
+      "impact_real": 14.392666666666438,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 36.0
+    },
+    {
+      "session": "2025-03-28 15:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 32.399999999999075,
+      "impact_real": 14.392666666666438,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 36.0
+    },
+    {
+      "session": "2025-04-11 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 1.510666666666855,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 19.0
+    },
+    {
+      "session": "2025-04-11 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 1.510666666666855,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 19.0
+    },
+    {
+      "session": "2025-04-11 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 1.510666666666855,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 19.0
+    },
+    {
+      "session": "2025-04-11 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 1.510666666666855,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 19.0
+    },
+    {
+      "session": "2025-04-11 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 41.39999999999948,
+      "impact_real": 1.510666666666855,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 19.0
+    },
+    {
+      "session": "2025-04-11 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 41.664000000000144,
+      "impact_real": 1.510666666666855,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 19.0
+    },
+    {
+      "session": "2025-04-25 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 34.49999999999954,
+      "impact_real": 2.24333333333311,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 34.0
+    },
+    {
+      "session": "2025-04-25 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 26.040000000000067,
+      "impact_real": 2.24333333333311,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 34.0
+    },
+    {
+      "session": "2025-04-25 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 37.79999999999872,
+      "impact_real": 2.24333333333311,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 34.0
+    },
+    {
+      "session": "2025-04-25 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 2.24333333333311,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 34.0
+    },
+    {
+      "session": "2025-04-25 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 2.24333333333311,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 34.0
+    },
+    {
+      "session": "2025-04-25 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 37.79999999999895,
+      "impact_real": 2.24333333333311,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 34.0
+    },
+    {
+      "session": "2025-05-30 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 68.99999999999908,
+      "impact_real": 6.978666666666778,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-05-30 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 46.87200000000009,
+      "impact_real": 6.978666666666778,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-05-30 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 6.978666666666778,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-05-30 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 6.978666666666778,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-05-30 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 6.978666666666778,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-05-30 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 6.978666666666778,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-06-13 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 34.49999999999954,
+      "impact_real": 1.3753333333331408,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2025-06-13 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 31.248000000000108,
+      "impact_real": 1.3753333333331408,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2025-06-13 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 1.3753333333331408,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2025-06-13 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 1.3753333333331408,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2025-06-13 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 1.3753333333331408,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2025-06-13 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 1.3753333333331408,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2025-06-27 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 41.39999999999942,
+      "impact_real": 13.374666666666442,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 50.0
+    },
+    {
+      "session": "2025-06-27 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 31.24800000000006,
+      "impact_real": 13.374666666666442,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 50.0
+    },
+    {
+      "session": "2025-06-27 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 43.19999999999864,
+      "impact_real": 13.374666666666442,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 50.0
+    },
+    {
+      "session": "2025-06-27 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 14.000000000000057,
+      "impact_real": 13.374666666666442,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 50.0
+    },
+    {
+      "session": "2025-06-27 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 13.374666666666442,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 50.0
+    },
+    {
+      "session": "2025-06-27 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 32.399999999999075,
+      "impact_real": 13.374666666666442,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 50.0
+    },
+    {
+      "session": "2025-07-18 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 46.872000000000114,
+      "impact_real": 5.845333333333504,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-07-18 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 5.845333333333504,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-07-18 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 5.845333333333504,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-07-18 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 5.845333333333504,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-07-18 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 43.19999999999879,
+      "impact_real": 5.845333333333504,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-07-18 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 68.99999999999908,
+      "impact_real": 5.845333333333504,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-08-15 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 68.99999999999908,
+      "impact_real": 20.51066666666638,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-08-15 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 41.664000000000094,
+      "impact_real": 20.51066666666638,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-08-15 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 20.51066666666638,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-08-15 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 20.51066666666638,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-08-15 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 20.51066666666638,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-08-15 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 32.399999999999125,
+      "impact_real": 20.51066666666638,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 47.0
+    },
+    {
+      "session": "2025-08-29 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 23.11199999999978,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-29 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 17.99999999999997,
+      "impact_real": 23.11199999999978,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-29 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 23.11199999999978,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-29 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 32.399999999999125,
+      "impact_real": 23.11199999999978,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-29 16:00",
+      "event": "Inflation_Expectations",
+      "impact_pred": 41.39999999999948,
+      "impact_real": 23.11199999999978,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-29 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 46.872000000000114,
+      "impact_real": 23.11199999999978,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2024-05-10 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 21.199999999999548,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2024-05-10 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 21.199999999999548,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2024-05-10 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 21.199999999999548,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2024-05-10 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 43.19999999999879,
+      "impact_real": 21.199999999999548,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 20.0,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 29.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 13.725333333332784,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 3.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 13.725333333332784,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 3.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 26.999999999999247,
+      "impact_real": 13.725333333332784,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 3.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 13.725333333332784,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 3.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "Inflation_Expectations",
+      "impact_pred": 41.39999999999945,
+      "impact_real": 13.725333333332784,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 3.0
+    },
+    {
+      "session": "2024-11-22 15:45",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 31.248000000000086,
+      "impact_real": 13.725333333332784,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 3.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "PMI",
+      "impact_pred": 20.0,
+      "impact_real": 7.333333333333343,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 7.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 37.94133333333262,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "Inflation_Expectations",
+      "impact_pred": 41.39999999999942,
+      "impact_real": 37.94133333333262,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 26.999999999999247,
+      "impact_real": 37.94133333333262,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 31.24800000000006,
+      "impact_real": 37.94133333333262,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 37.94133333333262,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-01-24 15:45",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 37.94133333333262,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "PMI",
+      "impact_pred": 12.000000000000028,
+      "impact_real": 9.333333333333323,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 25.507333333332614,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 26.999999999999247,
+      "impact_real": 25.507333333332614,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 25.507333333332614,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 36.4560000000001,
+      "impact_real": 25.507333333332614,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "Inflation_Expectations",
+      "impact_pred": 34.49999999999954,
+      "impact_real": 25.507333333332614,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-02-21 15:45",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 25.507333333332614,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "PMI",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 15.999999999999943,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 16.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "PMI",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 15.999999999999943,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 16.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "PMI",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 15.999999999999943,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 16.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "PMI",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 15.999999999999943,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 16.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "PMI",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 15.999999999999943,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 16.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "PMI",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 15.999999999999943,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 16.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "PMI",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 15.999999999999943,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 16.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "PMI",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 15.999999999999943,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 16.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "Inflation_Expectations",
+      "impact_pred": 41.39999999999942,
+      "impact_real": 0.1919999999997799,
+      "latency_pred": 2.0,
+      "latency_real": 5.0,
+      "ttr_pred": 4.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "PMI",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 0.1919999999997799,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 36.4560000000001,
+      "impact_real": 0.1919999999997799,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 0.1919999999997799,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "Consumer_Confidence",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 0.1919999999997799,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 0.1919999999997799,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2025-08-01 15:45",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 32.399999999999075,
+      "impact_real": 0.1919999999997799,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 40.0
+    },
+    {
+      "session": "2023-07-14 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 26.040000000000067,
+      "impact_real": 26.8719999999992,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2023-07-14 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 26.8719999999992,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2023-07-14 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 20.0,
+      "impact_real": 26.8719999999992,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2023-07-14 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 26.8719999999992,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2023-07-14 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 32.3999999999991,
+      "impact_real": 26.8719999999992,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 60.0
+    },
+    {
+      "session": "2023-09-29 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 31.24800000000006,
+      "impact_real": 18.489599999999772,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 49.0
+    },
+    {
+      "session": "2023-09-29 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 43.19999999999864,
+      "impact_real": 18.489599999999772,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 49.0
+    },
+    {
+      "session": "2023-09-29 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 17.99999999999983,
+      "impact_real": 18.489599999999772,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 49.0
+    },
+    {
+      "session": "2023-09-29 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 18.489599999999772,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 49.0
+    },
+    {
+      "session": "2023-09-29 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 32.3999999999991,
+      "impact_real": 18.489599999999772,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 49.0
+    },
+    {
+      "session": "2023-12-22 16:00",
+      "event": "Michigan_5Y_Inflation_Expectations",
+      "impact_pred": 31.248000000000086,
+      "impact_real": 4.049600000000157,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2023-12-22 16:00",
+      "event": "Michigan_Consumer_Expectations",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 4.049600000000157,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2023-12-22 16:00",
+      "event": "Michigan_Current_Conditions",
+      "impact_pred": 53.999999999998494,
+      "impact_real": 4.049600000000157,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2023-12-22 16:00",
+      "event": "Consumer_Confidence",
+      "impact_pred": 15.999999999999943,
+      "impact_real": 4.049600000000157,
+      "latency_pred": 5.0,
+      "latency_real": 5.0,
+      "ttr_pred": 40.0,
+      "ttr_real": 4.0
+    },
+    {
+      "session": "2023-12-22 16:00",
+      "event": "Michigan_Inflation_Expectations",
+      "impact_pred": 26.999999999999247,
+      "impact_real": 4.049600000000157,
+      "latency_pred": 3.0,
+      "latency_real": 5.0,
+      "ttr_pred": 6.0,
+      "ttr_real": 4.0
+    }
+  ],
+  "stats": {
+    "n_sessions": 20,
+    "n_phases": 24,
+    "mae_impact": 19.330080851063446,
+    "mae_latency": 1.872340425531915,
+    "mae_ttr": 26.52659574468085
+  },
+  "timestamp": "2025-10-12T12:47:19.148750"
+}

@@ -1,0 +1,276 @@
+{
+  "last_month": "2025-09",
+  "total_detected": 97,
+  "month_stats": [
+    {
+      "month": "2023-01",
+      "detected": 2,
+      "patterns": {
+        "SingleWave_Intermediate": 1,
+        "Other": 1
+      }
+    },
+    {
+      "month": "2023-02",
+      "detected": 5,
+      "patterns": {
+        "SingleWave_Fort": 1,
+        "DoubleWave_Overlap": 2,
+        "ZigZag": 1,
+        "Other": 1
+      }
+    },
+    {
+      "month": "2023-03",
+      "detected": 6,
+      "patterns": {
+        "DoubleWave_Cascade": 2,
+        "SingleWave_Intermediate": 1,
+        "Other": 1,
+        "DoubleWave_Overlap": 1,
+        "SingleWave_Fort": 1
+      }
+    },
+    {
+      "month": "2023-04",
+      "detected": 2,
+      "patterns": {
+        "ZigZag": 2
+      }
+    },
+    {
+      "month": "2023-05",
+      "detected": 4,
+      "patterns": {
+        "Other": 1,
+        "ZigZag": 2,
+        "SingleWave_Fort": 1
+      }
+    },
+    {
+      "month": "2023-06",
+      "detected": 2,
+      "patterns": {
+        "SingleWave_Fort": 1,
+        "SingleWave_Intermediate": 1
+      }
+    },
+    {
+      "month": "2023-07",
+      "detected": 3,
+      "patterns": {
+        "ZigZag": 1,
+        "DoubleWave_Cascade": 1,
+        "SingleWave_Fort": 1
+      }
+    },
+    {
+      "month": "2023-08",
+      "detected": 2,
+      "patterns": {
+        "SingleWave_Fort": 1,
+        "ZigZag": 1
+      }
+    },
+    {
+      "month": "2023-09",
+      "detected": 3,
+      "patterns": {
+        "ZigZag": 2,
+        "Other": 1
+      }
+    },
+    {
+      "month": "2023-10",
+      "detected": 3,
+      "patterns": {
+        "SingleWave_Fort": 1,
+        "SingleWave_Intermediate": 1,
+        "Other": 1
+      }
+    },
+    {
+      "month": "2023-11",
+      "detected": 2,
+      "patterns": {
+        "SingleWave_Intermediate": 1,
+        "SingleWave_Fort": 1
+      }
+    },
+    {
+      "month": "2023-12",
+      "detected": 2,
+      "patterns": {
+        "Other": 1,
+        "SingleWave_Fort": 1
+      }
+    },
+    {
+      "month": "2024-01",
+      "detected": 3,
+      "patterns": {
+        "Other": 2,
+        "ZigZag": 1
+      }
+    },
+    {
+      "month": "2024-02",
+      "detected": 2,
+      "patterns": {
+        "SingleWave_Fort": 2
+      }
+    },
+    {
+      "month": "2024-03",
+      "detected": 0,
+      "patterns": {}
+    },
+    {
+      "month": "2024-04",
+      "detected": 3,
+      "patterns": {
+        "ZigZag": 1,
+        "SingleWave_Fort": 1,
+        "DoubleWave_Overlap": 1
+      }
+    },
+    {
+      "month": "2024-05",
+      "detected": 2,
+      "patterns": {
+        "ZigZag": 2
+      }
+    },
+    {
+      "month": "2024-06",
+      "detected": 2,
+      "patterns": {
+        "SingleWave_Fort": 2
+      }
+    },
+    {
+      "month": "2024-07",
+      "detected": 1,
+      "patterns": {
+        "ZigZag": 1
+      }
+    },
+    {
+      "month": "2024-08",
+      "detected": 4,
+      "patterns": {
+        "DoubleWave_Overlap": 1,
+        "SingleWave_Fort": 2,
+        "SingleWave_Intermediate": 1
+      }
+    },
+    {
+      "month": "2024-09",
+      "detected": 2,
+      "patterns": {
+        "Other": 1,
+        "DoubleWave_Overlap": 1
+      }
+    },
+    {
+      "month": "2024-10",
+      "detected": 1,
+      "patterns": {
+        "SingleWave_Fort": 1
+      }
+    },
+    {
+      "month": "2024-11",
+      "detected": 3,
+      "patterns": {
+        "SingleWave_Intermediate": 1,
+        "ZigZag": 1,
+        "Other": 1
+      }
+    },
+    {
+      "month": "2024-12",
+      "detected": 2,
+      "patterns": {
+        "Other": 1,
+        "SingleWave_Fort": 1
+      }
+    },
+    {
+      "month": "2025-01",
+      "detected": 7,
+      "patterns": {
+        "ZigZag": 7
+      }
+    },
+    {
+      "month": "2025-02",
+      "detected": 4,
+      "patterns": {
+        "DoubleWave_Overlap": 1,
+        "ZigZag": 1,
+        "SingleWave_Fort": 1,
+        "Other": 1
+      }
+    },
+    {
+      "month": "2025-03",
+      "detected": 2,
+      "patterns": {
+        "DoubleWave_Overlap": 1,
+        "Other": 1
+      }
+    },
+    {
+      "month": "2025-04",
+      "detected": 10,
+      "patterns": {
+        "ZigZag": 3,
+        "Other": 5,
+        "DoubleWave_Cascade": 1,
+        "SingleWave_Fort": 1
+      }
+    },
+    {
+      "month": "2025-05",
+      "detected": 4,
+      "patterns": {
+        "SingleWave_Intermediate": 1,
+        "DoubleWave_Overlap": 1,
+        "ZigZag": 2
+      }
+    },
+    {
+      "month": "2025-06",
+      "detected": 2,
+      "patterns": {
+        "Other": 1,
+        "DoubleWave_Overlap": 1
+      }
+    },
+    {
+      "month": "2025-07",
+      "detected": 2,
+      "patterns": {
+        "ZigZag": 1,
+        "SingleWave_Fort": 1
+      }
+    },
+    {
+      "month": "2025-08",
+      "detected": 2,
+      "patterns": {
+        "SingleWave_Fort": 2
+      }
+    },
+    {
+      "month": "2025-09",
+      "detected": 3,
+      "patterns": {
+        "ZigZag": 1,
+        "DoubleWave_Overlap": 1,
+        "Other": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+movement_id,datetime,direction,impact_pips,pattern_v1,pattern_v2,corrected,issues
+310,2025-04-23 13:14:00+00:00,DOWN,80.10000000000073,DOUBLE_WAVE,DOUBLE_WAVE_DOWN,True,None

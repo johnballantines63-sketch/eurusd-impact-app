@@ -1,0 +1,66 @@
+{
+  "date": "2024-01-05",
+  "movement_start_time": "2024-01-05 09:41:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "NEUTRAL",
+  "score": -1.014709087545535,
+  "has_trigger": true,
+  "n_active": 5,
+  "contributions": [
+    {
+      "event_key": "retail sales",
+      "family": "Retail Sales",
+      "actual": -2.4,
+      "estimate": -0.5,
+      "surprise": -1.9,
+      "surprise_z": -1.4493250214678526,
+      "alpha_weight": 1,
+      "contribution": -1.4493250214678526,
+      "is_trigger": true
+    },
+    {
+      "event_key": "core inflation rate",
+      "family": "CPI",
+      "actual": 3.4,
+      "estimate": 3.4,
+      "surprise": 0.0,
+      "surprise_z": -0.0680133984478135,
+      "alpha_weight": 1,
+      "contribution": -0.0680133984478135,
+      "is_trigger": false
+    },
+    {
+      "event_key": "inflation rate",
+      "family": "CPI",
+      "actual": 2.9,
+      "estimate": 3.0,
+      "surprise": -0.10000000000000009,
+      "surprise_z": -0.5804882734824811,
+      "alpha_weight": 1,
+      "contribution": -0.5804882734824811,
+      "is_trigger": false
+    },
+    {
+      "event_key": "ppi",
+      "family": "PPI",
+      "actual": -0.3,
+      "estimate": -0.1,
+      "surprise": -0.19999999999999998,
+      "surprise_z": -0.13967934504789598,
+      "alpha_weight": 1,
+      "contribution": -0.13967934504789598,
+      "is_trigger": false
+    },
+    {
+      "event_key": "ppi_yoy",
+      "family": "PPI",
+      "actual": -8.8,
+      "estimate": -8.7,
+      "surprise": -0.10000000000000142,
+      "surprise_z": -0.0314524586925582,
+      "alpha_weight": 1,
+      "contribution": -0.0314524586925582,
+      "is_trigger": false
+    }
+  ]
+}

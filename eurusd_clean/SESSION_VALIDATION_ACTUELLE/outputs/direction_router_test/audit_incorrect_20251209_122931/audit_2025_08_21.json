@@ -1,0 +1,33 @@
+{
+  "date": "2025-08-21",
+  "movement_start_time": "2025-08-21 14:17:00+00:00",
+  "direction_pred": "DOWN",
+  "direction_real": NaN,
+  "score": 0.05497579446817338,
+  "has_trigger": true,
+  "n_active": 2,
+  "contributions": [
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1972.0,
+      "estimate": 1960.0,
+      "surprise": 12.0,
+      "surprise_z": 0.45161085474157037,
+      "alpha_weight": 0.050668191263372,
+      "contribution": 0.022882305164660798,
+      "is_trigger": false
+    },
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 235.0,
+      "estimate": 225.0,
+      "surprise": 10.0,
+      "surprise_z": 1.0828333833603372,
+      "alpha_weight": 0.050668191263372,
+      "contribution": 0.05486520897446578,
+      "is_trigger": true
+    }
+  ]
+}

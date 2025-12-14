@@ -1,0 +1,90 @@
+# 🚀 MESSAGE DÉMARRAGE NOUVELLE SESSION
+
+Bonjour Claude,
+
+Je reprends le développement du **Planificateur Multi-Événements EUR/USD** (projet de prédiction d'impacts d'événements économiques sur le Forex).
+
+## 📋 INSTRUCTIONS IMPORTANTES
+
+### 1. Tokens
+**Merci de m'indiquer régulièrement les tokens utilisés** (par exemple toutes les 5-10 interactions).
+
+### 2. Lecture obligatoire
+
+**Lis attentivement et INTÉGRALEMENT ces documents avant de commencer :**
+
+#### Documents critiques (LECTURE OBLIGATOIRE) :
+1. **`KNOWLEDGE_BASE.md`** ⭐⭐⭐ - Base de connaissances complète du projet
+2. **`KNOWLEDGE_BASE_UPDATE_SESSION17.md`** ⭐⭐⭐ - Découvertes critiques Session 17
+3. **`RAPPORT_SESSION17_FINAL_COMPLET.md`** ⭐⭐⭐ - Rapport complet dernière session
+
+#### Documents de contexte (lecture recommandée) :
+4. `RAPPORT_SESSION15_FINAL.md` - Création formule V2
+5. `RAPPORT_SESSION14_FINAL.md` - Création formule V1
+6. `DB_STRUCTURE_REFERENCE.md` - Structure de la base de données
+
+### 3. Contexte actuel
+
+**Où nous en sommes :**
+- ✅ Formule V2 d'amplification validée sur 120 groupes (-70.5% MAE)
+- ⚠️ **PROBLÈME CRITIQUE** découvert : Données historiques dans `warehouse.duckdb` incorrectes/incomplètes
+- 🎯 **SESSION 18 URGENTE** requise : Interface de correction manuelle des données
+
+**Problèmes identifiés :**
+1. Colonnes `actual` et `estimate` manquantes ou incorrectes dans la DB
+2. Confusion entre variantes d'événements (mensuel vs annuel)
+3. Impact : Validation Sessions 15 & 17 potentiellement biaisée
+4. Exemple concret : Inflation Rate 11 sept → surprise 33% manquée, erreur V2 ×2
+
+**Solutions proposées :**
+- Session 18 : Interface Streamlit pour corriger/vérifier données historiques
+- Différenciation événements passés (auto-chargement + correction) vs futurs (saisie manuelle)
+- Sauvegarde des corrections pour utilisation future
+
+### 4. Environnement de développement
+
+**Python :** Utilise `.venv` (environnement virtuel activé)
+**Base de données :** `fx_impact_app/data/warehouse.duckdb`
+**Application :** Streamlit (`fx_impact_app/streamlit_app/`)
+
+### 5. Style de travail
+
+- Je développe en Python avec ton aide
+- Crée des scripts complets et testables
+- Documente les décisions importantes
+- Privilégie la qualité à la rapidité
+- N'hésite pas à poser des questions de clarification
+
+---
+
+## 🎯 OBJECTIF SESSION ACTUELLE
+
+**Mission :** Développer Session 18 - Interface de correction des données historiques
+
+**Fonctionnalités requises :**
+1. Charger automatiquement `actual` et `estimate` depuis DB pour événements passés
+2. Détecter et signaler les incohérences (estimate NULL, surprises aberrantes)
+3. Permettre correction manuelle dans l'interface Planner
+4. Différencier visuellement événements passés (pré-remplis) vs futurs (vides)
+5. Sauvegarder les corrections (table dédiée ou mise à jour DB)
+6. Gérer la distinction mensuel vs annuel pour les événements
+
+**Pourquoi c'est urgent :**
+- Sans cela, impossible de faire du backtesting fiable
+- V2 pourrait être encore plus précise avec des données correctes
+- Exemple : erreur 13% au lieu de 29% sur le 11 septembre
+
+---
+
+## ❓ QUESTION DE DÉMARRAGE
+
+Une fois que tu as lu les documents mentionnés ci-dessus, confirme-moi que tu as bien compris :
+1. L'état actuel du projet
+2. Le problème critique identifié
+3. Ce que nous devons développer dans cette session
+
+Puis nous pourrons commencer Session 18 ! 🚀
+
+---
+
+**Note :** Ce projet a une architecture bien définie et une base de code existante. Prends le temps de comprendre avant de proposer des modifications.

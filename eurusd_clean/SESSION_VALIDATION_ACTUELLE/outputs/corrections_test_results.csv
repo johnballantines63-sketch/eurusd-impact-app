@@ -1,0 +1,4 @@
+mae,median_ratio,correlation,multiplier,name,formula,fort_mult,tres_fort_mult,events_mult,class_mult
+61.084115613826405,0.24771246797235724,0.020968137028416167,0.08596033542949014,Facteur événements,impact * (1 + (num_events - 1) * 0.086),,,,
+56.41497322702457,0.3212670193367829,0.21429982527448285,,Facteur classe,"FORT: 2.50x, TRÈS_FORT: 4.00x",2.5,4.0,,
+56.781309339227946,0.36298685066673486,0.11960862628013133,,Combinée,impact * (1 + (events-1)*0.000) * class_mult,,,0.0,3.0

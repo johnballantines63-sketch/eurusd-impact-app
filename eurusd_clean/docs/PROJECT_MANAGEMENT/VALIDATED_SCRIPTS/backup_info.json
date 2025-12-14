@@ -1,0 +1,36 @@
+{
+  "backup_name": "VALIDATED_BACKUP_20251110_161850",
+  "creation_date": "2025-11-10T16:18:50.291374",
+  "project_root": "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/eurusd_clean",
+  "backup_location": "/Users/andrevalentin/Desktop/eurusd_news_impact_calculator_MPC/eurusd_clean/VALIDATED_BACKUP_20251110_161850",
+  "structure": {
+    "01_FORMULES_GOLD_STANDARD": "Formules validées Sessions 51-55 (>94% précision)",
+    "02_DETECTION_INVERSION": "Détection inversion tendance Sessions 102-107",
+    "03_SCANNER_PATTERNS": "Scanner prix patterns Session 117 (Rev7)",
+    "04_DETECTEUR_DOUBLE_WAVE": "Détecteur Double Wave Session 118",
+    "05_VALIDATION_CAS_ECOLE": "Tests validation 11 septembre 2025",
+    "06_MODULES_CORE": "Modules core production (src/core/)",
+    "07_APPLICATION_STREAMLIT": "Interface utilisateur Streamlit",
+    "08_DATABASES": "Bases de données (warehouse.duckdb + backup)",
+    "09_DOCUMENTATION": "Documentation critique projet"
+  },
+  "statistics": {
+    "scripts_copied": "~30",
+    "core_modules": 9,
+    "datasets": 5,
+    "database_size_mb": 205,
+    "documentation_files": 6
+  },
+  "sessions_included": {
+    "formulas": "51-55",
+    "inversion_detection": "102-107",
+    "pattern_scanner": "117",
+    "double_wave_detector": "118"
+  },
+  "key_validations": {
+    "cas_ecole": "11 septembre 2025",
+    "precision_formulas": ">94%",
+    "precision_global": ">98%",
+    "mae_double_wave": "4.5 pips"
+  }
+}

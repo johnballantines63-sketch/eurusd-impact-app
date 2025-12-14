@@ -1,0 +1,3035 @@
+[
+  {
+    "datetime": "2024-01-05 14:30:00+01:00",
+    "baseline": 1.09208,
+    "high": 1.09208,
+    "low": 1.08779,
+    "close": 1.08819,
+    "move_up": 0.0,
+    "move_down": 42.899999999999054,
+    "max_move": 42.899999999999054,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-01-05 16:00:00+01:00",
+        "event_name": "factory_orders_ex_transportation",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.1,
+        "forecast": null,
+        "previous": -1.3,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-01-05 16:00:00+01:00",
+        "event_name": "ism_services_prices",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 57.4,
+        "forecast": null,
+        "previous": 58.3,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-01-05 16:00:00+01:00",
+        "event_name": "factory_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 2.6,
+        "forecast": null,
+        "previous": -3.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-01-05 16:00:00+01:00",
+        "event_name": "ivey_pmi_s.a",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": 56.3,
+        "forecast": null,
+        "previous": 54.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-01-05 16:00:00+01:00",
+        "event_name": "ism_services_employment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 43.3,
+        "forecast": null,
+        "previous": 50.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-01-05 16:00:00+01:00",
+        "event_name": "ism_services_new_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 52.8,
+        "forecast": null,
+        "previous": 55.5,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-01-05 16:00:00+01:00",
+        "event_name": "ism_services_pmi",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 50.6,
+        "forecast": null,
+        "previous": 52.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-01-05 16:00:00+01:00",
+        "event_name": "ism_services_business_activity",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 56.6,
+        "forecast": null,
+        "previous": 55.1,
+        "delta_minutes": 90.0
+      }
+    ],
+    "num_events": 8
+  },
+  {
+    "datetime": "2024-02-02 14:30:00+01:00",
+    "baseline": 1.08848,
+    "high": 1.0885,
+    "low": 1.08322,
+    "close": 1.08326,
+    "move_up": 0.20000000000131024,
+    "move_down": 52.599999999998204,
+    "max_move": 52.599999999998204,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-02-02 16:00:00+01:00",
+        "event_name": "michigan_5_year_inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 2.9,
+        "forecast": null,
+        "previous": 2.9,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-02-02 16:00:00+01:00",
+        "event_name": "michigan_inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 2.9,
+        "forecast": null,
+        "previous": 3.1,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-02-02 16:00:00+01:00",
+        "event_name": "michigan_consumer_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 77.1,
+        "forecast": null,
+        "previous": 67.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-02-02 16:00:00+01:00",
+        "event_name": "michigan_consumer_sentiment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 79.0,
+        "forecast": null,
+        "previous": 69.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-02-02 16:00:00+01:00",
+        "event_name": "total_vehicle_sales",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": 15.83,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-02-02 16:00:00+01:00",
+        "event_name": "michigan_current_conditions",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 81.9,
+        "forecast": null,
+        "previous": 73.3,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-02-02 16:00:00+01:00",
+        "event_name": "factory_orders_ex_transportation",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.4,
+        "forecast": null,
+        "previous": 0.2,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-02-02 16:00:00+01:00",
+        "event_name": "factory_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.2,
+        "forecast": null,
+        "previous": 2.6,
+        "delta_minutes": 90.0
+      }
+    ],
+    "num_events": 8
+  },
+  {
+    "datetime": "2024-02-13 14:30:00+01:00",
+    "baseline": 1.07933,
+    "high": 1.07998,
+    "low": 1.07356,
+    "close": 1.07459,
+    "move_up": 6.500000000000394,
+    "move_down": 57.69999999999831,
+    "max_move": 57.69999999999831,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2024-04-05 14:30:00+02:00",
+    "baseline": 1.08459,
+    "high": 1.08457,
+    "low": 1.08055,
+    "close": 1.08076,
+    "move_up": -0.1999999999990898,
+    "move_down": 40.40000000000043,
+    "max_move": 40.40000000000043,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-04-05 16:00:00+02:00",
+        "event_name": "ivey_pmi_s.a",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": 57.5,
+        "forecast": null,
+        "previous": 53.9,
+        "delta_minutes": 90.0
+      }
+    ],
+    "num_events": 1
+  },
+  {
+    "datetime": "2024-04-10 14:30:00+02:00",
+    "baseline": 1.08643,
+    "high": 1.08644,
+    "low": 1.08047,
+    "close": 1.08087,
+    "move_up": 0.10000000000065512,
+    "move_down": 59.59999999999965,
+    "max_move": 59.59999999999965,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-04-10 16:00:00+02:00",
+        "event_name": "wholesale_inventories",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.5,
+        "forecast": null,
+        "previous": -0.2,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "eia_gasoline_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.715,
+        "forecast": null,
+        "previous": -4.256,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "eia_distillate_fuel_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.033,
+        "forecast": null,
+        "previous": -0.208,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "boc_press_conference",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "eia_gasoline_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.538,
+        "forecast": null,
+        "previous": 0.767,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "eia_distillate_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 1.659,
+        "forecast": null,
+        "previous": -1.268,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "eia_cushing_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.17,
+        "forecast": null,
+        "previous": -0.377,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "eia_crude_oil_imports_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 1.13,
+        "forecast": null,
+        "previous": 0.075,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "eia_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 5.841,
+        "forecast": null,
+        "previous": 3.21,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "eia_refinery_crude_runs_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.115,
+        "forecast": null,
+        "previous": -0.035,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 16:30:00+02:00",
+        "event_name": "eia_heating_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.478,
+        "forecast": null,
+        "previous": -0.613,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-04-10 17:30:00+02:00",
+        "event_name": "17_week_bill_auction",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 5.23,
+        "forecast": null,
+        "previous": 5.2,
+        "delta_minutes": 180.0
+      }
+    ],
+    "num_events": 12
+  },
+  {
+    "datetime": "2024-05-03 14:30:00+02:00",
+    "baseline": 1.07522,
+    "high": 1.08057,
+    "low": 1.07515,
+    "close": 1.08053,
+    "move_up": 53.49999999999966,
+    "move_down": 0.700000000000145,
+    "max_move": 53.49999999999966,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-05-03 16:00:00+02:00",
+        "event_name": "ism_services_employment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 45.9,
+        "forecast": null,
+        "previous": 48.5,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-05-03 16:00:00+02:00",
+        "event_name": "ism_services_new_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 52.2,
+        "forecast": null,
+        "previous": 54.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-05-03 16:00:00+02:00",
+        "event_name": "ism_services_pmi",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 49.4,
+        "forecast": null,
+        "previous": 51.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-05-03 16:00:00+02:00",
+        "event_name": "ism_services_business_activity",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 50.9,
+        "forecast": null,
+        "previous": 57.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-05-03 16:00:00+02:00",
+        "event_name": "ism_services_prices",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 59.2,
+        "forecast": null,
+        "previous": 53.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-05-03 17:00:00+02:00",
+        "event_name": "total_vehicle_sales",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 15.74,
+        "forecast": null,
+        "previous": 15.5,
+        "delta_minutes": 150.0
+      }
+    ],
+    "num_events": 6
+  },
+  {
+    "datetime": "2024-05-15 14:30:00+02:00",
+    "baseline": 1.08318,
+    "high": 1.0867,
+    "low": 1.08318,
+    "close": 1.08632,
+    "move_up": 35.199999999999676,
+    "move_down": 0.0,
+    "max_move": 35.199999999999676,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-05-15 16:00:00+02:00",
+        "event_name": "nahb_housing_market_index",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 45.0,
+        "forecast": null,
+        "previous": 51.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-05-15 16:00:00+02:00",
+        "event_name": "retail_inventories_ex_autos",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.2,
+        "forecast": null,
+        "previous": 0.1,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-05-15 16:00:00+02:00",
+        "event_name": "business_inventories",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.1,
+        "forecast": null,
+        "previous": 0.3,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-05-15 16:30:00+02:00",
+        "event_name": "eia_heating_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.68,
+        "forecast": null,
+        "previous": 0.285,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-05-15 16:30:00+02:00",
+        "event_name": "eia_refinery_crude_runs_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.307,
+        "forecast": null,
+        "previous": 0.307,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-05-15 16:30:00+02:00",
+        "event_name": "eia_distillate_fuel_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.021,
+        "forecast": null,
+        "previous": 0.275,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-05-15 16:30:00+02:00",
+        "event_name": "eia_gasoline_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.203,
+        "forecast": null,
+        "previous": 0.099,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-05-15 16:30:00+02:00",
+        "event_name": "eia_crude_oil_imports_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.108,
+        "forecast": null,
+        "previous": -0.353,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-05-15 16:30:00+02:00",
+        "event_name": "eia_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -2.508,
+        "forecast": null,
+        "previous": -1.362,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-05-15 16:30:00+02:00",
+        "event_name": "eia_cushing_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.341,
+        "forecast": null,
+        "previous": 1.88,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-05-15 16:30:00+02:00",
+        "event_name": "eia_gasoline_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.235,
+        "forecast": null,
+        "previous": 0.915,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-05-15 16:30:00+02:00",
+        "event_name": "eia_distillate_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.045,
+        "forecast": null,
+        "previous": 0.56,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-05-15 17:30:00+02:00",
+        "event_name": "17_week_bill_auction",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 5.235,
+        "forecast": null,
+        "previous": 5.24,
+        "delta_minutes": 180.0
+      }
+    ],
+    "num_events": 13
+  },
+  {
+    "datetime": "2024-06-07 14:30:00+02:00",
+    "baseline": 1.08986,
+    "high": 1.09035,
+    "low": 1.08449,
+    "close": 1.085,
+    "move_up": 4.899999999998794,
+    "move_down": 53.70000000000097,
+    "max_move": 53.70000000000097,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-06-07 16:00:00+02:00",
+        "event_name": "wholesale_inventories",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.1,
+        "forecast": null,
+        "previous": -0.5,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-06-07 16:15:00+02:00",
+        "event_name": "ecb_president_lagarde_speech",
+        "country": "eur",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 105.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2024-06-12 14:30:00+02:00",
+    "baseline": 1.0767,
+    "high": 1.08168,
+    "low": 1.0767,
+    "close": 1.08078,
+    "move_up": 49.79999999999984,
+    "move_down": 0.0,
+    "max_move": 49.79999999999984,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-06-12 16:00:00+02:00",
+        "event_name": "ecb_tuominen_speech",
+        "country": "eur",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-06-12 16:30:00+02:00",
+        "event_name": "eia_gasoline_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.602,
+        "forecast": null,
+        "previous": -0.527,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-06-12 16:30:00+02:00",
+        "event_name": "eia_gasoline_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 2.566,
+        "forecast": null,
+        "previous": 2.102,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-06-12 16:30:00+02:00",
+        "event_name": "eia_heating_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.656,
+        "forecast": null,
+        "previous": 0.362,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-06-12 16:30:00+02:00",
+        "event_name": "eia_refinery_crude_runs_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.097,
+        "forecast": null,
+        "previous": 0.061,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-06-12 16:30:00+02:00",
+        "event_name": "eia_crude_oil_imports_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 2.559,
+        "forecast": null,
+        "previous": 0.013,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-06-12 16:30:00+02:00",
+        "event_name": "eia_distillate_fuel_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.029,
+        "forecast": null,
+        "previous": 0.031,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-06-12 16:30:00+02:00",
+        "event_name": "eia_distillate_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.881,
+        "forecast": null,
+        "previous": 3.197,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-06-12 16:30:00+02:00",
+        "event_name": "eia_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 3.73,
+        "forecast": null,
+        "previous": 1.233,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-06-12 16:30:00+02:00",
+        "event_name": "eia_cushing_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -1.593,
+        "forecast": null,
+        "previous": 0.854,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-06-12 17:30:00+02:00",
+        "event_name": "17_week_bill_auction",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 5.22,
+        "forecast": null,
+        "previous": 5.225,
+        "delta_minutes": 180.0
+      }
+    ],
+    "num_events": 11
+  },
+  {
+    "datetime": "2024-07-07 23:00:00+02:00",
+    "baseline": 1.08399,
+    "high": 1.08073,
+    "low": 1.08035,
+    "close": 1.08058,
+    "move_up": -32.600000000000406,
+    "move_down": 36.40000000000087,
+    "max_move": 36.40000000000087,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-07-08 01:30:00+02:00",
+        "event_name": "overtime_pay",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 2.3,
+        "forecast": null,
+        "previous": -1.2,
+        "delta_minutes": 150.0
+      },
+      {
+        "datetime": "2024-07-08 01:30:00+02:00",
+        "event_name": "average_cash_earnings",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 1.9,
+        "forecast": null,
+        "previous": 1.6,
+        "delta_minutes": 150.0
+      },
+      {
+        "datetime": "2024-07-08 01:50:00+02:00",
+        "event_name": "current_account",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 2850.0,
+        "forecast": null,
+        "previous": 2051.0,
+        "delta_minutes": 170.0
+      },
+      {
+        "datetime": "2024-07-08 01:50:00+02:00",
+        "event_name": "bank_lending",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 3.2,
+        "forecast": null,
+        "previous": 2.9,
+        "delta_minutes": 170.0
+      }
+    ],
+    "num_events": 4
+  },
+  {
+    "datetime": "2024-07-11 14:30:00+02:00",
+    "baseline": 1.08487,
+    "high": 1.08933,
+    "low": 1.08479,
+    "close": 1.08908,
+    "move_up": 44.599999999999085,
+    "move_down": 0.8000000000008001,
+    "max_move": 44.599999999999085,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-07-11 16:30:00+02:00",
+        "event_name": "eia_natural_gas_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-07-11 17:15:00+02:00",
+        "event_name": "fed_bostic_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 165.0
+      },
+      {
+        "datetime": "2024-07-11 17:30:00+02:00",
+        "event_name": "8_week_bill_auction",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 5.26,
+        "forecast": null,
+        "previous": 5.275,
+        "delta_minutes": 180.0
+      },
+      {
+        "datetime": "2024-07-11 17:30:00+02:00",
+        "event_name": "4_week_bill_auction",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 5.27,
+        "forecast": null,
+        "previous": 5.28,
+        "delta_minutes": 180.0
+      }
+    ],
+    "num_events": 4
+  },
+  {
+    "datetime": "2024-08-02 14:30:00+02:00",
+    "baseline": 1.08347,
+    "high": 1.08738,
+    "low": 1.08347,
+    "close": 1.08709,
+    "move_up": 39.100000000000804,
+    "move_down": 0.0,
+    "max_move": 39.100000000000804,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-08-02 16:00:00+02:00",
+        "event_name": "factory_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -3.3,
+        "forecast": null,
+        "previous": -0.5,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-08-02 16:00:00+02:00",
+        "event_name": "total_vehicle_sales",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 15.8,
+        "forecast": null,
+        "previous": 15.2,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-08-02 16:00:00+02:00",
+        "event_name": "factory_orders_ex_transportation",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.1,
+        "forecast": null,
+        "previous": -0.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2024-08-02 16:30:00+02:00",
+        "event_name": "boc_market_participants_survey",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 120.0
+      }
+    ],
+    "num_events": 4
+  },
+  {
+    "datetime": "2024-09-18 20:00:00+02:00",
+    "baseline": 1.11299,
+    "high": 1.11763,
+    "low": 1.11255,
+    "close": 1.1173,
+    "move_up": 46.39999999999978,
+    "move_down": 4.3999999999999595,
+    "max_move": 46.39999999999978,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-09-18 22:00:00+02:00",
+        "event_name": "net_long_term_tic_flows",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 135.4,
+        "forecast": null,
+        "previous": 80.5,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-09-18 22:00:00+02:00",
+        "event_name": "foreign_bond_investment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 55.9,
+        "forecast": null,
+        "previous": 11.6,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2024-09-18 22:00:00+02:00",
+        "event_name": "overall_net_capital_flows",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 156.5,
+        "forecast": null,
+        "previous": 92.0,
+        "delta_minutes": 120.0
+      }
+    ],
+    "num_events": 3
+  },
+  {
+    "datetime": "2024-10-04 14:30:00+02:00",
+    "baseline": 1.10328,
+    "high": 1.10342,
+    "low": 1.09682,
+    "close": 1.09784,
+    "move_up": 1.40000000000029,
+    "move_down": 64.60000000000133,
+    "max_move": 64.60000000000133,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-10-04 16:00:00+02:00",
+        "event_name": "ivey_pmi_s.a",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": 53.1,
+        "forecast": null,
+        "previous": 48.2,
+        "delta_minutes": 90.0
+      }
+    ],
+    "num_events": 1
+  },
+  {
+    "datetime": "2024-11-03 23:00:00+01:00",
+    "baseline": 1.08347,
+    "high": 1.0882,
+    "low": 1.08777,
+    "close": 1.0878,
+    "move_up": 47.30000000000123,
+    "move_down": -42.9999999999997,
+    "max_move": 47.30000000000123,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2024-11-22 10:14:00+01:00",
+    "baseline": 1.03739,
+    "high": 1.03741,
+    "low": 1.03327,
+    "close": 1.03401,
+    "move_up": 0.1999999999990898,
+    "move_down": 41.20000000000124,
+    "max_move": 41.20000000000124,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2024-11-24 23:00:00+01:00",
+    "baseline": 1.04235,
+    "high": 1.04835,
+    "low": 1.04806,
+    "close": 1.04829,
+    "move_up": 59.99999999999783,
+    "move_down": -57.099999999998815,
+    "max_move": 59.99999999999783,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2024-12-18 20:00:00+01:00",
+    "baseline": 1.04883,
+    "high": 1.04885,
+    "low": 1.04504,
+    "close": 1.04553,
+    "move_up": 0.20000000000131024,
+    "move_down": 37.8999999999996,
+    "max_move": 37.8999999999996,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2024-12-18 20:30:00+01:00",
+        "event_name": "fed_press_conference",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 30.0
+      },
+      {
+        "datetime": "2024-12-18 20:30:00+01:00",
+        "event_name": "press_conference",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 30.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-01-06 15:16:00+01:00",
+    "baseline": 1.03885,
+    "high": 1.03937,
+    "low": 1.0353,
+    "close": 1.0359,
+    "move_up": 5.199999999998539,
+    "move_down": 35.49999999999942,
+    "max_move": 35.49999999999942,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-01-06 16:00:00+01:00",
+        "event_name": "factory_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.4,
+        "forecast": null,
+        "previous": 0.5,
+        "delta_minutes": 44.0
+      },
+      {
+        "datetime": "2025-01-06 16:00:00+01:00",
+        "event_name": "factory_orders_ex_transportation",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.2,
+        "forecast": null,
+        "previous": 0.2,
+        "delta_minutes": 44.0
+      },
+      {
+        "datetime": "2025-01-06 16:00:00+01:00",
+        "event_name": "durable_goods_orders_ex_transp",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.2,
+        "forecast": null,
+        "previous": 0.2,
+        "delta_minutes": 44.0
+      },
+      {
+        "datetime": "2025-01-06 16:00:00+01:00",
+        "event_name": "durable_goods_orders_ex_defense",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.4,
+        "forecast": null,
+        "previous": 0.5,
+        "delta_minutes": 44.0
+      },
+      {
+        "datetime": "2025-01-06 16:30:00+01:00",
+        "event_name": "ny_fed_treasury_purchases_6_to_10_yrs",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 74.0
+      }
+    ],
+    "num_events": 5
+  },
+  {
+    "datetime": "2025-01-10 14:30:00+01:00",
+    "baseline": 1.03066,
+    "high": 1.03094,
+    "low": 1.02423,
+    "close": 1.02475,
+    "move_up": 2.80000000000058,
+    "move_down": 64.29999999999936,
+    "max_move": 64.29999999999936,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-01-10 16:00:00+01:00",
+        "event_name": "michigan_inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 3.3,
+        "forecast": null,
+        "previous": 2.8,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-01-10 16:00:00+01:00",
+        "event_name": "michigan_5_year_inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 3.3,
+        "forecast": null,
+        "previous": 3.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-01-10 16:00:00+01:00",
+        "event_name": "michigan_consumer_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 70.2,
+        "forecast": null,
+        "previous": 73.3,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-01-10 16:00:00+01:00",
+        "event_name": "michigan_consumer_sentiment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 73.2,
+        "forecast": null,
+        "previous": 74.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-01-10 16:00:00+01:00",
+        "event_name": "michigan_current_conditions",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 77.9,
+        "forecast": null,
+        "previous": 75.1,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-01-10 16:00:00+01:00",
+        "event_name": "inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 3.3,
+        "forecast": null,
+        "previous": 2.8,
+        "delta_minutes": 90.0
+      }
+    ],
+    "num_events": 6
+  },
+  {
+    "datetime": "2025-01-15 14:30:00+01:00",
+    "baseline": 1.03048,
+    "high": 1.035,
+    "low": 1.03032,
+    "close": 1.03414,
+    "move_up": 45.199999999998575,
+    "move_down": 1.6000000000016001,
+    "max_move": 45.199999999998575,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-01-15 15:20:00+01:00",
+        "event_name": "fed_barkin_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 50.0
+      },
+      {
+        "datetime": "2025-01-15 16:00:00+01:00",
+        "event_name": "fed_kashkari_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_crude_oil_imports_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -1.304,
+        "forecast": null,
+        "previous": 0.278,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_distillate_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 3.077,
+        "forecast": null,
+        "previous": 6.071,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_distillate_fuel_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.021,
+        "forecast": null,
+        "previous": -0.167,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_cushing_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.765,
+        "forecast": null,
+        "previous": -2.502,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -1.961,
+        "forecast": null,
+        "previous": -0.959,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "imports",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -1.304,
+        "forecast": null,
+        "previous": 0.278,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_weekly_refinery_utilization_rates_wow",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -1.6,
+        "forecast": null,
+        "previous": 0.6,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_refinery_crude_runs_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.255,
+        "forecast": null,
+        "previous": 0.045,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_heating_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.646,
+        "forecast": null,
+        "previous": -0.632,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_gasoline_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 5.852,
+        "forecast": null,
+        "previous": 6.33,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-01-15 16:30:00+01:00",
+        "event_name": "eia_gasoline_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.397,
+        "forecast": null,
+        "previous": -0.081,
+        "delta_minutes": 120.0
+      }
+    ],
+    "num_events": 13
+  },
+  {
+    "datetime": "2025-01-20 14:30:00+01:00",
+    "baseline": 1.03139,
+    "high": 1.03501,
+    "low": 1.03079,
+    "close": 1.03383,
+    "move_up": 36.19999999999956,
+    "move_down": 5.999999999999339,
+    "max_move": 36.19999999999956,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-01-20 16:30:00+01:00",
+        "event_name": "boc_business_outlook_survey",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 120.0
+      }
+    ],
+    "num_events": 1
+  },
+  {
+    "datetime": "2025-01-20 14:31:00+01:00",
+    "baseline": 1.03383,
+    "high": 1.03741,
+    "low": 1.0336,
+    "close": 1.03733,
+    "move_up": 35.799999999999166,
+    "move_down": 2.2999999999995246,
+    "max_move": 35.799999999999166,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-01-20 16:30:00+01:00",
+        "event_name": "boc_business_outlook_survey",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 119.0
+      }
+    ],
+    "num_events": 1
+  },
+  {
+    "datetime": "2025-02-07 14:30:00+01:00",
+    "baseline": 1.03777,
+    "high": 1.04131,
+    "low": 1.0363,
+    "close": 1.03636,
+    "move_up": 35.39999999999877,
+    "move_down": 14.700000000000824,
+    "max_move": 35.39999999999877,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-02-07 15:00:00+01:00",
+        "event_name": "used_car_prices",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.4,
+        "forecast": null,
+        "previous": -0.3,
+        "delta_minutes": 30.0
+      },
+      {
+        "datetime": "2025-02-07 15:00:00+01:00",
+        "event_name": "used_car_prices",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.8,
+        "forecast": null,
+        "previous": 0.4,
+        "delta_minutes": 30.0
+      },
+      {
+        "datetime": "2025-02-07 15:25:00+01:00",
+        "event_name": "fed_bowman_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 55.0
+      },
+      {
+        "datetime": "2025-02-07 16:00:00+01:00",
+        "event_name": "michigan_inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 4.3,
+        "forecast": null,
+        "previous": 3.3,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-07 16:00:00+01:00",
+        "event_name": "wholesale_sales",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 1.0,
+        "forecast": null,
+        "previous": 0.9,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-07 16:00:00+01:00",
+        "event_name": "wholesale_inventories",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.5,
+        "forecast": null,
+        "previous": -0.1,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-07 16:00:00+01:00",
+        "event_name": "monetary_policy_report",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-07 16:00:00+01:00",
+        "event_name": "michigan_current_conditions",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 68.7,
+        "forecast": null,
+        "previous": 74.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-07 16:00:00+01:00",
+        "event_name": "michigan_consumer_sentiment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 67.8,
+        "forecast": null,
+        "previous": 71.1,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-07 16:00:00+01:00",
+        "event_name": "michigan_consumer_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 67.3,
+        "forecast": null,
+        "previous": 69.3,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-07 16:00:00+01:00",
+        "event_name": "michigan_5_year_inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 3.3,
+        "forecast": null,
+        "previous": 3.2,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-07 16:00:00+01:00",
+        "event_name": "inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 3.3,
+        "forecast": null,
+        "previous": 3.2,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-07 16:30:00+01:00",
+        "event_name": "fed_goolsbee_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 120.0
+      }
+    ],
+    "num_events": 13
+  },
+  {
+    "datetime": "2025-02-07 16:53:00+01:00",
+    "baseline": 1.03857,
+    "high": 1.03858,
+    "low": 1.0346,
+    "close": 1.0351,
+    "move_up": 0.10000000000065512,
+    "move_down": 39.70000000000029,
+    "max_move": 39.70000000000029,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-02-07 18:00:00+01:00",
+        "event_name": "atlanta_fed_gdpnow",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 2.9,
+        "forecast": null,
+        "previous": 2.9,
+        "delta_minutes": 67.0
+      },
+      {
+        "datetime": "2025-02-07 18:00:00+01:00",
+        "event_name": "fed_kugler_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 67.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-02-09 23:00:00+01:00",
+    "baseline": 1.03297,
+    "high": 1.02942,
+    "low": 1.02878,
+    "close": 1.02899,
+    "move_up": -35.49999999999942,
+    "move_down": 41.89999999999916,
+    "max_move": 41.89999999999916,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-02-10 00:50:00+01:00",
+        "event_name": "current_account",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 1077.3,
+        "forecast": null,
+        "previous": 3352.5,
+        "delta_minutes": 110.0
+      },
+      {
+        "datetime": "2025-02-10 00:50:00+01:00",
+        "event_name": "bank_lending",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 3.0,
+        "forecast": null,
+        "previous": 3.0,
+        "delta_minutes": 110.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-02-12 14:30:00+01:00",
+    "baseline": 1.03696,
+    "high": 1.03701,
+    "low": 1.03246,
+    "close": 1.03307,
+    "move_up": 0.4999999999988347,
+    "move_down": 45.000000000001705,
+    "max_move": 45.000000000001705,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-02-12 16:00:00+01:00",
+        "event_name": "fed_chair_powell_testimony",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_weekly_refinery_utilization_rates_wow",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.5,
+        "forecast": null,
+        "previous": 1.0,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_heating_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.159,
+        "forecast": null,
+        "previous": 0.373,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_gasoline_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -3.035,
+        "forecast": null,
+        "previous": 2.233,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_gasoline_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.18,
+        "forecast": null,
+        "previous": -0.027,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "imports",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.184,
+        "forecast": null,
+        "previous": -0.178,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_distillate_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.135,
+        "forecast": null,
+        "previous": -5.471,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_distillate_fuel_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.009,
+        "forecast": null,
+        "previous": -0.186,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_cushing_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.872,
+        "forecast": null,
+        "previous": -0.034,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 4.07,
+        "forecast": null,
+        "previous": 8.664,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_crude_oil_imports_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.184,
+        "forecast": null,
+        "previous": -0.178,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-02-12 16:30:00+01:00",
+        "event_name": "eia_refinery_crude_runs_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.082,
+        "forecast": null,
+        "previous": 0.16,
+        "delta_minutes": 120.0
+      }
+    ],
+    "num_events": 12
+  },
+  {
+    "datetime": "2025-03-10 12:04:00+01:00",
+    "baseline": 1.08648,
+    "high": 1.08648,
+    "low": 1.08282,
+    "close": 1.08307,
+    "move_up": 0.0,
+    "move_down": 36.599999999999966,
+    "max_move": 36.599999999999966,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-03-10 14:00:00+01:00",
+        "event_name": "ecb_nagel_speech",
+        "country": "eur",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 116.0
+      }
+    ],
+    "num_events": 1
+  },
+  {
+    "datetime": "2025-03-12 13:30:00+01:00",
+    "baseline": 1.08951,
+    "high": 1.09326,
+    "low": 1.08919,
+    "close": 1.09153,
+    "move_up": 37.499999999999204,
+    "move_down": 3.1999999999987594,
+    "max_move": 37.499999999999204,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-03-12 14:30:00+01:00",
+        "event_name": "imports",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.503,
+        "forecast": null,
+        "previous": -0.054,
+        "delta_minutes": 60.0
+      },
+      {
+        "datetime": "2025-03-12 14:30:00+01:00",
+        "event_name": "eia_weekly_refinery_utilization_rates_wow",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.6,
+        "forecast": null,
+        "previous": -0.6,
+        "delta_minutes": 60.0
+      },
+      {
+        "datetime": "2025-03-12 14:45:00+01:00",
+        "event_name": "boc_interest_rate_decision",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": 2.75,
+        "forecast": null,
+        "previous": 3.0,
+        "delta_minutes": 75.0
+      },
+      {
+        "datetime": "2025-03-12 14:45:00+01:00",
+        "event_name": "boc_rate_statement",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 75.0
+      },
+      {
+        "datetime": "2025-03-12 14:45:00+01:00",
+        "event_name": "ecb_nagel_speech",
+        "country": "eur",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 75.0
+      },
+      {
+        "datetime": "2025-03-12 15:00:00+01:00",
+        "event_name": "thomson_reuters_ipsos_pcsi",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": 54.43,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "eia_cushing_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -1.228,
+        "forecast": null,
+        "previous": 1.124,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "boc_press_conference",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "eia_crude_oil_imports_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.503,
+        "forecast": null,
+        "previous": -0.054,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "eia_crude_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 1.448,
+        "forecast": null,
+        "previous": 3.614,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "eia_distillate_fuel_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.113,
+        "forecast": null,
+        "previous": -0.587,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "eia_distillate_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -1.559,
+        "forecast": null,
+        "previous": -1.318,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "eia_gasoline_production_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.078,
+        "forecast": null,
+        "previous": 0.464,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "eia_gasoline_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -5.737,
+        "forecast": null,
+        "previous": -1.433,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "eia_heating_oil_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.183,
+        "forecast": null,
+        "previous": -0.067,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-03-12 15:30:00+01:00",
+        "event_name": "eia_refinery_crude_runs_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.321,
+        "forecast": null,
+        "previous": -0.346,
+        "delta_minutes": 120.0
+      }
+    ],
+    "num_events": 16
+  },
+  {
+    "datetime": "2025-04-02 22:13:00+02:00",
+    "baseline": 1.08439,
+    "high": 1.08966,
+    "low": 1.08399,
+    "close": 1.08852,
+    "move_up": 52.70000000000108,
+    "move_down": 3.9999999999995595,
+    "max_move": 52.70000000000108,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "rba_gov_bullock_speaks",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 107.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "s&p_global_services_pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": 51.6,
+        "forecast": null,
+        "previous": 50.8,
+        "delta_minutes": 107.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "s&p_global_composite_pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": 51.6,
+        "forecast": null,
+        "previous": 50.6,
+        "delta_minutes": 107.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "services_pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": 50.8,
+        "delta_minutes": 107.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": 50.6,
+        "delta_minutes": 107.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "judo_bank_services_pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": 51.6,
+        "forecast": null,
+        "previous": 50.8,
+        "delta_minutes": 107.0
+      }
+    ],
+    "num_events": 6
+  },
+  {
+    "datetime": "2025-04-02 22:26:00+02:00",
+    "baseline": 1.08902,
+    "high": 1.09057,
+    "low": 1.08445,
+    "close": 1.08515,
+    "move_up": 15.499999999999403,
+    "move_down": 45.70000000000185,
+    "max_move": 45.70000000000185,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "rba_gov_bullock_speaks",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 94.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "s&p_global_services_pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": 51.6,
+        "forecast": null,
+        "previous": 50.8,
+        "delta_minutes": 94.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "s&p_global_composite_pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": 51.6,
+        "forecast": null,
+        "previous": 50.6,
+        "delta_minutes": 94.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "services_pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": 50.8,
+        "delta_minutes": 94.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": 50.6,
+        "delta_minutes": 94.0
+      },
+      {
+        "datetime": "2025-04-03 00:00:00+02:00",
+        "event_name": "judo_bank_services_pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": 51.6,
+        "forecast": null,
+        "previous": 50.8,
+        "delta_minutes": 94.0
+      }
+    ],
+    "num_events": 6
+  },
+  {
+    "datetime": "2025-04-03 12:12:00+02:00",
+    "baseline": 1.1067,
+    "high": 1.11208,
+    "low": 1.10671,
+    "close": 1.11157,
+    "move_up": 53.7999999999994,
+    "move_down": -0.10000000000065512,
+    "max_move": 53.7999999999994,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "initial_jobless_claims",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 219.0,
+        "forecast": null,
+        "previous": 225.0,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "imports",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": 401.2,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "imports",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": 71.63,
+        "forecast": null,
+        "previous": 71.08,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "imports",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 401.1,
+        "forecast": null,
+        "previous": 401.2,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "trade_balance",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": -1.52,
+        "forecast": null,
+        "previous": 3.13,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "continuing_jobless_claims",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 1903.0,
+        "forecast": null,
+        "previous": 1847.0,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "trade_balance",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -122.7,
+        "forecast": null,
+        "previous": -130.7,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "balance_of_trade",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -122.7,
+        "forecast": null,
+        "previous": -130.7,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "balance_of_trade",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": -1.52,
+        "forecast": null,
+        "previous": 3.13,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "jobless_claims_4_week_average",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 223.0,
+        "forecast": null,
+        "previous": 224.25,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "exports",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 278.5,
+        "forecast": null,
+        "previous": 270.5,
+        "delta_minutes": 138.0
+      },
+      {
+        "datetime": "2025-04-03 14:30:00+02:00",
+        "event_name": "exports",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": 70.11,
+        "forecast": null,
+        "previous": 74.21,
+        "delta_minutes": 138.0
+      }
+    ],
+    "num_events": 12
+  },
+  {
+    "datetime": "2025-04-06 23:00:00+02:00",
+    "baseline": 1.09618,
+    "high": 1.08992,
+    "low": 1.08982,
+    "close": 1.08992,
+    "move_up": -62.599999999999326,
+    "move_down": 63.59999999999921,
+    "max_move": 63.59999999999921,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-04-07 01:30:00+02:00",
+        "event_name": "average_cash_earnings",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 3.1,
+        "forecast": null,
+        "previous": 1.8,
+        "delta_minutes": 150.0
+      },
+      {
+        "datetime": "2025-04-07 01:30:00+02:00",
+        "event_name": "overtime_pay",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 2.2,
+        "forecast": null,
+        "previous": 3.1,
+        "delta_minutes": 150.0
+      },
+      {
+        "datetime": "2025-04-07 01:50:00+02:00",
+        "event_name": "foreign_exchange_reserves",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 1272.5,
+        "forecast": null,
+        "previous": 1253.3,
+        "delta_minutes": 170.0
+      }
+    ],
+    "num_events": 3
+  },
+  {
+    "datetime": "2025-04-07 16:10:00+02:00",
+    "baseline": 1.09363,
+    "high": 1.09728,
+    "low": 1.09361,
+    "close": 1.09549,
+    "move_up": 36.49999999999931,
+    "move_down": 0.20000000000131024,
+    "max_move": 36.49999999999931,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2025-04-09 19:20:00+02:00",
+    "baseline": 1.10259,
+    "high": 1.10642,
+    "low": 1.10253,
+    "close": 1.10606,
+    "move_up": 38.3,
+    "move_down": 0.5999999999994898,
+    "max_move": 38.3,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2025-04-09 19:22:00+02:00",
+    "baseline": 1.10471,
+    "high": 1.1047,
+    "low": 1.10105,
+    "close": 1.10119,
+    "move_up": -0.10000000000065512,
+    "move_down": 36.599999999999966,
+    "max_move": 36.599999999999966,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2025-04-09 19:24:00+02:00",
+    "baseline": 1.10067,
+    "high": 1.10088,
+    "low": 1.0961,
+    "close": 1.0961,
+    "move_up": 2.100000000000435,
+    "move_down": 45.69999999999963,
+    "max_move": 45.69999999999963,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2025-04-11 02:32:00+02:00",
+    "baseline": 1.12909,
+    "high": 1.13766,
+    "low": 1.12893,
+    "close": 1.13719,
+    "move_up": 85.69999999999966,
+    "move_down": 1.5999999999993797,
+    "max_move": 85.69999999999966,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2025-04-11 02:33:00+02:00",
+    "baseline": 1.13719,
+    "high": 1.13856,
+    "low": 1.13151,
+    "close": 1.13262,
+    "move_up": 13.700000000000934,
+    "move_down": 56.79999999999907,
+    "max_move": 56.79999999999907,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2025-04-11 10:02:00+02:00",
+    "baseline": 1.13775,
+    "high": 1.14173,
+    "low": 1.13772,
+    "close": 1.14106,
+    "move_up": 39.799999999998725,
+    "move_down": 0.2999999999997449,
+    "max_move": 39.799999999998725,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-04-11 11:45:00+02:00",
+        "event_name": "ecb_lagarde_speech",
+        "country": "eur",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 103.0
+      },
+      {
+        "datetime": "2025-04-11 11:45:00+02:00",
+        "event_name": "ecb_president_lagarde_speech",
+        "country": "eur",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 103.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-04-11 15:39:00+02:00",
+    "baseline": 1.13622,
+    "high": 1.1365,
+    "low": 1.13259,
+    "close": 1.13449,
+    "move_up": 2.80000000000058,
+    "move_down": 36.300000000000225,
+    "max_move": 36.300000000000225,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2025-04-13 23:04:00+02:00",
+    "baseline": 1.13636,
+    "high": 1.1322,
+    "low": 1.1322,
+    "close": 1.1322,
+    "move_up": -41.59999999999941,
+    "move_down": 41.59999999999941,
+    "max_move": 41.59999999999941,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [],
+    "num_events": 0
+  },
+  {
+    "datetime": "2025-05-11 23:00:00+02:00",
+    "baseline": 1.12522,
+    "high": 1.12016,
+    "low": 1.11964,
+    "close": 1.11998,
+    "move_up": -50.60000000000065,
+    "move_down": 55.800000000001404,
+    "max_move": 55.800000000001404,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-05-12 01:50:00+02:00",
+        "event_name": "bank_lending",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 2.4,
+        "forecast": null,
+        "previous": 2.8,
+        "delta_minutes": 170.0
+      },
+      {
+        "datetime": "2025-05-12 01:50:00+02:00",
+        "event_name": "current_account",
+        "country": "jpy",
+        "importance": "MEDIUM",
+        "actual": 3678.1,
+        "forecast": null,
+        "previous": 4061.0,
+        "delta_minutes": 170.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-05-23 13:44:00+02:00",
+    "baseline": 1.13714,
+    "high": 1.13759,
+    "low": 1.13329,
+    "close": 1.13352,
+    "move_up": 4.500000000000615,
+    "move_down": 38.50000000000131,
+    "max_move": 38.50000000000131,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-05-23 15:35:00+02:00",
+        "event_name": "fed_schmid_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 111.0
+      },
+      {
+        "datetime": "2025-05-23 16:00:00+02:00",
+        "event_name": "new_home_sales",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.743,
+        "forecast": null,
+        "previous": 0.67,
+        "delta_minutes": 136.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-06-22 23:00:00+02:00",
+    "baseline": 1.15235,
+    "high": 1.14628,
+    "low": 1.14597,
+    "close": 1.14604,
+    "move_up": -60.7000000000002,
+    "move_down": 63.80000000000052,
+    "max_move": 63.80000000000052,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-06-23 01:00:00+02:00",
+        "event_name": "s&p_global_services_pmi",
+        "country": "aud",
+        "importance": "MEDIUM",
+        "actual": 51.3,
+        "forecast": null,
+        "previous": 50.6,
+        "delta_minutes": 120.0
+      }
+    ],
+    "num_events": 1
+  },
+  {
+    "datetime": "2025-07-03 14:30:00+02:00",
+    "baseline": 1.17899,
+    "high": 1.17903,
+    "low": 1.1726,
+    "close": 1.17379,
+    "move_up": 0.40000000000040004,
+    "move_down": 63.899999999998954,
+    "max_move": 63.899999999998954,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_non_manufacturing_employment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 47.2,
+        "forecast": null,
+        "previous": 50.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_non_manufacturing_new_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 51.3,
+        "forecast": null,
+        "previous": 46.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_non_manufacturing_pmi",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 50.8,
+        "forecast": null,
+        "previous": 49.9,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_non_manufacturing_prices",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 67.5,
+        "forecast": null,
+        "previous": 68.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_services_business_activity",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 54.2,
+        "forecast": null,
+        "previous": 50.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "4_week_bill_auction",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 4.24,
+        "forecast": null,
+        "previous": 4.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "8_week_bill_auction",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 4.3,
+        "forecast": null,
+        "previous": 4.39,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "durable_goods_orders_ex_defense",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 15.5,
+        "forecast": null,
+        "previous": 15.5,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "durable_goods_orders_ex_transp",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.5,
+        "forecast": null,
+        "previous": 0.5,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "factory_orders_ex_transportation",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 0.2,
+        "forecast": null,
+        "previous": -0.6,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "factory_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 8.2,
+        "forecast": null,
+        "previous": -3.9,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_services_prices",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 67.5,
+        "forecast": null,
+        "previous": 68.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_services_pmi",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 50.8,
+        "forecast": null,
+        "previous": 49.9,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_services_new_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 51.3,
+        "forecast": null,
+        "previous": 46.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_services_employment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 47.2,
+        "forecast": null,
+        "previous": 50.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:00:00+02:00",
+        "event_name": "ism_non_manufacturing_business_activity",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 54.2,
+        "forecast": null,
+        "previous": 50.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-07-03 16:30:00+02:00",
+        "event_name": "eia_natural_gas_stocks_change",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 55.0,
+        "forecast": null,
+        "previous": 96.0,
+        "delta_minutes": 120.0
+      },
+      {
+        "datetime": "2025-07-03 17:00:00+02:00",
+        "event_name": "fed_bostic_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 150.0
+      }
+    ],
+    "num_events": 18
+  },
+  {
+    "datetime": "2025-07-16 17:16:00+02:00",
+    "baseline": 1.1626,
+    "high": 1.16811,
+    "low": 1.16261,
+    "close": 1.16694,
+    "move_up": 55.09999999999904,
+    "move_down": -0.09999999999843467,
+    "max_move": 55.09999999999904,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-07-16 20:00:00+02:00",
+        "event_name": "fed_beige_book",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 164.0
+      },
+      {
+        "datetime": "2025-07-16 20:00:00+02:00",
+        "event_name": "beige_book",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 164.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-07-16 17:30:00+02:00",
+    "baseline": 1.16855,
+    "high": 1.17222,
+    "low": 1.16807,
+    "close": 1.17216,
+    "move_up": 36.70000000000062,
+    "move_down": 4.8000000000003595,
+    "max_move": 36.70000000000062,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-07-16 20:00:00+02:00",
+        "event_name": "fed_beige_book",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 150.0
+      },
+      {
+        "datetime": "2025-07-16 20:00:00+02:00",
+        "event_name": "beige_book",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 150.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-07-16 17:55:00+02:00",
+    "baseline": 1.16638,
+    "high": 1.16686,
+    "low": 1.16124,
+    "close": 1.16143,
+    "move_up": 4.8000000000003595,
+    "move_down": 51.399999999999224,
+    "max_move": 51.399999999999224,
+    "direction": "DOWN",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-07-16 20:00:00+02:00",
+        "event_name": "fed_beige_book",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 125.0
+      },
+      {
+        "datetime": "2025-07-16 20:00:00+02:00",
+        "event_name": "beige_book",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 125.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-08-01 14:30:00+02:00",
+    "baseline": 1.13989,
+    "high": 1.14545,
+    "low": 1.13984,
+    "close": 1.14539,
+    "move_up": 55.600000000000094,
+    "move_down": 0.5000000000010552,
+    "max_move": 55.600000000000094,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "michigan_5_year_inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 3.4,
+        "forecast": null,
+        "previous": 4.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "michigan_consumer_sentiment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 61.7,
+        "forecast": null,
+        "previous": 60.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "michigan_current_conditions",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 68.0,
+        "forecast": null,
+        "previous": 64.8,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "michigan_inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 4.5,
+        "forecast": null,
+        "previous": 5.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "ism_manufacturing_new_orders",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 47.1,
+        "forecast": null,
+        "previous": 46.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "ism_manufacturing_prices",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 64.8,
+        "forecast": null,
+        "previous": 69.7,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "construction_spending",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": -0.4,
+        "forecast": null,
+        "previous": -0.4,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "inflation_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 4.5,
+        "forecast": null,
+        "previous": 5.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "ism_manufacturing_employment",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 43.4,
+        "forecast": null,
+        "previous": 45.0,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "michigan_consumer_expectations",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 57.7,
+        "forecast": null,
+        "previous": 58.1,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-01 16:00:00+02:00",
+        "event_name": "ism_manufacturing_pmi",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 48.0,
+        "forecast": null,
+        "previous": 49.0,
+        "delta_minutes": 90.0
+      }
+    ],
+    "num_events": 11
+  },
+  {
+    "datetime": "2025-08-12 14:30:00+02:00",
+    "baseline": 1.16056,
+    "high": 1.16503,
+    "low": 1.16041,
+    "close": 1.16274,
+    "move_up": 44.69999999999974,
+    "move_down": 1.500000000000945,
+    "max_move": 44.69999999999974,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-08-12 16:00:00+02:00",
+        "event_name": "fed_barkin_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-08-12 16:30:00+02:00",
+        "event_name": "fed_schmid_speech",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "delta_minutes": 120.0
+      }
+    ],
+    "num_events": 2
+  },
+  {
+    "datetime": "2025-08-22 16:00:00+02:00",
+    "baseline": 1.16007,
+    "high": 1.16652,
+    "low": 1.16007,
+    "close": 1.16534,
+    "move_up": 64.50000000000067,
+    "move_down": 0.0,
+    "max_move": 64.50000000000067,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-08-22 19:00:00+02:00",
+        "event_name": "baker_hughes_oil_rig_count",
+        "country": "usd",
+        "importance": "MEDIUM",
+        "actual": 411.0,
+        "forecast": null,
+        "previous": 412.0,
+        "delta_minutes": 180.0
+      }
+    ],
+    "num_events": 1
+  },
+  {
+    "datetime": "2025-09-05 14:30:00+02:00",
+    "baseline": 1.17019,
+    "high": 1.17505,
+    "low": 1.17017,
+    "close": 1.17448,
+    "move_up": 48.599999999998644,
+    "move_down": 0.20000000000131024,
+    "max_move": 48.599999999998644,
+    "direction": "UP",
+    "pattern": "ZIG_ZAG",
+    "events": [
+      {
+        "datetime": "2025-09-05 16:00:00+02:00",
+        "event_name": "ivey_pmi_s.a",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": 50.1,
+        "forecast": null,
+        "previous": 55.8,
+        "delta_minutes": 90.0
+      },
+      {
+        "datetime": "2025-09-05 16:00:00+02:00",
+        "event_name": "pmi",
+        "country": "cad",
+        "importance": "MEDIUM",
+        "actual": 50.0,
+        "forecast": null,
+        "previous": 54.6,
+        "delta_minutes": 90.0
+      }
+    ],
+    "num_events": 2
+  }
+]

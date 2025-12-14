@@ -1,0 +1,2 @@
+formula_type,base_formula,correction_threshold,correction_max_factor,correction_formula,mae,median_ratio,correlation
+hybrid_power,impact = 40.4205 * impact_base^0.0733,20.0,2.0,Si impact_base > 20.0: multiplier par (1 + (excess/5) * 1.0),18.266195510873278,1.1429643132906604,0.25858600532484277

@@ -1,0 +1,6437 @@
+[
+  {
+    "date": "2020-01-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (28 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-01-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-01-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-01-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (30 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-01-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-01-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-01-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (7 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-01-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-01-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-01-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (38 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-01-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-01-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-01-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-01-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-02-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-02-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (38 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-02-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-02-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-02-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (31 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-02-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-02-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-02-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-02-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-02-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-02-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-02-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-02-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-03-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-03-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-03-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-03-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (110 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-03-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-03-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-03-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (120 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-03-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-03-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-03-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (97 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-03-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-03-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-03-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (41 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-04-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-04-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-04-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (36 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-04-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-04-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-04-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (23 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-04-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-04-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-04-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (32 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-04-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-04-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-04-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (21 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-05-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-05-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-05-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (36 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-05-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-05-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-05-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (24 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-05-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-05-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-05-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (44 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-05-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-05-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-05-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (27 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-05-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-05-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-05-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (0 < 1000)",
+      "Plage horaire ind\u00e9termin\u00e9e"
+    ]
+  },
+  {
+    "date": "2020-06-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-06-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-06-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (38 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-06-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-06-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-06-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (34 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-06-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-06-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-06-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (26 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-06-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-06-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-06-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (42 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-07-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-07-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-07-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (21 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-07-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-07-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-07-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (20 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-07-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-07-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-07-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (30 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-07-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-07-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-07-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (22 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-07-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-08-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-08-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (25 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-08-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-08-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-08-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (19 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-08-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-08-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-08-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (33 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-08-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-08-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-08-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (27 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-08-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-08-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-08-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (36 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-09-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-09-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-09-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (31 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-09-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-09-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-09-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (22 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-09-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-09-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-09-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (26 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-09-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-09-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-09-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (29 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-10-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-10-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-10-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (16 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-10-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-10-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-10-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (36 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-10-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-10-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-10-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (15 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-10-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-10-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-10-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (74 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-10-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-10-31",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-11-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (21 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-11-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-11-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-11-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (35 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-11-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-11-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-11-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (41 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-11-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-11-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-11-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (27 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-11-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-11-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-11-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (31 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-12-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-12-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-12-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (44 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-12-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-12-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-12-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (28 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-12-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-12-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-12-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (38 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-12-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2020-12-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-12-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2020-12-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (17 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2020-12-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-01-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-01-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-01-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (33 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-01-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-01-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-01-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (43 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-01-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-01-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-01-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (26 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-01-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-01-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-01-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (31 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-01-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-01-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-01-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-02-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-02-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-02-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (40 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-02-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-02-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-02-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (39 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-02-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-02-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-02-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (29 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-02-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-02-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-02-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (39 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-03-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-03-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-03-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (23 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-03-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-03-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-03-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (87 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-03-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-03-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-03-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (105 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-03-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-03-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-03-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (10 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-04-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-04-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-04-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (10 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-04-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-04-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-04-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (40 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-04-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-04-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-04-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (29 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-04-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-04-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-04-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (32 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-04-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-05-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-05-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (28 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-05-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-05-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-05-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (24 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-05-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-05-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-05-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (30 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-05-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-05-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-05-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (23 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-05-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-05-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-05-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (23 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-06-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-06-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-06-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (18 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-06-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-06-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-06-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (30 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-06-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-06-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-06-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (40 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-06-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-06-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-06-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (17 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-07-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-07-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-07-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (24 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-07-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-07-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-07-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (15 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-07-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-07-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-07-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (19 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-07-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-07-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-07-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (16 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-07-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-07-31",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-08-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (19 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-08-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-08-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-08-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (12 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-08-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-08-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-08-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (12 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-08-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-08-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-08-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (19 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-08-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-08-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-08-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (27 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-09-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-09-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-09-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (19 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-09-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-09-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-09-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (15 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-09-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-09-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-09-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (20 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-09-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-09-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-09-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (34 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-10-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-10-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-10-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (20 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-10-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-10-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-10-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (12 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-10-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-10-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-10-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (27 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-10-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-10-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-10-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (19 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-10-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-10-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-10-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (88 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-11-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-11-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-11-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (43 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-11-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-11-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-11-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (27 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-11-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-11-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-11-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-11-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "D\u00e9but tardif (1h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-11-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-11-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-11-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (39 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-12-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-12-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-12-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (38 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-12-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-12-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-12-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (35 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-12-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-12-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-12-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (42 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-12-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2021-12-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2021-12-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (36 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2021-12-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-01-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-01-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (25 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-01-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-01-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-01-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (27 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-01-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-01-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-01-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (24 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-01-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-01-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-01-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (32 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-01-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-01-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-01-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (22 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-02-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-02-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-02-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (32 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-02-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-02-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-02-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-02-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-02-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-02-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (57 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-02-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-02-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-02-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-03-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-03-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-03-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-03-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-03-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-03-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (109 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-03-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-03-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-03-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (109 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-03-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-03-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-03-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (44 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-04-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-04-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-04-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-04-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-04-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-04-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-04-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-04-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-04-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (44 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-04-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-04-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-04-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-04-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-04-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-05-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-05-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-05-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-05-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (43 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-05-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-05-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-05-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (46 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-05-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-05-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-05-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (37 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-05-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-05-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-05-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-06-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-06-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-06-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-06-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-06-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-06-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (38 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-06-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-06-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-06-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (42 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-06-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-06-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-06-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (38 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-07-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-07-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-07-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (46 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-07-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-07-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-07-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (35 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-07-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-07-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-07-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (35 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-07-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-07-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-07-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (41 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-07-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-07-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-07-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-08-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-08-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-08-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-08-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-08-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-08-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (48 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-08-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-08-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-08-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (38 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-08-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-08-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-08-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (0 < 1000)",
+      "Plage horaire ind\u00e9termin\u00e9e"
+    ]
+  },
+  {
+    "date": "2022-08-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "D\u00e9but tardif (1h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-09-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-09-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-09-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-09-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-09-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-09-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-09-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-09-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-09-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (42 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-09-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-09-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-09-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-09-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-10-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-10-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-10-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-10-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-10-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-10-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-10-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-10-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-10-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-10-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-10-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-10-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-10-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-10-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (92 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-11-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-11-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-11-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-11-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-11-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-11-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-11-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-11-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-11-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-11-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-11-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-11-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-12-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-12-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-12-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-12-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-12-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-12-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-12-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-12-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-12-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-12-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-12-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-12-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2022-12-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2022-12-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2022-12-31",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-01-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (0 < 1000)",
+      "Plage horaire ind\u00e9termin\u00e9e"
+    ]
+  },
+  {
+    "date": "2023-01-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-01-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-01-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-01-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-01-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-01-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-01-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-01-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-01-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-01-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-01-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-01-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-02-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-02-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-02-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-02-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-02-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-02-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-02-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-02-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-02-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-02-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-02-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-02-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-03-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-03-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-03-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-03-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-03-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-03-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (117 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-03-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-03-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-03-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (104 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-03-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-03-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-03-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (46 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-03-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-04-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-04-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (44 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-04-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-04-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-04-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (34 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-04-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-04-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-04-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-04-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-04-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-04-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (41 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-04-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-04-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-04-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-05-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-05-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-05-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (42 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-05-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-05-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-05-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (46 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-05-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-05-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-05-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (35 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-05-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-05-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-05-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-06-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-06-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-06-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (46 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-06-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-06-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-06-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-06-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-06-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-06-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-06-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-06-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-06-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-06-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-07-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-07-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (29 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-07-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-07-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-07-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (46 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-07-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-07-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-07-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (39 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-07-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-07-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-07-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (48 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-07-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-07-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-07-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-08-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-08-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-08-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-08-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-08-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-08-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-08-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-08-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-08-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-08-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-08-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-08-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (33 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-09-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-09-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-09-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-09-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-09-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-09-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-09-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-09-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-09-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (41 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-09-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-09-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-09-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (42 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-09-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-09-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-10-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-10-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-10-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-10-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-10-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-10-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-10-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-10-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-10-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-10-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (46 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-10-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-10-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-10-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (105 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-11-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-11-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-11-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-11-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-11-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-11-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-11-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-11-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-11-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-11-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-11-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-11-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-12-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-12-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-12-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-12-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-12-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-12-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-12-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-12-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-12-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-12-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-12-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-12-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-12-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (48 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2023-12-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2023-12-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2023-12-31",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-01-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (39 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-01-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-01-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-01-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-01-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-01-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-01-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-01-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-01-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-01-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-01-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-01-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-01-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-02-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-02-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-02-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-02-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-02-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-02-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-02-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-02-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-02-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-02-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-02-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-02-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-03-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-03-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-03-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-03-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-03-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-03-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (108 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-03-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-03-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-03-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (108 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-03-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-03-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-03-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (90 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-03-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-03-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-03-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (48 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-04-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-04-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-04-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-04-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-04-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-04-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (48 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-04-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-04-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-04-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-04-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-04-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-04-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-05-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-05-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-05-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (34 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-05-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-05-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-05-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (41 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-05-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-05-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-05-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (39 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-05-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-05-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-05-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (41 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-05-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-06-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-06-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-06-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-06-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-06-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-06-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-06-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-06-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (41 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-06-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-06-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-06-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-06-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-06-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-06-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-07-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-07-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-07-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-07-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-07-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-07-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-07-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-07-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-07-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-07-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-07-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-07-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (37 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-08-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-08-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-08-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-08-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-08-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-08-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-08-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-08-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-08-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-08-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-08-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-08-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-08-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-08-31",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-09-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (39 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-09-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-09-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-09-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (41 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-09-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-09-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-09-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-09-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-09-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-09-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-09-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-09-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-09-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-10-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-10-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-10-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-10-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-10-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-10-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-10-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-10-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-10-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (45 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-10-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-10-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-10-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (114 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-11-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-11-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-11-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-11-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-11-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-11-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-11-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-11-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-11-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-11-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-11-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-11-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-11-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-11-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-12-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-12-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-12-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-12-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-12-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-12-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-12-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-12-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-12-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-12-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-12-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-12-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-12-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2024-12-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2024-12-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2024-12-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-01-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-01-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-01-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-01-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-01-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-01-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-01-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-01-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-01-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-01-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-01-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-01-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-01-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-01-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-02-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-02-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-02-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-02-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-02-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-02-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-02-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-02-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-02-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-02-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-02-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-02-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-03-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-03-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-03-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-03-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-03-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (101 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-03-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-03-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-03-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (114 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-03-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-03-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-03-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (108 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-03-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-03-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-03-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-04-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-04-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-04-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-04-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-04-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-04-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-04-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "4 heures manquantes dans la plage 0h-23h"
+    ]
+  },
+  {
+    "date": "2025-04-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-04-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-04-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-04-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-04-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-04-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (40 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-05-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-05-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-05-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-05-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-05-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-05-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-05-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-05-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-05-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-05-23",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-05-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-05-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-05-30",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-05-31",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-06-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-06-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-06-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-06-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-06-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-06-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-06-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-06-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-06-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-06-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-06-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-06-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-06-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (50 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-07-04",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-07-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-07-06",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-07-11",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-07-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-07-13",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-07-18",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-07-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-07-20",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (56 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-07-25",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-07-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-07-27",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-08-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-08-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-08-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-08-08",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-08-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-08-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (51 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-08-15",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-08-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-08-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (43 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-08-22",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-08-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-08-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (46 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-08-29",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-08-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-08-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (38 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-09-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-09-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-09-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (49 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-09-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-09-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-09-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (46 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-09-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-09-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-09-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-09-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-09-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-09-28",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-10-01",
+    "type": "invalid_after_import",
+    "issues": [
+      "D\u00e9but tardif (2h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-10-03",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-10-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-10-05",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-10-10",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-10-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-10-12",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (54 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-10-17",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-10-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-10-19",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (52 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-10-24",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-10-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-10-26",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (110 < 1000)",
+      "D\u00e9but tardif (22h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-10-31",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (21h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-11-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-02",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (53 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-11-07",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-11-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-09",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (47 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-11-14",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-11-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-16",
+    "type": "invalid_after_import",
+    "issues": [
+      "Trop peu de prix (55 < 1000)",
+      "D\u00e9but tardif (23h au lieu de 0h)"
+    ]
+  },
+  {
+    "date": "2025-11-21",
+    "type": "invalid_after_import",
+    "issues": [
+      "Fin pr\u00e9coce (22h au lieu de 23h)"
+    ]
+  },
+  {
+    "date": "2025-11-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-11-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-01",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-02",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-03",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-04",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-05",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-06",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-07",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-08",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-09",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-10",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-11",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-12",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-13",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-14",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-15",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-16",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-17",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-18",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-19",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-20",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-21",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-22",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-23",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-24",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-25",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-26",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-27",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-28",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-29",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-30",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  },
+  {
+    "date": "2025-12-31",
+    "type": "import_failed",
+    "error": "No data from Finnhub (s=no_data)"
+  }
+]

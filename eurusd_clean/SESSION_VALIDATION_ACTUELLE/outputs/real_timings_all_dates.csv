@@ -1,0 +1,7 @@
+date,pattern_type,anchor_time,wave1_real,pullback_real,wave2_real,wave1_delta_min,pullback_delta_min,wave2_delta_min,source
+2025-09-11,DOUBLE_WAVE,14:15,14:35,14:49,15:10,20.0,34.0,55.0,pattern_info_fallback
+2025-11-20,DOUBLE_WAVE,14:30,14:40,14:47,15:33,10.0,17.0,63.0,pattern_detected
+2025-10-10,DOUBLE_WAVE,16:00,16:10,16:18,17:36,10.0,18.0,96.0,pattern_detected
+2025-06-23,DOUBLE_WAVE,12:45,12:50,12:56,13:16,5.0,11.0,31.0,pattern_detected
+2025-05-29,DOUBLE_WAVE,18:00,18:00,18:03,18:16,0.0,3.0,16.0,pattern_detected
+2025-11-26,DOUBLE_WAVE,14:30,14:36,14:41,15:01,6.0,11.0,31.0,pattern_detected

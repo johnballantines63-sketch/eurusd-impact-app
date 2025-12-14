@@ -1,0 +1,7 @@
+date,pattern_type,pattern_confidence,pattern_detected,pattern_confidence_real,n_clusters,cluster_principal_time,cluster2_time,delta_t_minutes,case,case_description
+2025-09-11,DOUBLE_WAVE,100.0,True,95.0,2,14:30,14:45,15.0,CAS_1_ALTERNATIVE_1,Clusters multiples avec délai standard (ΔT = 15 min) → Alternative 1 (basée sur événements)
+2025-11-20,DOUBLE_WAVE,100.0,True,85.0,3,14:30,,,CAS_2_ALTERNATIVE_3,Pattern détecté avec confiance élevée (85.0%) → Alternative 3 (basée sur pattern)
+2025-10-10,DOUBLE_WAVE,100.0,True,75.0,3,16:00,19:00,180.0,CAS_1B_CLUSTERS_MULTIPLES_NON_STANDARD,Clusters multiples mais délai non standard (ΔT = 180 min) → Nécessite adaptation
+2025-06-23,DOUBLE_WAVE,100.0,True,85.0,4,12:45,17:30,285.0,CAS_1B_CLUSTERS_MULTIPLES_NON_STANDARD,Clusters multiples mais délai non standard (ΔT = 285 min) → Nécessite adaptation
+2025-05-29,DOUBLE_WAVE,100.0,True,80.0,7,18:00,19:00,60.0,CAS_1B_CLUSTERS_MULTIPLES_NON_STANDARD,Clusters multiples mais délai non standard (ΔT = 60 min) → Nécessite adaptation
+2025-11-26,DOUBLE_WAVE,100.0,True,95.0,10,14:30,16:00,90.0,CAS_1B_CLUSTERS_MULTIPLES_NON_STANDARD,Clusters multiples mais délai non standard (ΔT = 90 min) → Nécessite adaptation

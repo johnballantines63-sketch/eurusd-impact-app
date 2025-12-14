@@ -1,0 +1,165 @@
+{
+  "date": "2025-02-27",
+  "movement_start_time": "2025-02-27 13:41:00+00:00",
+  "direction_pred": "UP",
+  "direction_real": "DOWN",
+  "score": -0.5592372632343483,
+  "has_trigger": true,
+  "n_active": 14,
+  "contributions": [
+    {
+      "event_key": "initial jobless claims",
+      "family": "Jobless Claims",
+      "actual": 242.0,
+      "estimate": 221.0,
+      "surprise": 21.0,
+      "surprise_z": 2.058236053095948,
+      "alpha_weight": -1,
+      "contribution": -2.058236053095948,
+      "is_trigger": true
+    },
+    {
+      "event_key": "durable goods orders",
+      "family": "Durable Goods",
+      "actual": 3.1,
+      "estimate": 2.0,
+      "surprise": 1.1,
+      "surprise_z": 0.037507128573020805,
+      "alpha_weight": 1,
+      "contribution": 0.037507128573020805,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp growth rate",
+      "family": "GDP",
+      "actual": 2.3,
+      "estimate": 2.3,
+      "surprise": 0.0,
+      "surprise_z": -0.2043577871063757,
+      "alpha_weight": 1,
+      "contribution": -0.2043577871063757,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp price index",
+      "family": "GDP",
+      "actual": 2.4,
+      "estimate": 2.2,
+      "surprise": 0.19999999999999973,
+      "surprise_z": 0.7669298153801797,
+      "alpha_weight": 1,
+      "contribution": 0.7669298153801797,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp sales",
+      "family": "GDP",
+      "actual": 3.2,
+      "estimate": 3.2,
+      "surprise": 0.0,
+      "surprise_z": -0.12272045863478513,
+      "alpha_weight": 1,
+      "contribution": -0.12272045863478513,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gross domestic product",
+      "family": "GDP",
+      "actual": 2.3,
+      "estimate": 2.3,
+      "surprise": 0.0,
+      "surprise_z": -0.06764241035547537,
+      "alpha_weight": 1,
+      "contribution": -0.06764241035547537,
+      "is_trigger": false
+    },
+    {
+      "event_key": "continuing jobless claims",
+      "family": "Jobless Claims",
+      "actual": 1862.0,
+      "estimate": 1870.0,
+      "surprise": -8.0,
+      "surprise_z": -0.22310655772093516,
+      "alpha_weight": -1,
+      "contribution": 0.22310655772093516,
+      "is_trigger": false
+    },
+    {
+      "event_key": "jobless claims 4 week average",
+      "family": "Jobless Claims",
+      "actual": 224.0,
+      "estimate": 220.0,
+      "surprise": 4.0,
+      "surprise_z": 0.9378210405987087,
+      "alpha_weight": -1,
+      "contribution": -0.9378210405987087,
+      "is_trigger": true
+    },
+    {
+      "event_key": "durable goods orders_mom",
+      "family": "Durable Goods",
+      "actual": 3.1,
+      "estimate": 2.0,
+      "surprise": 1.1,
+      "surprise_z": -0.06683329459174787,
+      "alpha_weight": 1,
+      "contribution": -0.06683329459174787,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gross domestic product_qoq",
+      "family": "GDP",
+      "actual": 2.3,
+      "estimate": 2.3,
+      "surprise": 0.0,
+      "surprise_z": -0.10599978800063596,
+      "alpha_weight": 1,
+      "contribution": -0.10599978800063596,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp growth rate_qoq",
+      "family": "GDP",
+      "actual": 2.3,
+      "estimate": 2.3,
+      "surprise": 0.0,
+      "surprise_z": -0.2742673831908303,
+      "alpha_weight": 1,
+      "contribution": -0.2742673831908303,
+      "is_trigger": false
+    },
+    {
+      "event_key": "durable goods orders ex defense_mom",
+      "family": "Durable Goods",
+      "actual": 3.5,
+      "estimate": 1.4,
+      "surprise": 2.1,
+      "surprise_z": 0.1308404875407847,
+      "alpha_weight": 1,
+      "contribution": 0.1308404875407847,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp sales_qoq",
+      "family": "GDP",
+      "actual": 3.2,
+      "estimate": 3.2,
+      "surprise": 0.0,
+      "surprise_z": -0.324309518712743,
+      "alpha_weight": 1,
+      "contribution": -0.324309518712743,
+      "is_trigger": false
+    },
+    {
+      "event_key": "gdp price index_qoq",
+      "family": "GDP",
+      "actual": 2.4,
+      "estimate": 2.2,
+      "surprise": 0.19999999999999973,
+      "surprise_z": 0.9113295081322873,
+      "alpha_weight": 1,
+      "contribution": 0.9113295081322873,
+      "is_trigger": true
+    }
+  ]
+}

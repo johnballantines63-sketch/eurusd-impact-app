@@ -1,0 +1,882 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-07T10:03:27.776145",
+    "total_unique_events": 1392,
+    "classified": 611,
+    "unclassified": 781
+  },
+  "families": {
+    "Budget": {
+      "keywords": [
+        "budget",
+        "deficit",
+        "surplus"
+      ],
+      "event_keys": [
+        "2023 24 federal budget",
+        "2024 25 budget presentation",
+        "autumn budget 2024",
+        "budget 2024",
+        "budget 2024 news conference",
+        "budget balance",
+        "federal budget",
+        "government budget",
+        "monthly budget statement",
+        "spring budget 2023",
+        "spring budget 2024"
+      ],
+      "countries": [
+        "AU",
+        "DE",
+        "FR",
+        "GB",
+        "IT",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 103
+    },
+    "Monetary_Policy": {
+      "keywords": [
+        "monetary policy"
+      ],
+      "event_keys": [
+        "2023 us monetary policy forum",
+        "monetary policy meeting minutes",
+        "monetary policy report",
+        "rba monetary policy statement",
+        "rba statement on monetary policy"
+      ],
+      "countries": [
+        "AU",
+        "GB",
+        "JP",
+        "US"
+      ],
+      "total_occurrences": 17
+    },
+    "Employment": {
+      "keywords": [
+        "employment change",
+        "payrolls change"
+      ],
+      "event_keys": [
+        "adp employment change",
+        "employment change",
+        "employment change adjusted"
+      ],
+      "countries": [
+        "AU",
+        "DE",
+        "ES",
+        "EU",
+        "GB",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 171
+    },
+    "Construction": {
+      "keywords": [
+        "construction",
+        "building"
+      ],
+      "event_keys": [
+        "ai group construction index",
+        "building capital expenditure",
+        "construction orders",
+        "construction output",
+        "construction spending",
+        "construction work done"
+      ],
+      "countries": [
+        "AU",
+        "EA",
+        "EU",
+        "GB",
+        "IT",
+        "JP",
+        "US"
+      ],
+      "total_occurrences": 266
+    },
+    "Manufacturing": {
+      "keywords": [
+        "manufacturing",
+        "industrial production"
+      ],
+      "event_keys": [
+        "ai group manufacturing index",
+        "bsi large manufacturing",
+        "dallas fed manufacturing index",
+        "industrial production",
+        "industrial production mom",
+        "ism manufacturing employment",
+        "ism manufacturing new orders",
+        "ism manufacturing prices",
+        "ism non manufacturing business activity",
+        "ism non manufacturing employment",
+        "ism non manufacturing new orders",
+        "ism non manufacturing prices",
+        "kansas fed manufacturing index",
+        "manufacturing production",
+        "manufacturing sales",
+        "ny empire state manufacturing index",
+        "philadelphia fed manufacturing index",
+        "richmond fed manufacturing index",
+        "richmond fed manufacturing shipments index",
+        "tankan large manufacturing outlook",
+        "tankan large non manufacturing index",
+        "tankan non manufacturing outlook",
+        "tankan small non manufacturing index"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "EA",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 1001
+    },
+    "Confidence": {
+      "keywords": [
+        "confidence",
+        "sentiment",
+        "consumer sentiment"
+      ],
+      "event_keys": [
+        "anz business confidence",
+        "anz roy morgan consumer confidence",
+        "business confidence",
+        "cb consumer confidence",
+        "chancellor olaf scholz confidence vote",
+        "consumer confidence",
+        "economic sentiment",
+        "economic sentiment index",
+        "gfk consumer confidence",
+        "industrial sentiment",
+        "michigan consumer sentiment",
+        "nab business confidence",
+        "nzier business confidence",
+        "sentix investors sentiment",
+        "services sentiment",
+        "westpac consumer confidence",
+        "westpac consumer confidence change",
+        "westpac consumer confidence index",
+        "zew economic sentiment index"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "EA",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 1062
+    },
+    "GDP": {
+      "keywords": [
+        "gdp",
+        "gross domestic"
+      ],
+      "event_keys": [
+        "atlanta fed gdpnow",
+        "full year gdp growth",
+        "gdp",
+        "gdp 3 month avg",
+        "gdp capital expenditure",
+        "gdp consumption",
+        "gdp deflator",
+        "gdp external demand",
+        "gdp final consumption",
+        "gdp growth annualized",
+        "gdp growth rate",
+        "gdp growth rate qoq 3rd",
+        "gdp growth rate qoq adv",
+        "gdp growth rate yoy 3rd",
+        "gdp growth rate yoy adv",
+        "gdp private consumption",
+        "gdp sales",
+        "gdp sales qoq adv",
+        "government budget to gdp",
+        "government debt to gdp",
+        "gross domestic product",
+        "net exports contribution to gdp",
+        "niesr monthly gdp tracker"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "EA",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 737
+    },
+    "Wages": {
+      "keywords": [
+        "wages",
+        "earnings",
+        "average hourly"
+      ],
+      "event_keys": [
+        "average cash earnings",
+        "average earnings excl bonus",
+        "average earnings incl bonus",
+        "average hourly earnings",
+        "employment cost wages",
+        "employment wages",
+        "real earnings"
+      ],
+      "countries": [
+        "GB",
+        "JP",
+        "US"
+      ],
+      "total_occurrences": 187
+    },
+    "CPI": {
+      "keywords": [
+        "cpi",
+        "consumer price",
+        "price index"
+      ],
+      "event_keys": [
+        "baden wuerttemberg cpi",
+        "bavaria cpi",
+        "brandenburg cpi",
+        "brc shop price index",
+        "consumer price index",
+        "core cpi",
+        "core pce price index",
+        "cpi",
+        "cpi s a",
+        "gdp chain price index",
+        "gdp price index",
+        "gdp price index qoq adv",
+        "global dairy trade price index",
+        "globaldairytrade price index",
+        "halifax house price index",
+        "hesse cpi",
+        "house price index",
+        "monthly cpi indicator",
+        "north rhine westphalia cpi",
+        "pce price index",
+        "producer price index",
+        "rba trimmed mean cpi",
+        "rba weighted median cpi",
+        "retail price index",
+        "saxony cpi",
+        "tokyo core cpi",
+        "tokyo cpi",
+        "tokyo cpi ex food and energy",
+        "wage price index"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "EA",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 1307
+    },
+    "Central_Bank": {
+      "keywords": [
+        "central bank",
+        "ecb",
+        "boj",
+        "boe"
+      ],
+      "event_keys": [
+        "boe benford speech",
+        "boe benjamin speech",
+        "boe breeden speech",
+        "boe broabent speech",
+        "boe broadbent speech",
+        "boe butt speech",
+        "boe cleland speech",
+        "boe consumer credit",
+        "boe credit conditions survey",
+        "boe cunliffe speech",
+        "boe decision maker panel",
+        "boe deputy gov bailey speech",
+        "boe dhingra speech",
+        "boe evans speech",
+        "boe financial policy summary and record",
+        "boe financial stability report",
+        "boe fpc meeting minutes",
+        "boe gov bailey speech",
+        "boe greene speech",
+        "boe grenne speech",
+        "boe hall speech",
+        "boe haskel speech",
+        "boe hauser speech",
+        "boe kroszner speech",
+        "boe l mann speech",
+        "boe lombardelli speech",
+        "boe mann speech",
+        "boe member broadbent",
+        "boe member pill speech",
+        "boe monetary policy report",
+        "boe monetary policy report hearings",
+        "boe mpc treasury committee hearings",
+        "boe mpc vote cut",
+        "boe mpc vote hike",
+        "boe mpc vote unchanged",
+        "boe pill speech",
+        "boe quantitative easing",
+        "boe quarterly bulletin",
+        "boe ramsden speech",
+        "boe stheeman speech",
+        "boe tenreyro speech",
+        "boe truran speech",
+        "boe woods speech",
+        "boj adachi speech",
+        "boj amamiya speech",
+        "boj gov ueda speech",
+        "boj hajime speech",
+        "boj himino speech",
+        "boj kuroda speech",
+        "boj monetary policy meeting minutes",
+        "boj nakagawa speech",
+        "boj nakamura speech",
+        "boj noguchi asahi speech",
+        "boj noguchi speech",
+        "boj press conference",
+        "boj quarterly outlook report",
+        "boj summary of opinions",
+        "boj tamura speech",
+        "boj uchida speech",
+        "central bank balance sheet",
+        "ecb af jochnick speech",
+        "ecb annual report 2022",
+        "ecb bank lending survey",
+        "ecb buch speech",
+        "ecb bulletin",
+        "ecb cipollone speech",
+        "ecb consumer expectation survey",
+        "ecb consumer expectations survey",
+        "ecb de cos speech",
+        "ecb de guindos speech",
+        "ecb economic bulletin",
+        "ecb economic projections",
+        "ecb elderson speech",
+        "ecb enria speech",
+        "ecb fernandez bollo speech",
+        "ecb financial stability review",
+        "ecb forum on central banking",
+        "ecb general council meeting",
+        "ecb guindos speech",
+        "ecb hern ndez de cos speech",
+        "ecb hernandez de cos speech",
+        "ecb herodotou speech",
+        "ecb holzmann speech",
+        "ecb jochnick speech",
+        "ecb ka im r speech",
+        "ecb knot speech",
+        "ecb lagarde speech",
+        "ecb lane speech",
+        "ecb macroeconomic projections",
+        "ecb makhlouf speech",
+        "ecb mccaul speech",
+        "ecb monetary policy meeting accounts",
+        "ecb monetary policy statement and press conference",
+        "ecb montagner speech",
+        "ecb nagel speech",
+        "ecb non monetary policy meeting",
+        "ecb panetta speech",
+        "ecb president lagarde speech",
+        "ecb press conference",
+        "ecb research bulletin",
+        "ecb schnabel speech",
+        "ecb stournaras speech",
+        "ecb survey of monetary analysts",
+        "ecb survey of professional forecasters",
+        "ecb tuominen speech",
+        "ecb villeroy de galhau speech",
+        "ecb wunsch speech"
+      ],
+      "countries": [
+        "EA",
+        "EU",
+        "GB",
+        "JP",
+        "US"
+      ],
+      "total_occurrences": 1590
+    },
+    "Fed_Rate": {
+      "keywords": [
+        "fed funds",
+        "federal reserve rate",
+        "interest rate decision"
+      ],
+      "event_keys": [
+        "boe interest rate decision",
+        "boj interest rate decision",
+        "ecb interest rate decision",
+        "fed interest rate decision",
+        "interest rate decision",
+        "rba interest rate decision",
+        "rbnz interest rate decision",
+        "snb interest rate decision"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "EA",
+        "EU",
+        "GB",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 169
+    },
+    "Retail": {
+      "keywords": [
+        "retail sales",
+        "retail trade"
+      ],
+      "event_keys": [
+        "brc retail sales monitor",
+        "retail sales",
+        "retail sales ex autos",
+        "retail sales ex fuel",
+        "retail sales ex gas autos"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "EA",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 579
+    },
+    "Housing": {
+      "keywords": [
+        "housing",
+        "building permits",
+        "home sales"
+      ],
+      "event_keys": [
+        "building permits",
+        "existing home sales",
+        "hia new home sales",
+        "housing credit",
+        "housing starts",
+        "nahb housing market index",
+        "nationwide housing prices",
+        "new home sales",
+        "pending home sales"
+      ],
+      "countries": [
+        "AU",
+        "GB",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 471
+    },
+    "Inflation": {
+      "keywords": [
+        "inflation rate",
+        "inflation expectations"
+      ],
+      "event_keys": [
+        "business inflation expectations",
+        "consumer inflation expectations",
+        "core inflation rate",
+        "harmonised inflation rate",
+        "inflation expectations",
+        "inflation rate",
+        "inflation rate ex food and energy",
+        "michigan 5 year inflation expectations",
+        "michigan inflation expectations"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "EA",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 1553
+    },
+    "PMI": {
+      "keywords": [
+        "pmi",
+        "purchasing manager"
+      ],
+      "event_keys": [
+        "business nz pmi",
+        "chicago pmi",
+        "construction pmi",
+        "hcob composite pmi",
+        "hcob construction pmi",
+        "hcob manufacturing pmi",
+        "hcob services pmi",
+        "ism manufacturing pmi",
+        "ism non manufacturing pmi",
+        "ism services pmi",
+        "jibun bank composite pmi",
+        "jibun bank manufacturing pmi",
+        "jibun bank services pmi",
+        "judo bank composite pmi",
+        "judo bank manufacturing pmi",
+        "judo bank services pmi",
+        "manufacturing pmi",
+        "pmi",
+        "procure ch manufacturing pmi",
+        "procure ch services pmi",
+        "s p global cips composite pmi",
+        "s p global cips construction pmi",
+        "s p global cips manufacturing pmi",
+        "s p global cips services pmi",
+        "s p global cips uk services pmi",
+        "s p global composite pmi",
+        "s p global construction pmi",
+        "s p global manufacturing pmi",
+        "s p global manufacturing pmii",
+        "s p global services pmi",
+        "services pmi"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "EA",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 2545
+    },
+    "Production": {
+      "keywords": [
+        "production",
+        "output"
+      ],
+      "event_keys": [
+        "car production",
+        "eia distillate fuel production change",
+        "eia gasoline production change",
+        "ppi core output",
+        "ppi output"
+      ],
+      "countries": [
+        "GB",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 479
+    },
+    "Orders": {
+      "keywords": [
+        "orders",
+        "order book"
+      ],
+      "event_keys": [
+        "cbi industrial trends orders",
+        "durable goods orders",
+        "durable goods orders ex defense",
+        "durable goods orders ex transp",
+        "factory orders",
+        "factory orders ex transportation",
+        "ism services new orders",
+        "machine tool orders",
+        "machinery orders",
+        "non defense goods orders ex air",
+        "philly fed new orders"
+      ],
+      "countries": [
+        "DE",
+        "GB",
+        "JP",
+        "US"
+      ],
+      "total_occurrences": 500
+    },
+    "Jobless_Claims": {
+      "keywords": [
+        "jobless claims",
+        "initial claims",
+        "continuing claims"
+      ],
+      "event_keys": [
+        "continuing jobless claims",
+        "initial jobless claims",
+        "jobless claims 4 week average"
+      ],
+      "countries": [
+        "US"
+      ],
+      "total_occurrences": 519
+    },
+    "PPI": {
+      "keywords": [
+        "ppi",
+        "producer price"
+      ],
+      "event_keys": [
+        "core ppi",
+        "ppi",
+        "ppi ex food energy and trade",
+        "ppi input"
+      ],
+      "countries": [
+        "AU",
+        "DE",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 320
+    },
+    "Current_Account": {
+      "keywords": [
+        "current account"
+      ],
+      "event_keys": [
+        "current account",
+        "current account s a"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "EA",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 344
+    },
+    "Trade": {
+      "keywords": [
+        "trade balance",
+        "exports",
+        "imports"
+      ],
+      "event_keys": [
+        "eia crude oil imports change",
+        "exports",
+        "exports mom s a",
+        "goods trade balance",
+        "goods trade balance adv",
+        "goods trade balance non eu",
+        "imports",
+        "imports mom s a",
+        "trade balance"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 914
+    },
+    "FOMC": {
+      "keywords": [
+        "fomc",
+        "federal open market"
+      ],
+      "event_keys": [
+        "fomc economic projections",
+        "fomc minutes"
+      ],
+      "countries": [
+        "US"
+      ],
+      "total_occurrences": 49
+    },
+    "NFP": {
+      "keywords": [
+        "non farm",
+        "nonfarm",
+        "payroll"
+      ],
+      "event_keys": [
+        "government payrolls",
+        "hmrc payrolls change",
+        "manufacturing payrolls",
+        "non farm payrolls",
+        "non farm payrolls annual revision",
+        "nonfarm payrolls private",
+        "nonfarm productivity",
+        "private non farm payrolls"
+      ],
+      "countries": [
+        "CH",
+        "FR",
+        "GB",
+        "US"
+      ],
+      "total_occurrences": 271
+    },
+    "IFO": {
+      "keywords": [
+        "ifo"
+      ],
+      "event_keys": [
+        "ifo business climate",
+        "ifo current conditions",
+        "ifo expectations"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "total_occurrences": 120
+    },
+    "Interest_Rate": {
+      "keywords": [
+        "interest rate"
+      ],
+      "event_keys": [
+        "interest rate projection 1st yr",
+        "interest rate projection 2nd yr",
+        "interest rate projection 3rd yr",
+        "interest rate projection current",
+        "interest rate projection longer"
+      ],
+      "countries": [
+        "US"
+      ],
+      "total_occurrences": 67
+    },
+    "M3": {
+      "keywords": [
+        "m3",
+        "money supply"
+      ],
+      "event_keys": [
+        "m2 money supply",
+        "m3 money supply",
+        "m4 money supply",
+        "money supply"
+      ],
+      "countries": [
+        "CH",
+        "EA",
+        "EU",
+        "GB",
+        "JP",
+        "US"
+      ],
+      "total_occurrences": 139
+    },
+    "Unemployment": {
+      "keywords": [
+        "unemployment",
+        "jobless rate",
+        "unemployment rate"
+      ],
+      "event_keys": [
+        "u 6 unemployment rate",
+        "unemployment benefit claims",
+        "unemployment change",
+        "unemployment rate",
+        "unemployment rate adjusted",
+        "unemployment rate harmonised"
+      ],
+      "countries": [
+        "AU",
+        "CH",
+        "DE",
+        "EA",
+        "ES",
+        "EU",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "NZ",
+        "US"
+      ],
+      "total_occurrences": 474
+    },
+    "ZEW": {
+      "keywords": [
+        "zew"
+      ],
+      "event_keys": [
+        "zew current conditions",
+        "zew expectations"
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "total_occurrences": 50
+    }
+  }
+}

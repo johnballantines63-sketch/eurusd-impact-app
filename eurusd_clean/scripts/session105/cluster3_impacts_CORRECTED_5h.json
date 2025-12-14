@@ -1,0 +1,96 @@
+{
+  "cluster": "Cluster #3 - CPI mensuel",
+  "num_dates": 6,
+  "method": "session_92.5_with_5h_window",
+  "window_minutes": 300,
+  "event_time_bern": "14:30:00",
+  "event_time_db": "12:30:00",
+  "measurements": [
+    {
+      "date": "2025-09-11",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.16874,
+      "price_peak": 1.17448,
+      "direction": "UP",
+      "impact_pips": 57.40000000000079,
+      "duration_min": 173.0,
+      "duration_hours": 2.8833333333333333,
+      "is_multi_wave": true,
+      "num_candles": 301
+    },
+    {
+      "date": "2025-08-12",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.16056,
+      "price_peak": 1.1695,
+      "direction": "UP",
+      "impact_pips": 89.39999999999948,
+      "duration_min": 194.0,
+      "duration_hours": 3.2333333333333334,
+      "is_multi_wave": true,
+      "num_candles": 301
+    },
+    {
+      "date": "2025-07-15",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.16668,
+      "price_peak": 1.15934,
+      "direction": "DOWN",
+      "impact_pips": 73.39999999999903,
+      "duration_min": 299.0,
+      "duration_hours": 4.983333333333333,
+      "is_multi_wave": true,
+      "num_candles": 301
+    },
+    {
+      "date": "2025-06-11",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.14358,
+      "price_peak": 1.14962,
+      "direction": "UP",
+      "impact_pips": 60.40000000000045,
+      "duration_min": 249.0,
+      "duration_hours": 4.15,
+      "is_multi_wave": true,
+      "num_candles": 301
+    },
+    {
+      "date": "2025-05-13",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.11141,
+      "price_peak": 1.11824,
+      "direction": "UP",
+      "impact_pips": 68.29999999999892,
+      "duration_min": 252.0,
+      "duration_hours": 4.2,
+      "is_multi_wave": true,
+      "num_candles": 301
+    },
+    {
+      "date": "2025-04-10",
+      "event_time_bern": "14:30:00",
+      "event_time_db": "12:30:00",
+      "price_start": 1.11037,
+      "price_peak": 1.12255,
+      "direction": "UP",
+      "impact_pips": 121.79999999999858,
+      "duration_min": 192.0,
+      "duration_hours": 3.2,
+      "is_multi_wave": true,
+      "num_candles": 301
+    }
+  ],
+  "statistics": {
+    "mean": 78.44999999999955,
+    "median": 70.84999999999897,
+    "std": 24.068880322939194,
+    "min": 57.40000000000079,
+    "max": 121.79999999999858,
+    "num_multi_wave": 6
+  }
+}

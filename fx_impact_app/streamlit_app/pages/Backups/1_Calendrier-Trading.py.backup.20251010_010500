@@ -1,0 +1,1011 @@
+import streamlit as st
+import pandas as pd
+import duckdb
+from datetime import datetime, timedelta
+from pathlib import Path
+import time
+import plotly.express as px
+import plotly.graph_objects as go
+
+# ============================================================================
+# CONFIGURATION
+# ============================================================================
+
+DB_PATH = Path(__file__).parent.parent.parent / "data" / "warehouse.duckdb"
+
+# Configuration cache
+CACHE_TTL = 3600  # 1 heure
+CACHE_MAX_ENTRIES = 128  # Limite mémoire
+
+# Configuration alertes
+ALERT_LOOKBACK_HOURS = 48  # Alertes pour les prochaines 48h
+ALERT_HIGH_IMPACT_ONLY = True  # Alertes uniquement pour High Impact
+
+# ============================================================================
+# FONCTIONS DE CACHE OPTIMISÉES
+# ============================================================================
+
+@st.cache_data(ttl=CACHE_TTL, show_spinner=False)
+def load_all_events_cached(start_date: str, end_date: str) -> pd.DataFrame:
+    """
+    Charge TOUS les événements pour une période donnée avec scores empiriques.
+    Mise en cache pour éviter les requêtes répétées.
+    
+    Args:
+        start_date: Date début format 'YYYY-MM-DD'
+        end_date: Date fin format 'YYYY-MM-DD'
+    
+    Returns:
+        DataFrame avec tous les événements + scores empiriques
+    """
+    start_time = time.time()
+    
+    try:
+        conn = duckdb.connect(str(DB_PATH), read_only=True)
+        
+        query = f"""
+        SELECT 
+            e.ts_utc as event_datetime,
+            e.country as currency,
+            e.event_title as event_name,
+            e.event_key,
+            e.importance_n,
+            e.actual,
+            e.estimate,
+            e.previous,
+            e.forecast,
+            e.unit,
+            e.type,
+            ef.empirical_score,
+            ef.empirical_impact,
+            ef.impact_level as theoretical_impact
+        FROM events e
+        LEFT JOIN event_families ef ON e.event_key = ef.event_key
+        WHERE ts_utc::DATE >= '{start_date}'::DATE
+          AND ts_utc::DATE <= '{end_date}'::DATE
+          AND e.country IN ('EU', 'US', 'EA')
+          AND e.importance_n IS NOT NULL
+        ORDER BY ts_utc ASC
+        """
+        
+        df = conn.execute(query).df()
+        conn.close()
+        
+        # Conversion types
+        df['event_datetime'] = pd.to_datetime(df['event_datetime'])
+        
+        # ID unique pour chaque événement
+        df['event_id'] = df['event_key'].fillna('').astype(str)
+        df.loc[df['event_id'] == '', 'event_id'] = 'event_' + df.index.astype(str)
+        
+        # Conversion importance_n vers impact_calendar
+        # IMPORTANT: 1 = High, 2 = Medium, 3 = Low
+        impact_calendar_map = {1: 'High', 2: 'Medium', 3: 'Low'}
+        df['impact_calendar'] = df['importance_n'].map(impact_calendar_map).fillna('Low')
+        
+        # Conversion empirical_impact vers impact_empirical
+        # Gérer les NaN pour événements sans famille
+        df['impact_empirical'] = df['empirical_impact'].fillna('Unknown')
+        
+        # Utiliser estimate, sinon forecast comme fallback
+        df['estimate'] = df['estimate'].fillna(df['forecast'])
+        
+        # Métriques performance
+        load_time = time.time() - start_time
+        if 'perf_metrics' not in st.session_state:
+            st.session_state.perf_metrics = {}
+        st.session_state.perf_metrics['last_load_time'] = load_time
+        st.session_state.perf_metrics['events_loaded'] = len(df)
+        
+        return df
+        
+    except Exception as e:
+        st.error(f"❌ Erreur chargement événements : {e}")
+        return pd.DataFrame()
+
+
+@st.cache_data(ttl=CACHE_TTL, show_spinner=False)
+def get_events_by_date_cached(df_all_events: pd.DataFrame, target_date: str) -> pd.DataFrame:
+    """
+    Filtre les événements pour une date spécifique depuis le cache.
+    Ultra-rapide car tout est déjà en mémoire.
+    """
+    if df_all_events.empty:
+        return pd.DataFrame()
+    
+    target_dt = pd.to_datetime(target_date)
+    mask = df_all_events['event_datetime'].dt.date == target_dt.date()
+    
+    return df_all_events[mask].copy()
+
+
+@st.cache_data(ttl=CACHE_TTL, show_spinner=False)
+def get_high_impact_events_cached(df_all_events: pd.DataFrame) -> pd.DataFrame:
+    """
+    Filtre uniquement les événements High Impact depuis le cache.
+    """
+    if df_all_events.empty:
+        return pd.DataFrame()
+    
+    return df_all_events[df_all_events['impact'] == 'High'].copy()
+
+
+@st.cache_data(ttl=CACHE_TTL, show_spinner=False)
+def get_events_with_surprise_cached(df_all_events: pd.DataFrame, min_surprise_pct: float = 10.0) -> pd.DataFrame:
+    """
+    Filtre les événements avec surprise significative.
+    """
+    if df_all_events.empty:
+        return pd.DataFrame()
+    
+    df = df_all_events.copy()
+    
+    # Calcul surprise
+    mask = (df['actual'].notna()) & (df['estimate'].notna()) & (df['estimate'] != 0)
+    df_with_data = df[mask].copy()
+    
+    df_with_data['surprise_pct'] = abs(
+        (df_with_data['actual'] - df_with_data['estimate']) / df_with_data['estimate'] * 100
+    )
+    
+    return df_with_data[df_with_data['surprise_pct'] >= min_surprise_pct]
+
+
+# ============================================================================
+# FONCTIONS GRAPHIQUES
+# ============================================================================
+
+def create_timeline_chart(df: pd.DataFrame) -> go.Figure:
+    """
+    Crée un graphique timeline interactif des événements.
+    """
+    if df.empty:
+        return None
+    
+    df_chart = df.copy()
+    df_chart['date'] = df_chart['event_datetime'].dt.date
+    df_chart['time'] = df_chart['event_datetime'].dt.strftime('%H:%M')
+    
+    # Couleurs par impact
+    color_map = {
+        'High': '#FF4B4B',
+        'Medium': '#FFA500',
+        'Low': '#00CC00'
+    }
+    
+    # Symboles par devise - gérer les NaN
+    symbol_map = {
+        'EU': 'circle',
+        'US': 'square',
+        'EA': 'diamond'
+    }
+    
+    df_chart['color'] = df_chart['impact'].map(color_map).fillna('#CCCCCC')
+    df_chart['symbol'] = df_chart['currency'].map(symbol_map).fillna('circle')
+    
+    # Filtrer les lignes avec des valeurs valides uniquement
+    df_chart = df_chart[df_chart['currency'].notna()].copy()
+    
+    fig = go.Figure()
+    
+    # Ajout des événements par impact
+    for impact in ['High', 'Medium', 'Low']:
+        df_impact = df_chart[df_chart['impact'] == impact]
+        
+        if not df_impact.empty:
+            fig.add_trace(go.Scatter(
+                x=df_impact['event_datetime'],
+                y=df_impact['impact'],
+                mode='markers+text',
+                name=f'{impact} Impact',
+                marker=dict(
+                    size=15,
+                    color=color_map[impact],
+                    symbol=df_impact['symbol'].tolist(),  # Convertir en liste
+                    line=dict(width=2, color='white')
+                ),
+                text=df_impact['time'],
+                textposition='top center',
+                textfont=dict(size=9),
+                hovertemplate='<b>%{customdata[0]}</b><br>' +
+                              'Time: %{customdata[1]}<br>' +
+                              'Currency: %{customdata[2]}<br>' +
+                              'Impact: %{y}<br>' +
+                              '<extra></extra>',
+                customdata=df_impact[['event_name', 'time', 'currency']]
+            ))
+    
+    # Mise en forme
+    fig.update_layout(
+        title='📊 Timeline des Événements',
+        xaxis_title='Date & Heure',
+        yaxis_title='Impact',
+        hovermode='closest',
+        height=400,
+        showlegend=True,
+        plot_bgcolor='rgba(0,0,0,0)',
+        paper_bgcolor='rgba(0,0,0,0)',
+        yaxis=dict(
+            categoryorder='array',
+            categoryarray=['Low', 'Medium', 'High']
+        )
+    )
+    
+    return fig
+
+
+def create_impact_distribution_chart(df: pd.DataFrame) -> go.Figure:
+    """
+    Crée un graphique de distribution des impacts par devise.
+    """
+    if df.empty:
+        return None
+    
+    # Comptage par impact et devise
+    impact_counts = df.groupby(['impact', 'currency']).size().reset_index(name='count')
+    
+    fig = go.Figure()
+    
+    colors = {'EU': '#003399', 'US': '#FF4B4B', 'EA': '#0066CC'}
+    
+    for currency in ['EU', 'US', 'EA']:
+        df_currency = impact_counts[impact_counts['currency'] == currency]
+        
+        fig.add_trace(go.Bar(
+            name=currency,
+            x=df_currency['impact'],
+            y=df_currency['count'],
+            marker_color=colors[currency],
+            text=df_currency['count'],
+            textposition='auto',
+        ))
+    
+    fig.update_layout(
+        title='📊 Distribution Impact par Devise',
+        xaxis_title='Impact',
+        yaxis_title='Nombre d\'événements',
+        barmode='group',
+        height=300,
+        showlegend=True,
+        plot_bgcolor='rgba(0,0,0,0)',
+        paper_bgcolor='rgba(0,0,0,0)',
+        xaxis=dict(
+            categoryorder='array',
+            categoryarray=['High', 'Medium', 'Low']
+        )
+    )
+    
+    return fig
+
+
+def create_hourly_heatmap(df: pd.DataFrame) -> go.Figure:
+    """
+    Crée une heatmap des événements par heure et jour.
+    """
+    if df.empty:
+        return None
+    
+    df_heat = df.copy()
+    df_heat['hour'] = df_heat['event_datetime'].dt.hour
+    df_heat['day_name'] = df_heat['event_datetime'].dt.day_name()
+    
+    # Comptage
+    heatmap_data = df_heat.groupby(['day_name', 'hour']).size().reset_index(name='count')
+    
+    # Pivot pour heatmap
+    pivot = heatmap_data.pivot(index='day_name', columns='hour', values='count').fillna(0)
+    
+    # Ordre des jours
+    days_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    pivot = pivot.reindex([d for d in days_order if d in pivot.index])
+    
+    fig = go.Figure(data=go.Heatmap(
+        z=pivot.values,
+        x=pivot.columns,
+        y=pivot.index,
+        colorscale='Reds',
+        text=pivot.values,
+        texttemplate='%{text}',
+        textfont={"size": 10},
+        hovertemplate='Jour: %{y}<br>Heure: %{x}h<br>Événements: %{z}<extra></extra>'
+    ))
+    
+    fig.update_layout(
+        title='🕐 Heatmap Événements par Jour & Heure',
+        xaxis_title='Heure',
+        yaxis_title='Jour',
+        height=350,
+        plot_bgcolor='rgba(0,0,0,0)',
+        paper_bgcolor='rgba(0,0,0,0)'
+    )
+    
+    return fig
+
+
+# ============================================================================
+# SYSTÈME D'ALERTES
+# ============================================================================
+
+def check_upcoming_high_impact_events(df: pd.DataFrame) -> list:
+    """
+    Vérifie les événements High Impact à venir dans les prochaines heures.
+    """
+    # S'assurer que now est timezone-aware
+    now = pd.Timestamp.now(tz='UTC')
+    lookback = now + timedelta(hours=ALERT_LOOKBACK_HOURS)
+    
+    # Convertir event_datetime en UTC si nécessaire
+    if df['event_datetime'].dt.tz is None:
+        df_copy = df.copy()
+        df_copy['event_datetime'] = pd.to_datetime(df_copy['event_datetime'], utc=True)
+    else:
+        df_copy = df.copy()
+        df_copy['event_datetime'] = df_copy['event_datetime'].dt.tz_convert('UTC')
+    
+    # Filtrer événements futurs High Impact
+    df_upcoming = df_copy[
+        (df_copy['event_datetime'] >= now) &
+        (df_copy['event_datetime'] <= lookback) &
+        (df_copy['impact'] == 'High')
+    ].sort_values('event_datetime')
+    
+    alerts = []
+    
+    for _, event in df_upcoming.iterrows():
+        time_until = event['event_datetime'] - now
+        hours_until = time_until.total_seconds() / 3600
+        
+        alerts.append({
+            'event_name': event['event_name'],
+            'currency': event['currency'],
+            'datetime': event['event_datetime'],
+            'hours_until': hours_until,
+            'estimate': event.get('estimate'),
+            'previous': event.get('previous')
+        })
+    
+    return alerts
+
+
+def display_alerts_panel(alerts: list):
+    """
+    Affiche le panneau d'alertes.
+    """
+    if not alerts:
+        st.success("✅ Aucun événement High Impact dans les prochaines 48h")
+        return
+    
+    st.warning(f"🔔 **{len(alerts)} événement(s) High Impact à venir**")
+    
+    for alert in alerts:
+        hours = alert['hours_until']
+        
+        # Urgence
+        if hours < 1:
+            urgency = "🔴 IMMINENT"
+            urgency_color = "red"
+        elif hours < 6:
+            urgency = "🟠 PROCHE"
+            urgency_color = "orange"
+        elif hours < 24:
+            urgency = "🟡 AUJOURD'HUI"
+            urgency_color = "yellow"
+        else:
+            urgency = "🟢 DEMAIN+"
+            urgency_color = "green"
+        
+        with st.container():
+            col1, col2, col3 = st.columns([1, 4, 2])
+            
+            with col1:
+                st.markdown(f"**{urgency}**")
+            
+            with col2:
+                currency_emoji = "🇪🇺" if alert['currency'] == 'EUR' else "🇺🇸"
+                st.write(f"{currency_emoji} **{alert['event_name']}**")
+                st.caption(alert['datetime'].strftime('%Y-%m-%d %H:%M'))
+            
+            with col3:
+                st.metric("Dans", f"{hours:.1f}h")
+            
+            st.divider()
+
+
+# ============================================================================
+# INTERFACE STREAMLIT
+# ============================================================================
+
+def main():
+    st.title("📅 Calendrier Trading - Événements à Surveiller")
+    st.caption("🚀 Version optimisée avec cache intelligent + Timeline + Alertes")
+    
+    # Note explicative sur la classification
+    st.info(
+        "ℹ️ **Classification affichée** : Importance selon le calendrier économique (a priori). "
+        "Pour l'**impact réel observé** basé sur l'historique, consultez le **Planificateur Multi-Événements**.",
+        icon="📊"
+    )
+    
+    # ========================================================================
+    # SIDEBAR - Configuration + Alertes
+    # ========================================================================
+    
+    with st.sidebar:
+        st.header("⚙️ Configuration")
+        
+        # Toggle fonctionnalités
+        show_timeline = st.checkbox("📈 Afficher Timeline", value=True, key="show_timeline")
+        show_alerts = st.checkbox("🔔 Activer Alertes", value=True, key="show_alerts")
+        show_heatmap = st.checkbox("🕐 Afficher Heatmap", value=False, key="show_heatmap")
+        
+        st.divider()
+        
+        # Preset périodes
+        period_preset = st.selectbox(
+            "Période rapide",
+            ["Personnalisé", "Aujourd'hui", "7 derniers jours", "30 derniers jours", "Ce mois", "Mois dernier"],
+            index=1,  # "Aujourd'hui" par défaut
+            key="period_preset"
+        )
+        
+        # Calcul dates selon preset
+        today = datetime.now().date()
+        
+        if period_preset == "Aujourd'hui":
+            default_start = today
+            default_end = today
+        elif period_preset == "7 derniers jours":
+            default_start = today - timedelta(days=7)
+            default_end = today
+        elif period_preset == "30 derniers jours":
+            default_start = today - timedelta(days=30)
+            default_end = today
+        elif period_preset == "Ce mois":
+            default_start = today.replace(day=1)  # Début du mois
+            default_end = today
+        elif period_preset == "Mois dernier":
+            # Mois dernier complet
+            first_of_month = today.replace(day=1)
+            default_end = first_of_month - timedelta(days=1)
+            default_start = default_end.replace(day=1)
+        else:
+            # Personnalisé : 7 derniers jours par défaut
+            default_start = today - timedelta(days=7)
+            default_end = today
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        start_date = st.date_input(
+            "📅 Date début",
+            value=default_start,
+            key="start_date"
+        )
+    
+    with col2:
+        end_date = st.date_input(
+            "📅 Date fin",
+            value=default_end,
+            key="end_date"
+        )
+    
+    # Validation période
+    if start_date > end_date:
+        st.error("❌ La date de début doit être avant la date de fin")
+        return
+    
+    # ========================================================================
+    # 2. CHARGEMENT AVEC CACHE (1 seule fois)
+    # ========================================================================
+    
+    with st.spinner("⏳ Chargement événements..."):
+        df_all = load_all_events_cached(
+            start_date=start_date.strftime('%Y-%m-%d'),
+            end_date=end_date.strftime('%Y-%m-%d')
+        )
+    
+    if df_all.empty:
+        st.warning("⚠️ Aucun événement trouvé pour cette période")
+        return
+    
+    # Déterminer quelle colonne d'impact utiliser
+    use_empirical = classification_mode == "📊 Empirique (historique)"
+    
+    if use_empirical:
+        # Utiliser impact empirique
+        df_all['impact'] = df_all['impact_empirical']
+        
+        # Compter événements sans score empirique
+        unknown_count = len(df_all[df_all['impact'] == 'Unknown'])
+        if unknown_count > 0:
+            st.warning(
+                f"⚠️ {unknown_count} événements sans score empirique (pas de famille mappée). "
+                f"Ils seront classés 'Unknown'."
+            )
+    else:
+        # Utiliser impact calendrier
+        df_all['impact'] = df_all['impact_calendar']
+    
+    # Message informatif
+    if use_empirical:
+        st.info(
+            "📊 **Classification Empirique** : Impact réel basé sur l'historique des mouvements EUR/USD. "
+            "Seuls les événements avec famille mappée ont un score.",
+            icon="📊"
+        )
+    else:
+        st.info(
+            "📅 **Classification Calendrier** : Importance théorique selon le calendrier économique (a priori).",
+            icon="📅"
+        )
+    
+    # ========================================================================
+    # ALERTES HIGH IMPACT (si activé)
+    # ========================================================================
+    
+    if show_alerts:
+        with st.expander("🔔 ALERTES - Événements High Impact à venir", expanded=True):
+            alerts = check_upcoming_high_impact_events(df_all)
+            display_alerts_panel(alerts)
+    
+    st.divider()
+    
+    # ========================================================================
+    # 3. STATISTIQUES RAPIDES
+    # ========================================================================
+    
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        st.metric("📊 Total événements", len(df_all))
+    
+    with col2:
+        if use_empirical:
+            high_impact = len(df_all[df_all['impact'] == 'HIGH'])
+            unknown_impact = len(df_all[df_all['impact'] == 'Unknown'])
+            st.metric(
+                "🔴 High Impact", 
+                high_impact,
+                help="Classification basée sur score empirique (historique)"
+            )
+            if unknown_impact > 0:
+                st.caption(f"⚪ {unknown_impact} Unknown")
+        else:
+            high_impact = len(df_all[df_all['impact'] == 'High'])
+            st.metric(
+                "🔴 High Impact", 
+                high_impact,
+                help="Classification basée sur calendrier économique"
+            )
+    
+    with col3:
+        eu_events = len(df_all[df_all['currency'].isin(['EU', 'EA'])])
+        st.metric("🇪🇺 EU/EA", eu_events)
+    
+    with col4:
+        us_events = len(df_all[df_all['currency'] == 'US'])
+        st.metric("🇺🇸 US", us_events)
+    
+    # Métriques additionnelles avec adaptation selon mode
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        events_with_estimate = len(df_all[df_all['estimate'].notna()])
+        st.metric("📈 Avec estimate", events_with_estimate)
+    
+    with col2:
+        events_with_actual = len(df_all[df_all['actual'].notna()])
+        st.metric("✅ Avec actual", events_with_actual)
+    
+    with col3:
+        if use_empirical:
+            medium_impact = len(df_all[df_all['impact'] == 'MEDIUM'])
+            st.metric("🟡 Medium Impact", medium_impact)
+        else:
+            medium_impact = len(df_all[df_all['impact'] == 'Medium'])
+            st.metric("🟡 Medium Impact", medium_impact)
+    
+    with col4:
+        if use_empirical:
+            low_impact = len(df_all[df_all['impact'] == 'LOW'])
+            st.metric("🟢 Low Impact", low_impact)
+        else:
+            low_impact = len(df_all[df_all['impact'] == 'Low'])
+            st.metric("🟢 Low Impact", low_impact)
+    
+    st.divider()
+    
+    # ========================================================================
+    # GRAPHIQUES (si activés)
+    # ========================================================================
+    
+    if show_timeline or show_heatmap:
+        st.subheader("📊 Visualisations")
+        
+        if show_timeline:
+            timeline_fig = create_timeline_chart(df_all)
+            if timeline_fig:
+                st.plotly_chart(timeline_fig, use_container_width=True)
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            dist_fig = create_impact_distribution_chart(df_all)
+            if dist_fig:
+                st.plotly_chart(dist_fig, use_container_width=True)
+        
+        with col2:
+            if show_heatmap:
+                heatmap_fig = create_hourly_heatmap(df_all)
+                if heatmap_fig:
+                    st.plotly_chart(heatmap_fig, use_container_width=True)
+        
+        st.divider()
+    
+    # ========================================================================
+    # 4. FILTRES INTERACTIFS (ultra-rapides car en mémoire)
+    # ========================================================================
+    
+    st.subheader("🔍 Filtres avancés")
+    
+    # Gérer le filtre High Impact depuis query params
+    show_high_impact = st.query_params.get("show_high_impact") == "true"
+    default_impact = ['High'] if show_high_impact else ['High', 'Medium', 'Low']
+    
+    # Nettoyer query params après utilisation
+    if show_high_impact:
+        st.query_params.clear()
+    
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        selected_currency = st.multiselect(
+            "Devise",
+            options=['EU', 'US', 'EA'],
+            default=['EU', 'US', 'EA'],
+            key="filter_currency",
+            help="EU = Union Européenne, US = États-Unis, EA = Eurozone"
+        )
+    
+    with col2:
+        if use_empirical:
+            impact_options = ['HIGH', 'MEDIUM', 'LOW', 'Unknown']
+            default_impact = ['HIGH', 'MEDIUM', 'LOW']
+        else:
+            impact_options = ['High', 'Medium', 'Low']
+            default_impact = default_impact if not show_high_impact else ['High']
+        
+        selected_impact = st.multiselect(
+            "Impact",
+            options=impact_options,
+            default=default_impact,
+            key="filter_impact"
+        )
+    
+    with col3:
+        filter_with_estimate = st.checkbox(
+            "Seulement avec estimate",
+            value=False,
+            key="filter_estimate"
+        )
+    
+    with col4:
+        min_surprise = st.slider(
+            "Surprise min (%)",
+            min_value=0,
+            max_value=100,
+            value=0,
+            step=5,
+            key="min_surprise",
+            help="Filtre les événements avec surprise >= X%"
+        )
+    
+    # Date spécifique (optionnel)
+    show_date_filter = st.checkbox("Filtrer par date spécifique", value=False)
+    
+    if show_date_filter:
+        selected_date = st.date_input(
+            "📅 Date spécifique",
+            value=start_date,
+            min_value=start_date,
+            max_value=end_date,
+            key="specific_date"
+        )
+    else:
+        selected_date = None
+    
+    # ========================================================================
+    # 5. FILTRAGE RAPIDE EN MÉMOIRE
+    # ========================================================================
+    
+    df_filtered = df_all.copy()
+    
+    # Filtre devise
+    if selected_currency:
+        df_filtered = df_filtered[df_filtered['currency'].isin(selected_currency)]
+    
+    # Filtre impact
+    if selected_impact:
+        df_filtered = df_filtered[df_filtered['impact'].isin(selected_impact)]
+    
+    # Filtre estimate
+    if filter_with_estimate:
+        df_filtered = df_filtered[df_filtered['estimate'].notna()]
+    
+    # Filtre surprise
+    if min_surprise > 0:
+        df_surprise = get_events_with_surprise_cached(df_filtered, min_surprise)
+        df_filtered = df_surprise
+    
+    # Filtre date spécifique
+    if selected_date:
+        df_filtered = get_events_by_date_cached(df_filtered, selected_date.strftime('%Y-%m-%d'))
+    
+    # ========================================================================
+    # 6. AFFICHAGE RÉSULTATS
+    # ========================================================================
+    
+    st.divider()
+    
+    # Options d'affichage
+    col1, col2, col3 = st.columns([2, 2, 1])
+    
+    with col1:
+        st.subheader(f"📋 Événements : {len(df_filtered)}")
+    
+    with col2:
+        view_mode = st.radio(
+            "Mode affichage",
+            ["Groupé par date", "Liste complète", "Tableau"],
+            horizontal=True,
+            key="view_mode"
+        )
+    
+    with col3:
+        if st.button("📥 Export CSV", type="secondary"):
+            csv = df_filtered.to_csv(index=False)
+            st.download_button(
+                "⬇️ Télécharger",
+                csv,
+                f"events_{start_date}_{end_date}.csv",
+                "text/csv"
+            )
+    
+    if df_filtered.empty:
+        st.info("ℹ️ Aucun événement ne correspond aux filtres")
+        return
+    
+    # ========================================================================
+    # MODE: Groupé par date
+    # ========================================================================
+    
+    if view_mode == "Groupé par date":
+        # Grouper par date
+        df_filtered['date'] = df_filtered['event_datetime'].dt.date
+        df_filtered['time'] = df_filtered['event_datetime'].dt.strftime('%H:%M')
+        
+        for date in sorted(df_filtered['date'].unique()):
+            df_day = df_filtered[df_filtered['date'] == date].sort_values('event_datetime')
+            
+            # Compte par impact
+            high_count = len(df_day[df_day['impact'] == 'High'])
+            medium_count = len(df_day[df_day['impact'] == 'Medium'])
+            low_count = len(df_day[df_day['impact'] == 'Low'])
+            
+            title = f"📅 {date.strftime('%A %d %B %Y')} - {len(df_day)} événements"
+            if high_count > 0:
+                title += f" (🔴 {high_count})"
+            
+            with st.expander(title, expanded=(len(df_filtered['date'].unique()) <= 3)):
+                for _, event in df_day.iterrows():
+                    display_event_card(event)
+    
+    # ========================================================================
+    # MODE: Liste complète
+    # ========================================================================
+    
+    elif view_mode == "Liste complète":
+        df_display = df_filtered.sort_values('event_datetime')
+        df_display['time'] = df_display['event_datetime'].dt.strftime('%Y-%m-%d %H:%M')
+        
+        for _, event in df_display.iterrows():
+            display_event_card(event)
+    
+    # ========================================================================
+    # MODE: Tableau
+    # ========================================================================
+    
+    else:  # Tableau
+        df_table = df_filtered.copy()
+        df_table['datetime'] = df_table['event_datetime'].dt.strftime('%Y-%m-%d %H:%M')
+        
+        # Calcul surprise si possible
+        mask = (df_table['actual'].notna()) & (df_table['estimate'].notna()) & (df_table['estimate'] != 0)
+        df_table.loc[mask, 'surprise_%'] = (
+            (df_table.loc[mask, 'actual'] - df_table.loc[mask, 'estimate']) / 
+            df_table.loc[mask, 'estimate'] * 100
+        ).round(2)
+        
+        columns_display = ['datetime', 'currency', 'event_name', 'impact', 
+                          'actual', 'estimate', 'previous', 'surprise_%']
+        
+        st.dataframe(
+            df_table[columns_display].sort_values('datetime'),
+            use_container_width=True,
+            hide_index=True
+        )
+    
+    # ========================================================================
+    # 7. ACTIONS
+    # ========================================================================
+    
+    st.divider()
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        if st.button("🔄 Rafraîchir les données", type="secondary"):
+            st.cache_data.clear()
+            st.success("✅ Cache vidé ! Rechargement...")
+            st.rerun()
+    
+    with col2:
+        if st.button("🎯 Voir événements High Impact", type="primary"):
+            # Utiliser query params au lieu de session_state
+            st.query_params["show_high_impact"] = "true"
+            st.rerun()
+
+
+def display_event_card(event):
+    """Affiche une carte d'événement avec tous les détails"""
+    
+    # Emoji impact - gérer les deux formats
+    if event['impact'] in ['HIGH', 'MEDIUM', 'LOW']:
+        # Format empirique
+        impact_emoji = {
+            'HIGH': '🔴',
+            'MEDIUM': '🟡',
+            'LOW': '🟢',
+            'Unknown': '⚪'
+        }.get(event['impact'], '⚪')
+    else:
+        # Format calendrier
+        impact_emoji = {
+            'High': '🔴',
+            'Medium': '🟡',
+            'Low': '🟢'
+        }.get(event['impact'], '⚪')
+    
+    # Emoji devise
+    currency_emoji = {
+        'EU': '🇪🇺',
+        'US': '🇺🇸',
+        'EA': '🇪🇺'
+    }.get(event['currency'], '🌍')
+    
+    # Calcul surprise si possible
+    surprise_text = ""
+    if pd.notna(event['actual']) and pd.notna(event['estimate']) and event['estimate'] != 0:
+        surprise_pct = (event['actual'] - event['estimate']) / event['estimate'] * 100
+        surprise_emoji = "📈" if surprise_pct > 0 else "📉"
+        surprise_text = f" {surprise_emoji} **{surprise_pct:+.1f}%**"
+    
+    col1, col2, col3 = st.columns([1, 5, 2])
+    
+    with col1:
+        time_str = event.get('time', event['event_datetime'].strftime('%H:%M'))
+        st.write(f"**{time_str}**")
+    
+    with col2:
+        event_display = f"{impact_emoji} {currency_emoji} **{event['event_name']}**{surprise_text}"
+        
+        # Ajouter score empirique si disponible et en mode empirique
+        if pd.notna(event.get('empirical_score')):
+            score = event['empirical_score']
+            event_display += f" (Score: {score:.0f})"
+        
+        st.write(event_display)
+    
+    with col3:
+        values = []
+        if pd.notna(event['actual']):
+            values.append(f"Act: **{event['actual']:.2f}**")
+        if pd.notna(event['estimate']):
+            values.append(f"Est: {event['estimate']:.2f}")
+        if pd.notna(event['previous']):
+            values.append(f"Prev: {event['previous']:.2f}")
+        
+        if values:
+            st.write(" | ".join(values))
+
+
+# ============================================================================
+# MÉTRIQUES DE PERFORMANCE
+# ============================================================================
+
+def show_performance_metrics():
+    """Affiche les métriques de performance du cache"""
+    
+    st.sidebar.divider()
+    st.sidebar.subheader("⚡ Performance")
+    
+    # Métriques de chargement
+    if 'perf_metrics' in st.session_state:
+        metrics = st.session_state.perf_metrics
+        
+        if 'last_load_time' in metrics:
+            load_time_ms = metrics['last_load_time'] * 1000
+            st.sidebar.metric(
+                "Temps chargement",
+                f"{load_time_ms:.0f} ms"
+            )
+        
+        if 'events_loaded' in metrics:
+            st.sidebar.metric(
+                "Événements chargés",
+                metrics['events_loaded']
+            )
+    
+    # Statut cache
+    st.sidebar.caption(f"🔄 Cache TTL: {CACHE_TTL//60} minutes")
+    st.sidebar.caption(f"💾 Max entries: {CACHE_MAX_ENTRIES}")
+    
+    # Bouton clear cache sidebar
+    if st.sidebar.button("🗑️ Vider cache", key="clear_cache_sidebar"):
+        st.cache_data.clear()
+        st.sidebar.success("✅ Cache vidé")
+
+
+if __name__ == "__main__":
+    # Configuration responsive
+    st.set_page_config(
+        page_title="Calendrier Trading",
+        page_icon="📅",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
+    
+    # CSS Mobile-friendly
+    st.markdown("""
+        <style>
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            .stColumns {
+                flex-direction: column;
+            }
+            
+            .stMetric {
+                font-size: 0.9rem;
+            }
+            
+            .stExpander {
+                font-size: 0.85rem;
+            }
+            
+            /* Boutons plus grands sur mobile */
+            .stButton > button {
+                width: 100%;
+                padding: 0.75rem;
+                font-size: 1rem;
+            }
+            
+            /* Filtres empilés */
+            .stMultiSelect {
+                margin-bottom: 0.5rem;
+            }
+        }
+        
+        /* Amélioration lisibilité */
+        .stMarkdown {
+            line-height: 1.6;
+        }
+        
+        /* Timeline responsive */
+        .js-plotly-plot {
+            width: 100% !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+    
+    main()
+    show_performance_metrics()

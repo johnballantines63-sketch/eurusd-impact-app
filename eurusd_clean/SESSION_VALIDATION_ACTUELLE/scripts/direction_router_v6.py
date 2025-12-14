@@ -192,6 +192,10 @@ def predict_direction_for_cluster(
     has_trigger = False
     has_cpi_jobs_trigger = False  # Pour trigger resserré first-leg
     
+    # ⚠️ V8 DIAGNOSTIC : compteur pour events core sans stats
+    n_core_events = 0
+    n_core_without_stats = 0
+    
     # 1) Calculer surprise_z et contributions pour chaque event core
     for _, event_row in events_actuals.iterrows():
         event_key_raw = str(event_row['event_key']).strip()
@@ -200,6 +204,9 @@ def predict_direction_for_cluster(
         # Filtrer seulement le noyau
         if family not in core_families:
             continue
+        
+        # ⚠️ V8 DIAGNOSTIC : compter events core
+        n_core_events += 1
         
         # Vérifier actual/estimate
         actual = event_row.get('actual')
@@ -227,15 +234,15 @@ def predict_direction_for_cluster(
         
         # Récupérer stats depuis stats_map
         mu_sigma = stats_map.get(lookup_key)
+        if mu_sigma is None:
+            # Fallback V7 : essayer sans country si pas trouvé
+            if country:
+                mu_sigma = stats_map.get(event_key_normalized)
             if mu_sigma is None:
-                # Fallback V7 : essayer sans country si pas trouvé
-                if country:
-                    mu_sigma = stats_map.get(event_key_normalized)
-                if mu_sigma is None:
-                    # ⚠️ V8 DIAGNOSTIC : core event sans stats (peut indiquer format event_key changé)
-                    n_core_without_stats += 1
-                    # Si pas de stats, skip (pas d'invention)
-                    continue
+                # ⚠️ V8 DIAGNOSTIC : core event sans stats (peut indiquer format event_key changé)
+                n_core_without_stats += 1
+                # Si pas de stats, skip (pas d'invention)
+                continue
         
         mu, sigma = mu_sigma
         if sigma == 0:
@@ -366,6 +373,13 @@ def predict_direction_for_cluster(
     )
 
 # ============================================================================
+# PARAMÈTRES V8 - Extension Historique (Figés)
+# ============================================================================
+# ⚠️ V8 SAFE : Ces paramètres garantissent la cohérence historique
+V8_MIN_STATS_DATE = "2022-01-01"      # Date min pour calcul stats_map
+V8_MAX_STATS_DATE = "2025-12-31"      # Date max pour calcul stats_map
+
+# ============================================================================
 # FONCTION DE CHARGEMENT STATS/ALPHA (pour intégration)
 # ============================================================================
 
@@ -373,8 +387,8 @@ def load_direction_router_dependencies(
     db_path: Optional[Path] = None,
     alpha_file: Optional[Path] = None,
     horizon: str = '1h',
-    min_date: str = V8_MIN_STATS_DATE,
-    max_date: str = V8_MAX_STATS_DATE
+    min_date: Optional[str] = None,
+    max_date: Optional[str] = None
 ) -> Tuple[Dict[str, Tuple[float, float]], Dict[str, float]]:
     """
     Charge stats_map et alpha_map depuis fichiers/DB.
@@ -387,14 +401,20 @@ def load_direction_router_dependencies(
         db_path: Chemin vers la DB
         alpha_file: Fichier CSV avec alpha weights (optionnel)
         horizon: Horizon temporel ('1h', etc.)
-        min_date: Date min pour calcul stats (V8: étendre à 2022)
-        max_date: Date max pour calcul stats
+        min_date: Date min pour calcul stats (défaut: V8_MIN_STATS_DATE = "2022-01-01")
+        max_date: Date max pour calcul stats (défaut: V8_MAX_STATS_DATE = "2025-12-31")
     
     Returns:
         (stats_map, alpha_map)
         stats_map: dict avec clé "event_key_country" -> (mean, std)
     """
     import duckdb
+    
+    # ⚠️ V8 : Utiliser constantes V8 si non spécifiées
+    if min_date is None:
+        min_date = V8_MIN_STATS_DATE
+    if max_date is None:
+        max_date = V8_MAX_STATS_DATE
     
     # Stats depuis DB
     stats_map = {}

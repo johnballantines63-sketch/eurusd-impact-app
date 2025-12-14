@@ -1,0 +1,200 @@
+[
+  {
+    "date": "2015-12-25",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (0 < 800)",
+      "Plage horaire ind\u00e9termin\u00e9e"
+    ],
+    "n_prices": 0,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2016-01-01",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (0 < 800)",
+      "Plage horaire ind\u00e9termin\u00e9e"
+    ],
+    "n_prices": 0,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2016-12-26",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (0 < 800)",
+      "Plage horaire ind\u00e9termin\u00e9e"
+    ],
+    "n_prices": 0,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2017-01-02",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (0 < 800)",
+      "Plage horaire ind\u00e9termin\u00e9e"
+    ],
+    "n_prices": 0,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2017-12-25",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (40 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 40,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2018-01-01",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (31 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 31,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2018-12-25",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (56 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 56,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2019-01-01",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (42 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 42,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2019-04-19",
+    "issues": [
+      "Trop peu de prix (743 < 1000)",
+      "Fin pr\u00e9coce (22h) avec donn\u00e9es insuffisantes (743 < 1000)"
+    ],
+    "n_prices": 743,
+    "is_weekend": false,
+    "is_holiday": false
+  },
+  {
+    "date": "2019-05-27",
+    "issues": [
+      "Trop peu de prix (981 < 1000)"
+    ],
+    "n_prices": 981,
+    "is_weekend": false,
+    "is_holiday": false
+  },
+  {
+    "date": "2019-12-25",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (15 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 15,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2020-01-01",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (28 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 28,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2020-12-25",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (0 < 800)",
+      "Plage horaire ind\u00e9termin\u00e9e"
+    ],
+    "n_prices": 0,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2021-01-01",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (0 < 800)",
+      "Plage horaire ind\u00e9termin\u00e9e"
+    ],
+    "n_prices": 0,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2022-12-26",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (49 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 49,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2023-12-25",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (48 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 48,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2024-01-01",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (39 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 39,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2024-12-25",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (49 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 49,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2025-01-01",
+    "issues": [
+      "Trop peu de prix pour jour f\u00e9ri\u00e9 (55 < 800)",
+      "D\u00e9but trop tardif (23h, maximum acceptable: 1h)"
+    ],
+    "n_prices": 55,
+    "is_weekend": false,
+    "is_holiday": true
+  },
+  {
+    "date": "2025-04-14",
+    "issues": [
+      "4 heures manquantes dans la plage 0h-23h"
+    ],
+    "n_prices": 1178,
+    "is_weekend": false,
+    "is_holiday": false
+  }
+]

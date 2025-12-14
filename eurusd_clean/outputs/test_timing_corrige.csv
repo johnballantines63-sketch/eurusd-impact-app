@@ -1,0 +1,2 @@
+timeframe,status,trend_exists,trend_timeframe,trend_r2,impact_base_pips,amplification_predite,impact_predit_pips,impact_real_pips,error,tradable,trading_reason,wave1_error_min,pullback_error_min,wave2_error_min,avg_timing_error_min,date
+M1,SUCCESS,True,M1,0.6369007778408259,35.494277288824435,1.5908086504191525,56.46460335143797,60.7000000000002,4.235396648562229,True,Tendance détectée (R²=0.637),0.0,0.0,0.0,0.0,2025-09-11

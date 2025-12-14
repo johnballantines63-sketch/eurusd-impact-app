@@ -1,0 +1,31 @@
+ts_utc,event_title,country,event_key,actual,estimate,surprise_pct,empirical_score,impact_level,tranche,amplification_factor
+2025-04-23 15:45:00+02:00,S&P Global Manufacturing PMI,US,s p global manufacturing pmi,50.7,49.1,3.26,71.84,HIGH,0-5%,1.0
+2025-07-24 10:30:00+02:00,S&P Global Manufacturing PMI,GB,s p global manufacturing pmi,48.2,48.0,0.42,55.0,HIGH,0-5%,1.0
+2024-03-01 11:00:00+01:00,Inflation Rate,EU,inflation rate,2.6,2.5,4.0,57.93,HIGH,0-5%,1.0
+2024-12-11 14:30:00+01:00,Inflation Rate,US,inflation rate,2.7,2.7,0.0,81.7,HIGH,0-5%,1.0
+2025-08-01 14:30:00+02:00,Unemployment Rate,US,unemployment rate,4.2,4.2,0.0,86.4,HIGH,0-5%,1.0
+2023-01-04 09:50:00+01:00,S&P Global Composite PMI,FR,s p global composite pmi,49.1,48.0,2.29,69.75,HIGH,0-5%,1.0
+2023-10-02 10:30:00+02:00,S&P Global/CIPS Manufacturing PMI,GB,s p global cips manufacturing pmi,44.3,44.2,0.23,58.29,HIGH,0-5%,1.0
+2024-09-23 10:00:00+02:00,HCOB Composite PMI,EU,hcob composite pmi,48.9,50.6,3.36,63.94,HIGH,0-5%,1.0
+2025-04-01 09:50:00+02:00,HCOB Manufacturing PMI,FR,hcob manufacturing pmi,48.5,48.9,0.82,66.24,HIGH,0-5%,1.0
+2023-06-13 14:30:00+02:00,Inflation Rate,US,inflation rate,4.0,4.1,2.44,81.7,HIGH,0-5%,1.0
+2024-04-24 03:30:00+02:00,RBA Weighted Median CPI,AU,rba weighted median cpi,4.4,4.1,7.32,36.48,HIGH,5-10%,1.93
+2025-02-21 09:15:00+01:00,HCOB Services PMI,FR,hcob services pmi,44.5,48.9,9.0,68.83,HIGH,5-10%,2.6
+2023-05-05 12:30:00+02:00,Inflation Rate,CH,inflation rate,2.6,2.8,7.14,57.48,HIGH,5-10%,1.86
+2024-07-17 00:45:00+02:00,Inflation Rate,NZ,inflation rate,3.3,3.5,5.71,32.27,HIGH,5-10%,1.29
+2024-02-22 09:15:00+01:00,HCOB Manufacturing PMI,FR,hcob manufacturing pmi,46.8,43.5,7.59,66.24,HIGH,5-10%,2.03
+2023-04-28 15:00:00+02:00,GDP Growth Rate,EU,gdp growth rate,1.3,1.4,7.14,51.44,HIGH,5-10%,1.86
+2024-07-31 11:00:00+02:00,Inflation Rate,EU,inflation rate,2.6,2.4,8.33,57.93,HIGH,5-10%,2.33
+2025-06-03 11:00:00+02:00,Core Inflation Rate,EU,core inflation rate,2.3,2.5,8.0,56.98,HIGH,5-10%,2.2
+2023-03-24 13:30:00+01:00,S&P Global Services PMI,DE,s p global services pmi,53.9,51.0,5.69,69.19,HIGH,5-10%,1.27
+2022-10-04 05:30:00+02:00,RBA Interest Rate Decision,AU,rba interest rate decision,2.6,2.85,8.77,41.43,HIGH,5-10%,2.51
+2022-10-28 15:00:00+02:00,Harmonised Inflation Rate,IT,harmonised inflation rate,12.8,9.9,29.29,57.88,HIGH,10-50%,9.02
+2023-03-10 19:30:00+01:00,Nonfarm Payrolls Private,US,nonfarm payrolls private,265.0,210.0,26.19,85.72,HIGH,10-50%,8.69
+2024-04-30 10:00:00+02:00,GDP Growth Rate YoY Adv,IT,gdp growth rate yoy adv,0.6,0.4,50.0,61.96,HIGH,10-50%,10.43
+2023-09-29 08:00:00+02:00,GDP Growth Rate,GB,gdp growth rate,0.6,0.4,50.0,55.37,HIGH,10-50%,10.43
+2024-08-16 08:00:00+02:00,Retail Sales ex Fuel,GB,retail sales ex fuel,0.7,0.8,12.5,49.93,HIGH,10-50%,5.51
+2025-01-30 14:30:00+01:00,GDP Growth Rate,US,gdp growth rate,2.3,2.6,11.54,79.91,HIGH,10-50%,4.86
+2023-07-27 14:30:00+02:00,GDP Growth Rate QoQ Adv,US,gdp growth rate qoq adv,2.4,1.8,33.33,79.55,HIGH,10-50%,9.38
+2025-03-17 13:30:00+01:00,Retail Sales,US,retail sales,3.1,3.5,11.43,78.48,HIGH,10-50%,4.77
+2022-09-16 08:00:00+02:00,Retail Sales,GB,retail sales,-5.4,-4.2,28.57,50.25,HIGH,10-50%,8.95
+2023-09-01 10:00:00+02:00,GDP Growth Rate,IT,gdp growth rate,-0.4,-0.3,33.33,59.12,HIGH,10-50%,9.38

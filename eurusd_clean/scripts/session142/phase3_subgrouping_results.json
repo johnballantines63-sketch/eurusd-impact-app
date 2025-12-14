@@ -1,0 +1,383 @@
+{
+  "baseline_mae": 26.66,
+  "comparison": {
+    "best_option": "by_events",
+    "best_mae": 26.660833333334082,
+    "best_gain": 0.000833333334082198,
+    "decision": "GARDER MOYENNE",
+    "status": "\u26a0\ufe0f",
+    "baseline_mae": 26.66,
+    "all_options": [
+      {
+        "method": "by_events",
+        "subgroup_distribution": {
+          "events_15-19": 2,
+          "events_20-24": 2,
+          "events_25+": 3,
+          "events_<15": 2
+        },
+        "results": {
+          "mae": 26.660833333334082,
+          "predictions": [
+            75.07000000000042,
+            78.5687500000004,
+            64.61999999999995,
+            74.62999999999997,
+            76.32625000000031,
+            73.97625000000019,
+            79.10375000000025,
+            77.85875000000026,
+            78.50625000000028
+          ],
+          "actuals": [
+            78.09999999999873,
+            50.10999999999876,
+            161.7000000000024,
+            81.62000000000225,
+            68.0499999999995,
+            86.85000000000053,
+            45.83000000000004,
+            55.790000000000006,
+            50.60999999999982
+          ],
+          "errors": [
+            3.02999999999831,
+            28.458750000001643,
+            97.08000000000246,
+            6.990000000002283,
+            8.276250000000815,
+            12.873750000000342,
+            33.273750000000206,
+            22.06875000000025,
+            27.896250000000457
+          ],
+          "subgroup_info": [
+            {
+              "subgroup": "events_15-19",
+              "subgroup_size": 1,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "events_25+",
+              "subgroup_size": 2,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "events_20-24",
+              "subgroup_size": 1,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "events_15-19",
+              "subgroup_size": 1,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "events_20-24",
+              "subgroup_size": 1,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "events_25+",
+              "subgroup_size": 2,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "events_25+",
+              "subgroup_size": 2,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "events_<15",
+              "subgroup_size": 1,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "events_<15",
+              "subgroup_size": 1,
+              "used_fallback": true
+            }
+          ]
+        }
+      },
+      {
+        "method": "by_score",
+        "subgroup_distribution": {
+          "score_300-320": 2,
+          "score_320-340": 3,
+          "score_340-360": 1,
+          "score_360-400": 3
+        },
+        "results": {
+          "mae": 26.660833333334082,
+          "predictions": [
+            75.07000000000042,
+            78.5687500000004,
+            64.61999999999995,
+            74.62999999999997,
+            76.32625000000031,
+            73.97625000000019,
+            79.10375000000025,
+            77.85875000000026,
+            78.50625000000028
+          ],
+          "actuals": [
+            78.09999999999873,
+            50.10999999999876,
+            161.7000000000024,
+            81.62000000000225,
+            68.0499999999995,
+            86.85000000000053,
+            45.83000000000004,
+            55.790000000000006,
+            50.60999999999982
+          ],
+          "errors": [
+            3.02999999999831,
+            28.458750000001643,
+            97.08000000000246,
+            6.990000000002283,
+            8.276250000000815,
+            12.873750000000342,
+            33.273750000000206,
+            22.06875000000025,
+            27.896250000000457
+          ],
+          "subgroup_info": [
+            {
+              "subgroup": "score_360-400",
+              "subgroup_size": 2,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "score_320-340",
+              "subgroup_size": 2,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "score_360-400",
+              "subgroup_size": 2,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "score_320-340",
+              "subgroup_size": 2,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "score_320-340",
+              "subgroup_size": 2,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "score_360-400",
+              "subgroup_size": 2,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "score_340-360",
+              "subgroup_size": 0,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "score_300-320",
+              "subgroup_size": 1,
+              "used_fallback": true
+            },
+            {
+              "subgroup": "score_300-320",
+              "subgroup_size": 1,
+              "used_fallback": true
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "options": {
+    "by_events": {
+      "method": "by_events",
+      "subgroup_distribution": {
+        "events_15-19": 2,
+        "events_20-24": 2,
+        "events_25+": 3,
+        "events_<15": 2
+      },
+      "results": {
+        "mae": 26.660833333334082,
+        "predictions": [
+          75.07000000000042,
+          78.5687500000004,
+          64.61999999999995,
+          74.62999999999997,
+          76.32625000000031,
+          73.97625000000019,
+          79.10375000000025,
+          77.85875000000026,
+          78.50625000000028
+        ],
+        "actuals": [
+          78.09999999999873,
+          50.10999999999876,
+          161.7000000000024,
+          81.62000000000225,
+          68.0499999999995,
+          86.85000000000053,
+          45.83000000000004,
+          55.790000000000006,
+          50.60999999999982
+        ],
+        "errors": [
+          3.02999999999831,
+          28.458750000001643,
+          97.08000000000246,
+          6.990000000002283,
+          8.276250000000815,
+          12.873750000000342,
+          33.273750000000206,
+          22.06875000000025,
+          27.896250000000457
+        ],
+        "subgroup_info": [
+          {
+            "subgroup": "events_15-19",
+            "subgroup_size": 1,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "events_25+",
+            "subgroup_size": 2,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "events_20-24",
+            "subgroup_size": 1,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "events_15-19",
+            "subgroup_size": 1,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "events_20-24",
+            "subgroup_size": 1,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "events_25+",
+            "subgroup_size": 2,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "events_25+",
+            "subgroup_size": 2,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "events_<15",
+            "subgroup_size": 1,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "events_<15",
+            "subgroup_size": 1,
+            "used_fallback": true
+          }
+        ]
+      }
+    },
+    "by_score": {
+      "method": "by_score",
+      "subgroup_distribution": {
+        "score_300-320": 2,
+        "score_320-340": 3,
+        "score_340-360": 1,
+        "score_360-400": 3
+      },
+      "results": {
+        "mae": 26.660833333334082,
+        "predictions": [
+          75.07000000000042,
+          78.5687500000004,
+          64.61999999999995,
+          74.62999999999997,
+          76.32625000000031,
+          73.97625000000019,
+          79.10375000000025,
+          77.85875000000026,
+          78.50625000000028
+        ],
+        "actuals": [
+          78.09999999999873,
+          50.10999999999876,
+          161.7000000000024,
+          81.62000000000225,
+          68.0499999999995,
+          86.85000000000053,
+          45.83000000000004,
+          55.790000000000006,
+          50.60999999999982
+        ],
+        "errors": [
+          3.02999999999831,
+          28.458750000001643,
+          97.08000000000246,
+          6.990000000002283,
+          8.276250000000815,
+          12.873750000000342,
+          33.273750000000206,
+          22.06875000000025,
+          27.896250000000457
+        ],
+        "subgroup_info": [
+          {
+            "subgroup": "score_360-400",
+            "subgroup_size": 2,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "score_320-340",
+            "subgroup_size": 2,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "score_360-400",
+            "subgroup_size": 2,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "score_320-340",
+            "subgroup_size": 2,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "score_320-340",
+            "subgroup_size": 2,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "score_360-400",
+            "subgroup_size": 2,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "score_340-360",
+            "subgroup_size": 0,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "score_300-320",
+            "subgroup_size": 1,
+            "used_fallback": true
+          },
+          {
+            "subgroup": "score_300-320",
+            "subgroup_size": 1,
+            "used_fallback": true
+          }
+        ]
+      }
+    }
+  }
+}

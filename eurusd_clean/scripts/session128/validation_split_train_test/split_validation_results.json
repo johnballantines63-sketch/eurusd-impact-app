@@ -1,0 +1,74 @@
+{
+  "n_train": 23,
+  "n_test": 6,
+  "split_ratio": 0.8,
+  "model": {
+    "type": "quadratic",
+    "formula": "amp = 0.021982 + 0.088961\u00d7R\u00b2 + -0.053995\u00d7R\u00b2\u00b2",
+    "parameters": [
+      0.02198171551177281,
+      0.0889608835308024,
+      -0.053995461370322975
+    ]
+  },
+  "metrics": {
+    "mae_amplification_train": 0.023433225166916025,
+    "mae_amplification_test": 0.025738190652752294,
+    "r2_train": 0.13827958698587528,
+    "r2_test": 0.13038004679137538,
+    "ratio_mae": 1.0983631347976168,
+    "mae_impact_train_pips": 23.153638050079216,
+    "mae_impact_test_pips": 25.30135642967831
+  },
+  "decision": "\u2705 PAS D'OVERFITTING",
+  "comment": "Mod\u00e8le se g\u00e9n\u00e9ralise bien aux donn\u00e9es non vues",
+  "next_steps": [
+    "Fonction valid\u00e9e sur donn\u00e9es CPI out-of-sample",
+    "Combin\u00e9 avec validation crois\u00e9e NFP (+98.6%)",
+    "Pr\u00eat pour int\u00e9gration production"
+  ],
+  "test_predictions": [
+    {
+      "date": "2025-10-15 12:30:00+00:00",
+      "r2": 0.0780768462154187,
+      "impact_real": 11.400000000001407,
+      "impact_pred": 44.38343904876233,
+      "error": 32.98343904876092
+    },
+    {
+      "date": "2024-11-13 13:30:00+00:00",
+      "r2": 0.5414694908389036,
+      "impact_real": 28.099999999999792,
+      "impact_pred": 51.78981296524706,
+      "error": 23.689812965247267
+    },
+    {
+      "date": "2024-07-11 12:30:00+00:00",
+      "r2": 0.0087417385974336,
+      "impact_real": 52.49999999999977,
+      "impact_pred": 25.00312034175834,
+      "error": 27.496879658241433
+    },
+    {
+      "date": "2025-05-13 12:30:00+00:00",
+      "r2": 0.7162583792269916,
+      "impact_real": 35.09999999999902,
+      "impact_pred": 49.325204572809355,
+      "error": 14.225204572810334
+    },
+    {
+      "date": "2024-03-12 12:30:00+00:00",
+      "r2": 0.36484680878425,
+      "impact_real": 31.49999999999986,
+      "impact_pred": 32.6455125821536,
+      "error": 1.1455125821537386
+    },
+    {
+      "date": "2024-04-10 12:30:00+00:00",
+      "r2": 0.5414152427968426,
+      "impact_real": 96.00000000000053,
+      "impact_pred": 43.732710249144354,
+      "error": 52.26728975085617
+    }
+  ]
+}

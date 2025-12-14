@@ -1,0 +1,15 @@
+OPTIMISATION FENÊTRE TEMPORELLE - SESSION 78 CORRIGÉE
+======================================================================
+
+Fenêtre optimale : ±15 min
+MAE              : 102.6 pips
+RMSE             : 104.5 pips
+Événements moy   : 0.0
+
+COMPARAISON FENÊTRES
+----------------------------------------------------------------------
+±15 min | MAE: 102.6 | RMSE: 104.5 | Events: 0.0
+±20 min | MAE: 102.6 | RMSE: 104.5 | Events: 0.0
+±30 min | MAE: 102.6 | RMSE: 104.5 | Events: 0.0
+±45 min | MAE: 102.6 | RMSE: 104.5 | Events: 0.0
+±60 min | MAE: 102.6 | RMSE: 104.5 | Events: 0.0

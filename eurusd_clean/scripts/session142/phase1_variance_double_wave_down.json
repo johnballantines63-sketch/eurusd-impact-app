@@ -1,0 +1,34 @@
+{
+  "count": 9,
+  "mean_impact": 75.4066666666669,
+  "median_impact": 68.0499999999995,
+  "std_impact": 33.651577806827234,
+  "min_impact": 45.83000000000004,
+  "max_impact": 161.7000000000024,
+  "q1_impact": 50.60999999999982,
+  "q3_impact": 81.62000000000225,
+  "iqr_impact": 31.010000000002428,
+  "cv_impact": 44.62679401488878,
+  "num_outliers": 1,
+  "outliers": [
+    {
+      "movement_datetime": "2024-11-22 09:15:00+01:00",
+      "impact_pips": 161.7000000000024,
+      "total_score": 362.5940821575076,
+      "num_events": 23
+    }
+  ],
+  "mean_score": 341.2651621130279,
+  "mean_num_events": 20.77777777777778,
+  "correlation_impact_score": 0.45758499114489665,
+  "events_distribution": {
+    "23": 2,
+    "15": 1,
+    "26": 1,
+    "16": 1,
+    "33": 1,
+    "25": 1,
+    "14": 1,
+    "12": 1
+  }
+}

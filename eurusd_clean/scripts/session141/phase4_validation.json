@@ -1,0 +1,18 @@
+{
+  "method": "MEDIAN",
+  "prediction_value": 49.608,
+  "mae_final": 19.360421052631578,
+  "mae_baseline": 23.686956140350877,
+  "improvement_pips": -4.326535087719299,
+  "improvement_percent": 18.260655021834063,
+  "objective_met": true,
+  "criteria_passed": {
+    "MAE <= 20 pips": true,
+    "Gain >= -4 pips": true,
+    "MAE < baseline": true,
+    "Simplicité": true
+  },
+  "impact_global_mae": -0.20750250945336843,
+  "mae_global_optimized": 14.942497490546632,
+  "status": "VALIDATED"
+}
